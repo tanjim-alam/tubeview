@@ -5,8 +5,8 @@ function FeaturesSection({ featuresData, heading, subHeading }) {
     return (
         <div className='bg-white'>
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                <h2 className='lg:text-[2rem] text-xl text-center font-semibold'>{heading}</h2>
-                <p className='text-center'>
+                <h2 className='lg:text-[2rem] text-xl text-black text-center font-semibold'>{heading}</h2>
+                <p className='text-center text-black'>
                     {subHeading}
                 </p>
             </div>
@@ -20,7 +20,7 @@ function FeaturesSection({ featuresData, heading, subHeading }) {
                                 </div>
                                 <div className=''>
                                     <h3 className=' lg:text-xl text-lg font-normal text-slate-600'>{data.title}</h3>
-                                    <p className=' text-sm'>{data.description}</p>
+                                    <p className=' text-sm text-slate-600'>{data.description}</p>
                                 </div>
                             </div>
                         ))

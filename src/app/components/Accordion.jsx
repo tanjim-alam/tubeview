@@ -28,7 +28,7 @@ function Accordion({ title, content }) {
                 }}
             >
                 <div className="p-4 bg-white">
-                    <p>{content}</p>
+                    <p className='text-black'>{content}</p>
                 </div>
             </div>
         </div>

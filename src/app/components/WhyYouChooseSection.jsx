@@ -5,8 +5,8 @@ function WhyYouChooseSection({ heading, subHeading }) {
     return (
         <div className='bg-white'>
             <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
-                <h2 className='lg:text-[2rem] text-xl font-semibold text-center'>{heading}</h2>
-                <p className='text-center'>
+                <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>{heading}</h2>
+                <p className='text-center text-black'>
                     {subHeading}
                 </p>
             </div>

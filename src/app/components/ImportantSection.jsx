@@ -25,7 +25,7 @@ function ImportantSection() {
                 </div>
                 <div className=' lg:absolute w-full'>
                     <div className='flex justify-center items-center'>
-                        <p className='text-center shadow-[0_2px_2px_rgba(0,0,0,0.10)] bg-white lg:text-2xl text-xl font-semibold py-2 lg:px-8 px-4 rounded-3xl'>🚀 Platform trusted by more than 100000 plus creators globally</p>
+                        <p className='text-center text-black shadow-[0_2px_2px_rgba(0,0,0,0.10)] bg-white lg:text-2xl text-xl font-semibold py-2 lg:px-8 px-4 rounded-3xl'>🚀 Platform trusted by more than 100000 plus creators globally</p>
                     </div>
                 </div>
             </div>
