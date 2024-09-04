@@ -105,11 +105,11 @@ function YouTubeSubscribers() {
         <div>
             <HeroSection title={"Buy YouTube Views with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Views</span></h3>"} imgUrl={"https://media.licdn.com/dms/image/v2/D4D12AQFu0FFBb6l2Cw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1704632367284?e=1729728000&v=beta&t=B_bNEvnwvUmA5PvLv93K6rVvD0PXYJ-fiLU2m6bCsv4"} />
             {/* package section start */}
-            <div className='bg-white pb-16'>
+            <div className='lg:bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold'>Buy Youtube Views to Boost Engagements!</h3>
-                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium'>Get Real Youtube Views and Boost Your Video Impressions.</p>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Buy Youtube Views to Boost Engagements!</h3>
+                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>Get Real Youtube Views and Boost Your Video Impressions.</p>
                     </div>
                     <ServiceCard packageData={youtubeSubscriberData} />
                 </div>

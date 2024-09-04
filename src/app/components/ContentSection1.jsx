@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 function ContentSection1({ heading, subHeading, contents }) {
     return (
-        <div className='bg-white'>
+        <div className='lg:bg-white'>
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                <h2 className='text-xl lg:text-[2rem] text-center font-semibold'>{heading}</h2>
-                <p className='text-center'>
+                <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>{heading}</h2>
+                <p className='text-center text-black'>
                     {subHeading}
                 </p>
             </div>
