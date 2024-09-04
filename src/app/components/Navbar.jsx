@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaCartPlus, FaBars } from "react-icons/fa";
 import NavLinks from "./NavLinks"
 import { FaYoutube, FaFacebook, FaInstagramSquare, FaTwitter, FaTiktok, FaSpotify, FaSoundcloud, FaLinkedinIn, FaTelegramPlane, FaPinterest, FaSnapchatGhost, FaRedditAlien, FaTwitch } from "react-icons/fa";
-// import { useCart } from '@/context/CartContext';
+import { useCart } from '../context/CartContext';
 
 
 function Navbar() {
@@ -228,7 +228,7 @@ function Navbar() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
-    // const { cartItems } = useCart();
+    const { cartItems } = useCart();
     // console.log(cartItems);
     return (
         <>
@@ -252,7 +252,7 @@ function Navbar() {
                     <div>
                         <Link href={"/cart"} className=' p-1 relative flex'>
                             <p className=' text-xl'><FaCartPlus /></p>
-                            <span className=' absolute top-[-5px] right-[-4px]'>0</span>
+                            <span className=' absolute top-[-5px] right-[-4px]'>{cartItems.length || 0}</span>
                         </Link>
                     </div>
                 </nav>
@@ -272,7 +272,7 @@ function Navbar() {
                             <div>
                                 <Link href={"/cart"} className=' p-1 relative flex'>
                                     <p className=' text-xl'><FaCartPlus /></p>
-                                    <span className=' absolute top-[-5px] right-[-4px]'>0</span>
+                                    <span className=' absolute top-[-5px] right-[-4px]'>{cartItems.length || 0}</span>
                                 </Link>
                             </div>
                             <div>
