@@ -154,7 +154,7 @@ function ServiceCard({ packageData }) {
                         <div className='mt-7 lg:flex  gap-3 justify-between items-center'>
                             <div className='flex justify-center items-center lg:w-[65%]'>
                                 <div className='lg:w-[14%] w-[14%] sm:w-[12%] md:w-[10%]'>
-                                    <span className='text-xl font-semibold'>$ {currItemPrice || 12}</span>
+                                    <span className='text-xl font-semibold text-black'>$ {currItemPrice || 12}</span>
                                 </div>
                                 <div className='lg:w-[86%] w-[90%] flex justify-center items-center'>
                                     <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none border-secondary' type="text" placeholder='plese enter your url' />
@@ -168,7 +168,7 @@ function ServiceCard({ packageData }) {
                         {toast ? (
                             <div className='flex mt-4 items-center gap-2 p-2 text-slate-600 bg-green-200'>
                                 <span><IoMdDoneAll /></span>
-                                <p>
+                                <p className='text-black'>
                                     The product has been added to your Shopping Cart.
                                 </p>
                                 <Link href={"/cart"}>Go to Cart</Link>
@@ -183,7 +183,7 @@ function ServiceCard({ packageData }) {
                     <div className='flex flex-col gap-2 '>
                         {
                             keys.map((key, i) => (
-                                <div key={i} className='flex items-center gap-2 text-sm'>
+                                <div key={i} className='flex items-center gap-2 text-sm text-black'>
                                     <span><IoMdDoneAll /></span>
                                     <span>{key}</span>
                                 </div>

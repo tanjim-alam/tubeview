@@ -20,7 +20,7 @@ function NavLinks({ navLink, toggleMenu }) {
                 <Link href={"#"} onClick={() => showNavLinks(navLink.id)} className='font-medium text-md text-white  w-full block py-1 px-3' style={{ backgroundColor: `${navLink.color}` }}>{navLink.name}</Link>
                 <ul className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${navLink.id === activeId ? 'max-h-[500px]' : 'max-h-0'}`}>
                     {navLink.services.map((item, i) => (
-                        <li key={i} onClick={toggleMenu} className="pl-4 py-1"><Link href={item.slug}>{item.title}</Link></li>
+                        <li key={i} onClick={toggleMenu} className="pl-4 py-1 text-black"><Link href={item.slug}>{item.title}</Link></li>
                     ))}
                 </ul>
             </li>

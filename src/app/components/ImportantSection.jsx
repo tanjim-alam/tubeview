@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function ImportantSection() {
     return (
-        <div className='bg-white'>
+        <div className=''>
             <div className='lg:w-[70%] w-[100%] m-auto relative'>
                 <div className='flex justify-between items-center bg-primary pb-3 lg:px-10 px-2 pt-3 lg:rounded-full'>
                     <div className='flex flex-col justify-center items-center w-full'>
