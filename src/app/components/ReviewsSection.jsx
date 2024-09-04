@@ -1,0 +1,150 @@
+"use client";
+import React, { useEffect, useRef, useState } from 'react';
+import ReviewCard from "./ReviewCard";
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Autoplay, FreeMode, Navigation, Pagination } from 'swiper/modules';
+import "../../app/globals.css";
+import 'swiper/css';
+
+function ReviewsSection() {
+    const reviewsData = [
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+        {
+            id: 1,
+            name: "Markson",
+            subject: "Thanks",
+            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
+            date: "Fab 22, 2024"
+        },
+    ];
+
+    return (
+        <div className='bg-white'>
+            <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                <h2 className='lg:text-[2rem] text-xl text-center font-semibold'>🥇 Voices of Victory: Our Clients Speak Their Success!</h2>
+                <p className='text-center'>
+                    At Famoid, your satisfaction is our priority. Experience unparalleled customer service and watch your social media soar!
+                </p>
+            </div>
+            <div className='lg:w-[80%] w-[90%] m-auto lg:py-10 py-5'>
+
+                <Swiper
+                    slidesPerView={5}
+                    spaceBetween={20}
+                    loop={true}
+                    autoplay={{ delay: 2000, disableOnInteraction: false }}
+                    modules={[FreeMode, Pagination, Navigation, Autoplay]}
+                    breakpoints={{
+                        700: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                        },
+                    }}
+                    className="flex flex-col"
+                >
+
+                    {reviewsData.map((data, i) => (
+                        <SwiperSlide key={i} className=" min-w-[310px] max-w-[330px]  mb-5">
+                            <ReviewCard data={data} />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </div>
+    )
+}
+
+
+export default ReviewsSection
