@@ -22,7 +22,7 @@ function Page() {
             }
             const script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = `https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID`;
+            script.src = `https://www.paypal.com/sdk/js?client-id=AdGX5uNCSCHAnafWXR40TLgMtPceAh2p2yOaqna3nR35DOA-1ogYdDyWkOLlsVIyxS0db8i0JPs7KhuE`;
             script.async = true;
             script.onload = () => setScriptLoaded(true);
             document.body.appendChild(script);
