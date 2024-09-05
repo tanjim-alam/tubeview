@@ -27,11 +27,11 @@ function ReviewCard() {
             </div>
             <div className='flex justify-between items-center'>
                 <div className='flex gap-1 items-center'>
-                    <span className='text-2xl'><CgProfile /></span>
-                    <h6 className=' font-medium text-lg'>Robin</h6>
+                    <span className='text-xl'><CgProfile /></span>
+                    <h6 className=' font-medium text-lg text-black'>Robin</h6>
                 </div>
                 <div className='flex gap-1 items-center'>
-                    <p className='text-sm'>Verified Purchase</p>
+                    <p className='text-sm text-black'>Verified Purchase</p>
                     <span className='text-md text-blue-700'><MdVerified /></span>
                 </div>
             </div>

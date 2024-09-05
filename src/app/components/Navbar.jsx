@@ -235,12 +235,13 @@ function Navbar() {
             <div className='bg-white border-b sticky top-0 z-50 hidden lg:block h-[55px]'>
                 <nav className='w-[80%] m-auto flex justify-between items-center p-2'>
                     <div>
-                        <img
-                            src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
-                            width={150}
-
-                            alt="Logo"
-                        />
+                        <Link href={"/"}>
+                            <img
+                                src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
+                                width={150}
+                                alt="Logo"
+                            />
+                        </Link>
                     </div>
                     <div>
                         <ul className='flex gap-10'>
@@ -261,12 +262,14 @@ function Navbar() {
                 <nav className='w-full m-auto flex flex-col justify-between'>
                     <div className='flex justify-between items-center p-2 bg-white border-b w-full'>
                         <div>
-                            <Image
-                                src="https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"
-                                width={150}
-                                height={150}
-                                alt="Logo"
-                            />
+                            <Link href={"/"}>
+                                <Image
+                                    src="https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"
+                                    width={150}
+                                    height={150}
+                                    alt="Logo"
+                                />
+                            </Link>
                         </div>
                         <div className='flex justify-center gap-5 items-center'>
                             <div>

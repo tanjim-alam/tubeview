@@ -89,7 +89,7 @@ function CartPage() {
                     </div>
                     <div className='lg:w-[30%] md:w-full w-full flex lg:flex-col sm:flex-row md:justify-center gap-3 flex-col'>
                         <div className='p-4 sm:w-full  md:w-full flex flex-col gap-4 bg-white  sm:h-fit md:h-fit' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>
-                            <input type="text" placeholder='Coupon Code' className='border outline-none p-2' />
+                            <input type="text" placeholder='Coupon Code' className='border outline-none p-2 text-black' />
                             <button className='border p-2'>Apply</button>
                         </div>
                         <div className='sm:w-full md:w-full p-4 bg-white h-fit' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>

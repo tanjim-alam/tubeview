@@ -106,20 +106,20 @@ function ServiceCard({ packageData }) {
                     <p className=' absolute top-[-19px] sm:left-[35%] lg:top-[-26px] lg:left-[40%] bg-white border py-1 px-4 lg:py-2 text-black lg:px-8 border-black rounded-md  text-lg font-semibold'>{packageData.serviceName || "Real YouTube Views"}</p>
                 </div>
                 <div className='flex flex-col gap-4'>
-                    <div className='lg:flex sm:flex grid grid-cols-2 w-full justify-between text-sm font-medium border-b border-black p-5 bg-red-100 rounded-2xl'>
-                        <div className='flex items-center gap-1'>
+                    <div className='lg:flex sm:flex grid grid-cols-2 w-full justify-between text-sm font-medium border-b border-black p-5 lg:bg-red-100 bg-primary rounded-2xl'>
+                        <div className='flex items-center gap-1 text-white lg:text-black'>
                             <FaFireAlt />
                             <span>100% Real</span>
                         </div>
-                        <div className='flex items-center gap-1'>
+                        <div className='flex items-center gap-1 text-white lg:text-black'>
                             <MdNoEncryptionGmailerrorred />
                             <span>No Password</span>
                         </div>
-                        <div className='flex items-center gap-1'>
+                        <div className='flex items-center gap-1 text-white lg:text-black'>
                             <MdSupportAgent />
                             <span>24/7 Support</span>
                         </div>
-                        <div className='flex items-center gap-1'>
+                        <div className='flex items-center gap-1 text-white lg:text-black'>
                             <MdOutlinePrivacyTip />
                             <span>100% Privacy</span>
                         </div>
@@ -155,11 +155,11 @@ function ServiceCard({ packageData }) {
                         </div>
                         <div className='mt-7 lg:flex  gap-3 justify-between items-center'>
                             <div className='flex justify-center items-center lg:w-[65%]'>
-                                <div className='lg:w-[14%] w-[14%] sm:w-[12%] md:w-[10%]'>
+                                <div className='lg:w-[14%] w-[25%] sm:w-[12%] md:w-[10%]'>
                                     <span className='text-xl font-semibold text-black'>$ {currItemPrice || 12}</span>
                                 </div>
                                 <div className='lg:w-[86%] w-[90%] flex justify-center items-center'>
-                                    <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none border-secondary' type="text" placeholder='plese enter your url' />
+                                    <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none text-black border-secondary' type="text" placeholder='plese enter your url' />
                                 </div>
                             </div>
                             <div className='lg:w-[35%] w-full mt-3 lg:mt-0 flex gap-3 justify-between lg:justify-end'>
