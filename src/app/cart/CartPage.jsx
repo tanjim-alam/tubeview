@@ -37,7 +37,7 @@ function CartPage() {
                                     {cartItems.map((item, index) => (
                                         <tr key={index} className="border-b border-gray-200 hover:bg-gray-100">
                                             <td className="py-4 px-6 text-gray-900">{index + 1}</td>
-                                            <td className="py-4 px-6 text-gray-900">{item.name || "YouTube Views"}</td>
+                                            <td className="py-4 px-6 text-gray-900">{item.serviceName}</td>
                                             <td className="py-4 px-6 text-blue-500">
                                                 <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline">
                                                     Your Link

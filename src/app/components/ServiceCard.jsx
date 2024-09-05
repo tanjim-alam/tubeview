@@ -19,11 +19,26 @@ function ServiceCard({ packageData }) {
     const [selectedPackage, setSalactedPackage] = useState(filteredPackageData[0]);
     const [url, setUrl] = useState("");
     const [toast, setToast] = useState(false);
+    const [placeholder, setPlaceholder] = useState("")
 
     function getLastWord(str) {
         const words = str.trim().split(' ');
         return words[words.length - 1];
     }
+
+    function getPlaceholder(str) {
+        if (str.includes("YouTube Subscribers")) {
+            return "Enter your YouTube Chennal url";
+        }
+        else if (str.includes("YouTube")) {
+            return "Enter your YouTube video url";
+        }
+        return "Enter you URL"
+    }
+
+    useEffect(() => {
+        setPlaceholder(getPlaceholder(packageData.serviceName))
+    }, [packageData]);
 
     function handleChagePackege(type) {
         const filteredData = packageData.services.filter((data) => data.type === type);
@@ -159,7 +174,7 @@ function ServiceCard({ packageData }) {
                                     <span className='text-xl font-semibold text-black'>$ {currItemPrice || 12}</span>
                                 </div>
                                 <div className='lg:w-[86%] w-[90%] flex justify-center items-center'>
-                                    <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none text-black border-secondary' type="text" placeholder='plese enter your url' />
+                                    <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none text-black border-secondary' type="text" placeholder={placeholder} />
                                 </div>
                             </div>
                             <div className='lg:w-[35%] w-full mt-3 lg:mt-0 flex gap-3 justify-between lg:justify-end'>

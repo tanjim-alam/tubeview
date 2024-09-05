@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { useCart } from '../context/CartContext';
-
+import countries from "../constant/general/countries.json"
 function Page() {
     const { cartItems, totalPrice } = useCart();
     const [isReadyToPayment, setIsReadyToPayment] = useState(false);
@@ -63,14 +63,14 @@ function Page() {
                         </div>
                         <div className='flex flex-col'>
                             <label className='text-[15px] text-black'>Country <span className='text-orange-600'>*</span></label>
-                            <input
-                                type="text"
-                                placeholder='Country name'
-                                name='country'
-                                value={billingDetails.country}
-                                onChange={handleInput}
-                                className='border p-3 outline-none w-full rounded text-black'
-                            />
+                            <select id="country" className="border p-3 outline-none w-full">
+                                <option value="">Select a country</option>
+                                {countries.map((country) => (
+                                    <option key={country.code} value={country.name}>
+                                        {country.name}
+                                    </option>
+                                ))}
+                            </select>
                         </div>
                         <div>
                             <label className='text-[15px] text-black'>Message</label>
@@ -114,7 +114,7 @@ function Page() {
                                                     return actions.order.create({
                                                         purchase_units: [{
                                                             amount: {
-                                                                value: (totalPrice || 1).toFixed(2)
+                                                                value: (totalPrice).toFixed(2)
                                                             },
                                                         }],
                                                     });
