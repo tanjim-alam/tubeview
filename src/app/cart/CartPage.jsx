@@ -12,7 +12,7 @@ function CartPage() {
     function handleRemoveItemBtn(id) {
         removeItemFromCart(id)
     }
-    console.log(cartItems)
+    // console.log(cartItems)
     return (
         <div className='bg-[#f4f4fa]'>
             <div className='lg:w-[80%] w-[95%] m-auto py-10'>
