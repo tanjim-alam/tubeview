@@ -12,11 +12,12 @@ function CartPage() {
     function handleRemoveItemBtn(id) {
         removeItemFromCart(id)
     }
+    console.log(cartItems)
     return (
         <div className='bg-[#f4f4fa]'>
             <div className='lg:w-[80%] w-[95%] m-auto py-10'>
                 <div className='flex justify-center lg:p-4'>
-                    <h4 className='text-xl font-medium bg-white py-3 px-6 lg:px-10 rounded-full' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>You have {cartItems.length || 0} items in your cart</h4>
+                    <h4 className='text-xl font-medium bg-white py-3 px-6 lg:px-10 rounded-full text-black' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>You have {cartItems.length || 0} items in your cart</h4>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-4 mt-4 lg:mt-0'>
                     <div className='lg:w-[70%] w-full bg-white h-fit rounded-md' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>
@@ -55,31 +56,35 @@ function CartPage() {
                                 </tbody>
                             </table>
                         </div>
-                        <div className='block md:hidden lg:hidden relative'>
-                            <div className='border p-3 flex items-center gap-2'>
-                                <div>
-                                    <Image width={40} height={40} src={"https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"} />
-                                </div>
-                                <div className='w-full'>
-                                    <p className='font-medium text-slate-600'>Real YouTube Views</p>
-                                    <div className='text-sm flex gap-2 text-gray-500'>
-                                        <span className='font-medium'>Your Link:</span>
-                                        <span>https://youtune.com/tanj..</span>
-                                    </div>
-                                    <div className='flex justify-between sm:justify-between w-full'>
-                                        <div className='text-sm flex gap-2 text-gray-500'>
-                                            <span className='font-medium'>Quantity:</span>
-                                            <span>500</span>
+                        <div>
+                            {cartItems.map((data, i) => (
+                                <div className='block md:hidden lg:hidden relative'>
+                                    <div className='border p-3 flex items-center gap-2'>
+                                        <div>
+                                            <Image width={40} height={40} src={"https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"} />
                                         </div>
-                                        <div className='text-sm flex gap-2 text-gray-500'>
-                                            <span className='font-medium'>Price:</span>
-                                            <span>$ 3</span>
+                                        <div className='w-full'>
+                                            <p className='font-medium text-slate-600'>{data.serviceName}</p>
+                                            <div className='text-sm flex gap-2 text-gray-500'>
+                                                <span className='font-medium'>Your Link:</span>
+                                                <span>https://youtune.com/tanj..</span>
+                                            </div>
+                                            <div className='flex justify-between sm:justify-between w-full'>
+                                                <div className='text-sm flex gap-2 text-gray-500'>
+                                                    <span className='font-medium'>Quantity:</span>
+                                                    <span className=''>{data.quantity}</span>
+                                                </div>
+                                                <div className='text-sm flex gap-2 text-gray-500'>
+                                                    <span className='font-medium'>Price:</span>
+                                                    <span className=''>$ {data.price}</span>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <button onClick={() => handleRemoveItemBtn(item.id)} className='text-primary text-2xl absolute right-2 top-2'><MdDeleteForever /></button>
                                     </div>
-                                </div>
-                                <button onClick={() => handleRemoveItemBtn(item.id)} className='text-primary text-2xl absolute right-2 top-2'><MdDeleteForever /></button>
-                            </div>
 
+                                </div>
+                            ))}
                         </div>
                     </div>
                     <div className='lg:w-[30%] md:w-full w-full flex lg:flex-col sm:flex-row md:justify-center gap-3 flex-col'>
@@ -91,14 +96,14 @@ function CartPage() {
                             <div className=' border-gray-200 rounded flex flex-col'>
                                 <h5 className=' py-2 text-center text-black border-b font-medium text-lg'>Cart Summary</h5>
                                 <div className='flex  justify-between border-b p-3 text-md'>
-                                    <span className='font-medium'>Subtotal</span>
-                                    <span className='font-bold'>$ {totalPrice}</span>
+                                    <span className='font-medium text-black'>Subtotal</span>
+                                    <span className='font-bold text-black'>$ {totalPrice || 0}</span>
                                 </div>
                                 <div className='flex  justify-between border-b p-3 text-md'>
-                                    <span className='font-medium'>Total</span>
-                                    <span className='font-bold'>$ {totalPrice}</span>
+                                    <span className='font-medium text-black'>Total</span>
+                                    <span className='font-bold text-black'>$ {totalPrice || 0}</span>
                                 </div>
-                                <div className='bg-secondary py-2 flex justify-center mt-6'>
+                                <div className='bg-secondary py-3 flex justify-center mt-6'>
                                     <Link href={"/checkout"} className='text-center text-white text-sm font-medium w-full'>PROCEED TO CHECKOUT</Link>
                                 </div>
                             </div>

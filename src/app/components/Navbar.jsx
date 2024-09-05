@@ -276,7 +276,7 @@ function Navbar() {
                                 </Link>
                             </div>
                             <div>
-                                <button onClick={toggleMenu} className='bg-primary p-2 text-white'><FaBars /></button>
+                                <button onClick={toggleMenu} className='bg-primary p-2 text-white text-2xl'><FaBars /></button>
                             </div>
                         </div>
                     </div>
