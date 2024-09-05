@@ -25,6 +25,7 @@ function Page() {
             return;
         }
         setIsReadyToPayment(true);
+        // console.log(billingDetails)
     }
 
     function sendOrderToAdmin() {
@@ -63,7 +64,7 @@ function Page() {
                         </div>
                         <div className='flex flex-col'>
                             <label className='text-[15px] text-black'>Country <span className='text-orange-600'>*</span></label>
-                            <select id="country" className="border p-3 outline-none w-full">
+                            <select id="country" className="border p-3 outline-none w-full" name='country' onChange={handleInput}>
                                 <option value="">Select a country</option>
                                 {countries.map((country) => (
                                     <option key={country.code} value={country.name}>
