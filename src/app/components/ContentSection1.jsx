@@ -12,7 +12,7 @@ function ContentSection1({ heading, subHeading, contents }) {
             </div>
             <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
-                    <div dangerouslySetInnerHTML={{ __html: contents || "" }} />
+                    <div className='text-black' dangerouslySetInnerHTML={{ __html: contents || "" }} />
 
                     <Image
                         className='rounded-full'
