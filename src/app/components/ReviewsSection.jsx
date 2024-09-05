@@ -111,8 +111,8 @@ function ReviewsSection() {
     return (
         <div className='bg-white'>
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                <h2 className='lg:text-[2rem] text-xl text-center font-semibold'>🥇 Voices of Victory: Our Clients Speak Their Success!</h2>
-                <p className='text-center'>
+                <h2 className='lg:text-[2rem] text-xl text-center font-semibold text-black'>🥇 Voices of Victory: Our Clients Speak Their Success!</h2>
+                <p className='text-center text-black'>
                     At Famoid, your satisfaction is our priority. Experience unparalleled customer service and watch your social media soar!
                 </p>
             </div>

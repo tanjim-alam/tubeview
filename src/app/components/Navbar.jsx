@@ -270,9 +270,9 @@ function Navbar() {
                         </div>
                         <div className='flex justify-center gap-5 items-center'>
                             <div>
-                                <Link href={"/cart"} className=' p-1 relative flex'>
-                                    <p className=' text-xl'><FaCartPlus /></p>
-                                    <span className=' absolute top-[-5px] right-[-4px]'>{cartItems.length || 0}</span>
+                                <Link href={"/cart"} className=' p-1 relative flex text-black'>
+                                    <p className=' text-xl text-black'><FaCartPlus /></p>
+                                    <span className=' absolute top-[-5px] right-[-4px] text-black'>{cartItems.length || 0}</span>
                                 </Link>
                             </div>
                             <div>
@@ -281,7 +281,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className={`fixed top-14 right-0 h-full z-50 bg-white w-[96%] sm:w-[40%] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-                        <ul className='flex flex-col lg:gap-10 gap-2 py-2 w-full'>
+                        <ul className='flex flex-col lg:gap-10 gap-2 py-2 w-full text-black'>
                             {navLinksData.map((navLink, i) => <NavLinks key={i} navLink={navLink} toggleMenu={toggleMenu} />)}
                         </ul>
                     </div>
