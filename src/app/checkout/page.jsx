@@ -1,11 +1,10 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { PayPalButtons } from "@paypal/react-paypal-js";
 import { useCart } from '../context/CartContext';
 
 function Page() {
     const { cartItems, totalPrice } = useCart();
-    const [scriptLoaded, setScriptLoaded] = useState(false);
     const [isReadyToPayment, setIsReadyToPayment] = useState(false);
     const [billingDetails, setBillingDetails] = useState({
         name: "",
@@ -13,23 +12,6 @@ function Page() {
         country: "",
         message: ""
     });
-
-    useEffect(() => {
-        const addPaypalScript = () => {
-            if (window.paypal) {
-                setScriptLoaded(true);
-                return;
-            }
-            const script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = `https://www.paypal.com/sdk/js?client-id=AdGX5uNCSCHAnafWXR40TLgMtPceAh2p2yOaqna3nR35DOA-1ogYdDyWkOLlsVIyxS0db8i0JPs7KhuE`;
-            script.async = true;
-            script.onload = () => setScriptLoaded(true);
-            document.body.appendChild(script);
-        };
-
-        addPaypalScript();
-    }, []);
 
     function handleInput(e) {
         const { name, value } = e.target;
@@ -126,30 +108,26 @@ function Page() {
                             <div className='mt-3'>
                                 {isReadyToPayment ? (
                                     <div>
-                                        {scriptLoaded ? (
-                                            <PayPalButtons
-                                                createOrder={(data, actions) => {
-                                                    return actions.order.create({
-                                                        purchase_units: [{
-                                                            amount: {
-                                                                value: (totalPrice || 1).toFixed(2)
-                                                            },
-                                                        }],
-                                                    });
-                                                }}
-                                                onApprove={async (data, actions) => {
-                                                    const details = await actions.order.capture();
-                                                    if (details.status === "COMPLETED") {
-                                                        sendOrderToAdmin();
-                                                    }
-                                                }}
-                                                onError={(err) => {
-                                                    console.error("PayPal error:", err);
-                                                }}
-                                            />
-                                        ) : (
-                                            <span>Loading...</span>
-                                        )}
+                                        <PayPalButtons
+                                            createOrder={(data, actions) => {
+                                                return actions.order.create({
+                                                    purchase_units: [{
+                                                        amount: {
+                                                            value: (totalPrice || 1).toFixed(2)
+                                                        },
+                                                    }],
+                                                });
+                                            }}
+                                            onApprove={async (data, actions) => {
+                                                const details = await actions.order.capture();
+                                                if (details.status === "COMPLETED") {
+                                                    sendOrderToAdmin();
+                                                }
+                                            }}
+                                            onError={(err) => {
+                                                console.error("PayPal error:", err);
+                                            }}
+                                        />
                                     </div>
                                 ) : (
                                     <button onClick={handleReadyToPayment} className='p-3 bg-secondary text-lg font-medium text-white w-full rounded-md'>
