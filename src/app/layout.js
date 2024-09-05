@@ -15,7 +15,7 @@ export const metadata = {
 
 // PayPal client ID and other options
 const initialOptions = {
-  clientId: "YOUR_CLIENT_ID", // Replace with your PayPal client ID
+  clientId: "AdGX5uNCSCHAnafWXR40TLgMtPceAh2p2yOaqna3nR35DOA-1ogYdDyWkOLlsVIyxS0db8i0JPs7KhuE", // Replace with your PayPal client ID
   currency: "USD", // You can change this to your preferred currency
 };
 
