@@ -33,6 +33,18 @@ function ServiceCard({ packageData }) {
         else if (str.includes("YouTube")) {
             return "Enter your YouTube video url";
         }
+        else if (str.includes("Facebook Followers")) {
+            return "Enter your fb profile url";
+        }
+        else if (str.includes("Facebook Video")) {
+            return "Enter your fb video url";
+        }
+        else if (str.includes("Facebook Page")) {
+            return "Enter your fb page url";
+        }
+        else if (str.includes("Facebook")) {
+            return "Enter your fb post url";
+        }
         return "Enter you URL"
     }
 
