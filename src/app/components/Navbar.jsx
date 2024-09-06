@@ -236,11 +236,12 @@ function Navbar() {
                 <nav className='w-[80%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>
-                            <img
+                            {/* <img
                                 src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
                                 width={150}
                                 alt="Logo"
-                            />
+                            /> */}
+                            <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
                         </Link>
                     </div>
                     <div>

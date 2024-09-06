@@ -11,12 +11,15 @@ function Footer() {
                 <div className='flex flex-col lg:flex-row gap-4'>
                     <div className='lg:w-[28%] w-[100%] flex gap-4 flex-col'>
                         <div>
-                            <Image
+                            {/* <Image
                                 src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
                                 width={150}
                                 height={150}
                                 alt="Logo"
-                            />
+                            /> */}
+                            <Link href={"/"}>
+                                <h4 className='text-3xl font-bold text-secondary bg-white w-fit'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
+                            </Link>
                         </div>
                         <div>
                             <p className='text-white'>

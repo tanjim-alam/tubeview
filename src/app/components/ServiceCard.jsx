@@ -19,7 +19,8 @@ function ServiceCard({ packageData }) {
     const [selectedPackage, setSalactedPackage] = useState(filteredPackageData[0]);
     const [url, setUrl] = useState("");
     const [toast, setToast] = useState(false);
-    const [placeholder, setPlaceholder] = useState("")
+    const [placeholder, setPlaceholder] = useState("");
+    const [urlError, setUrlError] = useState(false);
 
     function getLastWord(str) {
         const words = str.trim().split(' ');
@@ -80,7 +81,8 @@ function ServiceCard({ packageData }) {
     function handleAddToCart() {
         let nextId = cartItems.length;
         if (url === "") {
-            alert("Please enter your url");
+            // alert("Please enter your url");
+            setUrlError(true);
             return;
         }
         const item = {
@@ -186,13 +188,19 @@ function ServiceCard({ packageData }) {
                                     <span className='text-xl font-semibold text-black'>$ {currItemPrice || 12}</span>
                                 </div>
                                 <div className='lg:w-[86%] w-[90%] flex justify-center items-center'>
-                                    <input value={url} onChange={(e) => setUrl(e.target.value)} className='border p-2 w-full rounded-sm outline-none text-black border-secondary' type="text" placeholder={placeholder} />
+                                    <input value={url} onChange={(e) => setUrl(e.target.value)} onClick={() => setUrlError(false)} className='border-2 p-2 w-full rounded-sm outline-none text-black border-secondary' type="text" placeholder={placeholder} />
+
                                 </div>
                             </div>
                             <div className='lg:w-[35%] w-full mt-3 lg:mt-0 flex gap-3 justify-between lg:justify-end'>
                                 <button onClick={handleAddToCart} className='bg-secondary w-full rounded-sm py-2 px-4 font-semibold text-white'>Add to Cart</button>
                                 <button onClick={handleGoToCart} className='bg-secondary w-full rounded-sm py-2 px-4 font-semibold text-white'>Buy Now</button>
                             </div>
+                        </div>
+                        <div className='lg:w-[82%] m-auto'>
+                            {
+                                urlError ? <p className='text-primary text-sm font-medium'>Please {placeholder}</p> : null
+                            }
                         </div>
                         {toast ? (
                             <div className='flex mt-4 items-center gap-2 p-2 text-slate-600 bg-green-200'>
