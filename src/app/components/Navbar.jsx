@@ -79,7 +79,7 @@ function Navbar() {
                     slug: "buy-facebook-live-viewd"
                 }
             ],
-            color: "blue"
+            color: "#0866ff"
         },
         {
             id: 3,
@@ -132,7 +132,7 @@ function Navbar() {
                     slug: "buy-instagram-live-views"
                 },
             ],
-            color: "#E1306C"
+            color: "#fb3c44"
         },
         {
             id: 4,
@@ -264,12 +264,13 @@ function Navbar() {
                     <div className='flex justify-between items-center p-2 bg-white border-b w-full'>
                         <div>
                             <Link href={"/"}>
-                                <Image
+                                {/* <Image
                                     src="https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"
                                     width={150}
                                     height={150}
                                     alt="Logo"
-                                />
+                                /> */}
+                                <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
                             </Link>
                         </div>
                         <div className='flex justify-center gap-5 items-center'>

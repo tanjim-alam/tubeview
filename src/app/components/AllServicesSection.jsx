@@ -33,7 +33,7 @@ function AllServicesSection() {
                 { id: 5, title: "Buy Facebook Page Likes", slug: "buy-facebook-page-likes" },
                 { id: 6, title: "Buy Facebook Live Views", slug: "buy-facebook-live-views" }
             ],
-            color: "blue"
+            color: "#0b82e8"
         },
         {
             id: 3,
@@ -50,7 +50,7 @@ function AllServicesSection() {
                 { id: 8, title: "Buy Instagram Target Followers", slug: "buy-instagram-target-followers" },
                 { id: 9, title: "Buy Instagram Live Views", slug: "buy-instagram-live-views" },
             ],
-            color: "#E1306C"
+            color: "#fb3c44"
         },
         {
             id: 4,
@@ -191,7 +191,7 @@ function AllServicesSection() {
                             </div>
 
                             {/* Mobile View */}
-                            <div className='block sm:hidden md:hidden lg:hidden w-full px-7'>
+                            <div className='block sm:hidden md:hidden lg:hidden w-full px-4'>
                                 <div
                                     onClick={() => showServices(data.id)}
                                     className='relative flex cursor-pointer items-center border-2 rounded-full shadow-[0_2px_2px_rgba(0,0,0,0.10)] group'
@@ -212,7 +212,7 @@ function AllServicesSection() {
                                     </div>
                                 </div>
                                 <div className={`transition-all duration-500 ease-in-out ${data.id === activeId ? 'max-h-screen' : 'max-h-0'} overflow-hidden`}>
-                                    <ul className='flex flex-col mx-4 mt-1'>
+                                    <ul className='flex flex-col mx-2 mt-1'>
                                         {data.services.map((item, i) => (
                                             <li key={item.id} className="pl-4 py-1 bg-primary text-white">
                                                 <Link href={`/${item.slug}`}>{item.title}</Link>

@@ -28,9 +28,36 @@ function Page() {
         // console.log(billingDetails)
     }
 
-    function sendOrderToAdmin() {
+    async function sendOrderToAdmin() {
         // Placeholder for actual API call to send order details to the admin
         console.log("Order details:", billingDetails, "Cart items:", cartItems);
+        let orderId = Math.floor((Math.random() * 10000) + 1111);
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const longDate = now.toLocaleDateString('en-US', options);
+        const orderDetails = {
+            id: orderId,
+            date: longDate,
+            billingDetails,
+            products: cartItems,
+            totalPrice
+        }
+        const res = await fetch('/api/smtp', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ orderDetails }),
+        });
+        console.log(res);
+        // const result = await res.json();
+        // setLoading(false);
+
+        // if (res.ok) {
+        //     setSuccess(true);
+        // } else {
+        //     setError(result.error);
+        // }
     }
 
     return (

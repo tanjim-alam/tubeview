@@ -29,7 +29,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                             </div>
                         </div>
                         <div className='flex gap-8 items-center mt-8 justify-center'>
-                            <button className=' bg-primary px-6 py-2 rounded-md text-white'>Get Started</button>
+                            <button className=' bg-primary px-6 py-3 mt-1 font-semibold rounded text-white'>Get Started</button>
                             <div>
                                 <div className='flex items-center text-center justify-center'>
                                     <span className=' text-secondary text-2xl'><IoIosStar /></span>
