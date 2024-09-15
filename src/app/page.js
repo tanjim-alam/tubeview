@@ -99,7 +99,7 @@ export default function Home() {
   ]
   return (
     <main className=" bg-white">
-      <HeroSection title={"Grow your Bussiness <br/> and Profile with us"} subTitle={"Buy YouTube Views"} imgUrl={"https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/08/Generation-z-Christmas-party-with-multi-ethnic-friends-1296x728-header.jpg?w=1155&h=1528"} />
+      <HeroSection title={"Grow your Bussiness <br/> and Profile with us"} subTitle={"Buy YouTube Views"} imgUrl={"/homeBanner.png"} />
       <ImportantSection />
       <AllServicesSection />
       <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />

@@ -1,4 +1,3 @@
-
 import React from 'react'
 import dynamic from 'next/dynamic';
 import { IoSearch } from "react-icons/io5";
@@ -14,9 +13,9 @@ const FaqSection = dynamic(() => import('../components/FaqSection'));
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
-import followersData from "../constant/facebook/followersData.json"
+import twVideoViewsData from "../constant/twitter/twVideoViewsData.json"
 
-function FacebookFollowersPage() {
+function TwitterVideoViewsPage() {
     const featuresData = [
         {
             id: 1,
@@ -102,7 +101,7 @@ function FacebookFollowersPage() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Followers</span></h3>"} imgUrl={"/fbBanner.png"} />
+            <HeroSection title={"Buy Twitter Video <br/>Views with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Views</span></h3>"} imgUrl={"https://i0.wp.com/vietnaminsider.vn/wp-content/uploads/2024/07/Screen-Shot-2024-07-30-at-00.05.14.png?resize=750%2C494&ssl=14"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -110,7 +109,7 @@ function FacebookFollowersPage() {
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold'>Buy Youtube Views to Boost Engagements!</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium'>Get Real Youtube Views and Boost Your Video Impressions.</p>
                     </div>
-                    <ServiceCard packageData={followersData} />
+                    <ServiceCard packageData={twVideoViewsData} />
                 </div>
             </div>
             {/* package section end */}
@@ -147,4 +146,4 @@ function FacebookFollowersPage() {
     )
 }
 
-export default FacebookFollowersPage
+export default TwitterVideoViewsPage
