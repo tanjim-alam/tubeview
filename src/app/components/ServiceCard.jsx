@@ -164,16 +164,17 @@ function ServiceCard({ packageData }) {
                         }
                     </div>
                     <div className='p-2'>
-                        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4'>
+                        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4'>
                             {filteredPackageData.map((data, i) => (
                                 <div
                                     key={i}
                                     className={`rounded-md p-2 ${isActiveCard === data.id ? "bg-secondary text-white" : "bg-[#f1f3f5] text-black"} cursor-pointer hover:bg-secondary hover:text-white group flex justify-center flex-col items-center`}
                                     onClick={() => handleOnClickCard(data)}
                                 >
-                                    <p className={`p-2 text-lg font-semibold ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>
-                                        {data.package}
+                                    <p className={`p-1 text-xl font-semibold ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>
+                                        {data.qnt}
                                     </p>
+                                    <span className={`pb-1 text-lg ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>{data.package}</span>
                                     {data.discount && (
                                         <p className={`text-xs ${isActiveCard === data.id ? "bg-white text-black" : "bg-secondary text-white"} text-right w-fit py-1 px-2 rounded-md group-hover:text-secondary group-hover:bg-white`}>
                                             {data.discount} % Off
