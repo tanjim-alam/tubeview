@@ -15,7 +15,6 @@ import ReviewsSection from "./components/ReviewsSection";
 import youtubeReviews from "./reviewData/youtubeReviews.json"
 
 export default function Home() {
-  console.log("youtubeReviews", youtubeReviews)
   const featuresData = [
     {
       id: 1,

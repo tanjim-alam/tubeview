@@ -14,7 +14,7 @@ const FaqSection = dynamic(() => import('../components/FaqSection'));
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
-import scPlaysData from "../constant/soundcloud/scPlaysData.json";
+import scPlaysData from "../constant/soundCloud/scPlaysData.json";
 import scPlaysReviews from "../reviewData/soundcloud/scFollowersReviews.json"
 
 
