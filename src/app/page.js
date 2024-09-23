@@ -12,8 +12,10 @@ import ContentSection1 from "./components/ContentSection1";
 import ContentSection2 from "./components/ContentSection2";
 import FaqSection from "./components/FaqSection";
 import ReviewsSection from "./components/ReviewsSection";
+import youtubeReviews from "./reviewData/youtubeReviews.json"
 
 export default function Home() {
+  console.log("youtubeReviews", youtubeReviews)
   const featuresData = [
     {
       id: 1,
@@ -129,7 +131,7 @@ export default function Home() {
         subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
         faqData={faqData}
       />
-      <ReviewsSection />
+      <ReviewsSection reviewsData={youtubeReviews || []} />
     </main>
   );
 }

@@ -15,7 +15,7 @@ function NavLinks({ navLink, toggleMenu }) {
     return (
         <>
             <li className="relative group hidden lg:block">
-                <Link href={"#"} className='font-medium text-lg'>{navLink.name}</Link>
+                <Link href={"#"} className='font-medium text-lg text-black'>{navLink.name}</Link>
                 <ul className="absolute left-[-50%] hidden group-hover:block bg-white shadow-lg mt-1 top-5 rounded-md w-[250px]">
                     {navLink.services.map((item, i) => <NavItems key={i} item={item} />)}
                 </ul>

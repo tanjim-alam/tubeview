@@ -12,8 +12,6 @@ function ContentSection2({ heading, subHeading, contents }) {
             </div>
             <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
-                    <div className='text-black' dangerouslySetInnerHTML={{ __html: contents || "" }} />
-
                     <Image
                         className='rounded-full'
                         width={400}
@@ -21,6 +19,7 @@ function ContentSection2({ heading, subHeading, contents }) {
                         src="https://viplikes.net/uploads/Buy-youtube-promotion-packages.webp"
                         alt="Content Image"
                     />
+                    <div className='text-black' dangerouslySetInnerHTML={{ __html: contents || "" }} />
                 </div>
             </div>
         </div>

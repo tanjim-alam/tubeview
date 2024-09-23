@@ -6,107 +6,8 @@ import { Autoplay, FreeMode, Navigation, Pagination } from 'swiper/modules';
 import "../../app/globals.css";
 import 'swiper/css';
 
-function ReviewsSection() {
-    const reviewsData = [
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-        {
-            id: 1,
-            name: "Markson",
-            subject: "Thanks",
-            message: "Tubeviews has promoted a number of my YouTube videos and always delivers the results I need..!!",
-            date: "Fab 22, 2024"
-        },
-    ];
+function ReviewsSection({ reviewsData }) {
+
 
     return (
         <div className='bg-white'>
@@ -135,7 +36,7 @@ function ReviewsSection() {
                     className="flex flex-col"
                 >
 
-                    {reviewsData.map((data, i) => (
+                    {reviewsData?.map((data, i) => (
                         <SwiperSlide key={i} className=" min-w-[310px] max-w-[330px]  mb-5">
                             <ReviewCard data={data} />
                         </SwiperSlide>

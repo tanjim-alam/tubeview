@@ -6,17 +6,14 @@ import { IoMdWatch } from "react-icons/io";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
 
-// Dynamically import components (Ensure these are default exports in their files)
 const WhyYouChooseSection = dynamic(() => import('../components/WhyYouChooseSection'));
 const FeaturesSection = dynamic(() => import('../components/FeaturesSection'));
 const ContentSection1 = dynamic(() => import('../components/ContentSection1'));
 const ContentSection2 = dynamic(() => import('../components/ContentSection2'));
 const FaqSection = dynamic(() => import('../components/FaqSection'));
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
-// const HeroSection = dynamic(() => import('../components/HeroSection'), { ssr: true });
 const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
 
-// import youtubeViewsData from "../../constant/youtube/youtubeViewsData.json";
 import youtubeViewsData from "../constant/youtube/youtubeViewsData.json"
 import HeroSection from '../components/HeroSection';
 

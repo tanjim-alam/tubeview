@@ -31,6 +31,11 @@ function Navbar() {
                     slug: "/buy-youtube-likes"
                 },
                 {
+                    id: 3,
+                    title: "Buy YouTube Short Views",
+                    slug: "buy-youtube-short-views"
+                },
+                {
                     id: 4,
                     title: "Buy YouTube Comments",
                     slug: "/buy-youtube-comments"
@@ -38,7 +43,7 @@ function Navbar() {
                 {
                     id: 5,
                     title: "Buy YouTube Live Views",
-                    slug: "/buy-youtube-live-views"
+                    slug: "buy-youtube-live-stream-views-viewers"
                 },
             ],
             color: "red"
@@ -76,7 +81,7 @@ function Navbar() {
                 {
                     id: 4,
                     title: "Buy Facebook Live Views",
-                    slug: "buy-facebook-live-viewd"
+                    slug: "buy-facebook-live-stream-views-viewers"
                 }
             ],
             color: "#0866ff"
@@ -136,27 +141,27 @@ function Navbar() {
         },
         {
             id: 4,
-            name: "Twitter",
+            name: "Twitter (X)",
             icon: FaTwitter,
             services: [
                 {
                     id: 1,
-                    title: "Buy Twitter Followers",
+                    title: "Buy Twitter (X) Followers",
                     slug: "buy-twitter-followers"
                 },
                 {
                     id: 2,
-                    title: "Buy Twitter Likes",
+                    title: "Buy Twitter (X) Likes",
                     slug: "buy-twitter-likes"
                 },
                 {
                     id: 3,
-                    title: "Buy Twitter Comments",
+                    title: "Buy Twitter (X) Comments",
                     slug: "buy-twitter-comments"
                 },
                 {
                     id: 4,
-                    title: "Buy Twitter Video Views",
+                    title: "Buy Twitter (X) Video Views",
                     slug: "buy-twitter-video-views"
                 },
             ],
