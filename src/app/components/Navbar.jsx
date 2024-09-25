@@ -238,7 +238,7 @@ function Navbar() {
     return (
         <>
             <div className='bg-white border-b sticky top-0 z-50 hidden lg:block h-[55px]'>
-                <nav className='w-[80%] m-auto flex justify-between items-center p-2'>
+                <nav className='xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>
                             {/* <img

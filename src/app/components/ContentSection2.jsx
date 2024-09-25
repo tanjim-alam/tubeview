@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-function ContentSection2({ heading, subHeading, contents }) {
+function ContentSection2({ heading, subHeading, contents, imgUrl }) {
     return (
         <div className='bg-white'>
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
@@ -16,7 +16,7 @@ function ContentSection2({ heading, subHeading, contents }) {
                         className='rounded-full'
                         width={400}
                         height={400}
-                        src="https://viplikes.net/uploads/Buy-youtube-promotion-packages.webp"
+                        src={imgUrl || "/buy-active-youtube-views.webp"}
                         alt="Content Image"
                     />
                     <div className='text-black' dangerouslySetInnerHTML={{ __html: contents || "" }} />

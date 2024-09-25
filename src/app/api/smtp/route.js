@@ -94,6 +94,17 @@ export async function POST(req) {
         `, // HTML body with inline styles
     };
 
+    const userOrderRow = orderDetails.products.map(product => `
+                            <tr>
+                                <td style="padding: 10px; border-bottom: 1px solid #dddddd;">
+                                    <span>${product.serviceName}</span><br><br>
+                                    <span style="margin-top: 10px;"><strong>Type:</strong> ${product.serviceType}</span><br><br>
+                                    <span style="margin-top: 10px;"><strong>Link:</strong> <a href="${product.url}" style="color: #058e3d; text-decoration: none;">${product.url}</a></span>
+                                </td>
+                                <td style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">${product.quantity}</td>
+                                <td style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">$ ${product.price}</td>
+                            </tr>
+        `)
 
     let userMailOptions = {
         from: '"Your Name" <your-email@example.com>', // sender address
@@ -102,7 +113,7 @@ export async function POST(req) {
         html: `
             <div style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: black; box-sizing: border-box; width: 100%;">
                 <div style="max-width: 600px; margin: 20px auto; background-color: #ffffff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);">
-                    <div style="background-color: #058e3d; display: flex; justify-content: space-between; align-items: center; padding: 0px 30px;">
+                    <div style="background-color: #058e3d; display: flex; justify-content: space-between; align-items: center; padding: 10px 40% 10px;">
                         <div style="display: flex; justify-content: center; align-items: center;">
                             <span style="font-size: 30px; font-weight: bold; padding: 0px 4px;"><span style="background-color: white; color: #058e3d;">Tube</span><span style="background-color: #d33; color: white; padding: 0px 4px;">Views</span></span>
                         </div>
@@ -125,37 +136,24 @@ export async function POST(req) {
                                 <th style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">Quantity</th>
                                 <th style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">Price</th>
                             </tr>
-                            <tr>
-                                <td style="padding: 10px; border-bottom: 1px solid #dddddd;">
-                                    <span>Product Name 1</span><br><br>
-                                    <span style="margin-top: 10px;"><strong>Type:</strong> Regular</span><br><br>
-                                    <span style="margin-top: 10px;"><strong>Link:</strong> <a href="https://www.instagram.com/new-post" style="color: #058e3d; text-decoration: none;">https://www.instagram.com/new-post</a></span>
-                                </td>
-                                <td style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">5000</td>
-                                <td style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">$40.00</td>
-                            </tr>
+                            ${userOrderRow}
                             <tr>
                                 <td style="padding: 10px;"></td>
                                 <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd;">Subtotal:</td>
-                                <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd;">$40.00</td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 10px;"></td>
-                                <td style="text-align: right; padding: 10px;">Shipping:</td>
-                                <td style="text-align: right; padding: 10px;">$5.00</td>
+                                <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd;">$ ${orderDetails.totalPrice}</td>
                             </tr>
                             <tr>
                                 <td style="padding: 10px;"></td>
                                 <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd; font-weight: bold;">Total:</td>
-                                <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd; font-weight: bold;">$45.00</td>
+                                <td style="text-align: right; padding: 10px; border-top: 1px solid #dddddd; font-weight: bold;">$ ${orderDetails.totalPrice}</td>
                             </tr>
                         </table>
                         <div style="border-bottom: 1px solid #dddddd; margin: 20px 0;"></div>
                         <h2 style="color: #4CAF50;">Shipping Information</h2>
                         <p style="color: #555555;">
-                            John Doe<br>
-                            123 Main Street<br>
-                            Anytown, USA 12345
+                            ${orderDetails.billingDetails.name}<br>
+                            ${orderDetails.billingDetails.email}<br>
+                            ${orderDetails.billingDetails.country}
                         </p>
                         <div style="border-bottom: 1px solid #dddddd; margin: 20px 0;"></div>
                         <h2 style="color: #4CAF50;">Need Help?</h2>
