@@ -157,22 +157,22 @@ function YouTubeViews50000Page() {
                 {
                     id: 1,
                     quantity: "50000/50k",
-                    price: 450
+                    price: 470
                 },
                 {
                     id: 2,
                     quantity: "70000/70k",
-                    price: 650
+                    price: 670
                 },
                 {
                     id: 3,
                     quantity: "80000/80k",
-                    price: 950
+                    price: 970
                 },
                 {
                     id: 4,
                     quantity: "100000/1M",
-                    price: 1000
+                    price: 1070
                 },
             ]
         },

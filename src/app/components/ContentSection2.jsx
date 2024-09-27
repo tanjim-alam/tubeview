@@ -13,7 +13,7 @@ function ContentSection2({ heading, subHeading, contents, imgUrl }) {
             <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                     <Image
-                        className='rounded-full'
+                        className=''
                         width={400}
                         height={400}
                         src={imgUrl || "/buy-active-youtube-views.webp"}

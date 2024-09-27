@@ -12,6 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        // Add more fonts as needed
+      },
       colors: {
         primary: '#d33',      // Example custom color
         secondary: '#058e3d',    // Example custom color

@@ -81,7 +81,6 @@ function ServiceCard({ packageData }) {
     function handleAddToCart() {
         let nextId = cartItems.length;
         if (url === "") {
-            // alert("Please enter your url");
             setUrlError(true);
             return;
         }
@@ -102,7 +101,7 @@ function ServiceCard({ packageData }) {
     function handleGoToCart() {
         let nextId = cartItems.length;
         if (url === "") {
-            alert("Please enter your url");
+            setUrlError(true);
             return;
         }
         const item = {
@@ -115,7 +114,6 @@ function ServiceCard({ packageData }) {
         };
 
         addItemToCart(item);
-        // setToast(true);
         router.push("/checkout");
         setUrl("")
     }

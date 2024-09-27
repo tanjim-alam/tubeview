@@ -257,7 +257,7 @@ function Navbar() {
                         </ul>
                     </div>
                     <div>
-                        <Link href={"/cart"} className=' p-1 relative flex'>
+                        <Link href={"/cart"} className=' p-1 relative text-black flex'>
                             <p className=' text-xl'><FaCartPlus /></p>
                             <span className=' absolute top-[-5px] right-[-4px]'>{cartItems.length || 0}</span>
                         </Link>

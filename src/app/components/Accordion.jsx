@@ -20,7 +20,7 @@ function Accordion({ title, content }) {
 
     useEffect(() => {
         if (contentRef.current) {
-            setMaxHeight(isOpen ? `${contentRef.current.scrollHeight}px` : '0px');
+            setMaxHeight(isOpen ? `${contentRef.current.scrollHeight}px` : '10px');
         }
     }, [isOpen]);
 
