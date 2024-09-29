@@ -1,9 +1,13 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
 
 function HeroSection({ title, subTitle, imgUrl }) {
+    const scrollToServices = () => {
+        document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <div className='bg-white'>
             <div className='lg:w-[80%] w-[90%] pt-5 sm:pt-5 lg:h-[40rem] m-auto flex flex-col justify-center gap-16 items-center'>
@@ -29,7 +33,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                             </div>
                         </div>
                         <div className='flex gap-8 items-center mt-8 justify-center'>
-                            <button className=' bg-primary px-6 py-3 mt-1 font-semibold rounded text-white'>Get Started</button>
+                            <button onClick={scrollToServices} className=' bg-primary px-6 py-3 mt-1 font-semibold rounded text-white'>Get Started</button>
                             <div>
                                 <div className='flex items-center text-center justify-center'>
                                     <span className=' text-secondary text-2xl'><IoIosStar /></span>
@@ -57,7 +61,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                 <div className='grid grid-cols-2 sm:flex sm:mb-4 lg:flex items-center gap-3 lg:gap-8'>
                     <div>
                         <Image
-                            src={"https://twicsy.com/images/logo-img-2.svg"}
+                            src={"/logo-img-2.svg"}
                             width={150}
                             height={150}
                             alt="Logo"
@@ -65,7 +69,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                     </div>
                     <div>
                         <Image
-                            src={"https://twicsy.com/images/logo-img-1.svg"}
+                            src={"/logo-img-1.svg"}
                             width={150}
                             height={150}
                             alt="Logo"
@@ -73,7 +77,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                     </div>
                     <div>
                         <Image
-                            src={"https://twicsy.com/images/logo-img-4.svg"}
+                            src={"/logo-img-4.svg"}
                             width={150}
                             height={150}
                             alt="Logo"
@@ -81,7 +85,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                     </div>
                     <div>
                         <Image
-                            src={"https://bulkoid.com/static/publication3.svg"}
+                            src={"/publication3.svg"}
                             width={150}
                             height={150}
                             alt="Logo"

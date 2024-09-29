@@ -7,19 +7,19 @@ function ImportantSection() {
             <div className='lg:w-[70%] w-[100%] m-auto relative'>
                 <div className='flex justify-between items-center bg-primary pb-3 lg:px-10 px-2 pt-3 lg:rounded-full'>
                     <div className='flex flex-col justify-center items-center w-full'>
-                        <Image width={50} alt="Description of the image" height={50} src={"https://www.ytviews.in/wp-content/uploads/2021/07/computer.svg"} />
+                        <Image width={50} alt="computer" height={50} src={"/computer.svg"} />
                         <span className='text-white text-xs lg:text-sm font-medium text-center'>100% Safe</span>
                     </div>
                     <div className='flex flex-col justify-center items-center w-full'>
-                        <Image width={50} alt="Description of the image" height={50} src={"https://www.ytviews.in/wp-content/uploads/yt_views/affordable.png"} />
+                        <Image width={50} alt="affordable" height={50} src={"/affordable.webp"} />
                         <span className='text-white text-xs lg:text-sm font-medium text-center'>Affordable Pricing</span>
                     </div>
                     <div className='flex flex-col justify-center items-center w-full'>
-                        <Image width={50} alt="Description of the image" height={50} src={"https://www.ytviews.in/wp-content/uploads/yt_views/mbg.png"} />
+                        <Image width={50} alt="Gaurantee" height={50} src={"/mbg.webp"} />
                         <span className='text-white text-xs lg:text-sm font-medium text-center'>Money Back Gaurantee</span>
                     </div>
                     <div className='flex flex-col justify-center items-center w-full'>
-                        <Image width={50} alt="Description of the image" height={50} src={"https://www.ytviews.in/wp-content/uploads/yt_views/fuullsupport.png"} />
+                        <Image width={50} alt="Support" height={50} src={"/fuullsupport.webp"} />
                         <span className='text-white text-xs lg:text-sm font-medium text-center'>Complete Support</span>
                     </div>
                 </div>

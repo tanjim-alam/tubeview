@@ -166,13 +166,13 @@ function YouTubeSubscribers() {
                 contents={
                     `
                     <div>
-                    <p class=class=leading-relaxed text-black text-slate-600>
+                    <p class='leading-relaxed text-slate-600'>
                     Welcome to Tubeviews extensive array of <b>Buy YouTube Subscribers</b> services, which provide customised solutions to improve the development and interaction on your channel. 
                     We have you covered whether your goals are to target a particular geographic demographic with buy USA YouTube subscribers, search for actual and active user involvement 
                     with buy real YouTube subscribers, or purchase inexpensive YouTube subscribers for an initial boost.
                     </p>
                     <br>
-                    <p class=class=leading-relaxed text-black text-slate-600>
+                    <p class='leading-relaxed text-slate-600'>
                     Our range of subscriber acquisition choices guarantees that you may adapt the expansion plan of your channel to fit your particular requirements and audience size. 
                     With <a href=https://www.tubeviews.co/>Tubeviews</a>, you have the freedom to choose the kind of members who best fit the goals of your channel, all meant to drive your content to new degrees of 
                     popularity and exposure within the YouTube community.

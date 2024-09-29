@@ -127,7 +127,7 @@ function ServiceCard({ packageData }) {
     }, [toast]);
 
     return (
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row' id='services'>
             <div className='lg:w-[80%] w-full m-auto border p-2 lg:p-10 mt-7 relative rounded-2xl shadow-[0_2px_2px_rgba(0,0,0,0.10)]'>
                 <div className='flex justify-center items-center'>
                     <p className=' absolute top-[-19px]  lg:top-[-26px] bg-white border py-1 px-4 lg:py-2 text-black lg:px-8 border-black rounded-md  text-lg font-semibold'>{packageData.serviceName || "Real YouTube Views"}</p>
