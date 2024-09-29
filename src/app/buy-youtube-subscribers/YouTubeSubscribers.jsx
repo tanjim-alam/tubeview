@@ -1,3 +1,4 @@
+/* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react'
 import { IoSearch } from "react-icons/io5";
@@ -164,21 +165,7 @@ function YouTubeSubscribers() {
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Subscribers."}
                 imgUrl={"/buy-real-youtube-subscribers.webp"}
                 contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'>
-                    Welcome to Tubeviews extensive array of <b>Buy YouTube Subscribers</b> services, which provide customised solutions to improve the development and interaction on your channel. 
-                    We have you covered whether your goals are to target a particular geographic demographic with buy USA YouTube subscribers, search for actual and active user involvement 
-                    with buy real YouTube subscribers, or purchase inexpensive YouTube subscribers for an initial boost.
-                    </p>
-                    <br>
-                    <p class='leading-relaxed text-slate-600'>
-                    Our range of subscriber acquisition choices guarantees that you may adapt the expansion plan of your channel to fit your particular requirements and audience size. 
-                    With <a href=https://www.tubeviews.co/>Tubeviews</a>, you have the freedom to choose the kind of members who best fit the goals of your channel, all meant to drive your content to new degrees of 
-                    popularity and exposure within the YouTube community.
-                    </p>
-                    </div>
-                    `
+                    "<div><p class='leading-relaxed text-slate-600'>Welcome to Tubeviews extensive array of <b>Buy YouTube Subscribers</b> services, which provide customised solutions to improve the development and interaction on your channel. We have you covered whether your goals are to target a particular geographic demographic with buy USA YouTube subscribers, search for actual and active user involvement  with buy real YouTube subscribers, or purchase inexpensive YouTube subscribers for an initial boost.</p><br><p class='leading-relaxed text-slate-600'>Our range of subscriber acquisition choices guarantees that you may adapt the expansion plan of your channel to fit your particular requirements and audience size. With <a href=https://www.tubeviews.co/>Tubeviews</a>, you have the freedom to choose the kind of members who best fit the goals of your channel, all meant to drive your content to new degrees of popularity and exposure within the YouTube community.</p></div>"
                 }
             />
             <ContentSection2
@@ -186,28 +173,7 @@ function YouTubeSubscribers() {
                 subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
                 imgUrl={"/buy-active-youtube-subscribers.png"}
                 contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'>
-                    On YouTube, every video is submitted under user profiles others may subscribe to. Upon subscription, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.
-                    </p>
-                    <br>
-                    <p class=class=leading-relaxed text-black text-slate-600>
-                   Regarding brand promotion and visibility, few things could be better for you than your current subscription count. This makes it prudent to strive to compile as many as feasible. 
-                   SocialPlug can simply too assist you with this!
-                    </p>
-                    <div class=mt-4>
-                        <h3 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3>
-                        <p class='leading-relaxed text-slate-600 mt-3'>
-                            One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned.
-                            Our own records show that only 1.7% of our accounts disappear annually.
-                        </p>
-                        <p class=leading-relaxed text-slate-600 mt-3>
-                            This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.
-                        </p>
-                    </div>
-                    </div>
-                    `
+                    "<div><p class='leading-relaxed text-slate-600'>On YouTube, every video is submitted under user profiles others may subscribe to. Upon subscription, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.</p><br><p class=leading-relaxed text-black text-slate-600>Regarding brand promotion and visibility, few things could be better for you than your current subscription count. This makes it prudent to strive to compile as many as feasible.  SocialPlug can simply too assist you with this! </p><div class=mt-4><h3 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3><p class='leading-relaxed text-slate-600 mt-3'>One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned. Our own records show that only 1.7% of our accounts disappear annually.</p><p class=leading-relaxed text-slate-600 mt-3>This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.</p></div></div>"
                 }
             />
             <div className='bg-white'>

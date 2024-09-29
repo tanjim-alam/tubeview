@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client"
 import React from 'react';
 import dynamic from 'next/dynamic';
@@ -14,9 +15,8 @@ const FaqSection = dynamic(() => import('../components/FaqSection'));
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
 
-import youtubeViewsData from "../constant/youtube/youtubeViewsData.json"
+import youtubeViewsData from "../constant/youtube/youtubeViewsData.json";
 import HeroSection from '../components/HeroSection';
-
 
 function YouTubeViewsPage() {
     const featuresData = [
@@ -29,12 +29,12 @@ function YouTubeViewsPage() {
         {
             id: 2,
             title: "Why should you buy YouTube subscribers?",
-            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a hight number of subscribers to attract more visitors to your channel.",
+            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a high number of subscribers to attract more visitors to your channel.",
             icon: <IoSearch />
         },
         {
             id: 3,
-            title: "What are Youtube Subscribers",
+            title: "What are YouTube Subscribers",
             description: "If you can get a person's interest on YouTube, they may subscribe to your channel. After that, they will start seeing your content on their homepage and get notified often.",
             icon: <IoMdWatch />
         },
@@ -68,8 +68,8 @@ function YouTubeViewsPage() {
             description: "In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.",
             icon: <MdOutlineWarning />
         }
+    ];
 
-    ]
     const faqData = [
         {
             id: 1,
@@ -98,8 +98,8 @@ function YouTubeViewsPage() {
         },
         {
             id: 6,
-            question: "Can I buy views for a Youtube playlist?",
-            answer: "You cant buy views on youtube for a Playlist is not qualified for the Youtube watching system. This service valid for a video link. Consequently, the order will be canceled should the Playlist URL be supplied at order placement. During purchase, you just need to submit one video URL. You might put all of your films in your cart if you want to purchase them all."
+            question: "Can I buy views for a YouTube playlist?",
+            answer: "You can't buy views on YouTube for a Playlist is not qualified for the YouTube watching system. This service is valid for a video link. Consequently, the order will be canceled should the Playlist URL be supplied at order placement. During purchase, you just need to submit one video URL. You might put all of your films in your cart if you want to purchase them all."
         },
         {
             id: 7,
@@ -108,28 +108,33 @@ function YouTubeViewsPage() {
         },
         {
             id: 8,
-            question: "Is Real the Youtube Views Service?",
-            answer: "The Youtube views on the Tubeviews include entirely actual individuals. This tool allows you to gain new viewers by enhancing the interactivity in your videos, thereby enabling you to purchase totally securely without compromising your channel in any form."
+            question: "Is Real the YouTube Views Service?",
+            answer: "The YouTube views on the Tubeviews include entirely actual individuals. This tool allows you to gain new viewers by enhancing the interactivity in your videos, thereby enabling you to purchase totally securely without compromising your channel in any form."
         },
         {
             id: 9,
-            question: "Will I be paid if I buy Youtube views?",
-            answer: "Unfortunately, your money is not immediately raised by Youtube views of service. Your engagement rate and view count will nonetheless rise. The video may so inevitably appeal to larger viewers. This helps to raise your revenue indirectly."
+            question: "Will I be paid if I buy YouTube views?",
+            answer: "Unfortunately, your money is not immediately raised by YouTube views of service. Your engagement rate and view count will nonetheless rise. The video may so inevitably appeal to larger viewers. This helps to raise your revenue indirectly."
         },
         {
             id: 10,
-            question: "When will my order of Youtube views start?",
-            answer: "Automatic processing to buy youtube views service you will purchase on our website is done. The amount of views will rise over ten minutes to twenty-four hours. Verify the video link; failing which your purchase could not be executed."
+            question: "When will my order of YouTube views start?",
+            answer: "Automatic processing to buy YouTube views service you will purchase on our website is done. The amount of views will rise over ten minutes to twenty-four hours. Verify the video link; failing which your purchase could not be executed."
         },
         {
             id: 11,
             question: "Does my viewing count change with time?",
             answer: "Not! One cannot lose their video views. Those opinions are meant to remain on your profile for a somewhat amazing length of time. Those points of view will definitely stay on your account."
         },
-    ]
+    ];
+
     return (
         <div>
-            <HeroSection title={"Buy YouTube Views with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Views</span></h3>"} imgUrl={"https://media.licdn.com/dms/image/v2/D4D12AQFu0FFBb6l2Cw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1704632367284?e=1729728000&v=beta&t=B_bNEvnwvUmA5PvLv93K6rVvD0PXYJ-fiLU2m6bCsv4"} />
+            <HeroSection
+                title={"Buy YouTube Views with <br/> Instant Delivery"}
+                subTitle={"<h3>Buy YouTube <span class='text-secondary'>Views</span></h3>"}
+                imgUrl={"https://media.licdn.com/dms/image/v2/D4D12AQFu0FFBb6l2Cw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1704632367284?e=1729728000&v=beta&t=B_bNEvnwvUmA5PvLv93K6rVvD0PXYJ-fiLU2m6bCsv4"}
+            />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -142,100 +147,29 @@ function YouTubeViewsPage() {
             </div>
             {/* package section end */}
             {/* <PackageSection /> */}
-            <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
+            <WhyYouChooseSection
+                heading={"✊ Why You Should Choose Tubeviews"}
+                subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."}
+            />
+            <FeaturesSection
+                featuresData={featuresData}
+                heading={"🚀 Buy YouTube Views Features With Tubeviews"}
+                subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."}
+            />
             <ContentSection1
                 heading={"🎉 Why Would Someone Buy Views on YouTube?"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
                 imgUrl={"/buy-real-youtube-views.webp"}
                 contents={
-                    `
-                <div>
-                <p class=leading-relaxed class=text-black class=text-slate-600>
-                <b>Buying youtube views</b> for more public visibility! Which kinds of video content are you ready to click on while searching YouTube 
-                for anything intriguing to view? We guess you would most likely choose the video with the most views. View rates often determine 
-                whether or not a video is worth seeing. Having stated that, the number one position is not very simple to get. 
-                We can assist you with obtaining sufficient views on your videos should you find it difficult. Apart from strategies of YouTube advertising, 
-                you might attempt this service to boost your YouTube views. One of our most sold things is YouTube views, hence you might purchase them from us.
-                </p>
-                <br>
-                <p class=leading-relaxed class=text-black class=text-slate-600>
-                To <b>buy views on youtube</b> only from tube veiws is just going to cause your natural traffic rates and view count to rise sooner than later. 
-                People will try your videos as they seem to be worth seeing. Should your content be of good quality, they may follow your channel, 
-                thus accomplishing many objectives simultaneously.
-                </p>
-                </div>
-                `
+                    "<div><p class='leading-relaxed text-black text-slate-600'><b>Buying youtube views</b> for more public visibility! Which kinds of video content are you ready to click on while searching YouTube for anything intriguing to view? We guess you clicked those movies with the most hits. Well, the rest of the globe follows the same process.</p></div>"
                 }
             />
             <ContentSection2
-                heading={"🚀 Is Buying YouTube Views Safe?"}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
-                imgUrl={"/buy-active-youtube-views.webp"}
+                heading={"✔ Why Should You Buy YouTube Views?"}
+                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
+                imgUrl={"/why-should-you-buy-youtube-views.webp"}
                 contents={
-                    `
-                    <div>
-                    <p class=class=leading-relaxed text-black text-slate-600>
-                    Definitely! There is no current safety issue that would prevent you from <b>buying YouTube views</b>. Unless it is regarded as spam, 
-                    YouTube does not stop these kinds of operations. Paying-wise, we provide credit card and PayPal alternatives. 
-                    Our 256-bit SSL certificate encrypts credit card information, hence neither third parties nor we can see it. 
-                    Not even our personnel could see your payment details. Making any transaction on tube views is therefore absolutely secure. 
-                    To improve your channel, you might also get YouTube Shorts Comments.
-                    <p/>
-                    <br>
-                    <p class=class=leading-relaxed text-black text-slate-600>
-                    Apart from its quality, the preferred provider should offer customer service. You should be able to get in touch with them whenever you so want. 
-                    We provides WhatsApp 24/7 online customer assistance. Your received service should be quick. Your order should arrive in the specified timeframe during the transaction. 
-                    Usually, we arrive with your good in minutes. We never, under any circumstances ask for your password either.
-                    </p>
-                    </div>
-                    
-                    `
-                }
-            />
-            <ContentSection1
-                heading={"🚀 A great plan to improve your YouTube channel "}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
-                imgUrl={"/buy-real-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class=leading-relaxed text-black text-slate-600>
-                    Although organic views are fantastic, if you're in need for buying youtube views
-                    and purchase YouTube watch hours that will provide you just as much impact in much less time.
-                    </p>
-                    <br>
-                    <p class=leading-relaxed text-black text-slate-600>
-                    Most YouTube users never wonder about the source of these data. They are seen as excellent interaction; their validity or source is not given much thought. 
-                    This implies that the views you purchase might be a good foundation for your channel as they will help it to acquire the legitimacy required to persuade people to 
-                    join in subscription. <b>Buying youtube views</b> from us might be a great approach whether your goal is to increase the subscriber base of your channel or 
-                    make the next video unique among the great competition.
-                    </p>
-                    </div>
-                    `
-                }
-            />
-            <ContentSection2
-                heading={"🚀 Buy YouTube Views To expand Your Channel"}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
-                imgUrl={"/buy-active-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class=leading-relaxed text-black text-slate-600>
-                    With millions of people producing and viewing videos daily, YouTube is the go-to site for video content. Choosing to purchase YouTube views from tube views, 
-                    a service providing views for your YouTube content—is one way you may increase your profile on this network. Using the purchase YouTube views tool from <a href=https://www.tubeviews.co><b>Tubeviews</b></a> 
-                    can help your channel becoming a lot more visible and credible right away. Your videos are more likely to show up in search results and suggestions when they have a big view count, 
-                    attained maybe via instantaneous YouTube views, therefore drawing natural viewers and perhaps subscribers.
-                    </p>
-                    <br>
-                    <p>
-                    Using tube vuiew’s reliable <b>buy YouTube views</b> service will help you to guarantee your views as well as help your channel to keep integrity and reputation. 
-                    <b>Buying YouTube views</b> can enable your channel to develop more quickly and provide a competitive advantage in the packed online video market. 
-                    Thus, buying real views from us for your content using the dependable and excellent service of Tubeviews.
-                    </p>
-                    </div>
-                    `
+                    "<div><p class='leading-relaxed text-black text-slate-600'>The <b>Buy YouTube views</b> service is one of the best services we provide for our customers. Here are some reasons why you might want to use this service:</p><ul><li>You will get more engagement quickly.</li><li>It is crucial to have a high view count to attract more organic viewers.</li><li>High view counts create a sense of trust and credibility.</li><li>Your videos will perform better in YouTube's algorithm.</li></ul></div>"
                 }
             />
             <div className='bg-white'>
@@ -398,14 +332,12 @@ function YouTubeViewsPage() {
                     </div>
                 </div>
             </div>
-            <FaqSection
-                heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
-                faqData={faqData}
-            />
+            <FaqSection faqData={faqData} />
             <ReviewsSection />
         </div>
-    )
+    );
 }
 
-export default YouTubeViewsPage
+export default YouTubeViewsPage;
+
+

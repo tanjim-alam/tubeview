@@ -1,3 +1,4 @@
+/* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react'
 import { IoSearch } from "react-icons/io5";
@@ -173,199 +174,167 @@ function YouTubeLikesPage() {
                     "<div><p class='leading-relaxed text-slate-600'> At Tubeviews, we know that creating a great YouTube channel takes work and time. Still, our service provides a shortcut to get the visibility you require without sacrificing the integrity of your channel.  The following explains why Tubeviews is your best option:  </p> <ul class='list-disc list-inside mt-3 flex flex-col gap-3 text-slate-600'> <li><b>Real Engagement:</b> We only show likes from actual users so that your engagement numbers seem natural and reasonable.</li><li><b>Affordable Packages:</b> Our selection of packages is meant to fit every budget, regardless of experience level or just starting point. </li><li><b>Safe and Secure:</b> Although YouTube has strong rules against false participation, Tubeviews lets you know that our approaches follow YouTube's policies, so your account will never be at risk. <br> Choosing to <b>buy YouTube Likes</b> from us guarantees that your material receives the credit it deserves and helps you to ensure the long-term expansion of your channel.</li></ul></div>"
                 }
             />
-            <div className='bg-white'>
-                <p className='bg-primary p-1'></p>
-                <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
+
+            <div className="bg-white">
+                <p className="bg-primary p-1"></p>
+                <div className="lg:w-[80%] w-[90%] m-auto lg:py-14 py-5">
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>The Method: Buy YouTube Likes using Tubeviews</h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
+                            The Method: Buy YouTube Likes using Tubeviews
+                        </h3>
+                        <p className="leading-relaxed text-slate-600 mt-3">
                             Buying likes from Tubeviews is an easy and quick procedure. Our platform is meant to be simple so that, in a few simple steps,
                             you can increase your engagement:
                         </p>
-                        <ol className='list-decimal list-inside text-slate-600 mt-3 flex flex-col gap-3'>
+                        <ol className="list-decimal list-inside text-slate-600 mt-3 flex flex-col gap-3">
                             <li>
-                                Select Your Package Look over our range of packages and choose the one best for your circumstances.
-                                Depending on the degree of involvement you want, we provide packages with a few hundred to many thousand likes.
+                                Select Your Package: Look over our range of packages and choose the one best for your circumstances. Depending on the degree of involvement you want, we provide packages with a few hundred to many thousand likes.
                             </li>
                             <li>
-                                Once you have chosen your package, just enter the YouTube video URL you wish to highlight.
+                                Enter the Video URL: Once you have chosen your package, just enter the YouTube video URL you wish to highlight.
                             </li>
                             <li>
-                                Tubeviews provides several payment choices to ensure the transaction goes as seamless as it could. Our system guarantees protection of your financial and personal data.
+                                Choose Payment Method: Tubeviews provides several payment choices to ensure the transaction goes as seamless as it could. Our system guarantees the protection of your financial and personal data.
                             </li>
                             <li>
-                                Watch Your Likes Grow: You will see your likes start rising within hours following your purchase. Our system provides likes gradually to guarantee an organic growth.
+                                Watch Your Likes Grow: You will see your likes start rising within hours following your purchase. Our system provides likes gradually to guarantee organic growth.
                             </li>
                         </ol>
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Why Buying Tubeviews and YouTube Likes</h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
+                            Why Buying Tubeviews and YouTube Likes
+                        </h3>
+                        <p className="leading-relaxed text-slate-600 mt-3">
                             Buying YouTube Likes from Tubeviews helps your material to have the competitive edge it requires. Here are only a few of the advantages you will get:
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
+                        <p className="leading-relaxed text-slate-600 mt-3">
                             <b>Enhanced Video Ranking:</b> More likes will help your video show at the top of YouTube's search results, so facilitating new viewers' access to your material.
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Greater Social Proof:</b> Viewers find videos featuring more likes to be more appealing. People are more likely to view and interact with a video having a high like count, so promoting your natural development.
+                        <p className="leading-relaxed text-slate-600 mt-2">
+                            <b>Greater Social Proof:</b> Viewers find videos featuring more likes to be more appealing. People are more likely to view and interact with a video having a high like count, promoting your natural development.
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
+                        <p className="leading-relaxed text-slate-600 mt-2">
                             <b>Faster Channel Growth:</b> Likes help your channel to be more engaged generally. Increasing your likes will result in more views, comments, and subscriptions, enabling faster growth than depending just on natural reach.
                         </p>
                     </div>
 
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Should One Buy YouTube Likes?</h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
+                            Should One Buy YouTube Likes?
+                        </h3>
+                        <p className="leading-relaxed text-slate-600 mt-3">
                             Among the most often asked questions we get at Tubeviews is whether buying YouTube Likes is safe. The quick response is: absolutely, provided done correctly.
                             Choosing a reliable provider like Tubeviews is essential since YouTube's policies are meant to stop spamming or false participation.
-                            We ensure that your engagement measurements remain within YouTube's policies by delivering actual likes from real users using ethical means. <br />
-                            You know your account is in good hands when you buy likes from Tubeviews. We take great care in delivering likes gradually so they show up in your video's
-                            natural engagement instead of an instantaneous surge that would cause concern.
+                            We ensure that your engagement measurements remain within YouTube's policies by delivering actual likes from real users using ethical means.
+                            You know your account is in good hands when you buy likes from Tubeviews. We take great care in delivering likes gradually so they show up in your video's natural engagement instead of an instantaneous surge that would cause concern.
                         </p>
-
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>How Many Likes one Should You Buy ?</h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            The size of your channel and your particular objectives will determine how many likes to buy. Purchasing a limited number of likes for smaller channels will
-                            enable you to acquire the first momentum required to start your expansion. To remain competitive in their niche, bigger channels could need more significant packages. <br />
-                            At Tubeviews, we have a large selection of packages so you may match your purchase to your need. We have a solution that will fit your budget whether your goal
-                            is to increase the general engagement of your channel or provide a single video some boost.
-                        </p>
 
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
+                            How Many Likes Should You Buy?
+                        </h3>
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            The size of your channel and your particular objectives will determine how many likes to buy.
+                            Purchasing a limited number of likes for smaller channels will enable you to acquire the first momentum required to start your expansion.
+                            To remain competitive in their niche, bigger channels might need more significant packages.
+                            At Tubeviews, we have a large selection of packages so you may match your purchase to your need.
+                            We have a solution that will fit your budget whether your goal is to increase the overall engagement of your channel or provide a single video some boost.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div className='bg-white'>
-                <p className='bg-primary p-1'></p>
-                <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
+
+            <div className="bg-white">
+                <p className="bg-primary p-1"></p>
+                <div className="lg:w-[80%] w-[90%] m-auto lg:py-14 py-5">
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
                             How Purchasing YouTube Likes Might Turn Your Channel Into Income Stream?
                         </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Making money from their channel is among the most often expressed objectives of YouTube creators. You must have 1,000 subscribers and 4,000 watch hours over
-                            a 12-month period to qualify for YouTube's Partner Program, which generates ad income. Although these benchmarks can seem overwhelming, purchasing likes will
-                            be quite important in enabling you to meet them. <br />
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            Making money from their channel is among the most often expressed objective's of YouTube, creators.
+                            You must have 1,000 subscribers and 4,000 watch hours over a 12-month period to qualify for YouTube's Partner Program, which generates ad income.
+                            Although these benchmarks can seem overwhelming, purchasing likes will be quite important in enabling you to meet them.
                             Purchasing YouTube Likes raises the visibility of your video, increasing its view count and eventually watch time.
-                            Your video is more likely to draw in new viewers the more interaction it gets, enabling you to reach that 1,000,000 mark more quickly.
+                            Your video is more likely to draw in new viewers the more interaction it gets, enabling you to reach that 1,000 mark more quickly.
                             Many Tubeviews clients have turned to our service as a stepping stone toward channel revenue.
                         </p>
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
+
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
                             The Ethical Viewpoint Regarding Purchasing YouTube Likes
                         </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            At Tubeviews, we think in open, moral marketing methods. Buying YouTube likes makes some creators question whether it is moral or cheating. But purchasing likes is only a kind of marketing,
-                            much as running an advertisement campaign or social media promotion of your video. The secret is that the likes originate from actual users, something Tubeviews guarantees. <br />
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            At Tubeviews, we believe in open, moral marketing methods.
+                            Buying YouTube likes makes some creators question whether it is moral or cheating.
+                            But purchasing likes is only a kind of marketing, much like running an advertisement campaign or social media promotion of your video.
+                            The secret is that the likes originate from actual users, something Tubeviews guarantees.
                             Purchasing YouTube Likes from us does not cause you to falsify your metrics using bots or bogus accounts.
                             Rather, you're getting interaction from actual people helping your material get the exposure it deserves without violating YouTube's policies or tarnishing your reputation.
                         </p>
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            How Tubeviews Guarantees Success Over Long Run?
+
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
+                            How Tubeviews Guarantees Success Over the Long Run?
                         </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Although buying YouTube likes initially boosts you, steady expansion on the platform calls for a multifarious strategy. Tubeviews lets you create a successful, long-term YouTube presence:
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            Although buying YouTube likes initially boosts you, steady expansion on the platform calls for a multifaceted strategy.
+                            Tubeviews lets you create a successful, long-term YouTube presence:
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            <b>Regular Engagement:</b> We gradually provide likes to guarantee consistent and natural appearance of your engagement.
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            <b>Regular Engagement:</b> We gradually provide likes to guarantee a consistent and natural appearance of your engagement.
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Expert Support:</b> Whether you're a seasoned producer seeking further development plans or are just starting and need our team constantly here to assist.
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            <b>Expert Support:</b> Whether you're a seasoned producer seeking further development plans or just starting, our team is constantly here to assist.
                         </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Additional Services:</b> Tubeviews provides more than simply likes. We can also assist you with other types of participation, including comments and subscribers,
-                            so enabling you to create a well-rounded channel drawing actual viewers.
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            <b>Additional Services:</b> Tubeviews provides more than just likes. We can also assist you with other types of participation, including comments and subscribers, enabling you to create a well-rounded channel drawing actual viewers.
                         </p>
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
+
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
                             Social Proof: The Authority
                         </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Social proof rules the digital scene of today. People are more likely to interact with material that others have validated already. Users are more likely to view a video and add their own
-                            likes when they see that it features a lot of likes, so boosting interaction. <br />
-                            Choosing to <b>Buy YouTube Likes</b> lets you leverage social proof. If you're just starting out or trying to enter a
-                            competitive niche where social validation is essential, this can especially help.
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            Social proof rules the digital scene of today.
+                            People are more likely to interact with material that others have validated already.
+                            Users are more likely to view a video and add their own likes when they see that it features a lot of likes.
+                            Thus, purchasing likes helps create social proof, encouraging additional organic engagement and establishing your authority in your niche.
                         </p>
                     </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            What Search for in a YouTube Likes Provider?
-                        </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Selecting a provider that provides premium, consistent engagement is absolutely essential when deciding whether to buy YouTube Likes. Tubeviews distinguishes from the others in this way:
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            <b>Real Engagement:</b> We guarantee that your engagement numbers appear real by offering likes from actual users rather than bots.
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Fast and Effective Service:</b> We take great satisfaction in delivering likes rapidly while keeping natural look.
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Customer Support:</b> Our staff is always ready to help with any questions or issues so that your Tubeviews experience runs from beginning to end is flawless
-                        </p>
-                    </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            What Search for in a YouTube Likes Provider?
-                        </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Selecting a provider that provides premium, consistent engagement is absolutely essential when deciding whether to buy YouTube Likes. Tubeviews distinguishes from the others in this way:
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            <b>Real Engagement:</b> We guarantee that your engagement numbers appear real by offering likes from actual users rather than bots.
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Fast and Effective Service:</b> We take great satisfaction in delivering likes rapidly while keeping natural look.
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-2'>
-                            <b>Customer Support:</b> Our staff is always ready to help with any questions or issues so that your Tubeviews experience runs from beginning to end is flawless
-                        </p>
-                    </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            Actual Success Stories via Tubeviews Clientele
-                        </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            From boosting engagement on particular videos to enabling channels to reach size sufficient to qualify for monetization, we have helped innumerable YouTube creators fulfill their dreams.
-                            After deciding to Buy YouTube Likes from Tubeviews, many of our clients have seen exponential increase.
-                            Their achievements speak to the potency of our offering.
-                        </p>
 
-                    </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            Monitoring Your Increase Following YouTube Likes Purchase
+                    <div className="mt-7">
+                        <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
+                            Choosing the Right Supplier?
                         </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            After you have likes, you should keep an eye on the development of your channel. View counts, watch time, and audience retention among other aspects of your videos' performance are revealed by YouTube Analytics.
-                            At Tubeviews, we advise you to track the influence of the likes you have bought and modify your approach using these instruments.
+                        <p className="leading-relaxed text-slate-600 mt-3">
+                            Selecting the correct supplier is essential to ensure your investment pays off.
+                            Look for the following characteristics when picking a supplier:
                         </p>
-                    </div>
-                    <div className='mt-7'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>
-                            The Future of YouTube and the Reason Engagement Is Essential
-                        </h3>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Engagement numbers will remain among the most important determinants of success on YouTube as it develops. Standing out from the crowd calls
-                            for a smart, multifarious approach as more content creators enter the field. Purchasing YouTube Likes from Tubeviews gives your channel
-                            the edge it requires to survive in a crowded market. Allow us to enable the full potential of your channel and bring about long-lasting
-                            success on YouTube.
-                        </p>
-                        <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Success on YouTube calls for more than just first-rate content. The visibility and credibility of your video depend much on engagement
-                            measures, especially likes. Choosing to Buy YouTube Likes from Tubeviews is investing in the future of your channel. Our service is
-                            dependable, safe, and meant to help you keep authenticity while rapidly growing. Combining our service with natural development plans
-                            will help you to be on route to YouTube stardom. Let Tubeviews to be your reliable friend in reaching YouTube success right now!
-                        </p>
+                        <ol className="list-decimal list-inside text-slate-600 mt-3 flex flex-col gap-3">
+                            <li>
+                                <b>Real Likes:</b> Ensure the supplier delivers actual likes from active users rather than bots. This guarantees authenticity.
+                            </li>
+                            <li>
+                                <b>Positive Reviews:</b> Look for client testimonials and evaluations. A dependable provider usually has good feedback.
+                            </li>
+                            <li>
+                                <b>Transparent Pricing:</b> The provider's pricing structure should be clear and free of concealed fees.
+                            </li>
+                            <li>
+                                <b>Customer Support:</b> A trustworthy supplier should provide timely customer service to address any concerns or inquiries.
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
+
+
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
                 subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}

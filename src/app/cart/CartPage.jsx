@@ -61,7 +61,7 @@ function CartPage() {
                                 <div key={i} className='block md:hidden lg:hidden relative'>
                                     <div className='border p-3 flex items-center gap-2'>
                                         <div>
-                                            <Image width={40} height={40} src={"https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"} />
+                                            <Image width={40} height={40} src={"https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"} alt='"Image' />
                                         </div>
                                         <div className='w-full'>
                                             <p className='font-medium text-slate-600'>{data.serviceName}</p>

@@ -55,6 +55,7 @@ function HeroSection({ title, subTitle, imgUrl }) {
                             width={600}
                             height={100}
                             className=' rounded-md'
+                            alt='Image'
                         />
                     </div>
                 </div>
