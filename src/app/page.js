@@ -47,9 +47,10 @@ export default function Home() {
       answer: "No, you cannot use this service for private video. If the video is hidden after making the purchase, the order will be cancelled. You must make the video public until the order is complete."
     },
   ]
+  const words = ['Views', 'Subscribers', 'Likes', 'Comments'];
   return (
     <main className=" bg-white">
-      <HeroSection title={"Grow your Bussiness <br/> and Profile with us"} subTitle={"<h3 class=text-primary>Buy YouTube <span class=text-secondary>Views</span></h3>"} imgUrl={"/homeBanner.png"} />
+      <HeroSection title={"Grow your Bussiness <br/> and Profile with us"} subTitle={"<h3 class=text-primary>Buy YouTube</h3>"} words={words} imgUrl={"/homeBanner.png"} />
       <ImportantSection />
       <AllServicesSection />
       <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />

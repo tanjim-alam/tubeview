@@ -2,9 +2,11 @@
 import React, { useEffect, useState } from 'react';
 import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { useCart } from '../context/CartContext';
-import countries from "../constant/general/countries.json"
+import countries from "../constant/general/countries.json";
+import { useRouter } from 'next/navigation'
 function Page() {
-    const { cartItems, totalPrice } = useCart();
+    const router = useRouter()
+    const { cartItems, totalPrice, clearCart } = useCart();
     const [isReadyToPayment, setIsReadyToPayment] = useState(false);
     const [billingDetails, setBillingDetails] = useState({
         name: "",
@@ -49,6 +51,9 @@ function Page() {
             },
             body: JSON.stringify({ orderDetails }),
         });
+        localStorage.setItem("Order", JSON.stringify(orderDetails));
+        clearCart();
+        router.push("/thankyou")
         console.log(res);
         // const result = await res.json();
         // setLoading(false);
@@ -151,6 +156,7 @@ function Page() {
                                                     const details = await actions.order.capture();
                                                     if (details.status === "COMPLETED") {
                                                         sendOrderToAdmin();
+
                                                     }
                                                 }}
                                                 onError={(err) => {

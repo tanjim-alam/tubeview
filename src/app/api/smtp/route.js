@@ -113,7 +113,7 @@ export async function POST(req) {
         html: `
             <div style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: black; box-sizing: border-box; width: 100%;">
                 <div style="max-width: 600px; margin: 20px auto; background-color: #ffffff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);">
-                    <div style="background-color: #058e3d; display: flex; justify-content: space-between; align-items: center; padding: 10px 40% 10px;">
+                    <div style="background-color: #058e3d; display: flex; justify-content: space-between; align-items: center; padding: 10px 35% 10px;">
                         <div style="display: flex; justify-content: center; align-items: center;">
                             <span style="font-size: 30px; font-weight: bold; padding: 0px 4px;"><span style="background-color: white; color: #058e3d;">Tube</span><span style="background-color: #d33; color: white; padding: 0px 4px;">Views</span></span>
                         </div>
@@ -125,7 +125,7 @@ export async function POST(req) {
                         </div>
                         <div style="display: flex; align-items: center; justify-content: center;">
                             <p style="color: white; background-color: #d33; width: fit-content; padding: 10px 30px; border-radius: 40px; font-size: 20px; text-align:center;">
-                                Order Number: <strong>#12345</strong>
+                                Order Number: <strong>#${orderDetails?.id}</strong>
                             </p>
                         </div>
                         <div style="border-bottom: 1px solid #dddddd; margin: 20px 0;"></div>

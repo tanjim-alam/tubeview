@@ -3,11 +3,13 @@ import React from 'react';
 import Image from 'next/image';
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
+import WordChanger from './WordChanger';
 
-function HeroSection({ title, subTitle, imgUrl }) {
+function HeroSection({ title, subTitle, words, imgUrl }) {
     const scrollToServices = () => {
         document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
     };
+    // const words = ['Views', 'Subscribers', 'Likes', 'Comments'];
     return (
         <div className='bg-white'>
             <div className='lg:w-[80%] w-[90%] pt-5 sm:pt-5 lg:h-[40rem] m-auto flex flex-col justify-center gap-16 items-center'>
@@ -16,7 +18,14 @@ function HeroSection({ title, subTitle, imgUrl }) {
                         {/* <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-start lg:text-start leading-tight hidden lg:block'>{title.substring(0, 24)} <br /> {title.substring(24)}</h1> */}
                         <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-start lg:text-start text-black leading-tight hidden lg:block' dangerouslySetInnerHTML={{ __html: title }}></h1>
                         <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-center lg:text-start text-black leading-tight block lg:hidden'>Boost Your Social Media Presence In Minutes!</h1>
-                        <div className='lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2 text-black' dangerouslySetInnerHTML={{ __html: subTitle }}></div>
+                        <div className='flex justify-center items-center gap-2'>
+                            <div className='lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2 text-black' dangerouslySetInnerHTML={{ __html: subTitle }}></div>
+                            {words ? <h3 className='text-secondary lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2'><WordChanger words={words} /></h3> : null}
+                        </div>
+                        {/* <div className='lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2 text-black'>
+                            <h3>Buy YouTube</h3>
+                            <WordChanger words={words} />
+                        </div> */}
                         <div>
                             <div className='flex flex-col lg:flex-row items-center gap-1 mt-5'>
                                 <div className='flex items-center'>
