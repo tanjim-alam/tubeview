@@ -18,7 +18,7 @@ function HeroSection({ title, subTitle, words, imgUrl }) {
                         {/* <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-start lg:text-start leading-tight hidden lg:block'>{title.substring(0, 24)} <br /> {title.substring(24)}</h1> */}
                         <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-start lg:text-start text-black leading-tight hidden lg:block' dangerouslySetInnerHTML={{ __html: title }}></h1>
                         <h1 className='text-3xl lg:text-5xl font-bold text-center sm:text-center lg:text-start text-black leading-tight block lg:hidden'>Boost Your Social Media Presence In Minutes!</h1>
-                        <div className='flex justify-center items-center gap-2'>
+                        <div className='flex justify-start items-center gap-2'>
                             <div className='lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2 text-black' dangerouslySetInnerHTML={{ __html: subTitle }}></div>
                             {words ? <h3 className='text-secondary lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2'><WordChanger words={words} /></h3> : null}
                         </div>
