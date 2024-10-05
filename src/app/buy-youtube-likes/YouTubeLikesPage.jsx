@@ -130,7 +130,7 @@ function YouTubeLikesPage() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy YouTube Likes with <br/> Instant Delivery"} subTitle={"<h3> Buy YouTube <span class=text-secondary>Likes</span></h3>"} imgUrl={"/buy-youtube-likes.webp"} />
+            <HeroSection title={"Buy YouTube Likes with <br/> Instant Delivery"} subTitle={"<h3> Buy YouTube <span class=text-secondary>Likes</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -143,25 +143,61 @@ function YouTubeLikesPage() {
             </div>
             {/* package section end */}
             {/* <PackageSection /> */}
-            <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube Likes from Tubeviews can help you boost your video's visibility and reach."} />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube Likes from Tubeviews can help you boost your video's visibility and reach."} />
+            <WhyYouChooseSection
+                heading={"✊ Why Choose Tubeviews for YouTube Likes?"}
+                subHeading={"Buying YouTube Likes from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+                title1={"Security and Privacy First"}
+                description1={
+                    `
+                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
+                    producing excellent material. Let us address the opinions while you focus on what is important—your
+                    audience.
+                    `
+                }
+                title2={"Proven YouTube Growth"}
+                description2={
+                    `
+                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
+                    material receives the exposure it deserves.
+                    `
+                }
+                title3={"Ad-Driven, Organic Sourcing"}
+                description3={
+                    `
+                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
+                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
+                    not just your views but also channel activity.
+                    `
+                }
+                title4={"24/7 Exclusive Support"}
+                description4={
+                    `
+                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    experience is seamless and free from concerns.
+                    `
+                }
+            />
+            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With Tubeviews"} subHeading={"Buying Youtube Likes from Tubeviews can help you boost your video's visibility and reach."} />
             <ContentSection1
-                heading={"🎉"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
+                heading={"🎉 Buy YouTube Likes from Tubeviews"}
+                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     "<div> <p class='leading-relaxed text-slate-600'>YouTube has evolved into a potent stage for creators, companies, and influencers in the always changing realm of digital marketing to present their material to a worldwide audience. Although there are countless chances for development given over 2 billion active users every month, success on YouTube calls for more than just good content. Engagement especially via likes is one of the most important determinant of visibility and credibility on the platform. Here at Tubeviews, we provide a dependable and secure means of purchasing YouTube Likes so that your material gets the credit it deserves. The value of YouTube likes, how they might greatly increase your channel, and why Tubeviews is your best friend in reaching YouTube success will all be covered in this guide. </p></div>"
                 }
             />
             <ContentSection2
                 heading={"🎉 Why Do Likes on YouTube Help Your Channel to Be Successful?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
+                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     "<div> <p class='leading-relaxed text-slate-600'>Likes on YouTube provide your material with some validation. Viewers that enjoy a video indicate to YouTube's algorithm that the material is worthwhile and interesting. This raises the likelihood of your video showing up in recommended video sections and search results, where most of the traffic on the platform comes from. <br> Getting those initial likes, meanwhile, can be difficult especially in a saturated market like YouTube. Tubeviews provides a simple answer for this: you can Buy YouTube Likes to increase engagement of your material so it may reach a larger audience more quickly. Our service guarantees that your likes originate from actual, real stories, so enabling your videos to naturally ascend the ranks.</p> </div>"
                 }
             />
             <ContentSection1
                 heading={"🎉 How Algorithm of YouTube Uses Likes"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
+                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     "<div><p class='leading-relaxed text-slate-600'>The YouTube algorithm is meant to support material that keeps users active on the network. Though opinions are a good indicator, participation like in terms of likes, comments, and shares has great influence on how well your video ranks. <br><br>Buy YouTube Likes is like giving your video a signal boost, alerting the algorithm to value of your material for promotion. Real likes from actual users are what we offer at Tubeviews to help your video show in top searches, recommendations, and trending lists. Early involvement can be the spark that drives your channel toward even greater success. </p></div>"
                 }
@@ -169,7 +205,7 @@ function YouTubeLikesPage() {
 
             <ContentSection2
                 heading={"🎉 Why Your Best Choice to Purchase YouTube Likes is Tubeviews"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
+                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     "<div><p class='leading-relaxed text-slate-600'> At Tubeviews, we know that creating a great YouTube channel takes work and time. Still, our service provides a shortcut to get the visibility you require without sacrificing the integrity of your channel.  The following explains why Tubeviews is your best option:  </p> <ul class='list-disc list-inside mt-3 flex flex-col gap-3 text-slate-600'> <li><b>Real Engagement:</b> We only show likes from actual users so that your engagement numbers seem natural and reasonable.</li><li><b>Affordable Packages:</b> Our selection of packages is meant to fit every budget, regardless of experience level or just starting point. </li><li><b>Safe and Secure:</b> Although YouTube has strong rules against false participation, Tubeviews lets you know that our approaches follow YouTube's policies, so your account will never be at risk. <br> Choosing to <b>buy YouTube Likes</b> from us guarantees that your material receives the credit it deserves and helps you to ensure the long-term expansion of your channel.</li></ul></div>"
                 }

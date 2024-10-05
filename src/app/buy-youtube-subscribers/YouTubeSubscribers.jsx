@@ -145,7 +145,7 @@ function YouTubeSubscribers() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy YouTube Subscribers with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Subscribers</span></h3>"} imgUrl={"https://media.licdn.com/dms/image/v2/D4D12AQFu0FFBb6l2Cw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1704632367284?e=1729728000&v=beta&t=B_bNEvnwvUmA5PvLv93K6rVvD0PXYJ-fiLU2m6bCsv4"} />
+            <HeroSection title={"Buy YouTube Subscribers with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Subscribers</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -157,9 +157,44 @@ function YouTubeSubscribers() {
                 </div>
             </div>
             {/* package section end */}
-            {/* <PackageSection /> */}
-            <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube Subscribers from Tubeviews can help you boost your channel visibility and reach."} />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Subscribers Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
+            <WhyYouChooseSection
+                heading={"✊ Why Choose Tubeviews for YouTube Views?"}
+                subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+                title1={"Security and Privacy First"}
+                description1={
+                    `
+                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
+                    producing excellent material. Let us address the opinions while you focus on what is important—your
+                    audience.
+                    `
+                }
+                title2={"Proven YouTube Growth"}
+                description2={
+                    `
+                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
+                    material receives the exposure it deserves.
+                    `
+                }
+                title3={"Ad-Driven, Organic Sourcing"}
+                description3={
+                    `
+                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
+                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
+                    not just your views but also channel activity.
+                    `
+                }
+                title4={"24/7 Exclusive Support"}
+                description4={
+                    `
+                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    experience is seamless and free from concerns.
+                    `
+                }
+            />
+            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Subscribers Features With Tubeviews"} subHeading={"Tubeviews — quick, reliable, and high-quality Subscribers for your channel will rapidly increase your YouTube visibility!"} />
             <ContentSection1
                 heading={"🎉 Many Choices to Buy YouTube Subscribers"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Subscribers."}
@@ -170,15 +205,15 @@ function YouTubeSubscribers() {
             />
             <ContentSection2
                 heading={"🚀 Describe YouTube subscribers."}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
+                subHeading={"Buying Youtube views from TubeViews can help you boost your video's visibility and reach."}
                 imgUrl={"/buy-active-youtube-subscribers.png"}
                 contents={
-                    "<div><p class='leading-relaxed text-slate-600'>On YouTube, every video is submitted under user profiles others may subscribe to. Upon subscription, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.</p><br><p class=leading-relaxed text-black text-slate-600>Regarding brand promotion and visibility, few things could be better for you than your current subscription count. This makes it prudent to strive to compile as many as feasible.  SocialPlug can simply too assist you with this! </p><div class=mt-4><h3 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3><p class='leading-relaxed text-slate-600 mt-3'>One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned. Our own records show that only 1.7% of our accounts disappear annually.</p><p class=leading-relaxed text-slate-600 mt-3>This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.</p></div></div>"
+                    "<div><p class='leading-relaxed text-slate-600'>On YouTube, every video is submitted under user profiles others may subscribe to. Upon subscription, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.</p><br><p class=leading-relaxed text-black text-slate-600>Regarding brand promotion and visibility, few things could be better for you than your current subscription count. This makes it prudent to strive to compile as many as feasible.  SocialPlug can simply too assist you with this! </p><div class=mt-4><h3 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3><p class='leading-relaxed text-slate-600 mt-3'>One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned. Our own records show that only 1.7% of our accounts disappear annually.</p><p class=leading-relaxed text-slate-600 mt-3>This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.</p></div></div>"
                 }
             />
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>🎉 Advantages of buying real active YouTube subscribers</h2>
+                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-slate-600'>🎉 Advantages of buying real active YouTube subscribers</h2>
                     <p className='text-center text-black'>
                         Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views.
                     </p>
@@ -186,7 +221,7 @@ function YouTubeSubscribers() {
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                     <div>
                         <div className='mt-4'>
-                            <h4 className='text-xl lg:text-[1.5rem] font-semibold text-black'>Creating enduring social proof.</h4>
+                            <h4 className='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Creating enduring social proof.</h4>
                             <p className='leading-relaxed text-slate-600 mt-3'>
                                 One often used tactic to establish credibility is Buying subscribers. A channel is more reliable and popular the more members it has.
                                 New viewers so are more likely to subscribe to your channel if they see that it has a lot of members. Consequently, this pattern continues.
@@ -194,7 +229,7 @@ function YouTubeSubscribers() {
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Minimising early difficulties.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Minimising early difficulties.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 Starting a video channel is an arduy. Similarly slow is the process of organic subscriber growth. You have to have consistency and drive if you want members.
                                 This requires uploading excellent content. Should you so wish, you could even purchase subscriptions? Buy Subscribers for a YouTube channel can help you rapidly
@@ -202,7 +237,7 @@ function YouTubeSubscribers() {
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Increasing awareness.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Increasing awareness.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 The algorithm of the website shows channels with more subscribers to perform better. Search engines also rate films from various sources using YouTube.
                                 The platform claims that many of its members declare they love and find interesting the content of a channel. Consequently,
@@ -210,7 +245,7 @@ function YouTubeSubscribers() {
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Attracting organic Subscribers.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Attracting organic Subscribers.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 More chances to get natural subscribers will reveal themselves after you purchase actual active YouTube subscribers from the suitable service.
                                 Still, this only happens if the channel attracts additional members. This helps one to build openness and dependability. More organic viewers
@@ -222,14 +257,14 @@ function YouTubeSubscribers() {
                         <div className='text-black'>
 
                             <div className="mt-4">
-                                <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Opportunity to earn.</h4>
+                                <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Opportunity to earn.</h4>
                                 <p class='leading-relaxed text-slate-600 mt-3'>
                                     The site helps producers to make money from their videos. Your site may be made profitable in numerous ways, including memberships, advertisements, etc.
                                     To be qualified for this service, you need around 1,000 members. Buying subscriptions will help you to quickly reach this target in less time.
                                 </p>
                             </div>
                             <div className="mt-4">
-                                <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Greater social power.</h4>
+                                <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Greater social power.</h4>
                                 <p class='leading-relaxed text-slate-600 mt-3'>
                                     High subscription counts may boost the social impact of a brand, which might open doors for sponsorships and joint projects including other musicians.
                                     For the products of advertising businesses, marketers often search for influencers with a significant and actively involved following.
@@ -246,35 +281,35 @@ function YouTubeSubscribers() {
                     </div>
                     <div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Be ahead of the competition</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Be ahead of the competition</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 More users sharing videos to the site makes your stand out more crucial than ever. Buy subscribers to get a competitive advantage.
                                 The idea is to create an initial force differentiating a channel from its competitors. More subscriptions mean artists might collaborate with more sponsors and reach a larger audience.
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Saved time/energy.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Saved time/energy.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 Growing a large subscriber base requires a lot of time and work. Essential are regular creation, promotion, and interaction with the audience. Creators could acquire subscriptions to save time and effort.
                                 This releases them to focus on creating outstanding content. As such, they may engage with the current subscribers of theirs.
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>More confidence.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>More confidence.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 One might find entertainment and motivation in adding even more members. Buying organic YouTube subscribers also gives you a rapid confidence boost. Early in a channel's lifetime use of this approach yields best results.
                                 It also provides a correct assessment of development. It also provides the motivation artists need to keep following their path of content production.
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Branding tactic.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Branding tactic.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 In the social media scene, attentiveness is really crucial. A channel appears more legitimate and reputable the more people it attracts. Strategic branding and subscriber buying help companies to get their intended image.
                                 It projects success right from the beginning. It also helps producers who want to attract more natural viewers. This kind of watcher is more likely to engage with trending content.
                             </p>
                         </div>
                         <div className="mt-4">
-                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-black'>Buy cheap YouTube subscribers.</h4>
+                            <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Buy cheap YouTube subscribers.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
                                 Buy our cheap YouTube subscriber’s service at Tubeviews provides a reasonably priced approach to increase the credibility and exposure of your channel.
                                 Attract actual users and create a solid basis for the expansion and success of your channel by progressively raising your subscriber base within reasonable means.
@@ -288,7 +323,7 @@ function YouTubeSubscribers() {
                 <p className='bg-primary p-1'></p>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>Buy Real YouTube Subscribers only from Tubeviews</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buy Real YouTube Subscribers only from Tubeviews</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Selecting our buy real YouTube subscriber’s service from Tubeviews means you are giving actual interaction and credibility for your channel first priority.
                             Real, engaged individuals that will support significant interactions and a devoted audience base make up our subscribers.
@@ -297,7 +332,7 @@ function YouTubeSubscribers() {
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>Buying Active YouTube Viewers from Tubeviews</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buying Active YouTube Viewers from Tubeviews</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Tubeviews provides more than just statistics with our buy active YouTube subscriber’s service; we give your channel life. These members participate and respond,
                             therefore enhancing your content and interactions rather than only acting as passive fans.
@@ -309,7 +344,7 @@ function YouTubeSubscribers() {
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>The Best Ways to Get YouTube Subscribers</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>The Best Ways to Get YouTube Subscribers</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Do you question, <b>"Where can I buy YouTube subscribers?"</b> and require more members to becoming well-known on a video platform?
                         </p>
@@ -322,7 +357,7 @@ function YouTubeSubscribers() {
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h4 className='text-xl lg:text-[1rem] font-semibold text-black'>Alright, now let us explore how it works:</h4>
+                        <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>Alright, now let us explore how it works:</h4>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             <b>Step1:</b> Visit our website first and choose YouTube marketing.                        </p>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
@@ -342,7 +377,7 @@ function YouTubeSubscribers() {
                 <p className='bg-primary p-1'></p>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>Is It Safe to Buy YouTube Subscribers?</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Is It Safe to Buy YouTube Subscribers?</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Many well-known writers on the platform have discovered that success is mostly dependent on buying subscribers. First of all,
                             it is the quickest and easiest way to raise the engagement and visibility of your channel in the algorithm of the website.
@@ -358,7 +393,7 @@ function YouTubeSubscribers() {
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>Improving the Visibility of Your Channel</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Improving the Visibility of Your Channel</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             More subscribers help you to show up in YouTube's algorithm. This more exposure could cause:
                         </p>
@@ -368,14 +403,14 @@ function YouTubeSubscribers() {
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-black'>How To Effectively Promote Your Content?</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>How To Effectively Promote Your Content?</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Once you have more subscribers, you must keep that momentum by properly advertising your content. Just the beginning is a bigger subscriber base;
                             constantly interacting with your audience will assist to guarantee they continue to see, share, and engage with your videos. Here are a few ways you may improve your marketing initiatives:
                         </p>
                         <div className='flex flex-col gap-3 mt-4'>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-black'>1. Use Social Media channels.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>1. Use Social Media channels.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Share your YouTube videos on social media including Instagram, Twitter, Facebook, and TikHub. Make visually striking tales and articles that
                                     play on your most recent content to entice fans to go on to your channel. Interacting with fans on these sites generates traffic
@@ -383,28 +418,28 @@ function YouTubeSubscribers() {
                                 </p>
                             </div>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-black'>2. Work with Other Contributors.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>2. Work with Other Contributors.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Working with other YouTubers might expose your content to another audience. Cooperation may manifest itself as guest appearances, team tasks, or even shout-outs.
                                     This not only varies your content but also makes use of your collaborator's subscription base, therefore benefiting both of you.
                                 </p>
                             </div>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-black'>3. Streamline Thumbnails and Video Titles.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>3. Streamline Thumbnails and Video Titles.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Verify that the names of your videos appeal to the content. Your click-through rates might be much raised by a strong headline. Similar work should be spent creating
                                     interesting thumbnails that stick out in the packed YouTube stream. A good thumbnail will grab the interest of potential viewers and encourage them to click on your movie.
                                 </p>
                             </div>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-black'>4. Interact with your audience.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>4. Interact with your audience.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Responding to comments on your videos helps viewers to feel part of a community and inspire them to come back.
                                     Create surveys, ask questions, or provide updates using community tabs to let your audience participate in your content trip and feel important.
                                 </p>
                             </div>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-black font-roboto' >5. Apply SEO Strategies.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600 font-roboto' >5. Apply SEO Strategies.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Including relevant keywords into your video tags and descriptions can help This will raise your profile in search results and raise your chances of attracting visitors curious in your work.
                                     You could also want to create playlists to arrange your videos so that members may binge-watch your stuff more easily.

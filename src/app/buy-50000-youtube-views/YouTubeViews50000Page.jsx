@@ -296,9 +296,10 @@ function YouTubeViews50000Page() {
                         <div className='mt-4 flex flex-col '>
                             <select name="" id=""
                                 onChange={(e) => handleOnChange(e.target.value)}
-                                className='border outline-none p-3 shadow-[1px_1px_4px_rgba(0,0,0,0.20)]'>
+                                className='border outline-none p-3 shadow-[1px_1px_4px_rgba(0,0,0,0.20)] text-black'>
+                                <option className='p-5 text-black'>Select Package</option>
                                 {
-                                    currTypePackages?.packages?.map((item, i) => <option key={i} value={item.id} className='p-5'>{item.quantity}</option>)
+                                    currTypePackages?.packages?.map((item, i) => <option key={i} value={item.id} className='p-5 text-black'>{item.quantity}</option>)
                                 }
                             </select>
                         </div>
@@ -353,34 +354,6 @@ function YouTubeViews50000Page() {
                     </div>
                 </div>
             </div>
-            <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
-            <ContentSection1
-                heading={"🎉 Uplift Your YouTube Strategy with Famoid’s Expert View Solutions!"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection2
-                heading={"🚀 Propel Your YouTube Content to New Horizons with Tubeviews!"}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
-                contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection1
-                heading={"🎉 Uplift Your YouTube Strategy with Famoid’s Expert View Solutions!"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection2
-                heading={"🚀 Propel Your YouTube Content to New Horizons with Tubeviews!"}
-                subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
-                contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <FaqSection
-                heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
-                faqData={faqData}
-            />
-            <ReviewsSection />
         </div>
     )
 }

@@ -104,46 +104,46 @@ function TikTokFollowersPage() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Followers</span></h3>"} imgUrl={"/fbBanner.png"} />
+            <HeroSection title={"Buy TikTok Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Followers</span></h3>"} imgUrl={"/hero-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold'>Buy Youtube Views to Boost Engagements!</h3>
-                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium'>Get Real Youtube Views and Boost Your Video Impressions.</p>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real TikTok Followers from Active User</h3>
+                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop TikTok Followers for life-time</p>
                     </div>
                     <ServiceCard packageData={tiktokFollowersData} />
                 </div>
             </div>
             {/* package section end */}
-            <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
-            <ContentSection1
+            {/* <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} /> */}
+            {/* <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} /> */}
+            {/* <ContentSection1
                 heading={"🎉 Uplift Your YouTube Strategy with Famoid’s Expert View Solutions!"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
                 contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection2
+            /> */}
+            {/* <ContentSection2
                 heading={"🚀 Propel Your YouTube Content to New Horizons with Tubeviews!"}
                 subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
                 contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection1
+            /> */}
+            {/* <ContentSection1
                 heading={"🎉 Uplift Your YouTube Strategy with Famoid’s Expert View Solutions!"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
                 contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <ContentSection2
+            /> */}
+            {/* <ContentSection2
                 heading={"🚀 Propel Your YouTube Content to New Horizons with Tubeviews!"}
                 subHeading={"Buying Youtube views from Famoid can help you boost your video's visibility and reach."}
                 contents={"<p class=leading-relaxed text-slate-600> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. <br /><br /> On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. On Viplikes you can acquire a YT bundle starting from $29,99 – it will give you a possibility to get 100 YT subs, 2k views and 10 comments for your clips delivered in one go. This is an extremely beneficial offer, plus in some situations you can get a special discount from Viplikes’ managers. If you’re interested, you should contact them in chat on our website. </p>"}
-            />
-            <FaqSection
+            /> */}
+            {/* <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
                 subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
                 faqData={faqData}
-            />
-            <ReviewsSection reviewsData={tiktokFollowersReviews} />
+            /> */}
+            {/* <ReviewsSection reviewsData={tiktokFollowersReviews} /> */}
         </div>
     )
 }

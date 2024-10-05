@@ -3,13 +3,6 @@ import HeroSection from "./components/HeroSection";
 import ImportantSection from "./components/ImportantSection";
 import AllServicesSection from "./components/AllServicesSection";
 import WhyYouChooseSection from "./components/WhyYouChooseSection";
-import FeaturesSection from "./components/FeaturesSection";
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
-import ContentSection1 from "./components/ContentSection1";
-import ContentSection2 from "./components/ContentSection2";
 import FaqSection from "./components/FaqSection";
 import ReviewsSection from "./components/ReviewsSection";
 import youtubeReviews from "./reviewData/youtubeReviews.json"
@@ -53,7 +46,43 @@ export default function Home() {
       <HeroSection title={"Grow your Bussiness <br/> and Profile with us"} subTitle={"<h3 class=text-primary>Buy YouTube</h3>"} words={words} imgUrl={"/homeBanner.png"} />
       <ImportantSection />
       <AllServicesSection />
-      <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} />
+      <WhyYouChooseSection
+        heading={"✊ Why Choose Tubeviews for YouTube Views?"}
+        subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+        title1={"Security and Privacy First"}
+        description1={
+          `
+                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
+                    producing excellent material. Let us address the opinions while you focus on what is important—your
+                    audience.
+                    `
+        }
+        title2={"Proven YouTube Growth"}
+        description2={
+          `
+                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
+                    material receives the exposure it deserves.
+                    `
+        }
+        title3={"Ad-Driven, Organic Sourcing"}
+        description3={
+          `
+                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
+                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
+                    not just your views but also channel activity.
+                    `
+        }
+        title4={"24/7 Exclusive Support"}
+        description4={
+          `
+                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    experience is seamless and free from concerns.
+                    `
+        }
+      />
       <div className='bg-white'>
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex flex-col lg:flex-row items-center'>
@@ -75,17 +104,6 @@ export default function Home() {
               When people notice an up graph of your channel, they become more inclined to join it. With the views increment it also in turn improves your performance of the company..
               Your channels will almost certainly develop, and you would begin to receive more likes as well as shares once you realize it.
             </p>
-            {/* <p className=' leading-relaxed text-slate-600 mt-3'>
-              <b>When It Comes to Increasing Your Social Credibility:</b> The great news is that purchasing genuine YouTube views can significantly boost your interpersonal credibility.
-              It renders your movie or channel extra reputable and trustworthy. As a consequence, the real Subscriber will start entering your domain.
-              If you desire real YouTube Subscriber first, you might want to explore purchasing them from a reliable service.
-            </p>
-            <p className=' leading-relaxed text-slate-600 mt-3'>
-              <b>When you need to get the most bang for your buck with your advertising:</b> If you think spending on Instagram and Facebook advertisements to advertise
-              your product or business is a good idea, you must think of YouTube precisely the similar way. Spend money advertising your YouTube clips
-              and other sorts of material. It is one of the important aspects for your business which many people just ignore.
-              But it in turn boosts the presence of your business.
-            </p> */}
           </div>
           <div className="lg:w-[40%] w-[100%] flex justify-center items-center">
             <Image width={400} height={300} alt="Tubeviews" src={"/tubeviews-about.webp"} />

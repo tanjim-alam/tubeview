@@ -27,11 +27,9 @@ function Page() {
             return;
         }
         setIsReadyToPayment(true);
-        // console.log(billingDetails)
     }
 
     async function sendOrderToAdmin() {
-        // Placeholder for actual API call to send order details to the admin
         console.log("Order details:", billingDetails, "Cart items:", cartItems);
         let orderId = Math.floor((Math.random() * 10000) + 1111);
         const now = new Date();
@@ -54,15 +52,6 @@ function Page() {
         localStorage.setItem("Order", JSON.stringify(orderDetails));
         clearCart();
         router.push("/thankyou")
-        console.log(res);
-        // const result = await res.json();
-        // setLoading(false);
-
-        // if (res.ok) {
-        //     setSuccess(true);
-        // } else {
-        //     setError(result.error);
-        // }
     }
 
     return (

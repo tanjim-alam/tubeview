@@ -37,7 +37,7 @@ export async function POST(req) {
 
     // Setup email data with inline styles
     let adminMailOptions = {
-        from: '"Your Name" <your-email@example.com>', // sender address
+        from: '"TubeViews" tubeviewsmedia123@gmail.com', // sender address
         to: 'tanjim11alam@gmail.com', // list of receivers
         subject: 'New Order Received', // Subject line
         html: `
@@ -107,7 +107,7 @@ export async function POST(req) {
         `)
 
     let userMailOptions = {
-        from: '"Your Name" <your-email@example.com>', // sender address
+        from: '"TubeViews" tubeviewsmedia123@gmail.com', // sender address
         to: orderDetails.billingDetails.email, // list of receivers
         subject: 'Order Successfully', // Subject line
         html: `

@@ -24,50 +24,58 @@ function YouTubeViewsPage() {
     const featuresData = [
         {
             id: 1,
-            title: "What is the Difference between Regular Subscribers and Real Subscribers?",
-            description: "Regular subscribers are real-looking virtual accounts. Real subscribers are real, active accounts with real posts and followers.",
+            title: "Guarantee",
+            description: "We promise to give you a refund if we can&#39;t deliver your order within the three-day minimum delivery time frame shown on the service page.",
             icon: <MdLightMode />
         },
         {
             id: 2,
-            title: "Why should you buy YouTube subscribers?",
-            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a high number of subscribers to attract more visitors to your channel.",
+            title: "Why should one buy YouTube views?",
+            description: `
+            Your video is more welcoming for visitors to click and see if its view count is high. That is the decision-
+making process used by YouTube viewers on video consumption. Purchasing views can help you to raise
+your chances of obtaining more natural vistas.
+            `,
             icon: <IoSearch />
         },
         {
             id: 3,
-            title: "What are YouTube Subscribers",
-            description: "If you can get a person's interest on YouTube, they may subscribe to your channel. After that, they will start seeing your content on their homepage and get notified often.",
+            title: "What is view on YouTube?",
+            description:
+                `
+            Though nobody knows exactly, it is agreed that viewing your video for thirty seconds counts as a view
+and adds to watch hours. Having several points of view calms the algorithm.
+            `,
             icon: <IoMdWatch />
         },
         {
             id: 5,
-            title: "NO Risk of Decrease",
-            description: "The services that you buy will be permanent, and there won't be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.",
+            title: "No Decline Risk",
+            description: "Your purchased services will be everlasting, hence there won&#39;t be any drop. Otherwise, we promise to replenish your losses six months after your purchase..",
             icon: <BsGraphDownArrow />
         },
         {
             id: 6,
-            title: "24/7 Live Support",
-            description: "We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.",
+            title: "Live support 24/7",
+            description: "We provide constant live customer help. Using our incorporated chat system, WhatsApp, and email address will let you get in touch at any moment. Our personnel is always willing to assist you.",
             icon: <MdSupportAgent />
         },
         {
             id: 7,
-            title: "Secure Payment",
-            description: "You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.",
+            title: "Safe Payment",
+            description: "Using the most reliable and safe payment mechanisms available worldwide, your credit card allows you to pay. Making your payment does not call for registration.",
             icon: <MdOutlinePayment />
         },
         {
             id: 8,
-            title: "No Password is Required",
-            description: "We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.",
+            title: "No Password Needed",
+            description: "We never ask your password or any other sensitive information. We advise you to guard your account and never show anybody your passwords.",
             icon: <MdLockOutline />
         },
         {
             id: 9,
             title: "Warning",
-            description: "In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.",
+            description: "You should not buy the same items from many sites at once if your order interactions are to be recorded accurately after your transactions.",
             icon: <MdOutlineWarning />
         }
     ];
@@ -150,13 +158,46 @@ function YouTubeViewsPage() {
             {/* package section end */}
             {/* <PackageSection /> */}
             <WhyYouChooseSection
-                heading={"✊ Why You Should Choose Tubeviews"}
-                subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."}
+                heading={"✊ Why Choose Tubeviews for YouTube Views?"}
+                subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+                title1={"Security and Privacy First"}
+                description1={
+                    `
+                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
+                    producing excellent material. Let us address the opinions while you focus on what is important—your
+                    audience.
+                    `
+                }
+                title2={"Proven YouTube Growth"}
+                description2={
+                    `
+                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
+material receives the exposure it deserves.
+                    `
+                }
+                title3={"Ad-Driven, Organic Sourcing"}
+                description3={
+                    `
+                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
+viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
+not just your views but also channel activity.
+                    `
+                }
+                title4={"24/7 Exclusive Support"}
+                description4={
+                    `
+                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+experience is seamless and free from concerns.
+                    `
+                }
             />
             <FeaturesSection
                 featuresData={featuresData}
                 heading={"🚀 Buy YouTube Views Features With Tubeviews"}
-                subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."}
+                subHeading={"Tubeviews — quick, reliable, and high-quality views for your channel will rapidly increase your YouTube visibility!"}
             />
             <ContentSection1
                 heading={"🎉 Why Would Someone Buy Views on YouTube?"}
@@ -507,27 +548,10 @@ function YouTubeViewsPage() {
                             </div>
 
                         </div>
-
-                        {/* <ul type='number' className='mt-4 flex flex-col gap-3'>
-                            <li className='text-slate-600'>
-                                Choose first of all the perspective you want to have. Choose the actual tab if you want to purchase actual YouTube views.
-                            </li>
-                            <li className='text-slate-600'>Paste your video URL straight to the box provided.</li>
-                            <li className='text-slate-600'>Then enter the overall number of views you want to buy into the following box.</li>
-                            <li className='text-slate-600'>Click the "Buy Now" or "Add to Cart" buttons to access the payment page.</li>
-                            <li className='text-slate-600'>Completing the payment procedure</li>
-                            <li className='text-slate-600'>Your profile will show the sorted views soon. You may obviously get this product for YouTube Shorts as well.</li>
-                            <li className='text-slate-600'>Contact us for any delays or other kind of problem. You may purchase YouTube subscribers as well if you so wish.</li>
-                            <li className='text-slate-600'>
-                                Leave your YouTube channel stock; use our services to obtain some aid to increase its performance. YouTube auto views are now purchaseable
-                                to automatically generate your next YouTube videos.
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </div>
             <FaqSection faqData={faqData} />
-            <ReviewsSection />
         </div>
     );
 }
