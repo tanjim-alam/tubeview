@@ -24,7 +24,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <div>
-                        <ul className='flex gap-10'>
+                        <ul className='flex xl:gap-10 gap-8'>
                             {
                                 navLinksDatas.map((navLink, i) => <NavLinks key={i} navLink={navLink} />)
                             }

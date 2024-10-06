@@ -86,9 +86,9 @@ function Page() {
                         <div className='flex flex-col'>
                             <label className='text-[15px] text-black'>Country <span className='text-orange-600'>*</span></label>
                             <select id="country" className="border p-3 outline-none w-full" name='country' onChange={handleInput}>
-                                <option value="">Select a country</option>
+                                <option className="text-black" value="">Select a country</option>
                                 {countries.map((country) => (
-                                    <option key={country.code} value={country.name}>
+                                    <option className="text-black" key={country.code} value={country.name}>
                                         {country.name}
                                     </option>
                                 ))}

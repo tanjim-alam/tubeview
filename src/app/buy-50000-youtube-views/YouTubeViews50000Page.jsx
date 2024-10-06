@@ -322,7 +322,7 @@ function YouTubeViews50000Page() {
                             </div>
                         </div>
                         <div className='mt-3 flex gap-2 items-center'>
-                            <span className='text-xl font-medium w-[20%]'> $ {currItem.price}</span>
+                            <span className='text-xl text-black font-medium w-[20%]'> $ {currItem.price}</span>
                             <input
                                 type="text"
                                 name='youtube'
