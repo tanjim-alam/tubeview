@@ -1,235 +1,14 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaCartPlus, FaBars } from "react-icons/fa";
 import NavLinks from "./NavLinks"
-import { FaYoutube, FaFacebook, FaInstagramSquare, FaTwitter, FaTiktok, FaSpotify, FaSoundcloud, FaLinkedinIn, FaTelegramPlane, FaPinterest, FaSnapchatGhost, FaRedditAlien, FaTwitch } from "react-icons/fa";
 import { useCart } from '../context/CartContext';
-
+import navLinksData from "../constant/general/navlinksData.js"
 
 function Navbar() {
-    const navLinksData = [
-        {
-            id: 1,
-            name: "YouTube",
-            icon: FaYoutube,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy YouTube Views",
-                    slug: "/buy-youtube-views"
-                },
-                {
-                    id: 2,
-                    title: "Buy YouTube Subscribers",
-                    slug: "/buy-youtube-subscribers"
-                },
-                {
-                    id: 3,
-                    title: "Buy YouTube Likes",
-                    slug: "/buy-youtube-likes"
-                },
-                {
-                    id: 3,
-                    title: "Buy YouTube Short Views",
-                    slug: "buy-youtube-short-views"
-                },
-                {
-                    id: 4,
-                    title: "Buy YouTube Comments",
-                    slug: "/buy-youtube-comments"
-                },
-                {
-                    id: 5,
-                    title: "Buy YouTube Live Views",
-                    slug: "buy-youtube-live-stream-views-viewers"
-                },
-            ],
-            color: "red"
-        },
-        {
-            id: 2,
-            name: "Facebook",
-            icon: FaFacebook,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy Facebook Followers",
-                    slug: "buy-facebook-followers"
-                },
-                {
-                    id: 2,
-                    title: "Buy Facebook Likes",
-                    slug: "buy-facebook-likes"
-                },
-                {
-                    id: 3,
-                    title: "Buy Facebook Video Views",
-                    slug: "buy-facebook-video-views"
-                },
-                {
-                    id: 4,
-                    title: "Buy Facebook Comments",
-                    slug: "buy-facebook-comments"
-                },
-                {
-                    id: 4,
-                    title: "Buy Facebook Page Likes",
-                    slug: "buy-facebook-page-likes"
-                },
-                {
-                    id: 4,
-                    title: "Buy Facebook Live Views",
-                    slug: "buy-facebook-live-stream-views-viewers"
-                }
-            ],
-            color: "#0866ff"
-        },
-        {
-            id: 3,
-            name: "Instagram",
-            icon: FaInstagramSquare,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy Instagram Followers",
-                    slug: "buy-instagram-followers"
-                },
-                {
-                    id: 2,
-                    title: "Buy Instagram Likes",
-                    slug: "buy-instagram-likes"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Reels Likes",
-                    slug: "buy-instagram-reels-likes"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Reels Views",
-                    slug: "buy-instagram-reels-views"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Comments",
-                    slug: "buy-instagram-comments"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Story Views",
-                    slug: "buy-instagram-story-views"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Target Likes",
-                    slug: "buy-instagram-target-likes"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Target Followers",
-                    slug: "buy-instagram-target-followers"
-                },
-                {
-                    id: 1,
-                    title: "Buy Instagram Live Views",
-                    slug: "buy-instagram-live-views"
-                },
-            ],
-            color: "#fb3c44"
-        },
-        {
-            id: 4,
-            name: "Twitter (X)",
-            icon: FaTwitter,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy Twitter (X) Followers",
-                    slug: "buy-twitter-followers"
-                },
-                {
-                    id: 2,
-                    title: "Buy Twitter (X) Likes",
-                    slug: "buy-twitter-likes"
-                },
-                {
-                    id: 3,
-                    title: "Buy Twitter (X) Comments",
-                    slug: "buy-twitter-comments"
-                },
-                {
-                    id: 4,
-                    title: "Buy Twitter (X) Video Views",
-                    slug: "buy-twitter-video-views"
-                },
-            ],
-            color: "#1DA1F2"
-        },
-        {
-            id: 5,
-            name: "TikTok",
-            icon: FaTiktok,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy TikTok Followers",
-                    slug: "buy-tiktok-followers"
-                },
-                {
-                    id: 1,
-                    title: "Buy TikTok Likes",
-                    slug: "buy-tiktok-likes"
-                },
-                {
-                    id: 1,
-                    title: "Buy TikTok Comments",
-                    slug: "buy-tiktok-comments"
-                },
-            ],
-            color: "#000000"
-        },
-        {
-            id: 6,
-            name: "Spotify",
-            icon: FaSpotify,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy Spotify Followers",
-                    slug: "buy-spotify-followers"
-                },
-                {
-                    id: 2,
-                    title: "Buy Spotify Plays",
-                    slug: "buy-spotify-plays"
-                }
-            ],
-            color: "#1DB954"
-        },
-        {
-            id: 7,
-            name: "SoundCloud",
-            color: "#FF5500",
-            icon: FaSoundcloud,
-            services: [
-                {
-                    id: 1,
-                    title: "Buy SoundCloud Followers",
-                    slug: "buy-soundcloud-followers"
-                },
-                {
-                    id: 1,
-                    title: "Buy SoundCloud Plays",
-                    slug: "buy-soundcloud-plays"
-                },
-            ],
-            color: "#FF5500"
-        }
-    ];
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    const navLinksDatas = navLinksData.slice(0, 7);
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -241,18 +20,13 @@ function Navbar() {
                 <nav className='xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>
-                            {/* <img
-                                src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
-                                width={150}
-                                alt="Logo"
-                            /> */}
                             <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
                         </Link>
                     </div>
                     <div>
                         <ul className='flex gap-10'>
                             {
-                                navLinksData.map((navLink, i) => <NavLinks key={i} navLink={navLink} />)
+                                navLinksDatas.map((navLink, i) => <NavLinks key={i} navLink={navLink} />)
                             }
                         </ul>
                     </div>
@@ -269,12 +43,6 @@ function Navbar() {
                     <div className='flex justify-between items-center p-2 bg-white border-b w-full'>
                         <div>
                             <Link href={"/"}>
-                                {/* <Image
-                                    src="https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"
-                                    width={150}
-                                    height={150}
-                                    alt="Logo"
-                                /> */}
                                 <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
                             </Link>
                         </div>
@@ -292,7 +60,7 @@ function Navbar() {
                     </div>
                     <div className={`fixed top-14 right-0 h-full z-50 bg-white w-[96%] sm:w-[40%] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                         <ul className='flex flex-col lg:gap-10 gap-2 py-2 w-full text-black'>
-                            {navLinksData.map((navLink, i) => <NavLinks key={i} navLink={navLink} toggleMenu={toggleMenu} />)}
+                            {navLinksDatas.map((navLink, i) => <NavLinks key={i} navLink={navLink} toggleMenu={toggleMenu} />)}
                         </ul>
                     </div>
                 </nav>

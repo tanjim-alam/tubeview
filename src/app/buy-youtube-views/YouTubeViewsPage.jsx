@@ -173,24 +173,24 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 description2={
                     `
                     Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
-and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
-material receives the exposure it deserves.
+                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
+                    material receives the exposure it deserves.
                     `
                 }
                 title3={"Ad-Driven, Organic Sourcing"}
                 description3={
                     `
                     Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
-viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
-not just your views but also channel activity.
+                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
+                    not just your views but also channel activity.
                     `
                 }
                 title4={"24/7 Exclusive Support"}
                 description4={
                     `
                     Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
-required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
-experience is seamless and free from concerns.
+                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    experience is seamless and free from concerns.
                     `
                 }
             />

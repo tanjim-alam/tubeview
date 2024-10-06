@@ -12,8 +12,6 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(req) {
     const { orderDetails } = await req.json();
-    // console.log(orderDetails);
-    // Setup email data
     const orderDetailsRows = orderDetails.products.map(product => `
        <tr>
                         <td style="border: 1px solid #ddd; padding: 8px;">
@@ -37,9 +35,9 @@ export async function POST(req) {
 
     // Setup email data with inline styles
     let adminMailOptions = {
-        from: '"TubeViews" tubeviewsmedia123@gmail.com', // sender address
-        to: 'tanjim11alam@gmail.com', // list of receivers
-        subject: 'New Order Received', // Subject line
+        from: '"TubeViews" tubeviewsmedia123@gmail.com',
+        to: 'tanjim11alam@gmail.com',
+        subject: 'New Order Received',
         html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
             <h2 style="background-color: #007BFF; padding: 16px; color: white; text-align: center;">New Order #${orderDetails.id}</h2>
@@ -169,19 +167,13 @@ export async function POST(req) {
         `, // HTML body with inline styles
     };
 
-
     try {
         // Send mail with defined transport object
         let userInfo = await transporter.sendMail(userMailOptions);
-        console.log('User message sent: %s', userInfo.messageId);
-
         // Send mail to the admin
         let adminInfo = await transporter.sendMail(adminMailOptions);
-        console.log('Admin message sent: %s', adminInfo.messageId);
-
         return new Response(JSON.stringify({ message: 'Emails sent successfully' }), { status: 200 });
     } catch (error) {
-        console.error('Error sending email: ', error);
         return new Response(JSON.stringify({ error: 'Error sending email' }), { status: 500 });
     }
 }

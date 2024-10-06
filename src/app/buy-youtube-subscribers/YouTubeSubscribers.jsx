@@ -1,10 +1,15 @@
 /* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react'
-import { IoSearch } from "react-icons/io5";
+import { FaAsterisk, FaClipboardCheck } from "react-icons/fa";
 import { IoMdWatch } from "react-icons/io";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
+import { GiGrowth, GiFlatPlatform } from "react-icons/gi";
+import { GrCompliance } from "react-icons/gr";
+
+
+
 
 // Dynamically import components (Ensure these are default exports in their files)
 const WhyYouChooseSection = dynamic(() => import('../components/WhyYouChooseSection'));
@@ -23,51 +28,51 @@ function YouTubeSubscribers() {
     const featuresData = [
         {
             id: 1,
-            title: "What is the Difference between Regular Subscribers and Real Subscribers?",
-            description: "Regular subscribers are real-looking virtual accounts. Real subscribers are real, active accounts with real posts and followers.",
+            title: "Real Subscribers",
+            description: "Tubeviews offers actual, active members that increase channel interaction.",
             icon: <MdLightMode />
         },
         {
             id: 2,
-            title: "Why should you buy YouTube subscribers?",
-            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a hight number of subscribers to attract more visitors to your channel.",
-            icon: <IoSearch />
+            title: "Growth",
+            description: "Experience fast rises in your subscription count and delivery begins shortly after your buy.",
+            icon: <GiGrowth />
         },
         {
             id: 3,
-            title: "What are Youtube Subscribers",
-            description: "If you can get a person's interest on YouTube, they may subscribe to your channel. After that, they will start seeing your content on their homepage and get notified often.",
-            icon: <IoMdWatch />
+            title: "Affordable plans",
+            description: "Choose from a selection of reasonably priced bundles that fit your expansion requirements without straying from the budget.",
+            icon: <FaAsterisk />
         },
         {
             id: 5,
-            title: "NO Risk of Decrease",
-            description: "The services that you buy will be permanent, and there won't be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.",
-            icon: <BsGraphDownArrow />
-        },
-        {
-            id: 6,
-            title: "24/7 Live Support",
-            description: "We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.",
-            icon: <MdSupportAgent />
-        },
-        {
-            id: 7,
-            title: "Secure Payment",
-            description: "You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.",
+            title: "Secure Transactions",
+            description: "Advanced encryption techniques protect your personal data and payment details from access.",
             icon: <MdOutlinePayment />
         },
         {
+            id: 6,
+            title: "Retention Guarantee",
+            description: "Tubeviews; customers bring with them a retention policy, therefore guaranteeing long-term development for your channel.",
+            icon: <FaClipboardCheck />
+        },
+        {
+            id: 7,
+            title: "User friendly platform",
+            description: "Easy to use platform lets you buy subscribers fast and effectively.",
+            icon: <GiFlatPlatform />
+        },
+        {
             id: 8,
-            title: "No Password is Required",
-            description: "We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.",
-            icon: <MdLockOutline />
+            title: "24/7 Support",
+            description: "Tubeviews provides round-the-clock customer service so you may receive support whenever you need it.",
+            icon: <MdSupportAgent />
         },
         {
             id: 9,
-            title: "Warning",
-            description: "In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.",
-            icon: <MdOutlineWarning />
+            title: "Compliance with YouTube Guidelines",
+            description: "Following YouTube terms of service helps Tubeviews to maintain your account free from fines.",
+            icon: <GrCompliance />
         }
 
     ]
@@ -145,7 +150,9 @@ function YouTubeSubscribers() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy YouTube Subscribers with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Subscribers</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy YouTube Subscribers with <br/> Instant Delivery"}
+                subTitle={"<h3>Buy YouTube <span class=text-secondary>Subscribers</span></h3>"}
+                imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -158,43 +165,41 @@ function YouTubeSubscribers() {
             </div>
             {/* package section end */}
             <WhyYouChooseSection
-                heading={"✊ Why Choose Tubeviews for YouTube Views?"}
-                subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
-                title1={"Security and Privacy First"}
+                heading={"✊ Why Choose Tubeviews to buy YouTube Subscribers?"}
+                subHeading={"Real subscribers, quick delivery, reasonable prices, and a safe approach offered by Tubeviews let you securely grow your channel."}
+                title1={"Safe and secure process"}
                 description1={
                     `
-                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
-                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
-                    producing excellent material. Let us address the opinions while you focus on what is important—your
-                    audience.
+                    Tubeviews gives security of your channel first importance. Their approach according to YouTube&#39;s policies
+guarantees that your account stays protected all through the procedure.
                     `
                 }
-                title2={"Proven YouTube Growth"}
+                title2={"High-Quality Subscribers"}
                 description2={
                     `
-                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
-                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
-                    material receives the exposure it deserves.
+                    Tubeviews provides real, active subscribers, therefore enabling the expansion of your YouTube channel via
+actual audience interaction. This guarantees your channel seems more reliable and natural.
                     `
                 }
-                title3={"Ad-Driven, Organic Sourcing"}
+                title3={"Fast Delivery"}
                 description3={
                     `
-                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
-                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
-                    not just your views but also channel activity.
+                    They provide quick results, providing new members in a short period of time, thereby enabling you to
+practically instantly see obvious channel development.
                     `
                 }
-                title4={"24/7 Exclusive Support"}
+                title4={"Affordable"}
                 description4={
                     `
-                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
-                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
-                    experience is seamless and free from concerns.
+                    For YouTubers trying to expand their channel without overpaying, Tubeviews provides reasonable pricing,
+therefore helping them to budget.
                     `
                 }
             />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Subscribers Features With Tubeviews"} subHeading={"Tubeviews — quick, reliable, and high-quality Subscribers for your channel will rapidly increase your YouTube visibility!"} />
+            <FeaturesSection
+                featuresData={featuresData}
+                heading={"🚀 Buy YouTube Subscribers Features With Tubeviews"}
+                subHeading={"Expanding your YouTube audience may be done with dependable and efficient tubeviews. Their characteristics guarantee results for the success of your channel, safety, and high quality service."} />
             <ContentSection1
                 heading={"🎉 Many Choices to Buy YouTube Subscribers"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Subscribers."}
@@ -205,7 +210,7 @@ function YouTubeSubscribers() {
             />
             <ContentSection2
                 heading={"🚀 Describe YouTube subscribers."}
-                subHeading={"Buying Youtube views from TubeViews can help you boost your video's visibility and reach."}
+                subHeading={"Buying Youtube subscribers from TubeViews can help you boost your video's visibility and reach."}
                 imgUrl={"/buy-active-youtube-subscribers.png"}
                 contents={
                     "<div><p class='leading-relaxed text-slate-600'>On YouTube, every video is submitted under user profiles others may subscribe to. Upon subscription, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.</p><br><p class=leading-relaxed text-black text-slate-600>Regarding brand promotion and visibility, few things could be better for you than your current subscription count. This makes it prudent to strive to compile as many as feasible.  SocialPlug can simply too assist you with this! </p><div class=mt-4><h3 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3><p class='leading-relaxed text-slate-600 mt-3'>One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned. Our own records show that only 1.7% of our accounts disappear annually.</p><p class=leading-relaxed text-slate-600 mt-3>This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.</p></div></div>"
@@ -215,7 +220,7 @@ function YouTubeSubscribers() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-slate-600'>🎉 Advantages of buying real active YouTube subscribers</h2>
                     <p className='text-center text-black'>
-                        Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views.
+                        Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real subscribers.
                     </p>
                 </div>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
@@ -439,7 +444,7 @@ function YouTubeSubscribers() {
                                 </p>
                             </div>
                             <div>
-                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600 font-roboto' >5. Apply SEO Strategies.</h4>
+                                <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600' >5. Apply SEO Strategies.</h4>
                                 <p className=' leading-relaxed text-slate-600 mt-1'>
                                     Including relevant keywords into your video tags and descriptions can help This will raise your profile in search results and raise your chances of attracting visitors curious in your work.
                                     You could also want to create playlists to arrange your videos so that members may binge-watch your stuff more easily.

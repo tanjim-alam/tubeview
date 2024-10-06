@@ -13,7 +13,9 @@ import twitchLiveViewersData from "../constant/twitch/twitchLiveViewersData.json
 function TwitchLiveViewersPage() {
     return (
         <div>
-            <HeroSection title={"Buy Twitch Live Viewers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Live Viewers</span></h3>"} imgUrl={"/tubeview-home.webp"} />
+            <HeroSection title={"Buy Twitch Live Viewers <br/> with Instant Delivery"}
+                subTitle={"<h3>Buy More <span class=text-secondary>Live Viewers</span></h3>"}
+                imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

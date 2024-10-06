@@ -14,7 +14,7 @@ import linkedinViewsData from "../constant/linkedin/linkedinViewsData.json";
 function LinkedInViewsPage() {
     return (
         <div>
-            <HeroSection title={"Buy LinkedIn Views <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Views</span></h3>"} imgUrl={"/hero-banner.webp"} />
+            <HeroSection title={"Buy LinkedIn Views <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Views</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

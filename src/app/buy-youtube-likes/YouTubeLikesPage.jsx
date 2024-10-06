@@ -1,10 +1,13 @@
 /* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react'
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
+import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdDeliveryDining } from "react-icons/md";
+import { FaClipboardCheck } from "react-icons/fa";
+import { GiFlatPlatform } from "react-icons/gi";
+import { LuPackageSearch } from "react-icons/lu";
+import { BsGraphUpArrow } from "react-icons/bs";
+
+
 
 // Dynamically import components (Ensure these are default exports in their files)
 const WhyYouChooseSection = dynamic(() => import('../components/WhyYouChooseSection'));
@@ -23,51 +26,51 @@ function YouTubeLikesPage() {
     const featuresData = [
         {
             id: 1,
-            title: "What is the Difference between Regular Subscribers and Real Subscribers?",
-            description: "Regular subscribers are real-looking virtual accounts. Real subscribers are real, active accounts with real posts and followers.",
+            title: "Real Likes",
+            description: "Tubeviews offers sincere likes from current users, therefore enhancing the credibility of your involvement.",
             icon: <MdLightMode />
         },
         {
             id: 2,
-            title: "Why should you buy YouTube subscribers?",
-            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a hight number of subscribers to attract more visitors to your channel.",
-            icon: <IoSearch />
+            title: "Instant delivery",
+            description: "Fast delivery immediately after a purchase can help you to quickly increase likes.",
+            icon: <MdDeliveryDining />
         },
         {
             id: 3,
-            title: "What are Youtube Subscribers",
-            description: "If you can get a person's interest on YouTube, they may subscribe to your channel. After that, they will start seeing your content on their homepage and get notified often.",
-            icon: <IoMdWatch />
+            title: "Packages",
+            description: "Choose from a range of reasonably priced schemes that suit your channel objectives and budget.",
+            icon: <LuPackageSearch />
         },
         {
             id: 5,
-            title: "NO Risk of Decrease",
-            description: "The services that you buy will be permanent, and there won't be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.",
-            icon: <BsGraphDownArrow />
-        },
-        {
-            id: 6,
-            title: "24/7 Live Support",
-            description: "We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.",
-            icon: <MdSupportAgent />
-        },
-        {
-            id: 7,
-            title: "Secure Payment",
-            description: "You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.",
+            title: "Secure Transactions",
+            description: "Tubeviews guarantees the protection of your personal information and payments by means of strong encryption.",
             icon: <MdOutlinePayment />
         },
         {
+            id: 6,
+            title: "Boosts Video Ranking",
+            description: "More likes can help your video rank better in suggested sections and YouTube search results.",
+            icon: <BsGraphUpArrow />
+        },
+        {
+            id: 7,
+            title: "Retention Guarantee",
+            description: "Likes are supported by a retention policy, therefore guaranteeing ongoing interaction on your content.",
+            icon: <FaClipboardCheck />
+        },
+        {
             id: 8,
-            title: "No Password is Required",
-            description: "We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.",
-            icon: <MdLockOutline />
+            title: "Easy-to-Use Platform",
+            description: "Simple purchasing likes with a few clicks is made possible by the user-friendly interface.",
+            icon: <GiFlatPlatform />
         },
         {
             id: 9,
-            title: "Warning",
-            description: "In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.",
-            icon: <MdOutlineWarning />
+            title: "24/7 Support",
+            description: "Get assistance anytime with their rapid customer support, always accessible for any queries.",
+            icon: <MdSupportAgent />
         }
 
     ]
@@ -130,7 +133,9 @@ function YouTubeLikesPage() {
     ]
     return (
         <div>
-            <HeroSection title={"Buy YouTube Likes with <br/> Instant Delivery"} subTitle={"<h3> Buy YouTube <span class=text-secondary>Likes</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy YouTube Likes with <br/> Instant Delivery"}
+                subTitle={"<h3> Buy YouTube <span class=text-secondary>Likes</span></h3>"}
+                imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -144,31 +149,27 @@ function YouTubeLikesPage() {
             {/* package section end */}
             {/* <PackageSection /> */}
             <WhyYouChooseSection
-                heading={"✊ Why Choose Tubeviews for YouTube Likes?"}
+                heading={"✊ Why Choose Tubeviews to Buy YouTube Likes ?"}
                 subHeading={"Buying YouTube Likes from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
-                title1={"Security and Privacy First"}
+                title1={"Safe & Secure"}
                 description1={
                     `
-                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
-                    service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
-                    producing excellent material. Let us address the opinions while you focus on what is important—your
-                    audience.
+                    Following YouTube&#39;s policies and completing a 100% secure procedure guarantees your channel stays free
+from fines.
                     `
                 }
-                title2={"Proven YouTube Growth"}
+                title2={"Quick Results"}
                 description2={
                     `
-                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
-                    and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
-                    material receives the exposure it deserves.
+                    Your likes are provided right away, guaranteeing a quick increase in interaction that would help your
+YouTube video ranking.
                     `
                 }
-                title3={"Ad-Driven, Organic Sourcing"}
+                title3={"Affordable Options"}
                 description3={
                     `
-                    Our ad-driven distribution method guarantees real, engaged viewers are the source of your YouTube
-                    viewing. We employ focused adverts to attract the correct audience for your material, therefore increasing
-                    not just your views but also channel activity.
+                    Accessible for everyone to expand their channel, Tubeviews provides customisable and reasonably priced
+options for YouTubers at all levels.
                     `
                 }
                 title4={"24/7 Exclusive Support"}
@@ -180,7 +181,8 @@ function YouTubeLikesPage() {
                     `
                 }
             />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With Tubeviews"} subHeading={"Buying Youtube Likes from Tubeviews can help you boost your video's visibility and reach."} />
+            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With Tubeviews"}
+                subHeading={"Buy YouTube Likes Features with Tubeviews to improve the credibility and performance of your video by means of a simple and quick approach to increase your YouTube likes."} />
             <ContentSection1
                 heading={"🎉 Buy YouTube Likes from Tubeviews"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}

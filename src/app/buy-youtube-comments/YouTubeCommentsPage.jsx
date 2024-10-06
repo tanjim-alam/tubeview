@@ -13,7 +13,9 @@ import HeroSection from '../components/HeroSection';
 function YouTubeCommentsPage() {
     return (
         <div>
-            <HeroSection title={"Buy YouTube Views with <br/> Instant Delivery"} subTitle={"<h3>Buy YouTube <span class=text-secondary>Views</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy YouTube Views with <br/> Instant Delivery"}
+                subTitle={"<h3>Buy YouTube <span class=text-secondary>Views</span></h3>"}
+                imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

@@ -14,7 +14,7 @@ import pinterestRepinsData from "../constant/pinterest/pinterestRepinsData.json"
 function PinterestRepinsPage() {
     return (
         <div>
-            <HeroSection title={"Buy Pinterest Repins <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Repins</span></h3>"} imgUrl={"/tubeview-home.webp"} />
+            <HeroSection title={"Buy Pinterest Repins <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Repins</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>

@@ -8,25 +8,25 @@ import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLi
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
-import linkedinFollowersData from "../constant/linkedin/linkedinFollowersData.json";
+import igLiveViewsData from "../constant/instagram/igLiveViewsData.json"
 
-
-function LinkedInFollowersPage() {
+function InstagramLiveViewsPage() {
     return (
         <div>
-            <HeroSection title={"Buy LinkedIn Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Followers</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Instagram Live<br/>Stream Views with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-primary>Live Views</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real LinkedIn Followers from Active User</h3>
-                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop LinkedIn Followers for life-time</p>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Instagram Live Stream Views from 100% Real and Active Users</h3>
+                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Instagram Live Stream Views for life-time</p>
                     </div>
-                    <ServiceCard packageData={linkedinFollowersData} />
+                    <ServiceCard packageData={igLiveViewsData} />
                 </div>
             </div>
+            {/* package section end */}
         </div>
     )
 }
 
-export default LinkedInFollowersPage
+export default InstagramLiveViewsPage

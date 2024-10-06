@@ -5,10 +5,12 @@ function FeaturesSection({ featuresData, heading, subHeading }) {
     return (
         <div className='bg-white'>
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                <h2 className='lg:text-[2rem] text-xl text-black text-center font-semibold'>{heading}</h2>
-                <p className='text-center text-black'>
-                    {subHeading}
-                </p>
+                <div className='lg:w-[70%] w-[90%] '>
+                    <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>{heading}</h2>
+                    <p className='text-center text-black mt-2'>
+                        {subHeading}
+                    </p>
+                </div>
             </div>
             <div className='lg:w-[80%] w-[90%] m-auto py-10'>
                 <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-5'>

@@ -20,7 +20,7 @@ function FacebookCommentsPage() {
             <HeroSection
                 title="Buy Facebook Followers <br/> with Instant Delivery"
                 subTitle="<h3>Buy More <span class=text-secondary>Followers</span></h3>"
-                imgUrl="/tubeviews-banner.png"
+                imgUrl="/tubeviews-banner.webp"
             />
 
             {/* Package section start */}

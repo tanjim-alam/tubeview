@@ -14,7 +14,7 @@ import fbLikesData from "../constant/facebook/fbLikesData.json"
 function FacebookLikesPage() {
     return (
         <div>
-            <HeroSection title={"Buy Facebook Likes <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Likes</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy Facebook Likes <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Likes</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

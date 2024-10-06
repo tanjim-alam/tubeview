@@ -6,12 +6,12 @@ import { BsGraphDownArrow } from "react-icons/bs";
 import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
-import fbVideoViewsData from "../constant/facebook/fbVideoViewsData.json";
+import fbLiveViewsData from "../constant/facebook/fbLiveViewsData.json";
 
 function FacebookLiveStreamViewsPage() {
     return (
         <div>
-            <HeroSection title={"Buy Facebook Live <br/> Stream Views with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Live Views</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy Facebook Live <br/> Stream Views with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Live Views</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -19,7 +19,7 @@ function FacebookLiveStreamViewsPage() {
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Live Stream Views from 100% Real and Active Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Facebook Live Stream Views for life-time</p>
                     </div>
-                    <ServiceCard packageData={fbVideoViewsData} />
+                    <ServiceCard packageData={fbLiveViewsData} />
                 </div>
             </div>
         </div>

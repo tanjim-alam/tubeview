@@ -11,12 +11,6 @@ function Footer() {
                 <div className='flex flex-col lg:flex-row gap-4'>
                     <div className='lg:w-[28%] w-[100%] flex gap-4 flex-col'>
                         <div>
-                            {/* <Image
-                                src={"https://web.archive.org/web/20231226075428im_/https://www.tubeviews.co/wp-content/uploads/2023/01/TubeViews-3.svg"}
-                                width={150}
-                                height={150}
-                                alt="Logo"
-                            /> */}
                             <Link href={"/"}>
                                 <h4 className='text-3xl font-bold text-secondary bg-white w-fit'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
                             </Link>
@@ -47,37 +41,36 @@ function Footer() {
                         <div className='w-full'>
                             <h5 className='text-white text-xl font-semibold'>YouTube</h5>
                             <div className='flex flex-col gap-1 mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Subscriber</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Comments</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Live Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Short Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy YouTube Short Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-views"}>Buy YouTube Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-subscribers"}>Buy YouTube Subscriber</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-likes"}>Buy YouTube Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-comments"}>Buy YouTube Comments</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-short-views"}>Buy YouTube Short Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-comments"}>Buy YouTube Live Views</Link>
                             </div>
                         </div>
                         <div className='w-full'>
                             <h5 className='text-white text-xl font-semibold'>Facebook</h5>
                             <div className='flex flex-col gap-1 mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Followers</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Comments</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Video Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Live Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Page Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Facebook Page Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-followers"}>Buy Facebook Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-likes"}>Buy Facebook Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-comments"}>Buy Facebook Comments</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-video-views"}>Buy Facebook Video Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-page-likes"}>Buy Facebook Page Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-page-followers"}>Buy Facebook Page Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-facebook-live-stream-views-viewers"}>Buy Facebook Live Views</Link>
                             </div>
                         </div>
                         <div className='w-full'>
                             <h5 className='text-white text-xl font-semibold'>Instagram</h5>
                             <div className='flex flex-col gap-1 mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Followers</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Comments</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Reels Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Reels Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Live Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Buy Instagram Story Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-followers"}>Buy Instagram Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-likes"}>Buy Instagram Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-comments"}>Buy Instagram Comments</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-reels-views"}>Buy Instagram Reels Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-reels-likes"}>Buy Instagram Reels Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-live-stream-views"}>Buy Instagram Live Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-instagram-story-views"}>Buy Instagram Story Views</Link>
                             </div>
                         </div>
                         <div className='w-full'>

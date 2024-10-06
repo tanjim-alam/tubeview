@@ -13,7 +13,7 @@ import igTargetFollowersData from "../constant/instagram/igTargetFollowersData.j
 function InstagramTargetFollowersPage() {
     return (
         <div>
-            <HeroSection title={"Buy Instagram Target<br/>Followers with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-primary>Target Followers</span></h3>"} imgUrl={"/tubeviews-banner.png"} />
+            <HeroSection title={"Buy Instagram Target<br/>Followers with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-primary>Target Followers</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
