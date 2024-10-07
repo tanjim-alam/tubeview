@@ -11,8 +11,8 @@ function AllServicesSection() {
 
     return (
         <div className='bg-white' id='services'>
-            <div className='lg:w-[70%] w-[90%] py-16 m-auto'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-7 gap-4'>
+            <div className='lg:w-[80%] xl:w-[70%] md:w-[90%] w-[90%] py-16 m-auto'>
+                <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 lg:gap-7 gap-4'>
                     {navLinksData.map((data) => (
                         <React.Fragment key={data.id}>
                             {/* Desktop View */}

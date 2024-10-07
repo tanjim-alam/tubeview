@@ -17,7 +17,7 @@ function Navbar() {
     return (
         <>
             <div className='bg-white border-b sticky top-0 z-50 hidden lg:block h-[55px]'>
-                <nav className='xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
+                <nav className='xl:w-[90%] 2xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>
                             <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
@@ -38,9 +38,9 @@ function Navbar() {
                     </div>
                 </nav>
             </div>
-            <div className='sticky top-0 z-50 lg:hidden block'>
-                <nav className='w-full m-auto flex flex-col justify-between'>
-                    <div className='flex justify-between items-center p-2 bg-white border-b w-full'>
+            <div className='sticky top-0 z-50 lg:hidden block bg-white border-b'>
+                <nav className='w-full md:w-[90%] m-auto flex flex-col justify-between'>
+                    <div className='flex justify-between items-center p-2  w-full'>
                         <div>
                             <Link href={"/"}>
                                 <h4 className='text-3xl font-bold text-secondary'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
@@ -58,9 +58,9 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <div className={`fixed top-14 right-0 h-full z-50 bg-white w-[96%] sm:w-[40%] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                    <div className={`fixed top-14 right-0  overflow-y-scroll h-full z-50 bg-white w-[96%] sm:w-[40%] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                         <ul className='flex flex-col lg:gap-10 gap-2 py-2 w-full text-black'>
-                            {navLinksDatas.map((navLink, i) => <NavLinks key={i} navLink={navLink} toggleMenu={toggleMenu} />)}
+                            {navLinksData.map((navLink, i) => <NavLinks key={i} navLink={navLink} toggleMenu={toggleMenu} />)}
                         </ul>
                     </div>
                 </nav>

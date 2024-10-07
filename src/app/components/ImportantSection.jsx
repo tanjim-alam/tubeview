@@ -4,7 +4,7 @@ import Image from 'next/image';
 function ImportantSection() {
     return (
         <div className=''>
-            <div className='lg:w-[70%] w-[100%] m-auto relative'>
+            <div className='lg:w-[80%] xl:w-[70%] w-[100%] m-auto relative'>
                 <div className='flex justify-between items-center bg-primary pb-3 lg:px-10 px-2 pt-3 lg:rounded-full'>
                     <div className='flex flex-col justify-center items-center w-full'>
                         <Image width={50} alt="computer" height={50} src={"/computer.svg"} />

@@ -127,8 +127,8 @@ function ServiceCard({ packageData }) {
     }, [toast]);
 
     return (
-        <div className='flex flex-col lg:flex-row' id='services'>
-            <div className='lg:w-[80%] w-full m-auto border p-2 lg:p-10 mt-7 relative rounded-2xl shadow-[0_2px_2px_rgba(0,0,0,0.10)]'>
+        <div className='flex flex-col xl:flex-row lg:flex-col' id='services'>
+            <div className='lg:w-[90%] w-full m-auto border p-2 lg:p-10 mt-7 relative rounded-2xl shadow-[0_2px_2px_rgba(0,0,0,0.10)]'>
                 <div className='flex justify-center items-center'>
                     <p className=' absolute top-[-19px]  lg:top-[-26px] bg-white border py-1 px-4 lg:py-2 text-black lg:px-8 border-black rounded-md  text-lg font-semibold'>{packageData.serviceName || "Real YouTube Views"}</p>
                 </div>
@@ -192,8 +192,8 @@ function ServiceCard({ packageData }) {
                                 </div>
                             </div>
                             <div className='lg:w-[35%] w-full mt-3 lg:mt-0 flex gap-3 justify-between lg:justify-end'>
-                                <button onClick={handleAddToCart} className='bg-secondary w-full rounded-sm py-2 px-4 font-semibold text-white'>Add to Cart</button>
-                                <button onClick={handleGoToCart} className='bg-secondary w-full rounded-sm py-2 px-4 font-semibold text-white'>Buy Now</button>
+                                <button onClick={handleAddToCart} className='bg-secondary w-full rounded-sm py-2 px-4 lg:px-1 xl:px-1 font-semibold text-white'>Add to Cart</button>
+                                <button onClick={handleGoToCart} className='bg-secondary w-full rounded-sm py-2 px-4 lg:px-1 xl:px-1 font-semibold text-white'>Buy Now</button>
                             </div>
                         </div>
                         <div className='lg:w-[82%] m-auto'>
@@ -213,7 +213,7 @@ function ServiceCard({ packageData }) {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-[30%] w-full flex mt-7'>
+            <div className='lg:w-[80%] xl:w-[30%] m-auto w-full flex mt-7'>
                 <div className=' border w-full p-10 flex flex-col gap-4 rounded-2xl shadow-[0_2px_2px_rgba(0,0,0,0.10)]'>
                     <h4 className='text-lg font-semibold bg-primary text-center text-white rounded-md p-1'>{isActiveBtn} {getLastWord(packageData.serviceName)}</h4>
                     <div className='flex flex-col gap-2 '>

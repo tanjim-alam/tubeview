@@ -215,7 +215,7 @@ function YouTubeViews50000Page() {
     const [youtubeVideoLink, setYoutubeVideoLink] = useState("");
     // console.log(currItem)
     function handleOnChangePackageType(type) {
-        const selectedPackageType = viewsData.find((packageType) => packageType.type == type);
+        const selectedPackageType = viewsData?.find((packageType) => packageType.type == type);
         if (selectedPackageType) {
             setCurrTypePackages(selectedPackageType)
         }
