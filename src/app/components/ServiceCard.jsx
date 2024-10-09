@@ -29,24 +29,81 @@ function ServiceCard({ packageData }) {
 
     function getPlaceholder(str) {
         if (str.includes("YouTube Subscribers")) {
-            return "Enter your YouTube Chennal url";
+            return "Enter your YouTube Chennal Link";
         }
         else if (str.includes("YouTube")) {
-            return "Enter your YouTube video url";
+            return "Enter your YouTube video Link";
         }
         else if (str.includes("Facebook Followers")) {
-            return "Enter your fb profile url";
+            return "Enter your fb profile Link";
         }
         else if (str.includes("Facebook Video")) {
-            return "Enter your fb video url";
+            return "Enter your fb video Link";
         }
         else if (str.includes("Facebook Page")) {
-            return "Enter your fb page url";
+            return "Enter your fb page Link";
+        }
+        else if (str.includes("Facebook Live")) {
+            return "Enter your fb Live Link";
         }
         else if (str.includes("Facebook")) {
-            return "Enter your fb post url";
+            return "Enter your fb post Link";
         }
-        return "Enter you URL"
+        else if (str.includes("Instagram Followers")) {
+            return "Enter your Ig usernane or Link";
+        }
+        else if (str.includes("Instagram Reels")) {
+            return "Enter your Ig Reels Link";
+        }
+        else if (str.includes("Instagram Story")) {
+            return "Enter your Ig Story Link";
+        }
+        else if (str.includes("Instagram Live")) {
+            return "Enter your Ig Live Link";
+        }
+        else if (str.includes("Instagram")) {
+            return "Enter your Ig post Link";
+        }
+        else if (str.includes("Twitter Followers")) {
+            return "Enter your x profile Link";
+        }
+        else if (str.includes("Twitter")) {
+            return "Enter your x post Link";
+        }
+        else if (str.includes("TikTok Followers")) {
+            return "Enter your tiktok profile Link";
+        }
+        else if (str.includes("TikTok")) {
+            return "Enter your tiktok post Link";
+        }
+        else if (str.includes("Spotify Followers")) {
+            return "Enter your spotify profile Link";
+        }
+        else if (str.includes("Spotify")) {
+            return "Enter your spotify post Link";
+        }
+        else if (str.includes("SoundCloud Followers")) {
+            return "Enter your sc profile Link";
+        }
+        else if (str.includes("SoundCloud")) {
+            return "Enter your sc post Link";
+        }
+        else if (str.includes("SoundCloud Followers")) {
+            return "Enter your sc profile Link";
+        }
+        else if (str.includes("SoundCloud")) {
+            return "Enter your sc post Link";
+        }
+        else if (str.includes("LinkedIn Followers")) {
+            return "Enter your ln profile Link";
+        }
+        else if (str.includes("LinkedIn Connections")) {
+            return "Enter your ln profile Link";
+        }
+        else if (str.includes("LinkedIn")) {
+            return "Enter your ln post Link";
+        }
+        return "Enter you Link"
     }
 
     useEffect(() => {
@@ -117,7 +174,6 @@ function ServiceCard({ packageData }) {
         router.push("/checkout");
         setUrl("")
     }
-
     useEffect(() => {
         if (toast) {
             setTimeout(() => {

@@ -12,7 +12,7 @@ function CartPage() {
     function handleRemoveItemBtn(id) {
         removeItemFromCart(id)
     }
-    // console.log(cartItems)
+    console.log(cartItems)
     return (
         <div className='bg-[#f4f4fa]'>
             <div className='lg:w-[80%] w-[95%] m-auto py-10'>
@@ -60,14 +60,13 @@ function CartPage() {
                             {cartItems.map((data, i) => (
                                 <div key={i} className='block md:hidden lg:hidden relative'>
                                     <div className='border p-3 flex items-center gap-2'>
-                                        <div>
-                                            <Image width={40} height={40} src={"https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"} alt='"Image' />
-                                        </div>
                                         <div className='w-full'>
                                             <p className='font-medium text-slate-600'>{data.serviceName}</p>
                                             <div className='text-sm flex gap-2 text-gray-500'>
                                                 <span className='font-medium'>Your Link:</span>
-                                                <span>https://youtune.com/tanj..</span>
+                                                <a href={data.url} target="_blank" rel="noopener noreferrer" className="underline">
+                                                    {data?.url?.substring(0, 25)}...
+                                                </a>
                                             </div>
                                             <div className='flex justify-between sm:justify-between w-full'>
                                                 <div className='text-sm flex gap-2 text-gray-500'>
