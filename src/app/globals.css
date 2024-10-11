@@ -41,3 +41,13 @@ body {
 body {
   font-family: "Lora", serif;
 }
+
+.removeScrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+  /* background-color: #aaa; */
+}
+
+.removeScrollbar::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
