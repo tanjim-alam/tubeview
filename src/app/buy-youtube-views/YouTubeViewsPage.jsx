@@ -20,6 +20,7 @@ const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
 import youtubeViewsData from "../constant/youtube/youtubeViewsData.json";
 import HeroSection from '../components/HeroSection';
 import Link from 'next/link';
+import youtubeViewsReviews from "../reviewData/youtube/youtubeViewsReviews.json"
 
 function YouTubeViewsPage() {
     const featuresData = [
@@ -552,6 +553,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 </div>
             </div>
             <FaqSection faqData={faqData} />
+            <ReviewsSection reviewsData={youtubeViewsReviews || []} />
         </div>
     );
 }

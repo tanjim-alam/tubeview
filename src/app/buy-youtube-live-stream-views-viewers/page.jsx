@@ -3,8 +3,9 @@ import YouTubeLiveViewsPage from './YouTubeLiveViewsPage';
 
 export const generateMetadata = () => {
     return {
-        title: "Buy YouTube Live Stream Views -  Tubeviews",
-        description: "Buy YouTube Live Stream Views -  Tubeviews"
+        title: "Buy YouTube Live Views with Instant 100% Real Active- TubeViews",
+        description: "Buy YouTube Live Views to Boost your stream's visibility. Attract more viewers, increase engagement, and enhance your live stream's performance instantly.",
+        keywords: "Buy YouTube Live Views, Buy Real YouTube Live Views, Buy Active YouTube Live Views",
     }
 }
 

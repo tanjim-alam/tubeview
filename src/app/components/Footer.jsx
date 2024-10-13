@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react';
 import Image from 'next/image';
-import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaFacebook, FaInstagramSquare, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 function Footer() {
@@ -31,10 +31,10 @@ function Footer() {
                         </div>
                         <div className='flex text-white gap-3'>
                             <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaLinkedinIn /></Link>
-                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaLinkedinIn /></Link>
-                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaLinkedinIn /></Link>
-                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaLinkedinIn /></Link>
-                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaLinkedinIn /></Link>
+                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaTwitter /></Link>
+                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaFacebook /></Link>
+                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaInstagramSquare /></Link>
+                            <Link className='bg-white p-2 rounded-full text-red-500' href={"#"}><FaYoutube /></Link>
                         </div>
                     </div>
                     <div className='lg:flex flex-col sm:grid sm:grid-cols-2 lg:flex-row justify-between gap-3 lg:w-[72%] w-full'>
@@ -81,13 +81,18 @@ function Footer() {
                                 <Link className='text-white hover:border-l-4' href={"#"}>Privacy Policy</Link>
                                 <Link className='text-white hover:border-l-4' href={"#"}>Terms & Conditions</Link>
                                 <Link className='text-white hover:border-l-4' href={"#"}>Returns and Refunds Policy</Link>
+                                <Image src={"/cards-icon.webp"}
+                                    width={300}
+                                    height={180}
+                                    alt="Card"
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='bg-primary text-center p-2 text-white'>
-                <p>Copyright 2024 © Tubeviews</p>
+                <p>Copyright © TubeViews. All Rights Reserved 2024</p>
             </div>
         </div>
     )

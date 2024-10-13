@@ -5,7 +5,7 @@ import AllServicesSection from "./components/AllServicesSection";
 import WhyYouChooseSection from "./components/WhyYouChooseSection";
 import FaqSection from "./components/FaqSection";
 import ReviewsSection from "./components/ReviewsSection";
-import youtubeReviews from "./reviewData/youtubeReviews.json"
+import homePageReviews from "./reviewData/homePageReviews.json"
 
 export default function Home() {
   const faqData = [
@@ -162,7 +162,7 @@ export default function Home() {
         subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
         faqData={faqData}
       />
-      <ReviewsSection reviewsData={youtubeReviews || []} />
+      <ReviewsSection reviewsData={homePageReviews || []} />
     </main>
   );
 }

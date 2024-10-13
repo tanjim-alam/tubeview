@@ -33,9 +33,9 @@ function ReviewsSection({ reviewsData }) {
                     className="flex flex-col"
                 >
 
-                    {reviewsData?.map((data, i) => (
-                        <SwiperSlide key={i} className=" min-w-[310px] max-w-[330px]  mb-5">
-                            <ReviewCard data={data} />
+                    {reviewsData?.map((review, i) => (
+                        <SwiperSlide key={i} className=" min-w-[320px] max-w-[330px]  mb-5">
+                            <ReviewCard review={review} />
                         </SwiperSlide>
                     ))}
                 </Swiper>

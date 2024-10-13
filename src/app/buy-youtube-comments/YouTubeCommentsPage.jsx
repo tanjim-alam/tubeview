@@ -183,8 +183,8 @@ you may interact, exchange ideas, and grow personally learning from others on th
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold'>Get Real YouTube Views from 100% Real and Active Users</h3>
-                        <p className='lg:text-xl text-lg text-center lg:text-start font-medium'>We provide Real and Non-Drop YouTube Views for life-time</p>
+                        <h3 className='lg:text-3xl text-2xl text-center text-black lg:text-start font-semibold'>Get Real YouTube Views from 100% Real and Active Users</h3>
+                        <p className='lg:text-xl text-lg text-center text-black lg:text-start font-medium'>We provide Real and Non-Drop YouTube Views for life-time</p>
                     </div>
                     <ServiceCard packageData={youtubeCommentsData} />
                 </div>
@@ -332,7 +332,7 @@ enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might 
                         <h3 className="text-xl lg:text-[2rem] text-center font-semibold text-slate-600">
                             Why Do You Want YouTube Comments?
                         </h3>
-                        <div className="flex gap-5 mt-6">
+                        <div className="flex flex-col xl:flex-row gap-5 mt-6">
                             <div className="w-full">
                                 <h4 className="text-white bg-primary rounded-full text-center text-lg font-semibold">Increase Engagement and Visibility</h4>
                                 <p className="leading-relaxed text-slate-600 mt-3">

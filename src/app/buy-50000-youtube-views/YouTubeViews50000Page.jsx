@@ -12,102 +12,13 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/app/context/CartContext';
 import Link from 'next/link';
-// Dynamically import components (Ensure these are default exports in their files)
-const WhyYouChooseSection = dynamic(() => import('../components/WhyYouChooseSection'));
-const FeaturesSection = dynamic(() => import('../components/FeaturesSection'));
-const ContentSection1 = dynamic(() => import('../components/ContentSection1'));
-const ContentSection2 = dynamic(() => import('../components/ContentSection2'));
-const FaqSection = dynamic(() => import('../components/FaqSection'));
-const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
+
 
 
 function YouTubeViews50000Page() {
     const router = useRouter();
     const [urlError, setUrlError] = useState(false);
     const [toast, setToast] = useState(false);
-    const featuresData = [
-        {
-            id: 1,
-            title: "What is the Difference between Regular Subscribers and Real Subscribers?",
-            description: "Regular subscribers are real-looking virtual accounts. Real subscribers are real, active accounts with real posts and followers.",
-            icon: <MdLightMode />
-        },
-        {
-            id: 2,
-            title: "Why should you buy YouTube subscribers?",
-            description: "YouTube subscribers show how interesting your content is. Your subscriber number is like the measure of your channel's quality. So, it is important to have a hight number of subscribers to attract more visitors to your channel.",
-            icon: <IoSearch />
-        },
-        {
-            id: 3,
-            title: "What are Youtube Subscribers",
-            description: "If you can get a person's interest on YouTube, they may subscribe to your channel. After that, they will start seeing your content on their homepage and get notified often.",
-            icon: <IoMdWatch />
-        },
-        {
-            id: 5,
-            title: "NO Risk of Decrease",
-            description: "The services that you buy will be permanent, and there won't be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.",
-            icon: <BsGraphDownArrow />
-        },
-        {
-            id: 6,
-            title: "24/7 Live Support",
-            description: "We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.",
-            icon: <MdSupportAgent />
-        },
-        {
-            id: 7,
-            title: "Secure Payment",
-            description: "You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.",
-            icon: <MdOutlinePayment />
-        },
-        {
-            id: 8,
-            title: "No Password is Required",
-            description: "We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.",
-            icon: <MdLockOutline />
-        },
-        {
-            id: 9,
-            title: "Warning",
-            description: "In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.",
-            icon: <MdOutlineWarning />
-        }
-
-    ]
-    const faqData = [
-        {
-            id: 1,
-            question: "Can this service help me reach 4,000 hours of view time required for monetization and partnership?",
-            answer: "Yes! When you get YouTube views, the video you targeted will be watched from start to end by the specific amount of accounts you decided. With this service, you can easily surpass the 4,000 hours limit."
-        },
-        {
-            id: 2,
-            question: "Is it possible for YouTube to realize I'm not getting genuine views?",
-            answer: "It's not likely. Since there isn't a list called viewers, or such, it's almost impossible for YouTube to catch you red-handed. It's not so much different than asking a friend to watch your video."
-        },
-        {
-            id: 3,
-            question: "What happens when you get 1K subscribers on YouTube?",
-            answer: "When you hit 1K subscribers, YouTube sends you a mail to congratulate you. "
-        },
-        {
-            id: 4,
-            question: "Can YouTubers see who viewed their videos?",
-            answer: "Unfortunately not. They can only see how many people viewed their videos."
-        },
-        {
-            id: 5,
-            question: "What İs The Traffic Source İn Youtube Views?",
-            answer: "YouTube traffic sources are in 3 main categories."
-        },
-        {
-            id: 6,
-            question: "Can I Buy Views For Private Video?",
-            answer: "No, you cannot use this service for private video. If the video is hidden after making the purchase, the order will be cancelled. You must make the video public until the order is complete."
-        },
-    ]
 
     const viewsData = [
         {
@@ -213,17 +124,23 @@ function YouTubeViews50000Page() {
     const [currTypePackages, setCurrTypePackages] = useState(viewsData[0]);
     const [currItem, setCurrItem] = useState(viewsData[0].packages[0]);
     const [youtubeVideoLink, setYoutubeVideoLink] = useState("");
-    // console.log(currItem)
+    const [currBtn, setCurrBtn] = useState("High Quality");
+    const [currItemPrice, setCurrItemPrice] = useState(currItem?.price)
+    console.log(currItemPrice)
     function handleOnChangePackageType(type) {
         const selectedPackageType = viewsData?.find((packageType) => packageType.type == type);
+        setCurrBtn(type);
         if (selectedPackageType) {
             setCurrTypePackages(selectedPackageType)
+            setCurrItemPrice(selectedPackageType?.packages[0]?.price)
+            handleOnChange(selectedPackageType?.packages[0]?.id)
         }
     }
     function handleOnChange(id) {
-        const selectedItem = currTypePackages.find(item => item.id == id);
+        const selectedItem = currTypePackages?.packages?.find(item => item.id == id);
         if (selectedItem) {
             setCurrItem(selectedItem);
+            setCurrItemPrice(selectedItem?.price)
         }
     }
 
@@ -289,15 +206,15 @@ function YouTubeViews50000Page() {
                     </div>
                     <div className='mt-7'>
                         <div className='p-2 flex gap-4 shadow-[1px_1px_4px_rgba(0,0,0,0.20)] rounded-md'>
-                            <button onClick={() => handleOnChangePackageType("High Quality")} className='bg-primary p-3 rounded-md text-white font-semibold'>High Quality</button>
-                            <button onClick={() => handleOnChangePackageType("Premium")} className='p-3 rounded-md text-black font-semibold'>Premium</button>
-                            <button onClick={() => handleOnChangePackageType("Influncer")} className='p-3 rounded-md text-black font-semibold'>Influncer</button>
+                            <button onClick={() => handleOnChangePackageType("High Quality")} className={`${currBtn == "High Quality" ? "bg-primary text-white" : "bg-white text-primary"} rounded-sm p-2`}>High Quality</button>
+                            <button onClick={() => handleOnChangePackageType("Premium")} className={`${currBtn == "Premium" ? "bg-primary text-white" : "bg-white text-primary"} rounded-sm p-2`}>Premium</button>
+                            <button onClick={() => handleOnChangePackageType("Influncer")} className={`${currBtn == "Influncer" ? "bg-primary text-white" : "bg-white text-primary"} rounded-sm p-2`}>Influncer</button>
                         </div>
                         <div className='mt-4 flex flex-col '>
                             <select name="" id=""
                                 onChange={(e) => handleOnChange(e.target.value)}
                                 className='border outline-none p-3 shadow-[1px_1px_4px_rgba(0,0,0,0.20)] text-black'>
-                                <option className='p-5 text-black'>Select Package</option>
+                                {/* <option className='p-5 text-black'>Select Package</option> */}
                                 {
                                     currTypePackages?.packages?.map((item, i) => <option key={i} value={item.id} className='p-5 text-black'>{item.quantity}</option>)
                                 }
@@ -322,7 +239,7 @@ function YouTubeViews50000Page() {
                             </div>
                         </div>
                         <div className='mt-3 flex gap-2 items-center'>
-                            <span className='text-xl text-black font-medium w-[20%]'> $ {currItem.price}</span>
+                            <span className='text-xl text-black font-medium w-[20%]'> $ {currItemPrice}</span>
                             <input
                                 type="text"
                                 name='youtube'
