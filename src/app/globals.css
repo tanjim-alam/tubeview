@@ -38,9 +38,9 @@ body {
 /* Add more fonts as needed */
 
 
-body {
+/* body {
   font-family: "Lora", serif;
-}
+} */
 
 .removeScrollbar::-webkit-scrollbar {
   width: 4px;

@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta name="google-site-verification" content="flvk1gog2uCtYEzwd6Ma9pW61QMdYXUzsrjWaqFXziw" />
+        <meta name="google-site-verification" content="8L6rNpN5l_HRBkQeyoCjI7a536HrGeOAadihAceTEnA" />
       </Head>
       <body className={inter.className}>
         <CartProvider>
