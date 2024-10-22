@@ -15,77 +15,70 @@
                 {
                     "id": 1,
                     "package": "Followers",
-                    "qnt": 500,
-                    "price": 3
+                    "qnt": 100,
+                    "price": 1.50
                 },
                 {
                     "id": 2,
                     "package": "Followers",
-                    "qnt": 1000,
-                    "price": 5,
+                    "qnt": 250,
+                    "price": 3.50,
                     "discount": "5"
                 },
                 {
                     "id": 3,
                     "package": "Followers",
-                    "qnt": 2000,
-                    "price": 9.5,
+                    "qnt": 500,
+                    "price": 6.50,
                     "discount": "5"
                 },
                 {
                     "id": 4,
                     "package": "Followers",
-                    "qnt": 3000,
-                    "price": 14,
+                    "qnt": 1000,
+                    "price": 12,
                     "discount": "5"
                 },
                 {
                     "id": 5,
                     "package": "Followers",
-                    "qnt": 5000,
-                    "price": 23.5,
+                    "qnt": 2500,
+                    "price": 29,
                     "discount": "10"
                 },
                 {
                     "id": 6,
                     "package": "Followers",
-                    "qnt": 8000,
-                    "price": 38,
+                    "qnt": 5000,
+                    "price": 55,
                     "discount": "10"
                 },
                 {
                     "id": 7,
                     "package": "Followers",
                     "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
+                    "price": 99,
+                    "discount": "60"
                 },
                 {
                     "id": 8,
                     "package": "Followers",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
+                    "qnt": 25000,
+                    "price": 240,
+                    "discount": "55"
                 },
                 {
                     "id": 9,
                     "package": "Followers",
-                    "qnt": 20000,
-                    "price": 90,
+                    "qnt": 50000,
+                    "price": 475,
                     "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Followers",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
                 }
             ]
         },
         {
             "id": 2,
-            "type": "Target",
+            "type": "Premium",
             "value": "POPULAR",
             "keys": [
                 "Real Active Followers",
@@ -98,156 +91,64 @@
                 {
                     "id": 1,
                     "package": "Followers",
-                    "qnt": 500,
+                    "qnt": 100,
                     "price": 4
                 },
                 {
                     "id": 2,
                     "package": "Followers",
-                    "qnt": 1000,
-                    "price": 6,
-                    "discount": "5"
-                },
-                {
-                    "id": 3,
-                    "package": "Followers",
-                    "qnt": 2000,
-                    "price": 10.5,
-                    "discount": "5"
-                },
-                {
-                    "id": 4,
-                    "package": "Followers",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
-                },
-                {
-                    "id": 5,
-                    "package": "Followers",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
-                },
-                {
-                    "id": 6,
-                    "package": "Followers",
-                    "qnt": 8000,
-                    "price": 40,
-                    "discount": "10"
-                },
-                {
-                    "id": 7,
-                    "package": "Followers",
-                    "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Followers",
-                    "qnt": 15000,
-                    "price": 75,
+                    "qnt": 250,
+                    "price": 8,
                     "discount": "15"
                 },
                 {
-                    "id": 9,
-                    "package": "Followers",
-                    "qnt": 20000,
-                    "price": 96,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Followers",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "type": "World Wide",
-            "value": "EXCLUSIVE",
-            "keys": [
-                "Everything in Active, plus",
-                "REAL followers from Targeted people",
-                "Reach the explore page and turbocharge engagement",
-                "Guaranteed Instant Delivery",
-                "Priority lifetime VIP support",
-                "Boost opportunities for brand collaborations",
-                "Trusted by leading celebrities"
-            ],
-            "packages": [
-                {
-                    "id": 1,
+                    "id": 3,
                     "package": "Followers",
                     "qnt": 500,
-                    "price": 5
-                },
-                {
-                    "id": 2,
-                    "package": "Followers",
-                    "qnt": 1000,
-                    "price": 7,
-                    "discount": "5"
-                },
-                {
-                    "id": 3,
-                    "package": "Followers",
-                    "qnt": 2000,
-                    "price": 11,
-                    "discount": "5"
+                    "price": 11.99,
+                    "discount": "35"
                 },
                 {
                     "id": 4,
                     "package": "Followers",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
+                    "qnt": 1000,
+                    "price": 18.99,
+                    "discount": "40"
                 },
                 {
                     "id": 5,
                     "package": "Followers",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
+                    "qnt": 2500,
+                    "price": 45,
+                    "discount": "35"
                 },
                 {
                     "id": 6,
                     "package": "Followers",
-                    "qnt": 8000,
-                    "price": 41,
-                    "discount": "10"
+                    "qnt": 5000,
+                    "price": 85,
+                    "discount": "45"
                 },
                 {
                     "id": 7,
                     "package": "Followers",
                     "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
+                    "price": 160,
+                    "discount": "45"
                 },
                 {
                     "id": 8,
                     "package": "Followers",
-                    "qnt": 15000,
-                    "price": 78,
-                    "discount": "15"
+                    "qnt": 25000,
+                    "price": 350,
+                    "discount": "50"
                 },
                 {
                     "id": 9,
                     "package": "Followers",
-                    "qnt": 20000,
-                    "price": 99,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Followers",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
+                    "qnt": 50000,
+                    "price": 700,
+                    "discount": "50"
                 }
             ]
         }

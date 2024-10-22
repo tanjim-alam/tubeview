@@ -5,10 +5,9 @@ import { IoSearch } from "react-icons/io5";
 import { IoMdWatch } from "react-icons/io";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
-// Dynamically import components (Ensure these are default exports in their files)
-const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import igLiveViewsData from "../constant/instagram/igLiveViewsData.json"
+import ServiceCardForLive from '../components/ServiceCardForLive';
 
 function InstagramLiveViewsPage() {
     return (
@@ -21,7 +20,7 @@ function InstagramLiveViewsPage() {
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Instagram Live Stream Views from 100% Real and Active Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Instagram Live Stream Views for life-time</p>
                     </div>
-                    <ServiceCard packageData={igLiveViewsData} />
+                    <ServiceCardForLive packageData={igLiveViewsData} serviceName={"Instagram Live Views"} placeholder={"Please enter ig live link"} />
                 </div>
             </div>
             {/* package section end */}

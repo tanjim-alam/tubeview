@@ -1,172 +1,70 @@
 {
-    "serviceName": "Real Instagram Live Views",
-    "services": [
+    "quantity": [
         {
             "id": 1,
-            "type": "Regular",
-            "value": "STANDARD",
-            "keys": [
-                "High Quality Views",
-                "Fast delivery",
-                "No password required",
-                "24/7 support"
-            ],
-            "packages": [
-                {
-                    "id": 1,
-                    "package": "Live Views",
-                    "qnt": 500,
-                    "price": 3
-                },
-                {
-                    "id": 2,
-                    "package": "Live Views",
-                    "qnt": 1000,
-                    "price": 5,
-                    "discount": "5"
-                },
-                {
-                    "id": 3,
-                    "package": "Live Views",
-                    "qnt": 2000,
-                    "price": 9.5,
-                    "discount": "5"
-                },
-                {
-                    "id": 4,
-                    "package": "Live Views",
-                    "qnt": 3000,
-                    "price": 14,
-                    "discount": "5"
-                },
-                {
-                    "id": 5,
-                    "package": "Live Views",
-                    "qnt": 5000,
-                    "price": 23.5,
-                    "discount": "10"
-                },
-                {
-                    "id": 6,
-                    "package": "Live Views",
-                    "qnt": 8000,
-                    "price": 38,
-                    "discount": "10"
-                },
-                {
-                    "id": 7,
-                    "package": "Live Views",
-                    "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Live Views",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Live Views",
-                    "qnt": 20000,
-                    "price": 90,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Live Views",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
-                }
-            ]
+            "qnt": 50
+        },
+        {
+            "id": 2,
+            "qnt": 100
         },
         {
             "id": 3,
-            "type": "World Wide",
-            "value": "EXCLUSIVE",
-            "keys": [
-                "Everything in Active, plus",
-                "REAL Views from Targeted people",
-                "Reach the explore page and turbocharge engagement",
-                "Guaranteed Instant Delivery",
-                "Priority lifetime VIP support",
-                "Boost opportunities for brand collaborations",
-                "Trusted by leading celebrities"
-            ],
-            "packages": [
-                {
-                    "id": 1,
-                    "package": "Live Views",
-                    "qnt": 500,
-                    "price": 5
-                },
-                {
-                    "id": 2,
-                    "package": "Live Views",
-                    "qnt": 1000,
-                    "price": 7,
-                    "discount": "5"
-                },
-                {
-                    "id": 3,
-                    "package": "Live Views",
-                    "qnt": 2000,
-                    "price": 11,
-                    "discount": "5"
-                },
-                {
-                    "id": 4,
-                    "package": "Live Views",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
-                },
-                {
-                    "id": 5,
-                    "package": "Live Views",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
-                },
-                {
-                    "id": 6,
-                    "package": "Live Views",
-                    "qnt": 8000,
-                    "price": 41,
-                    "discount": "10"
-                },
-                {
-                    "id": 7,
-                    "package": "Live Views",
-                    "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Live Views",
-                    "qnt": 15000,
-                    "price": 78,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Live Views",
-                    "qnt": 20000,
-                    "price": 99,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Live Views",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
-                }
-            ]
+            "qnt": 200
+        },
+        {
+            "id": 4,
+            "qnt": 500
+        },
+        {
+            "id": 5,
+            "qnt": 1000
+        },
+        {
+            "id": 6,
+            "qnt": 2000
+        },
+        {
+            "id": 7,
+            "qnt": 5000
+        },
+        {
+            "id": 8,
+            "qnt": 10000
+        }
+    ],
+    "durations": [
+        {
+            "id": 1,
+            "duration": 15
+        },
+        {
+            "id": 2,
+            "duration": 30
+        },
+        {
+            "id": 3,
+            "duration": 45
+        },
+        {
+            "id": 4,
+            "duration": 60
+        },
+        {
+            "id": 5,
+            "duration": 90
+        },
+        {
+            "id": 6,
+            "duration": 120
+        },
+        {
+            "id": 7,
+            "duration": 180
+        },
+        {
+            "id": 8,
+            "duration": 240
         }
     ]
 }

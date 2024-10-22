@@ -5,7 +5,6 @@ import { IoSearch } from "react-icons/io5";
 import { IoMdWatch } from "react-icons/io";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSpeed, MdOutlineSupportAgent, MdOutlineQuickreply, MdOutlineVisibility, MdEnhancedEncryption, MdPolicy } from "react-icons/md";
-const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import fbLiveViewsData from "../constant/facebook/fbLiveViewsData.json";
 import { SiBoost, SiGoogleauthenticator } from 'react-icons/si';
@@ -18,6 +17,7 @@ import { AiFillSafetyCertificate, AiOutlineSafety } from 'react-icons/ai';
 import { FaRankingStar } from 'react-icons/fa6';
 import Image from 'next/image';
 import FaqSection from '../components/FaqSection';
+import ServiceCardForLive from '../components/ServiceCardForLive';
 
 
 function FacebookLiveStreamViewsPage() {
@@ -190,7 +190,7 @@ views keeps going up in a real way.
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Live Stream Views from 100% Real and Active Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Facebook Live Stream Views for life-time</p>
                     </div>
-                    <ServiceCard packageData={fbLiveViewsData} />
+                    <ServiceCardForLive packageData={fbLiveViewsData} serviceName={"Facebook Live Views"} placeholder={"Please enter fb live link"} />
                 </div>
             </div>
 

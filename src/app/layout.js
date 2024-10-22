@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { CartProvider } from "./context/CartContext";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,10 @@ export default function RootLayout({ children }) {
           {/* <ReviewsSection /> */}
           <Footer />
         </CartProvider>
+
       </body>
     </html>
   );
 }
+
+

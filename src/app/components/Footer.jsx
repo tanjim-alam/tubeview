@@ -49,9 +49,9 @@ function Footer() {
                                 <Link className='text-white hover:border-l-4' href={"buy-youtube-comments"}>Buy YouTube Live Views</Link>
                             </div>
                         </div>
-                        <div className='w-full'>
+                        <div className='w-full mt-3 lg:mt-0'>
                             <h5 className='text-white text-xl font-semibold'>Facebook</h5>
-                            <div className='flex flex-col gap-1 mt-2'>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
                                 <Link className='text-white hover:border-l-4' href={"buy-facebook-followers"}>Buy Facebook Followers</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-facebook-likes"}>Buy Facebook Likes</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-facebook-comments"}>Buy Facebook Comments</Link>
@@ -61,9 +61,9 @@ function Footer() {
                                 <Link className='text-white hover:border-l-4' href={"buy-facebook-live-stream-views-viewers"}>Buy Facebook Live Views</Link>
                             </div>
                         </div>
-                        <div className='w-full'>
+                        <div className='w-full mt-3 lg:mt-0'>
                             <h5 className='text-white text-xl font-semibold'>Instagram</h5>
-                            <div className='flex flex-col gap-1 mt-2'>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
                                 <Link className='text-white hover:border-l-4' href={"buy-instagram-followers"}>Buy Instagram Followers</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-instagram-likes"}>Buy Instagram Likes</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-instagram-comments"}>Buy Instagram Comments</Link>
@@ -73,14 +73,14 @@ function Footer() {
                                 <Link className='text-white hover:border-l-4' href={"buy-instagram-story-views"}>Buy Instagram Story Views</Link>
                             </div>
                         </div>
-                        <div className='w-full'>
+                        <div className='w-full mt-3 lg:mt-0'>
                             <h5 className='text-white text-xl font-semibold'>Our Company</h5>
-                            <div className='flex flex-col gap-1 mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"#"}>About Us</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Contact Us</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Privacy Policy</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Terms & Conditions</Link>
-                                <Link className='text-white hover:border-l-4' href={"#"}>Returns and Refunds Policy</Link>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
+                                <Link className='text-white hover:border-l-4' href={"/about-us"}>About Us</Link>
+                                <Link className='text-white hover:border-l-4' href={"/contact-us"}>Contact Us</Link>
+                                <Link className='text-white hover:border-l-4' href={"/privacy-policy"}>Privacy Policy</Link>
+                                <Link className='text-white hover:border-l-4' href={"/terms-and-conditions"}>Terms & Conditions</Link>
+                                <Link className='text-white hover:border-l-4' href={"/returns-and-refunds-policy"}>Returns and Refunds Policy</Link>
                                 <Image src={"/cards-icon.webp"}
                                     width={300}
                                     height={180}
