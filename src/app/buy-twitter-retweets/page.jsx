@@ -1,5 +1,5 @@
 import React from 'react';
-import TwitterCommentsPage from './TwitterCommentsPage';
+import TwitterRetweetsPage from './TwitterRetweetsPage';
 
 export const generateMetadata = () => {
     return {
@@ -9,7 +9,7 @@ export const generateMetadata = () => {
 }
 
 function page() {
-    return <TwitterCommentsPage />
+    return <TwitterRetweetsPage />
 }
 
 export default page

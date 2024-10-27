@@ -209,13 +209,13 @@ day, seven days a week.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                In the competitive digital scene of today, social media distinguishing out is more difficult than ever. For
-                                companies, influencers, and people wanting to interact with their audiences in real-time, Facebook Live
-                                has evolved into a necessary tool. But with millions of live broadcasts occurring daily, making sure your
-                                broadcast gets the attention it deserves might be intimidating. Here is where we fit. Our specialty at
-                                Tubeviews is assisting you with Buy Facebook Live Views and Buy Facebook Live Stream Views,
-                                thereby improving your live streaming experience and ensuring your material reaches a larger, more
-                                interested audience.
+                                The fast-paced digital era of today calls for greater online presence of your company than before.
+                                With billions of daily users, Facebook has evolved into a formidable tool for companies, influencers,
+                                and content producers looking to reach and interact with their audience. On Facebook, however,
+                                developing a strong and active following may be difficult especially for new pages or companies
+                                attempting to stand out among the noise. Here is when Buying Facebook page likes becomes relevant.
+                                Using a reliable social media marketing tool, Tubeviews, you can quickly raise your Facebook page likes,
+                                improve brand awareness, and naturally expand in no time.
                             </p>
                         </div>
                         <Image
@@ -235,7 +235,7 @@ day, seven days a week.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Why any one needs likes on a Facebook page likes?
+                            🤚🏿 Why does one need likes on a Facebook page?
                         </h3>
                     </div>
                 </div>

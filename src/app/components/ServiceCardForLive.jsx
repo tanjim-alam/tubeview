@@ -56,7 +56,7 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
         const item = {
             id: nextId + 1,
             serviceName,
-            serviceType: currDuration + "Minutes",
+            duration: currDuration + " Minutes",
             price: currPrice,
             quantity: currDuration,
             url: url
@@ -76,7 +76,7 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
         const item = {
             id: nextId + 1,
             serviceName,
-            serviceType: currDuration + "Minutes",
+            duration: currDuration + " Minutes",
             price: currPrice,
             quantity: currDuration,
             url: url

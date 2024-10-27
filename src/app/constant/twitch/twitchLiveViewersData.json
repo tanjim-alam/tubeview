@@ -3,8 +3,8 @@
     "services": [
         {
             "id": 1,
-            "type": "Regular",
-            "value": "STANDARD",
+            "type": "Real Live Viewers",
+            "value": "POPULAR",
             "keys": [
                 "High Quality Live Viewers",
                 "Fast delivery",
@@ -15,71 +15,37 @@
                 {
                     "id": 1,
                     "package": "Live Viewers",
-                    "qnt": 500,
-                    "price": 3
+                    "qnt": 250,
+                    "price": 1.10,
+                    "discount": "11"
                 },
                 {
                     "id": 2,
                     "package": "Live Viewers",
-                    "qnt": 1000,
-                    "price": 5,
-                    "discount": "5"
+                    "qnt": 500,
+                    "price": 2.15,
+                    "discount": "14"
                 },
                 {
                     "id": 3,
                     "package": "Live Viewers",
-                    "qnt": 2000,
-                    "price": 9.5,
-                    "discount": "5"
+                    "qnt": 1000,
+                    "price": 4.20,
+                    "discount": "15"
                 },
                 {
                     "id": 4,
                     "package": "Live Viewers",
-                    "qnt": 3000,
-                    "price": 14,
-                    "discount": "5"
+                    "qnt": 2500,
+                    "price": 10.10,
+                    "discount": "19"
                 },
                 {
                     "id": 5,
                     "package": "Live Viewers",
                     "qnt": 5000,
-                    "price": 23.5,
-                    "discount": "10"
-                },
-                {
-                    "id": 6,
-                    "package": "Live Viewers",
-                    "qnt": 8000,
-                    "price": 38,
-                    "discount": "10"
-                },
-                {
-                    "id": 7,
-                    "package": "Live Viewers",
-                    "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Live Viewers",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Live Viewers",
-                    "qnt": 20000,
-                    "price": 90,
+                    "price": 19.90,
                     "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Live Viewers",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
                 }
             ]
         }

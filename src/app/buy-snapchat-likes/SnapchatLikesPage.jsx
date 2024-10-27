@@ -22,7 +22,7 @@ function SnapchatLikesPage() {
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Snapchat Likes from 100% Real Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Snapchat Likes for life-time</p>
                     </div>
-                    <ServiceCard packageData={snapchatLikesData} />
+                    {/* <ServiceCard packageData={snapchatLikesData} /> */}
                 </div>
             </div>
             {/* package section end */}

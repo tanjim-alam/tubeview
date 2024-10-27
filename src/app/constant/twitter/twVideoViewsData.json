@@ -16,70 +16,70 @@
                     "id": 1,
                     "package": "Video Views",
                     "qnt": 500,
-                    "price": 3
+                    "price": 5.40
                 },
                 {
                     "id": 2,
                     "package": "Video Views",
                     "qnt": 1000,
-                    "price": 5,
-                    "discount": "5"
+                    "price": 8.10,
+                    "discount": "12"
                 },
                 {
                     "id": 3,
                     "package": "Video Views",
                     "qnt": 2000,
-                    "price": 9.5,
-                    "discount": "5"
+                    "price": 13.50,
+                    "discount": "20"
                 },
                 {
                     "id": 4,
                     "package": "Video Views",
-                    "qnt": 3000,
-                    "price": 14,
-                    "discount": "5"
+                    "qnt": 5000,
+                    "price": 27.00,
+                    "discount": "35"
                 },
                 {
                     "id": 5,
                     "package": "Video Views",
-                    "qnt": 5000,
-                    "price": 23.5,
-                    "discount": "10"
+                    "qnt": 7500,
+                    "price": 40.50,
+                    "discount": "40"
                 },
                 {
                     "id": 6,
                     "package": "Video Views",
-                    "qnt": 8000,
-                    "price": 38,
-                    "discount": "10"
+                    "qnt": 10000,
+                    "price": 48.60,
+                    "discount": "49"
                 },
                 {
                     "id": 7,
                     "package": "Video Views",
-                    "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
+                    "qnt": 20000,
+                    "price": 86.40,
+                    "discount": "55"
                 },
                 {
                     "id": 8,
                     "package": "Video Views",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
+                    "qnt": 25000,
+                    "price": 102.60,
+                    "discount": "59"
                 },
                 {
                     "id": 9,
                     "package": "Video Views",
-                    "qnt": 20000,
-                    "price": 90,
-                    "discount": "20"
+                    "qnt": 50000,
+                    "price": 189,
+                    "discount": "65"
                 },
                 {
                     "id": 10,
                     "package": "Video Views",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
+                    "qnt": 100000,
+                    "price": 351,
+                    "discount": "75"
                 }
             ]
         },
@@ -101,70 +101,70 @@
                     "id": 1,
                     "package": "Video Views",
                     "qnt": 500,
-                    "price": 5
+                    "price": 7.40
                 },
                 {
                     "id": 2,
                     "package": "Video Views",
                     "qnt": 1000,
-                    "price": 7,
-                    "discount": "5"
+                    "price": 10.10,
+                    "discount": "12"
                 },
                 {
                     "id": 3,
                     "package": "Video Views",
                     "qnt": 2000,
-                    "price": 11,
-                    "discount": "5"
+                    "price": 15.50,
+                    "discount": "20"
                 },
                 {
                     "id": 4,
                     "package": "Video Views",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
+                    "qnt": 5000,
+                    "price": 29.00,
+                    "discount": "35"
                 },
                 {
                     "id": 5,
                     "package": "Video Views",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
+                    "qnt": 7500,
+                    "price": 43.50,
+                    "discount": "40"
                 },
                 {
                     "id": 6,
                     "package": "Video Views",
-                    "qnt": 8000,
-                    "price": 41,
-                    "discount": "10"
+                    "qnt": 10000,
+                    "price": 51.60,
+                    "discount": "49"
                 },
                 {
                     "id": 7,
                     "package": "Video Views",
-                    "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
+                    "qnt": 20000,
+                    "price": 99.40,
+                    "discount": "55"
                 },
                 {
                     "id": 8,
                     "package": "Video Views",
-                    "qnt": 15000,
-                    "price": 78,
-                    "discount": "15"
+                    "qnt": 25000,
+                    "price": 106.60,
+                    "discount": "59"
                 },
                 {
                     "id": 9,
                     "package": "Video Views",
-                    "qnt": 20000,
-                    "price": 99,
-                    "discount": "20"
+                    "qnt": 50000,
+                    "price": 192,
+                    "discount": "65"
                 },
                 {
                     "id": 10,
                     "package": "Video Views",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
+                    "qnt": 100000,
+                    "price": 361,
+                    "discount": "75"
                 }
             ]
         }

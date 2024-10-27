@@ -21,7 +21,7 @@ function SnapchatFollowersPage() {
                         <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Snapchat Followers from 100% Real Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Snapchat Followers for life-time</p>
                     </div>
-                    <ServiceCard packageData={snapchatFollowersData} />
+                    {/* <ServiceCard packageData={snapchatFollowersData} /> */}
                 </div>
             </div>
             {/* package section end */}

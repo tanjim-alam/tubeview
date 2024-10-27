@@ -15,71 +15,57 @@
                 {
                     "id": 1,
                     "package": "Likes",
-                    "qnt": 500,
-                    "price": 3
+                    "qnt": 50,
+                    "price": 1
                 },
                 {
                     "id": 2,
                     "package": "Likes",
-                    "qnt": 1000,
-                    "price": 5,
-                    "discount": "5"
+                    "qnt": 100,
+                    "price": 1.70,
+                    "discount": "11"
                 },
                 {
                     "id": 3,
                     "package": "Likes",
-                    "qnt": 2000,
-                    "price": 9.5,
-                    "discount": "5"
+                    "qnt": 250,
+                    "price": 3.99,
+                    "discount": "15"
                 },
                 {
                     "id": 4,
                     "package": "Likes",
-                    "qnt": 3000,
-                    "price": 14,
-                    "discount": "5"
+                    "qnt": 500,
+                    "price": 7.45,
+                    "discount": "21"
                 },
                 {
                     "id": 5,
                     "package": "Likes",
-                    "qnt": 5000,
-                    "price": 23.5,
-                    "discount": "10"
+                    "qnt": 1000,
+                    "price": 12.99,
+                    "discount": "31"
                 },
                 {
                     "id": 6,
                     "package": "Likes",
-                    "qnt": 8000,
-                    "price": 38,
-                    "discount": "10"
+                    "qnt": 2500,
+                    "price": 29,
+                    "discount": "39"
                 },
                 {
                     "id": 7,
                     "package": "Likes",
-                    "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
+                    "qnt": 5000,
+                    "price": 57.50,
+                    "discount": "40"
                 },
                 {
                     "id": 8,
                     "package": "Likes",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Likes",
-                    "qnt": 20000,
-                    "price": 90,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Likes",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
+                    "qnt": 10000,
+                    "price": 111,
+                    "discount": "41"
                 }
             ]
         },
@@ -100,71 +86,50 @@
                 {
                     "id": 1,
                     "package": "Likes",
-                    "qnt": 500,
-                    "price": 5
+                    "qnt": 50,
+                    "price": 4.60
                 },
                 {
                     "id": 2,
                     "package": "Likes",
-                    "qnt": 1000,
-                    "price": 7,
-                    "discount": "5"
+                    "qnt": 100,
+                    "price": 8.20,
+                    "discount": "11"
                 },
                 {
                     "id": 3,
                     "package": "Likes",
-                    "qnt": 2000,
-                    "price": 11,
-                    "discount": "5"
+                    "qnt": 250,
+                    "price": 16.50,
+                    "discount": "29"
                 },
                 {
                     "id": 4,
                     "package": "Likes",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
+                    "qnt": 500,
+                    "price": 32.00,
+                    "discount": "31"
                 },
                 {
                     "id": 5,
                     "package": "Likes",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
+                    "qnt": 1000,
+                    "price": 64,
+                    "discount": "31"
                 },
                 {
                     "id": 6,
                     "package": "Likes",
-                    "qnt": 8000,
-                    "price": 41,
-                    "discount": "10"
+                    "qnt": 2500,
+                    "price": 130,
+                    "discount": "40"
                 },
                 {
                     "id": 7,
                     "package": "Likes",
-                    "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Likes",
-                    "qnt": 15000,
-                    "price": 78,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Likes",
-                    "qnt": 20000,
-                    "price": 99,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Likes",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
+                    "qnt": 5000,
+                    "price": 260,
+                    "discount": "44"
                 }
             ]
         }

@@ -52,6 +52,7 @@ function ThankYouPage() {
                                                     {data?.url?.substring(0, 16)}...
                                                 </a>
                                             </span>
+                                            {data?.duration ? <span>Duration: {data?.duration}</span> : null}
                                         </td>
                                         <td className="text-right px-2 md:px-5 py-2 border-b border-gray-300 text-slate-600">{data?.serviceType}</td>
                                         <td className="text-right px-2 md:px-5 py-2 border-b border-gray-300 text-slate-600">{data?.quantity}</td>

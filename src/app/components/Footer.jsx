@@ -17,7 +17,7 @@ function Footer() {
                         </div>
                         <div>
                             <p className='text-white'>
-                                Tubeviews.com is an Organic and Instantly Social Media Services Provider,
+                                Tubeviews.co is an Organic and Instantly Social Media Services Provider,
                                 Likes YouTube, Facebook, Instagram, and All Social Media Platform.
                                 Our Services are Very Easy and Affordable.Read More
                             </p>
@@ -25,8 +25,8 @@ function Footer() {
                         <div>
                             <p className='text-xl text-white font-semibold'>Support</p>
                             <div className='flex justify-between text-white mt-3'>
-                                <Link className='flex items-center text-sm gap-1' href={"#"}><FaWhatsapp /><span>8 (495) 033-1081</span></Link>
-                                <Link className='flex items-center gap-1' href={"#"}><IoIosMail /><span>support@tubeviews.co</span></Link>
+                                <Link className='flex items-center font-semibold text-sm gap-1' href={"https://wa.me/919319187564"}><FaWhatsapp /><span>+91-9319187564</span></Link>
+                                <Link className='flex items-center font-semibold gap-1' href={"mailto:support@tubeviews.co"}><IoIosMail /><span>support@tubeviews.co</span></Link>
                             </div>
                         </div>
                         <div className='flex text-white gap-3'>

@@ -1,0 +1,186 @@
+{
+    "serviceName": "Real Twitter Retweets",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Retweets",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Retweets",
+                    "qnt": 50,
+                    "price": 2.70
+                },
+                {
+                    "id": 2,
+                    "package": "Retweets",
+                    "qnt": 100,
+                    "price": 4.50,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Retweets",
+                    "qnt": 150,
+                    "price": 6.50,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Retweets",
+                    "qnt": 200,
+                    "price": 8.10,
+                    "discount": "15"
+                },
+                {
+                    "id": 5,
+                    "package": "Retweets",
+                    "qnt": 250,
+                    "price": 10.11,
+                    "discount": "20"
+                },
+                {
+                    "id": 6,
+                    "package": "Retweets",
+                    "qnt": 500,
+                    "price": 18,
+                    "discount": "20"
+                },
+                {
+                    "id": 7,
+                    "package": "Retweets",
+                    "qnt": 1000,
+                    "price": 32,
+                    "discount": "25"
+                },
+                {
+                    "id": 8,
+                    "package": "Retweets",
+                    "qnt": 2000,
+                    "price": 58,
+                    "discount": "30"
+                },
+                {
+                    "id": 9,
+                    "package": "Retweets",
+                    "qnt": 5000,
+                    "price": 117,
+                    "discount": "35"
+                },
+                {
+                    "id": 10,
+                    "package": "Retweets",
+                    "qnt": 7500,
+                    "price": 162,
+                    "discount": "35"
+                },
+                {
+                    "id": 11,
+                    "package": "Retweets",
+                    "qnt": 10000,
+                    "price": 207,
+                    "discount": "40"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "type": "Premium",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL Retweets from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Retweets",
+                    "qnt": 50,
+                    "price": 5.70
+                },
+                {
+                    "id": 2,
+                    "package": "Retweets",
+                    "qnt": 100,
+                    "price": 9.50,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Retweets",
+                    "qnt": 150,
+                    "price": 11.50,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Retweets",
+                    "qnt": 200,
+                    "price": 12.10,
+                    "discount": "15"
+                },
+                {
+                    "id": 5,
+                    "package": "Retweets",
+                    "qnt": 250,
+                    "price": 15.11,
+                    "discount": "20"
+                },
+                {
+                    "id": 6,
+                    "package": "Retweets",
+                    "qnt": 500,
+                    "price": 21,
+                    "discount": "20"
+                },
+                {
+                    "id": 7,
+                    "package": "Retweets",
+                    "qnt": 1000,
+                    "price": 35,
+                    "discount": "25"
+                },
+                {
+                    "id": 8,
+                    "package": "Retweets",
+                    "qnt": 2000,
+                    "price": 62,
+                    "discount": "30"
+                },
+                {
+                    "id": 9,
+                    "package": "Retweets",
+                    "qnt": 5000,
+                    "price": 121,
+                    "discount": "35"
+                },
+                {
+                    "id": 10,
+                    "package": "Retweets",
+                    "qnt": 7500,
+                    "price": 165,
+                    "discount": "35"
+                },
+                {
+                    "id": 11,
+                    "package": "Retweets",
+                    "qnt": 10000,
+                    "price": 210,
+                    "discount": "40"
+                }
+            ]
+        }
+    ]
+}

@@ -17,10 +17,20 @@ export async function POST(req) {
                         <td style="border: 1px solid #ddd; padding: 8px;">
                                <span>${product.serviceName}</span>
                                <br/>
-                               <div>
+                               ${product.serviceType ? `
+                                <div>
                                <span style="font-weight: bold; font-size:16px;">Type:</span>
                                <span style="font-size:16px;">${product.serviceType}</span>
                                </div>
+                               `: ""
+        }
+                               ${product.duration ? `
+                                <div>
+                               <span style="font-weight: bold; font-size:16px;">Duration:</span>
+                               <span style="font-size:16px;">${product.duration}</span>
+                               </div>
+                               `: ""
+        }
                                <div>
                                <span style="font-weight: bold; font-size:16px;">Link:</span>
                                <a href="${product.url}">${product.url}</a>
@@ -95,8 +105,20 @@ export async function POST(req) {
     const userOrderRow = orderDetails.products.map(product => `
                             <tr>
                                 <td style="padding: 10px; border-bottom: 1px solid #dddddd;">
-                                    <span>${product.serviceName}</span><br><br>
-                                    <span style="margin-top: 10px;"><strong>Type:</strong> ${product.serviceType}</span><br><br>
+                                ${product.serviceType ? `
+                                    <div>
+                                   <span style="font-weight: bold; font-size:16px;">Type:</span>
+                                   <span style="font-size:16px;">${product.serviceType}</span>
+                                   </div>
+                                   `: ""
+        }
+                                   ${product.duration ? `
+                                    <div>
+                                   <span style="font-weight: bold; font-size:16px;">Duration:</span>
+                                   <span style="font-size:16px;">${product.duration}</span>
+                                   </div>
+                                   `: ""
+        }
                                     <span style="margin-top: 10px;"><strong>Link:</strong> <a href="${product.url}" style="color: #058e3d; text-decoration: none;">${product.url}</a></span>
                                 </td>
                                 <td style="text-align: right; padding: 10px; border-bottom: 1px solid #dddddd;">${product.quantity}</td>

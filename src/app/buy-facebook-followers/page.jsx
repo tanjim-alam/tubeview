@@ -2,8 +2,9 @@ import React from 'react';
 import FacebookFollowersPage from './FacebookFollowersPage';
 export const generateMetadata = () => {
     return {
-        title: "Buy Real Facebook Followers -  Tubeviews",
-        description: "Buy Real Facebook Followers -  Tubeviews"
+        title: "Buy Facebook Followers- 100% Real & Organic User | TubeViews",
+        description: "Boost your social media presence instantly! Buy Facebook followers to enhance your credibility, attract organic growth, and grow your audience effortlessly.",
+        keywords: "Buy Facebook Followers, Buy Real Facebook Followers, Buy Active Facebook Followers, Buy Fb Followers"
     }
 }
 

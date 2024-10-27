@@ -57,7 +57,7 @@ const navlinksData = [
         services: [
             { id: 1, title: "Buy Twitter (X) Followers", slug: "buy-twitter-followers" },
             { id: 2, title: "Buy Twitter (X) Likes", slug: "buy-twitter-likes" },
-            { id: 3, title: "Buy Twitter (X) Comments", slug: "buy-twitter-comments" },
+            { id: 3, title: "Buy Twitter (X) Retweets", slug: "buy-twitter-retweets" },
             { id: 4, title: "Buy Twitter (X) Video Views", slug: "buy-twitter-video-views" },
         ],
         color: "#1DA1F2"
@@ -69,7 +69,8 @@ const navlinksData = [
         services: [
             { id: 1, title: "Buy TikTok Followers", slug: "buy-tiktok-followers" },
             { id: 2, title: "Buy TikTok Likes", slug: "buy-tiktok-likes" },
-            { id: 3, title: "Buy TikTok Comments", slug: "buy-tiktok-comments" },
+            { id: 3, title: "Buy TikTok Views", slug: "buy-tiktok-views" },
+            { id: 4, title: "Buy TikTok Comments", slug: "buy-tiktok-comments" },
         ],
         color: "#000000"
     },
@@ -101,7 +102,6 @@ const navlinksData = [
             { id: 1, title: "Buy LinkedIn Followers", slug: "buy-linkedin-followers" },
             { id: 2, title: "Buy LinkedIn Connections", slug: "buy-linkedin-connections" },
             { id: 3, title: "Buy LinkedIn Likes", slug: "buy-linkedin-likes" },
-            { id: 4, title: "Buy LinkedIn Views", slug: "buy-linkedin-views" },
         ],
         color: "#0A66C2"
     },

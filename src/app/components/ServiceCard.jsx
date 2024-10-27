@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import { MdNoEncryptionGmailerrorred, MdSupportAgent, MdOutlinePrivacyTip } from "react-icons/md";
-import { FaSteamSymbol, FaFireAlt } from "react-icons/fa";
+import { FaFireAlt } from "react-icons/fa";
 import { IoMdDoneAll } from "react-icons/io";
 
 import Link from 'next/link';
@@ -11,7 +11,6 @@ import { useCart } from '../context/CartContext';
 function ServiceCard({ packageData }) {
     const router = useRouter();
     const [filteredPackageData, setFilteredPackageData] = useState(packageData.services[0].packages || []);
-    // const [serviceName,setServiceName] = useState(packageData.serviceName)
     const [keys, setKeys] = useState(packageData.services[0].keys || [])
     const [isActiveBtn, setIsActiveBtn] = useState(packageData.services[0].type);
     const [isActiveCard, setIsActiveCard] = useState(1);
@@ -43,9 +42,6 @@ function ServiceCard({ packageData }) {
         else if (str.includes("Facebook Page")) {
             return "Enter your fb page Link";
         }
-        else if (str.includes("Facebook Live")) {
-            return "Enter your fb Live Link";
-        }
         else if (str.includes("Facebook")) {
             return "Enter your fb post Link";
         }
@@ -57,9 +53,6 @@ function ServiceCard({ packageData }) {
         }
         else if (str.includes("Instagram Story")) {
             return "Enter your Ig Story Link";
-        }
-        else if (str.includes("Instagram Live")) {
-            return "Enter your Ig Live Link";
         }
         else if (str.includes("Instagram")) {
             return "Enter your Ig post Link";
@@ -102,6 +95,27 @@ function ServiceCard({ packageData }) {
         }
         else if (str.includes("LinkedIn")) {
             return "Enter your ln post Link";
+        }
+        else if (str.includes("Pinterest Followers")) {
+            return "Enter your Pinterest Profile Link";
+        }
+        else if (str.includes("Pinterest")) {
+            return "Enter your Pinterest Link";
+        }
+        else if (str.includes("Threads Followers")) {
+            return "Enter your Threads Profile Link";
+        }
+        else if (str.includes("Threads")) {
+            return "Enter your Threads Post Link";
+        }
+        else if (str.includes("Twitch Followers")) {
+            return "Enter your Twitch Profile Link";
+        }
+        else if (str.includes("Twitch Live")) {
+            return "Enter your Twitch Live Link";
+        }
+        else if (str.includes("Twitch")) {
+            return "Enter your Twitch Video Link";
         }
         return "Enter you Link"
     }
@@ -208,14 +222,24 @@ function ServiceCard({ packageData }) {
                         </div>
                     </div>
                     <div className='flex flex-col sm:flex-row lg:flex-row justify-between items-center gap-3 p-2'>
+                        {/* {
+                            packageData?.services?
+                        } */}
                         {
-                            packageData.services.map((data, i) => (
-                                <div key={i} className='w-full relative'>
-                                    <span className=' absolute text-[9px] right-1 top-[-10px] bg-sky-800 text-white rounded py-0.5 px-2 font-semibold'>{data.value}</span>
-                                    <button onClick={() => handleChagePackege(data.type)} className={` ${isActiveBtn == data.type ? "bg-primary text-white" : "bg-white border border-primary text-primary"} w-full text-primary text-lg font-semibold p-2 rounded-md`}>{data.type}</button>
+                            packageData?.services?.length > 1 ?
+                                packageData?.services?.map((data, i) => (
+                                    <div key={i} className='w-full relative'>
+                                        <span className=' absolute text-[9px] right-1 top-[-10px] bg-sky-800 text-white rounded py-0.5 px-2 font-semibold'>{data.value}</span>
+                                        <button onClick={() => handleChagePackege(data.type)} className={` ${isActiveBtn == data.type ? "bg-primary text-white" : "bg-white border border-primary text-primary"} w-full text-primary text-lg font-semibold p-2 rounded-md`}>{data.type}</button>
+                                    </div>
+                                ))
+                                :
+                                <div className='w-full relative'>
+                                    <span className=' absolute text-[9px] right-1 top-[-10px] bg-sky-800 text-white rounded py-0.5 px-2 font-semibold'>{packageData?.services[0]?.value}</span>
+                                    <button className={` bg-primary text-white" w-full text-white text-lg font-semibold p-2 rounded-md`}>{packageData?.services[0]?.type}</button>
                                 </div>
-                            ))
                         }
+
                     </div>
                     <div className='p-2'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 '>

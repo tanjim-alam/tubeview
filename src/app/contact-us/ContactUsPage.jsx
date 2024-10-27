@@ -37,9 +37,8 @@ function ContactUsPage() {
                 throw new Error(`Network response was not ok: ${res.statusText}`);
             }
             setIsLoading(false)
-            const data = await res.json(); // Assuming the response is JSON
+            const data = await res.json();
             setResMessage(data?.message)
-            console.log(data);
             setContactDetails({
                 name: "",
                 email: "",
@@ -47,7 +46,8 @@ function ContactUsPage() {
                 message: ""
             })
         } catch (error) {
-            console.error('There has been a problem with your fetch operation:', error);
+            setResMessage("Something went wrong please try again")
+            setIsLoading(false)
         }
     }
 

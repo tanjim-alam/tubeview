@@ -1,18 +1,25 @@
 "use client"
 
-import Image from 'next/image';
-import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { MdDeleteForever } from "react-icons/md";
 import { useCart } from '../context/CartContext';
+import { useRouter } from 'next/navigation';
 
 function CartPage() {
+    const router = useRouter()
     const { cartItems, totalPrice, removeItemFromCart } = useCart();
 
     function handleRemoveItemBtn(id) {
         removeItemFromCart(id)
     }
-    console.log(cartItems)
+
+    function handleGoToCheckout() {
+        if (cartItems?.length < 1) {
+            alert("Your Cart is Empty Please Select a Items");
+            return;
+        }
+        router.push("/checkout")
+    }
     return (
         <div className='bg-[#f4f4fa]'>
             <div className='lg:w-[80%] w-[95%] m-auto py-10'>
@@ -103,7 +110,7 @@ function CartPage() {
                                     <span className='font-bold text-black'>$ {totalPrice || 0}</span>
                                 </div>
                                 <div className='bg-secondary py-3 flex justify-center mt-6'>
-                                    <Link href={"/checkout"} className='text-center text-white text-sm font-medium w-full'>PROCEED TO CHECKOUT</Link>
+                                    <button onClick={handleGoToCheckout} className='text-center text-white text-sm font-medium w-full'>PROCEED TO CHECKOUT</button>
                                 </div>
                             </div>
 

@@ -3,7 +3,7 @@
     "services": [
         {
             "id": 1,
-            "type": "Regular",
+            "type": "Random",
             "value": "STANDARD",
             "keys": [
                 "High Quality Comments",
@@ -15,77 +15,57 @@
                 {
                     "id": 1,
                     "package": "Comments",
-                    "qnt": 500,
-                    "price": 3
+                    "qnt": 5,
+                    "price": 2,
+                    "discount": "15"
                 },
                 {
                     "id": 2,
                     "package": "Comments",
-                    "qnt": 1000,
-                    "price": 5,
-                    "discount": "5"
+                    "qnt": 10,
+                    "price": 4.96,
+                    "discount": "23"
                 },
                 {
                     "id": 3,
                     "package": "Comments",
-                    "qnt": 2000,
-                    "price": 9.5,
-                    "discount": "5"
+                    "qnt": 20,
+                    "price": 8.5,
+                    "discount": "25"
                 },
                 {
                     "id": 4,
                     "package": "Comments",
-                    "qnt": 3000,
-                    "price": 14,
-                    "discount": "5"
+                    "qnt": 50,
+                    "price": 18.95,
+                    "discount": "25"
                 },
                 {
                     "id": 5,
                     "package": "Comments",
-                    "qnt": 5000,
-                    "price": 23.5,
-                    "discount": "10"
+                    "qnt": 100,
+                    "price": 32,
+                    "discount": "30"
                 },
                 {
                     "id": 6,
                     "package": "Comments",
-                    "qnt": 8000,
-                    "price": 38,
-                    "discount": "10"
+                    "qnt": 200,
+                    "price": 55,
+                    "discount": "40"
                 },
                 {
                     "id": 7,
                     "package": "Comments",
-                    "qnt": 10000,
-                    "price": 45,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Comments",
-                    "qnt": 15000,
-                    "price": 70,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Comments",
-                    "qnt": 20000,
-                    "price": 90,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Comments",
-                    "qnt": 25000,
-                    "price": 115,
-                    "discount": "25"
+                    "qnt": 500,
+                    "price": 129,
+                    "discount": "55"
                 }
             ]
         },
         {
             "id": 3,
-            "type": "Premium",
+            "type": "Custom",
             "value": "EXCLUSIVE",
             "keys": [
                 "Everything in Active, plus",
@@ -100,71 +80,51 @@
                 {
                     "id": 1,
                     "package": "Comments",
-                    "qnt": 500,
-                    "price": 5
+                    "qnt": 5,
+                    "price": 3,
+                    "discount": "15"
                 },
                 {
                     "id": 2,
                     "package": "Comments",
-                    "qnt": 1000,
-                    "price": 7,
-                    "discount": "5"
+                    "qnt": 10,
+                    "price": 5.96,
+                    "discount": "23"
                 },
                 {
                     "id": 3,
                     "package": "Comments",
-                    "qnt": 2000,
-                    "price": 11,
-                    "discount": "5"
+                    "qnt": 20,
+                    "price": 9.5,
+                    "discount": "25"
                 },
                 {
                     "id": 4,
                     "package": "Comments",
-                    "qnt": 3000,
-                    "price": 16,
-                    "discount": "5"
+                    "qnt": 50,
+                    "price": 19.95,
+                    "discount": "25"
                 },
                 {
                     "id": 5,
                     "package": "Comments",
-                    "qnt": 5000,
-                    "price": 25.5,
-                    "discount": "10"
+                    "qnt": 100,
+                    "price": 35,
+                    "discount": "30"
                 },
                 {
                     "id": 6,
                     "package": "Comments",
-                    "qnt": 8000,
-                    "price": 41,
-                    "discount": "10"
+                    "qnt": 200,
+                    "price": 59,
+                    "discount": "40"
                 },
                 {
                     "id": 7,
                     "package": "Comments",
-                    "qnt": 10000,
-                    "price": 48,
-                    "discount": "12"
-                },
-                {
-                    "id": 8,
-                    "package": "Comments",
-                    "qnt": 15000,
-                    "price": 78,
-                    "discount": "15"
-                },
-                {
-                    "id": 9,
-                    "package": "Comments",
-                    "qnt": 20000,
-                    "price": 99,
-                    "discount": "20"
-                },
-                {
-                    "id": 10,
-                    "package": "Comments",
-                    "qnt": 25000,
-                    "price": 125,
-                    "discount": "25"
+                    "qnt": 500,
+                    "price": 135,
+                    "discount": "55"
                 }
             ]
         }
