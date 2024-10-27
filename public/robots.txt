@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tubeviews.co/
+
+# Sitemaps
+Sitemap: https://www.tubeviews.co/sitemap.xml

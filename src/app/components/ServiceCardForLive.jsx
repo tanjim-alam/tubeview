@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MdNoEncryptionGmailerrorred, MdSupportAgent, MdOutlinePrivacyTip } from "react-icons/md";
 import { FaSteamSymbol, FaFireAlt } from "react-icons/fa";
 import { IoMdDoneAll } from "react-icons/io";
@@ -10,6 +10,7 @@ import { useCart } from '../context/CartContext';
 
 function ServiceCardForLive({ packageData, serviceName, placeholder }) {
     const router = useRouter();
+    const sectionRef = useRef(null);
     const [isActiveQuantityCard, setIsActiveQuantityCard] = useState(1);
     const [isActiveDurationCard, setIsActiveDurationCard] = useState(1);
     const [currQuantity, setCurrQuantity] = useState(50);
@@ -22,10 +23,12 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
     function handleOnClickQuantity(item) {
         setIsActiveQuantityCard(item.id);
         setCurrQuantity(item.qnt)
+        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
     function handleOnClickDuration(item) {
         setIsActiveDurationCard(item.id);
         setCurrDuration(item.duration)
+        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
 
     function getPrice() {
@@ -137,8 +140,8 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
                                                 key={i}
                                                 onClick={() => handleOnClickQuantity(data)}
                                                 className={`rounded-md p-2 ${isActiveQuantityCard === data.id ? "bg-secondary text-white" : "bg-[#f1f3f5] text-black"} cursor-pointer hover:bg-secondary hover:text-white group flex justify-center flex-col items-center`}>
-                                                <p className='text-lg font-semibold'>{data.qnt}</p>
-                                                <p className='font-semibold'>Live Views</p>
+                                                <p className='text-2xl font-semibold'>{data.qnt}</p>
+                                                <p className=''>Live Views</p>
                                             </div>
                                         ))
                                     }
@@ -147,7 +150,7 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
                             <div className='bg-primary w-full p-1 flex justify-center lg:hidden mt-6'>
                                 <h6 className='text-lg font-semibold text-white'>Duration</h6>
                             </div>
-                            <div className='lg:w-[50%] w-full lg:border-l-2 flex justify-center mt-6 lg:mt-0'>
+                            <div className='lg:w-[50%] w-full lg:border-l-2 flex justify-center mt-6 lg:mt-0' ref={sectionRef}>
                                 <div className='grid lg:grid-cols-4 grid-cols-4 md:grid-cols-5 gap-3'>
                                     {
                                         packageData?.durations?.map((data, i) => (
@@ -155,8 +158,8 @@ function ServiceCardForLive({ packageData, serviceName, placeholder }) {
                                                 key={i}
                                                 onClick={() => handleOnClickDuration(data)}
                                                 className={`rounded-md p-2 ${isActiveDurationCard === data.id ? "bg-secondary text-white" : "bg-[#f1f3f5] text-black"} cursor-pointer hover:bg-secondary hover:text-white group flex justify-center flex-col items-center`}>
-                                                <p className='text-lg font-semibold'>{data.duration}</p>
-                                                <p className=' font-semibold'>Minutes</p>
+                                                <p className='text-2xl font-semibold'>{data.duration}</p>
+                                                <p className=''>Minutes</p>
                                             </div>
                                         ))
                                     }

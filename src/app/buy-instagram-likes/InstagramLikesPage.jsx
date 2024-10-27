@@ -1,20 +1,15 @@
 /* eslint-disable */
 import React from 'react'
 import dynamic from 'next/dynamic';
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSupportAgent, MdOutlineSpeed, MdOutlineQuickreply, MdOutlineVisibility, MdPolicy, MdEnhancedEncryption } from "react-icons/md";
+import { MdOutlineSupportAgent } from "react-icons/md";
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import igLikesData from "../constant/instagram/igLikesData.json"
-import { GoPackageDependencies } from 'react-icons/go';
 import { SiBoost, SiGoogleauthenticator } from 'react-icons/si';
 import { TbPackages, TbSocial, TbTruckDelivery } from "react-icons/tb";
 import { FaFireAlt } from 'react-icons/fa';
 import FeaturesSection from '../components/FeaturesSection';
-import { AiFillSafetyCertificate } from 'react-icons/ai';
 import { FaChalkboardUser, FaRankingStar } from 'react-icons/fa6';
 import { RiSecurePaymentFill, RiLockPasswordFill } from "react-icons/ri";
 import Image from 'next/image';
@@ -122,7 +117,7 @@ function InstagramLikesPage() {
         },
         {
             id: 4,
-            question: "Would buying Instagram likes from Tubeviews help to improve my social media profile?",
+            question: "Would buying Instagram likes from TubeViews help to improve my social media profile?",
             answer:
                 `Sure, absolutely! Buying likes from us will help your Instagram profile. More Instagram likes on your posts will attract 
                 the attention of other people, therefore improving exposure, follower count, and interaction. Purchasing likes helps you 
@@ -182,7 +177,7 @@ function InstagramLikesPage() {
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Instagram Likes from Tubeviews</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Instagram Likes from TubeViews</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -257,7 +252,7 @@ function InstagramLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Use Tubeviews to Boost Your Social Media Success: Buy Instagram Likes
+                            Use TubeViews to Boost Your Social Media Success: Buy Instagram Likes
                         </h3>
                     </div>
                 </div>
@@ -265,12 +260,12 @@ function InstagramLikesPage() {
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                At Tubeviews, we know that in the cutthroat digital scene of today, a strong social media presence is very vital.
+                                At <b>TubeViews</b>, we know that in the cutthroat digital scene of today, a strong social media presence is very vital.
                                 Whether your company, influencer, or content producer, being recognised on sites like Instagram and YouTube may
-                                significantly affect your development and success. Tubeviews then become really important.
+                                significantly affect your development and success. <b>TubeViews</b> then become really important.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Our dependable services allow you to effortlessly Buy Instagram likes, therefore enhancing your social media accounts
+                                Our dependable services allow you to effortlessly <b>Buy Instagram likes</b>, therefore enhancing your social media accounts
                                 and helping them to be unique and successful. On these powerful channels, let us assist you to establish reputation,
                                 increase exposure, and hasten your expansion.
                             </p>
@@ -376,7 +371,7 @@ function InstagramLikesPage() {
                                     improve your online profile, generate additional marketing chances, and establish close relationships with your audience.
                                 </p>
                                 <p className='leading-relaxed text-slate-600 mt-3'>
-                                    Let Tubeviews assist you to increase your Instagram likes and transform your profile.
+                                    Let <b>TubeViews</b> assist you to increase your Instagram likes and transform your profile.
                                 </p>
                             </div>
                         </div>
@@ -390,7 +385,7 @@ function InstagramLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Buy Instagram Likes from Tubeviews with Fast Delivery
+                            🤚🏿 Buy Instagram Likes from TubeViews with Fast Delivery
                         </h3>
                     </div>
                 </div>
@@ -445,15 +440,15 @@ function InstagramLikesPage() {
                                 trust creates a feeling of community and motivates consumers to interact more thoroughly with your company.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                A great companion on this road, tubeviews provide actual Instagram likes that support the reputation of your company.
-                                Increasing your engagement statistics helps Tubeviews to establish your brand as an expert in your field of business.
+                                A great companion on this road, <b>TubeViews</b> provide actual Instagram likes that support the reputation of your company.
+                                Increasing your engagement statistics helps <b>TubeViews</b> to establish your brand as an expert in your field of business.
                                 This increased awareness not only draws additional followers but also creates opportunities for possible sponsorships
                                 and alliances, therefore increasing your impact.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Keeping a constant degree of involvement is also quite essential. Companies that consistently get likes on their
                                 postings are seen as active and relevant, which facilitates building long-term bonds with their customers.
-                                Basically, investing in likes via Tubeviews may be a calculated action to develop a respectable business image,
+                                Basically, investing in likes via <b>TubeViews</b> may be a calculated action to develop a respectable business image,
                                 boost confidence, and generate continuous interaction—all of which are very essential for surviving in the digital
                                 market of today. You open the path for more success and possibilities on social media by giving brand trust and
                                 credibility top priority via likes.
@@ -487,11 +482,11 @@ function InstagramLikesPage() {
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Getting awareness in the ever-changing realm of Instagram might seem like a collection. How do you make sure
                                     your material stands out given the daily stream of innumerable postings filling readers' feeds? Instagram
-                                    likes reveal the solution. At Tubeviews, we provide a basic but effective way to improve your online profile
+                                    likes reveal the solution. At <b>TubeViews</b>, we provide a basic but effective way to improve your online profile
                                     by including actual likes that increase the exposure and interaction of your postings.
                                 </p>
                                 <p className='leading-relaxed text-slate-600 mt-3'>
-                                    Choosing to buy Instagram likes from Tubeviews increases your reach rather than just raising a count. More likes
+                                    Choosing to <b>Buy Instagram likes</b> from <b>TubeViews</b> increases your reach rather than just raising a count. More likes
                                     tell the Instagram algorithm your material is quality and interesting. Instagram is so more likely to show your
                                     posts on the Explore tab or in users' feeds, thereby allowing a larger audience access. More potential
                                     followers and consumers may find your profile, interact with your material, and join your developing community.
@@ -519,7 +514,7 @@ function InstagramLikesPage() {
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Let your great material not go unreported! Our Instagram likes will quickly increase your reach and help you
                                     see a great increase in interaction. Join the many happy users who have improved their Instagram profile with
-                                    Tubeviews now!
+                                    <b>TubeViews</b> now!
                                 </p>
                             </div>
 
@@ -534,7 +529,7 @@ function InstagramLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Why should you use Tubeviews to buy Instagram likes?
+                            🧍 Why should you use TubeViews to buy Instagram likes?
                         </h3>
                     </div>
                 </div>
@@ -543,7 +538,7 @@ function InstagramLikesPage() {
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    In the packed world of Instagram, one might find it difficult to get seen. Still, Tubeviews presents a
+                                    In the packed world of Instagram, one might find it difficult to get seen. Still, <b>TubeViews</b> presents a
                                     straightforward, workable answer for your problems. After Buying Instagram likes from us immediately
                                     increase the exposure, credibility, and interaction of your material. It may assist as follows:
                                 </p>
@@ -552,7 +547,7 @@ function InstagramLikesPage() {
                                 <h4 className="text-lg font-semibold text-slate-700">1. Establish Instant Credibility</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     People are more inclined to trust and interact with your material when your postings have more likes. Users of Instagram engage
-                                    with the platform in great part depending on this idea, "social proof." Tubeviews lets you boost your likes and create a strong
+                                    with the platform in great part depending on this idea, "social proof." <b>TubeViews</b> lets you boost your likes and create a strong
                                     first impression on businesses, consumers, and potential followers.
                                 </p>
                             </div>
@@ -576,7 +571,7 @@ function InstagramLikesPage() {
                                 <h4 className="text-lg font-semibold text-slate-700">4. Improves the Image of Your Brand</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Whether you own a company or are an influencer, great interaction shows people your material is worthwhile.
-                                    The likes feature of Tubeviews improves your Instagram profile and facilitates the attraction of relationships,
+                                    The likes feature of <b>TubeViews</b> improves your Instagram profile and facilitates the attraction of relationships,
                                     joint projects, and more followers who believe in your company
                                 </p>
                             </div>
@@ -600,7 +595,7 @@ function InstagramLikesPage() {
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Beginning with Tubeviews is simple. Here's a basic, methodical advice on how to buy YouTube views or Instagram likes and
+                                    Beginning with <b>TubeViews</b> is simple. Here's a basic, methodical advice on how to buy YouTube views or Instagram likes and
                                     start improving your social media profile right now:
                                 </p>
                             </div>
@@ -639,7 +634,7 @@ function InstagramLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Using Tubeviews to Increase Instagram Likes
+                            🤚🏿 Using TubeViews to Increase Instagram Likes
                         </h3>
                     </div>
                 </div>
@@ -655,7 +650,7 @@ function InstagramLikesPage() {
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 In the cutthroat realm of social media, standing out calls for credibility, exposure, and interaction in addition
-                                to excellent material. Our specialty at Tubeviews is helping you increase your social media profile by means of
+                                to excellent material. Our specialty at <b>TubeViews</b> is helping you increase your social media profile by means of
                                 Instagram likes and YouTube views. Whether your company, you are a creator, or you are an aspirant influencer,
                                 our services are meant to make sure your material performs better on two main platforms and reaches a larger audience.
                             </p>
@@ -679,7 +674,7 @@ function InstagramLikesPage() {
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Given millions of photos uploaded every day on Instagram, being seen there might be difficult. By providing a simple approach to
-                                buy Instagram likes, Tubeviews helps you negotiate this and gives your material the push it requires to surpass the competitors.
+                                <b>Buy Instagram likes</b>, <b>TubeViews</b> helps you negotiate this and gives your material the push it requires to surpass the competitors.
                                 Our service may be of use as follows:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -693,10 +688,10 @@ function InstagramLikesPage() {
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Starting a new Instagram account might be challenging. Faster Growth for New Accounts By improving interaction and
-                                simplifying the process of building a real following over time, tubeviews helps new accounts get first traction.
+                                simplifying the process of building a real following over time, <b>TubeViews</b> helps new accounts get first traction.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Strong engagement rate is essential if your aim is to work with sponsors or brands. Tubeviews increase your likes will
+                                Strong engagement rate is essential if your aim is to work with sponsors or brands. <b>TubeViews</b> increase your likes will
                                 help your profile appeal more to possible corporate partners.
                             </p>
                         </div>
@@ -714,7 +709,7 @@ function InstagramLikesPage() {
 
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Instagram Likes. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

@@ -1,9 +1,7 @@
+/* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react';
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
+import { MdSupportAgent, MdLightMode } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
 import { AiFillInteraction, AiOutlineSafety } from "react-icons/ai";
 import { FaCloudscale, FaWatchmanMonitoring } from "react-icons/fa";
@@ -48,7 +46,7 @@ engagement.
             description:
                 `
             From a range of options catered to your budget and need, choose. TubeViews offers choices that fit any
-creator&#39;s needs whether your desired view increase is little or huge.
+creator's needs whether your desired view increase is little or huge.
             `,
             icon: <LuPackageSearch />
         },
@@ -280,7 +278,7 @@ your video.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
 Whether your skill level is that of a seasoned content producer or a developing YouTuber, our service is meant to
-enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might help your channel and the reasons
+enable your success. Let's look at how <b>Buying YouTube comments</b> might help your channel and the reasons
 <b>TubeViews</b> is the finest option for this service.
                     </p>
                     </div>
@@ -300,10 +298,10 @@ enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might 
                             videos to express themselves, YouTube is thus a fantastic venue. Still, it would be dull to keep producing videos
                             without getting any comments. By now, comments are essential for content providers to gain audience comments.
                             Moreover, they enable the content producer to increase the exposure and reach of the video, thereby helping the
-                            audience to create a community. Simply said, without comments, YouTube wouldn&#39;t be what it is now.
+                            audience to create a community. Simply said, without comments, YouTube wouldn't be what it is now.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            Therefore, we are going to provide a terrific option if you&#39;re seeking for a means to increase your engagement while
+                            Therefore, we are going to provide a terrific option if you're seeking for a means to increase your engagement while
                             generating a dynamic environment for your content. Real YouTube comments let you increase interaction and
                             communication for your videos. Besides, when we say &quot;real,&quot; we mean it as we provide authentic comments from
                             actual accounts that actively engage with your content when you <b>buy YouTube comments</b> from TubeViews. Stated
@@ -319,7 +317,7 @@ enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might 
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             Whether your skill level is that of a seasoned content producer or a developing YouTuber, our service is meant to
-                            enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might help your channel and the reasons
+                            enable your success. Let's look at how <b>Buying YouTube comments</b> might help your channel and the reasons
                             <b>TubeViews</b> is the finest option for this service.
                         </p>
                     </div>
@@ -336,7 +334,7 @@ enable your success. Let&#39;s look at how <b>Buying YouTube comments</b> might 
                             <div className="w-full">
                                 <h4 className="text-white bg-primary rounded-full text-center text-lg font-semibold">Increase Engagement and Visibility</h4>
                                 <p className="leading-relaxed text-slate-600 mt-3">
-                                    Likes, shares, and comments engagement metrics are valued in YouTube&#39;s algorithm. More comments on your videos
+                                    Likes, shares, and comments engagement metrics are valued in YouTube's algorithm. More comments on your videos
                                     suggest to YouTube that your content is interesting and deserving of promotion. Increased platform exposure resulting
                                     from this makes it more likely that fresh readers will find your content. Buying comments with <b>TubeViews</b> can let you
                                     start this involvement and provide your films the necessary push.
@@ -415,7 +413,7 @@ comment part if you want to buy mass personalized YouTube comments. Your future 
 obtaining comments when you share auto-comments you buy.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
-Our payment mechanism is reliable. Your payment card records are kept private. We also don&#39;t ask for your
+Our payment mechanism is reliable. Your payment card records are kept private. We also don't ask for your
 password, hence your YouTube account is protected.
                     </p>
                     </div>
@@ -485,7 +483,7 @@ password, hence your YouTube account is protected.
                             <div className="border-2 border-primary p-4 rounded-lg h-fit">
                                 <h4 className="bg-primary text-white text-center rounded-full text-lg p-1">Quick Delivery</h4>
                                 <p className="leading-relaxed text-slate-600 lg:h-[200px] overflow-y-scroll removeScrollbar mt-3">
-                                    <b>Buying YouTube comments</b> indicates that you&#39;re hoping for a fast remedy, so we don&#39;t want to keep you waiting in
+                                    <b>Buying YouTube comments</b> indicates that you're hoping for a fast remedy, so we don't want to keep you waiting in
                                     anticipation. We will start handling your comments as soon as you finish your buy and aim to send them as quickly as
                                     feasible. In addition, should it take more than three days, you may immediately call our committed support service
                                     24/7 to inquire about the status of your transaction and, should a refund be required, ask for one.
@@ -504,7 +502,7 @@ password, hence your YouTube account is protected.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 If you <b>buy YouTube comments</b> on your videos to boost your engagement and assist Tube veiws so grab the
-                                opportunity and soar your channel&#39;s popularity under our direction.
+                                opportunity and soar your channel's popularity under our direction.
                             </p>
                         </div>
                         <div className="mt-5">
@@ -519,7 +517,7 @@ password, hence your YouTube account is protected.
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 The buying process is significantly less convoluted than you may think. Please first provide the URL of your video.
                                 Then choose the &quot;auto-comment&quot; option to buy multiple original comments. Our online check-out system is totally
-                                safe. Your payment card data are secure assured. We won&#39;t attempt obtaining your channel password either as a
+                                safe. Your payment card data are secure assured. We won't attempt obtaining your channel password either as a
                                 bonus.
                             </p>
 
@@ -541,7 +539,7 @@ password, hence your YouTube account is protected.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 The beating core of your YouTube channel is engagement. Comments are a necessary component of the interaction
                                 that keeps readers engaged in your content; they are not just feedback. High interaction rates translate into better
-                                Google search result and recommended video ranks, therefore increasing your channel&#39;s visibility. Buying comments
+                                Google search result and recommended video ranks, therefore increasing your channel's visibility. Buying comments
                                 can help you to rapidly improve your interaction statistics and increase the attractiveness of your videos to possible
                                 viewers.
                             </p>
@@ -599,7 +597,7 @@ password, hence your YouTube account is protected.
             </div>
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy YouTube Comments. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

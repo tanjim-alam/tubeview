@@ -1,6 +1,7 @@
+/* eslint-disable */
 import dynamic from 'next/dynamic';
 import React from 'react'
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdHighQuality } from "react-icons/md";
+import { MdSupportAgent, MdLightMode, MdHighQuality } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
 import { AiFillInteraction, AiOutlineSafety } from "react-icons/ai";
 import { FaCloudscale, FaTools, FaWatchmanMonitoring } from "react-icons/fa";
@@ -63,7 +64,7 @@ the-clock, our informed group of social media consultants also provides after-sa
             id: 6,
             title: "Money Return Guarantee",
             description: `
-            Should we fail to meet expectations, it hasn&#39;t occurred yet; we therefore provide a 100% money-
+            Should we fail to meet expectations, it hasn't occurred yet; we therefore provide a 100% money-
 back guarantee. You have peace of mind and confidence that our ironclad guarantee will cover you
 should we fail to provide your YouTube Live views for any reason.
             `,
@@ -109,7 +110,7 @@ their effective delivery as private channels might limit access to your material
             id: 2,
             question: "Is It Safe to Buy YouTube Views for My Stream?",
             answer:
-                `Yes! You won&#39;t have to worry about YouTube stopping your broadcast because we deliver live
+                `Yes! You won't have to worry about YouTube stopping your broadcast because we deliver live
 viewers organically and utilise safe payment options.
             `
         },
@@ -145,7 +146,7 @@ number of organic watchers you have and their staying duration.
             question: "Might I get banned for buying YouTube Live Views?",
             answer:
                 `You cannot be banned for purchasing YouTube livestream views. Usually, these points of view are
-presented utilising compliant and safe techniques free of violating YouTube&#39;s terms of service.
+presented utilising compliant and safe techniques free of violating YouTube's terms of service.
             `
         }
     ]
@@ -219,7 +220,7 @@ presented utilising compliant and safe techniques free of violating YouTube&#39;
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
                                     <b>TubeViews</b> offers a simple approach free of bother. Nothing sensitive or passwords are needed
                                     shared here. Just choose a plan, add an email address, provide a login, and finish the payment. Your
-                                    task is done; now it is time for us to carry out the request. We&#39;ll start delivering in a few minutes.
+                                    task is done; now it is time for us to carry out the request. We'll start delivering in a few minutes.
                                 </p>
                             </div>
                         </div>
@@ -245,7 +246,7 @@ presented utilising compliant and safe techniques free of violating YouTube&#39;
             <FeaturesSection
                 featuresData={featuresData}
                 heading={"🚀 Buy YouTube Live Views Features"}
-                subHeading={"We promise delivery; you deserve value. Our actual participation and live viewers come from active, interesting individuals. Real, active visitors that check off all of YouTube&#39;s algorithm parameters will flood your stream and suggest your channel to a larger audience."}
+                subHeading={"We promise delivery; you deserve value. Our actual participation and live viewers come from active, interesting individuals. Real, active visitors that check off all of YouTube's algorithm parameters will flood your stream and suggest your channel to a larger audience."}
             />
             <ContentSection1
                 heading={"🎉 How to live stream on YouTube?"}
@@ -255,7 +256,7 @@ presented utilising compliant and safe techniques free of violating YouTube&#39;
                     <div>
                     <p class='leading-relaxed text-slate-600'>
 One should not be terrified of YouTube live broadcasting. Your just require help throughout the
-procedure. <b>TubeViews</b> will take care of the rest; let&#39;s examine what you should do for your live
+procedure. <b>TubeViews</b> will take care of the rest; let's examine what you should do for your live
 streaming first.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
@@ -340,7 +341,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                     Sort first the bundle that best fits your requirements. We provide many choices to fit various tastes.
                                     We have you covered whether your desire is for a little boost or a big viewing tsunami. Just choose
                                     the bundle that speaks to you and put it in your basket. Use LiveChat or email to contact our
-                                    customer service staff if you&#39;re not sure which plan fits your YouTube channel. Their here to help
+                                    customer service staff if you're not sure which plan fits your YouTube channel. Their here to help
                                     you.
                                 </p>
                             </div>
@@ -352,7 +353,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Your chosen bundle will cause a pop-up window to appear. Here you should input the URL of your
                                     YouTube channel to make sure your views reach the correct location. Entering the right
-                                    information per the pop-up directions is really vital. Click the continue button after you&#39;ve finished
+                                    information per the pop-up directions is really vital. Click the continue button after you've finished
                                     that. You are free to investigate more and add additional products to your basket if you so wish.
                                 </p>
                             </div>
@@ -488,8 +489,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Every artist has distinct demands and aspirations, hence at <b>TubeViews</b> we provide many livestream
                                     view choices from which to pick. You may choose between concurrent views or video views;
-                                    concurrent viewers will see your live broadcast from the start to the finish of it. We also provide a
-                                    &#39;watch time&#39; (15, 30 minutes, and 1, 3, 6, 12, and 24 hours) option. The live viewers for video views
+                                    concurrent viewers will see your live broadcast from the start to the finish of it. We also provide a watch time's; (15, 30 minutes, and 1, 3, 6, 12, and 24 hours) option. The live viewers for video views
                                     will join your livestream for a designated duration and depart for the next group of viewers to join
                                     in real time.
                                 </p>
@@ -498,7 +498,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                 <h4 className="text-xl font-semibold text-slate-600">Adaptable Live Stream Packages</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     We offer a package choice for you regardless of your level of experience—small YouTuber trying to
-                                    develop or already established one hoping to increase her audience. Your broadcast&#39;s aims and
+                                    develop or already established one hoping to increase her audience. Your broadcast's aims and
                                     character will let you choose from our especially tailored YouTube livestream views bundle. For
                                     YouTube livestreams, our customisable packages go from 1000 to 1000000 viewers; Concurrent
                                     views allow 500 to 5000 views. We therefore have you covered whether your search is for number,
@@ -583,7 +583,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                 Enter YouTube Live Stream URL&quot; and verify to make sure it is accurate.
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
-                                To keep shopping, use &#39;Add to Cart; to access our safe payment page, use &#39;Buy Now&#39;.
+                                To keep shopping, use Add to Cart; to access our safe payment page, use Buy Now.
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
                                 Choose credit card or bitcoins as your chosen payment method.
@@ -627,7 +627,7 @@ when they notice that they draw a sizable audience.
                     <p class='leading-relaxed text-slate-600 mt-2'>
 Boost Engagement: Buying real YouTube livestream views increases audience involvement as the
 live feeds originate from real and engaged individuals. The active participants joining your live
-stream will assist to increase your engagement, thereby enhancing the broadcast&#39;s intriguing
+stream will assist to increase your engagement, thereby enhancing the broadcast's intriguing
 quality.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
@@ -640,7 +640,7 @@ views on your livestream prove you to be a niche influencer, which increases the
             />
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy YouTube Live Views. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

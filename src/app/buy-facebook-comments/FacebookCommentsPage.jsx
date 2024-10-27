@@ -1,9 +1,8 @@
+/* eslint-disable */
 "use client"
 import dynamic from 'next/dynamic';
 import React, { useMemo } from 'react';
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from 'react-icons/bs';
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSpeed, MdOutlineSelfImprovement, MdOutlineQuickreply, MdOutlineSupportAgent, MdOutlineVisibility, MdPolicy, MdEnhancedEncryption } from 'react-icons/md';
+import { MdOutlineSelfImprovement, MdOutlineQuickreply, MdOutlineSupportAgent, MdOutlineVisibility, MdPolicy, MdEnhancedEncryption } from 'react-icons/md';
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
@@ -11,7 +10,6 @@ const HeroSection = dynamic(() => import('../components/HeroSection'));
 // Import JSON data directly
 import fbCommentsData from "../constant/facebook/fbCommentsData.json";
 import { SiBoost, SiGoogleauthenticator } from 'react-icons/si';
-import { SlSizeActual } from 'react-icons/sl';
 import { RiSecurePaymentLine } from 'react-icons/ri';
 import { TbPackages } from 'react-icons/tb';
 import FeaturesSection from '../components/FeaturesSection';
@@ -210,7 +208,7 @@ own safety and well-being first priority.
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white '>
                                     Purchasing comments immediately increases the interaction on your postings. More comments increase
-                                    users&#39; news feed prominence, therefore raising the possibility of drawing in fresh followers and clients.
+                                    users; news feed prominence, therefore raising the possibility of drawing in fresh followers and clients.
                                 </p>
                             </div>
                         </div>
@@ -237,7 +235,7 @@ own safety and well-being first priority.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    Customisable packages from Tubeviews let you match your particular demand. Select the comments&#39; tone
+                                    Customisable packages from Tubeviews let you match your particular demand. Select the comments; tone
                                     and approach that fit your brand language to guarantee real conversations that speak to your readers.
                                 </p>
                             </div>
@@ -273,7 +271,7 @@ own safety and well-being first priority.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Buy Facebook Comments: Increase Tubeviews&#39; Social Media Engagement
+                            Buy Facebook Comments: Increase TubeViews; Social Media Engagement
                         </h3>
                     </div>
                 </div>
@@ -283,7 +281,7 @@ own safety and well-being first priority.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Getting unique among the always changing social media scene might be difficult. Creating interesting material is just the
                                 start given billions of people and many marketers fighting for attention. On sites like Facebook, you must improve your
-                                online presence, raise your interaction rates, and establish reputation if you want to really shine. That&#39;s where Tubeviews
+                                online presence, raise your interaction rates, and establish reputation if you want to really shine. That's where Tubeviews
                                 finds application. We provide a special chance to <b>Buy Facebook comments</b> that will improve your social media approach
                                 and enable you to meet corporate objectives.
                             </p>
@@ -333,7 +331,7 @@ own safety and well-being first priority.
                                 good!&quot;
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Enhanced Credibility: Real-world involvement builds your niche&#39;s authority. Comments from people on your goods or
+                                Enhanced Credibility: Real-world involvement builds your niche's authority. Comments from people on your goods or
                                 services improve your reputation and increase their likelihood of buying.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -360,14 +358,14 @@ own safety and well-being first priority.
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
-                                    Tubeviews is aware of the social media dynamics and the need of comments in increasing interaction. Our service lets you
-                                    quickly Buy Facebook Comments fit for your requirements. We follow this method:
+                                    <b>TubeViews</b> is aware of the social media dynamics and the need of comments in increasing interaction. Our service lets you
+                                    quickly <b>Buy Facebook Comments</b> fit for your requirements. We follow this method:
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Excellent Reviews</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    You should anticipate excellent, relevant comments when deciding to Buy Facebook comments from Tubeviews. Our
+                                    You should anticipate excellent, relevant comments when deciding to <b>Buy Facebook Comments</b> from Tubeviews. Our
                                     staff makes great effort to guarantee that the comments capture actual engagement and interest. They so seem natural and
                                     help to increase the authenticity of your postings.
                                 </p>
@@ -399,7 +397,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">5. Targeted Engagement Strategies</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Tubeviews provides tailored interaction tactics that enable you to reach certain demographics relevant to your business.
+                                    <b>TubeViews</b> provides tailored interaction tactics that enable you to reach certain demographics relevant to your business.
                                     You may guarantee that the comments on your postings are from people who are truly interested in your goods or services
                                     by targeting audiences based on their interests, age groupings, or geographical areas. This tailored strategy improves the
                                     chances of turning comments into genuine consumers.
@@ -409,7 +407,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">6. Integrate seamlessly with other marketing efforts.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Our services may be effortlessly integrated into your current marketing initiatives. Whether you&#39;re running Facebook
+                                    Our services may be effortlessly integrated into your current marketing initiatives. Whether you're running Facebook
                                     advertisements, promotions, or competitions, Buying comments may help you expand your audience. Increased
                                     engagement from comments may improve the success of your efforts by making them more appealing to prospective
                                     clients and promoting better interaction rates.
@@ -419,8 +417,8 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">7. Increased content visibility.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying comments may dramatically increase the exposure of your article on Facebook. Facebook&#39;s algorithm rewards
-                                    posts with high engagement, so your updates are more likely to show in users&#39; feeds and timelines. This increased
+                                    Buying comments may dramatically increase the exposure of your article on Facebook. Facebook's algorithm rewards
+                                    posts with high engagement, so your updates are more likely to show in users feeds and timelines. This increased
                                     exposure not only generates more comments, but it also increases likes, shares, and organic reach, resulting in a significant
                                     improvement in your total engagement metrics.
                                 </p>
@@ -438,7 +436,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">9. Real-time feedback and interaction.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Using Tubeviews&#39; services, you may get real-time feedback from your viewers via comments. This rapid engagement
+                                    Using <b>TubeViews</b> services, you may get real-time feedback from your viewers via comments. This rapid engagement
                                     enables you to assess customer responses to your goods, promotions, or content. Based on this input, you can swiftly
                                     change your approach to ensure that your content connects with your target audience and successfully serves their
                                     demands.
@@ -466,14 +464,14 @@ own safety and well-being first priority.
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
                                     Every encounter in the competitive field of digital marketing matters. Using sensible tools and techniques is crucial if one
-                                    wants to stand out and have a long-lasting impression. This is where Tubeviews may help you to maximise your marketing
+                                    wants to stand out and have a long-lasting impression. This is where <b>TubeViews</b> may help you to maximise your marketing
                                     activities by means of the deliberate acquisition of Facebook comments.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Increasing Engagement Rates</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Using Tubeviews is one of the main benefits in terms of much increased engagement rates. Buying Facebook comments
+                                    Using <b>TubeViews</b> is one of the main benefits in terms of much increased engagement rates. Buying Facebook comments
                                     makes you immediately seem relevant and popular. Naturally, posts with more comments attract more attention and
                                     encourage additional people to join the discussion. This more participation not only raises the exposure of your business
                                     but also promotes natural interactions that result in a larger reach and more community involvement.
@@ -490,7 +488,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Building Your Brand Identity</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Tubeviews let you match the comments to your brand message and voice. Customising comments guarantees that they
+                                    <b>TubeViews</b> let you match the comments to your brand message and voice. Customising comments guarantees that they
                                     appeal to your target market, therefore improving your brand identification and forging closer ties with your fans.
                                     Customers that experience this alignment develop brand loyalty as they relate better to a brand that speaks honestly and
                                     efficiently.
@@ -508,7 +506,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Using analytics for strategic expansion</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Comprehensive data from Tubeviews enable you to evaluate how comments you bought affect your general marketing
+                                    Comprehensive data from <b>TubeViews</b> enable you to evaluate how comments you bought affect your general marketing
                                     plan. Tracking engagement statistics can help you to better understand the kinds of materials your audience finds most
                                     interesting. This information helps you to improve your marketing strategy and guarantees even greater success of next
                                     initiatives.
@@ -519,7 +517,7 @@ own safety and well-being first priority.
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Including tube views into your marketing plan will revolutionise it. Maximising your efforts with bought Facebook
                                     comments can help you improve engagement, establish brand identification, increase traffic, and use insightful insights for
-                                    expansion. Tubeviews can help you to elevate your marketing and see how well your brand performs online!
+                                    expansion. <b>TubeViews</b> can help you to elevate your marketing and see how well your brand performs online!
                                 </p>
 
                             </div>
@@ -601,7 +599,7 @@ own safety and well-being first priority.
 
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Facebook Comments. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

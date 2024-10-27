@@ -127,7 +127,7 @@
                 {
                     "id": 8,
                     "package": "Likes",
-                    "qnt": 1000,
+                    "qnt": 10000,
                     "price": 90,
                     "discount": "15"
                 }

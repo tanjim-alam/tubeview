@@ -1,21 +1,19 @@
-
+/* eslint-disable */
 import React from 'react'
 import dynamic from 'next/dynamic';
-import { IoSearch, IoPeopleCircleOutline } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSecurity } from "react-icons/md";
+import { IoPeopleCircleOutline } from "react-icons/io5";
+import { MdSupportAgent } from "react-icons/md";
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import followersData from "../constant/facebook/followersData.json"
-import { FaCloudscale, FaCentos, FaWatchmanMonitoring } from 'react-icons/fa';
-import { FaDiagramSuccessor, FaPeopleGroup } from 'react-icons/fa6';
+import { FaCentos } from 'react-icons/fa';
+import { FaPeopleGroup } from 'react-icons/fa6';
 import { SiExpertsexchange } from "react-icons/si";
 import { TiSocialDribbbleCircular } from "react-icons/ti";
-import { GiCaptainHatProfile, GiEngagementRing, GiGrowth } from "react-icons/gi";
+import { GiCaptainHatProfile, GiEngagementRing } from "react-icons/gi";
 import FeaturesSection from '../components/FeaturesSection';
 import { TbTruckDelivery } from 'react-icons/tb';
-import { LuPackageSearch } from 'react-icons/lu';
 import { AiOutlineSafety } from 'react-icons/ai';
 import { RiLockPasswordFill } from "react-icons/ri";
 import { BsGraphDown } from "react-icons/bs";
@@ -146,7 +144,7 @@ several days.
         },
         {
             id: 6,
-            question: "Is Facebook&#39;s follower limit set?",
+            question: "Is Facebook's follower limit set?",
             answer:
                 `There is a follow limit but no follower limit. But daily you are permitted 400 followers and unfollows.
                 `
@@ -162,12 +160,12 @@ interaction—all of which help your Facebook presence to be generally successfu
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Followers</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buying Facebook <span class=text-secondary>Followers From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Followers from 100% Real and Active Users</h3>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Followers from Active  and 100% Real Users</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Facebook Followers for life-time</p>
                     </div>
                     <ServiceCard packageData={followersData} />
@@ -254,7 +252,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 leading-tight">
                             Buy Facebook Followers and Grow Your Social Presence Instantly with Tubeviews
                         </h3>
-                        <p className="leading-relaxed text-slate-600 mt-3">
+                        <p className="leading-relaxed text-slate-600 mt-3 text-inherit">
                             Boost Your Facebook Profile with Real Followers Today!
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
@@ -283,8 +281,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Why Is It Important to Have Facebook Followers?
-                        </h3>
+                            Why Is It Important to Have Followers on Your Facebook Profiles?</h3>
                     </div>
                 </div>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-8 py-5'>
@@ -404,7 +401,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                                 <h4 className="text-lg font-semibold text-white bg-primary text-center rounded-full px-3">Improved Engagement</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Larger following base means higher likelihood of likes, shares, and comments on our postings, thus
-                                    enhancing our profile on Facebook&#39;s algorithm.
+                                    enhancing our profile on Facebook's algorithm.
                                 </p>
                             </div>
                             <div>
@@ -438,7 +435,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                                     appearance, particularly considering that visitors will observe our big following.
                                 </li>
                                 <li className='leading-relaxed text-slate-700'>
-                                    Increased Engagement: Facebook&#39;s algorithm gives accounts with more followers’ preference,
+                                    Increased Engagement: Facebook's algorithm gives accounts with more followers’ preference,
                                     hence our posts are more likely to show up in news feeds.
                                 </li>
                                 <li className='leading-relaxed text-slate-700'>
@@ -454,7 +451,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div className="mt-4">
                                 <h3 className='lg:text-xl text-lg font-semibold text-slate-700'>How to Select a Reliable Service for Buying Facebook Followers</h3>
                                 <p className='leading-relaxed text-slate-700 mt-1'>
-                                    Choosing the correct solution is essential to guarantee we&#39;re obtaining value for our money and
+                                    Choosing the correct solution is essential to guarantee we're obtaining value for our money and
                                     preserving the reputation of our page whether or not we opt to Buy Facebook Profile
                                     Followers. Not all services are equal; hence, here is what we should give thought:
                                 </p>
@@ -588,7 +585,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Everyone eventually wants to expand steadily and quickly on Facebook. We understand how difficult it
                                     may be to wait till you achieve your aim whether you operate a website or possess a profile. Sometimes,
-                                    even with your greatest efforts to flourish, you are not just on your fortunate day. Still, don&#39;t feel hopeless!
+                                    even with your greatest efforts to flourish, you are not just on your fortunate day. Still, don't feel hopeless!
                                     Buying actual Facebook followers from Tube Views can help you increase your growth rate. Buy
                                     Facebook Followers might get you a head-start to maintain an organic growth cycle, as we have
                                     discussed, and you can draw additional followers to increase your reach. That being the case, Buying
@@ -635,7 +632,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Why Use Tubeviews to Buy Facebook Followers?
+                            Why Use TubeViews to Buy Facebook Followers?
                         </h3>
                     </div>
                 </div>
@@ -643,8 +640,8 @@ interaction—all of which help your Facebook presence to be generally successfu
                     <div>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                At Tubeviews, we take great satisfaction in providing a service that enhances your Facebook profile in
-                                addition to raising follower count. The main factors guiding your decision to Buy Facebook Followers
+                                At <b>TubeViews</b>, we take great satisfaction in providing a service that enhances your Facebook profile in
+                                addition to raising follower count. The main factors guiding your decision to <b>Buy Facebook Followers</b>
                                 from us are:
                             </p>
                         </div>
@@ -652,7 +649,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Active, Real Followers</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    At Tubeviews, we only show actual followers; we do not have bots or bogus accounts. Real followers help
+                                    At <b>TubeViews</b>, we only show actual followers; we do not have bots or bogus accounts. Real followers help
                                     your account to be active with likes, comments, and shares. This increases the validity of your profile and
                                     guarantees that your material will be seen by more people. Your profile seems more reliable when you
                                     participate really, therefore strengthening your personal and company reputation and enabling you to
@@ -662,7 +659,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">2. Effective and Quick Delivery</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Growing your social media profile calls for time, and we know how important it is. Tubeviews therefore
+                                    Growing your social media profile calls for time, and we know how important it is. <b>TubeViews</b> therefore
                                     ensures quick and effective distribution of your fans. We start adding followers to your account as soon as
                                     you buy, therefore producing instant results. Our fast delivery keeps you ahead of rivals and helps you
                                     immediately acquire social proof, therefore improving the appeal of your profile to possible organic
@@ -672,16 +669,16 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">3. Safe and Tight Exchange</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Tubeviews gives security first importance. We guarantee that your account is not compromised by using
-                                    only the most safe and effective ways to get followers to your Facebook page. You won&#39;t have to worry
-                                    about infractions or fines as our approach is totally consistent with Facebook&#39;s standards. We also make
+                                    <b>TubeViews</b> gives security first importance. We guarantee that your account is not compromised by using
+                                    only the most safe and effective ways to get followers to your Facebook page. You won't have to worry
+                                    about infractions or fines as our approach is totally consistent with Facebook's standards. We also make
                                     sure your payment details are kept secret using reliable encrypted payment gates.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">4. 24/7 Support</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    To guarantee a seamless experience, Tubeviews provides round-the-clock customer service. Our
+                                    To guarantee a seamless experience, <b>TubeViews</b> provides round-the-clock customer service. Our
                                     committed support staff is always available to help you whether your questions about our services, need
                                     assistance with your buy, or want guidance on increasing your social media presence. We think in
                                     supporting you constantly to maximise your buy and increase your Facebook following efficiently.
@@ -693,14 +690,14 @@ interaction—all of which help your Facebook presence to be generally successfu
                                     To fit your requirement and budget, we provide a selection of reasonably priced, adaptable solutions.
                                     Whether your firm is tiny, you are an influencer, or you are a person trying to increase your profile, we
                                     have tailored strategies for your objectives. Our prices guarantee that, even with a restricted budget, you
-                                    may benefit from first-rate services and experience notable increase. Tubeviews provide various choices
+                                    may benefit from first-rate services and experience notable increase. <b>TubeViews</b> provide various choices
                                     to keep developing at your speed and the most value for your money.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">6. A history of success</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Having thousands of happy customers, Tubeviews has developed a name as a reliable supplier of
+                                    Having thousands of happy customers, <b>TubeViews</b> has developed a name as a reliable supplier of
                                     premium social media expansion tools. Our track record demonstrates that we often provide favourable
                                     outcomes for businesses wishing to boost their following base and involvement. Whether you have a
                                     personal profile or a company page, our knowledge helps you reach your objectives while keeping a real
@@ -730,7 +727,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                                 to become well-known and ahead of your competition. As Tube views, we provide premium profiles along
                                 with efficient Facebook followers. Real and active on the site, these people help you to increase
                                 conversion into your profile. More natural visitors will find your page as it raises the interaction and
-                                involvement with other individuals. Whether it&#39;s a personal or brand page, your significant follower count
+                                involvement with other individuals. Whether it's a personal or brand page, your significant follower count
                                 can help you to be instantly and clearly identified. Thanks to our real followers, in the end your
                                 possibilities of going viral potential rises. Though they seem merely numbers, they represent a strong
                                 investment in your future.
@@ -743,7 +740,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                                 mutual confidence.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-2">
-                                We also know that the followers won&#39;t decline in time and will remain always. Should a decline arise,
+                                We also know that the followers won't decline in time and will remain always. Should a decline arise,
                                 nonetheless, we are here to provide a six-month refilled guarantee. Ask for a free refill by calling our 24-
                                 hour customer service number. Credit cards, mobile payments, Google Pay, Apple Pay or cryptocurrencies
                                 allow you to make safe payments as well. Stated differently, utilising our services makes one feel
@@ -764,7 +761,7 @@ interaction—all of which help your Facebook presence to be generally successfu
             {/* ======== content section 2 end ========= */}
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Facebook Followers. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

@@ -1,20 +1,15 @@
+/* eslint-disable */
 import React from 'react'
 import dynamic from 'next/dynamic';
-import { IoSearch } from "react-icons/io5";
-import { IoIosWarning, IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSpeed, MdOutlineAirlineSeatIndividualSuite, MdPrivacyTip, MdOutlineLocalLaundryService } from "react-icons/md";
+import { MdOutlinePayment, MdOutlineSpeed } from "react-icons/md";
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import fbVideoViewsData from "../constant/facebook/fbVideoViewsData.json"
 import { SlSizeActual } from 'react-icons/sl';
-import { TiSocialDribbbleCircular } from 'react-icons/ti';
 import { SiBoost, SiGoogleauthenticator } from 'react-icons/si';
-import { RiLockPasswordFill, RiSecurePaymentLine } from 'react-icons/ri';
+import { RiSecurePaymentLine } from 'react-icons/ri';
 import FeaturesSection from '../components/FeaturesSection';
-import { GiGiftOfKnowledge } from 'react-icons/gi';
-import { FaServicestack } from 'react-icons/fa';
 import { AiFillSafetyCertificate, AiOutlineSafety } from 'react-icons/ai';
 import { FaRankingStar } from 'react-icons/fa6';
 import { TbPackages, TbTruckDelivery } from 'react-icons/tb';
@@ -57,7 +52,7 @@ interaction.
             title: "Customizable Packages",
             description:
                 `
-           Whether you&#39;re seeking for a little boost or significant exposure, choose from a variety of
+           Whether you're seeking for a little boost or significant exposure, choose from a variety of
 packages that suit your requirements.
             `
             ,
@@ -86,7 +81,7 @@ including PayPal and credit cards.
             id: 8,
             title: "Enhanced Algorithm Ranking",
             description:
-                `A better ranking in Facebook&#39;s algorithm for your video results in more organic reach.
+                `A better ranking in Facebook's algorithm for your video results in more organic reach.
             `,
             icon: <FaRankingStar />
         },
@@ -94,7 +89,7 @@ including PayPal and credit cards.
             id: 9,
             title: "Safe and discrete",
             description:
-                `Your brand&#39;s credibility is preserved since there are no clues that your opinions were bought, and
+                `Your brand's credibility is preserved since there are no clues that your opinions were bought, and
 the procedure is completely private.
             `,
             icon: <AiFillSafetyCertificate />
@@ -113,7 +108,7 @@ the procedure is completely private.
             id: 2,
             question: "When will I get my Facebook views when?",
             answer:
-                `Entering a value into the &#39;Views Quantity&#39; box shows the projected delivery time.
+                `Entering a value into the Views Quantity box shows the projected delivery time.
                 `
         },
         {
@@ -128,7 +123,7 @@ the procedure is completely private.
             question: "Why should I buy Facebook video views?",
             answer:
                 `Facebook video views are the count of times users of the platform have seen your video. Buying views raises the profile of your
-video, therefore increasing its likelihood of showing up in viewers&#39; newsfeeds. It increases trustworthiness and may over time
+video, therefore increasing its likelihood of showing up in viewers; newsfeeds. It increases trustworthiness and may over time
 draw more natural involvement.
                 `
         },
@@ -142,10 +137,10 @@ After that, Tube Views will naturally transfer the acquired views to your video 
         },
         {
             id: 6,
-            question: "Are Tube Views&#39; points of view authentic or fictional?",
+            question: "Are Tube Views; points of view authentic or fictional?",
             answer:
                 `Every point of view expressed by Tube Views comes from actual and active experiences. Tube Views gives top priority on giving
-real views to make sure your material stays in good standing with Facebook&#39;s algorithm.
+real views to make sure your material stays in good standing with Facebook's algorithm.
                 `
         },
         {
@@ -175,12 +170,12 @@ particular interests. This assists your audience to be in line with your intende
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Video<br/>Views with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Video Views</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Video<br/>Views with Instant Delivery"} subTitle={"<h3>Buy Facebook Views<span class=text-secondary> From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Video Views from 100% Real and Active Users</h3>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real and Cheap Facebook Video Views for Life Time</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Facebook Video Views for life-time</p>
                     </div>
                     <ServiceCard packageData={fbVideoViewsData} />
@@ -192,7 +187,7 @@ particular interests. This assists your audience to be in line with your intende
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Video
-                            Views from Tubeviews</h3>
+                            Views from TubeViews</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -284,7 +279,7 @@ particular interests. This assists your audience to be in line with your intende
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Buying Facebook video views</b> only from us might be a game-changer if one wants to overcome this. It not only makes your
                                 video more immediately appealing but also draws more natural interaction. Your video increases prominence as it accumulates
-                                views, therefore enabling you to establish trust and connect with the correct audience. Before diving in, however, it&#39;s crucial to
+                                views, therefore enabling you to establish trust and connect with the correct audience. Before diving in, however, it's crucial to
                                 know how best to maximize this approach and how to augment it with natural development methods.
                             </p>
                         </div>
@@ -333,7 +328,7 @@ particular interests. This assists your audience to be in line with your intende
                                 sharing source behind YouTube. Now, with Facebook videos and the Facebook Live tool, interaction and engagement rates of
                                 videos on Facebook have climbed even higher. One of the excellent places to gain comments on your work is videos. Getting
                                 comments for your videos is essential as it helps you to know what material appeals to your audience and what not. <b>Buy
-                                    Facebook video views</b> from Tubeviews to quickly draw your target market and have more natural interaction.
+                                    Facebook video views</b> from TubeViews to quickly draw your target market and have more natural interaction.
                             </p>
                         </div>
                     </div>
@@ -355,7 +350,7 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 The Facebook algorithm gives material with high degree of interaction first priority. Your video will show more likely in the
-                                newsfeeds of possible followers the more views, likes, and shares it generates. Buying Facebook video views from Tubeviews is
+                                newsfeeds of possible followers the more views, likes, and shares it generates. Buying Facebook video views from <b>TubeViews</b> is
                                 a wise approach to quicken this procedure; so, it is important for:
                             </p>
                             <div className='flex flex-col gap-4 mt-4'>
@@ -402,7 +397,7 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Although Buying Facebook video views will start you greatly, combining it with natural techniques will optimize your results.
-                                These are some doable strategies to naturally increase your Facebook video views with the help of Tubeviews:
+                                These are some doable strategies to naturally increase your Facebook video views with the help of <b>TubeViews</b>:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Make your thumbnail count as it is the first thing others see. A well-designed, striking thumbnail greatly raises the possibility of
@@ -430,7 +425,7 @@ particular interests. This assists your audience to be in line with your intende
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Use relevant hashtags and keywords to maximize your video title and description in line with the searches for your target
-                                audience. This lets Facebook&#39;s search engine forward your video to the proper viewers.
+                                audience. This lets Facebook's search engine forward your video to the proper viewers.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Your movies may become popular and begin to organically generate views over time by combining these natural techniques with
@@ -454,8 +449,8 @@ particular interests. This assists your audience to be in line with your intende
                     <div className=''>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Though natural development is crucial, it might take time especially if you&#39;re just beginning or attempting to break through in a
-                                crowded sector. Here is where Buy Facebook Video Views from Tubeviews might be rather beneficial in your plan. It&#39;s like
+                                Though natural development is crucial, it might take time especially if you're just beginning or attempting to break through in a
+                                crowded sector. Here is where <b>Buy Facebook Video Views</b> from <b>TubeViews</b> might be rather beneficial in your plan. It's like
                                 providing your film with the starting fire required to appeal to more people.
                             </p>
                         </div>
@@ -477,11 +472,11 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 <b>Buying of FB video views</b> from us start the engagement process. More views translate into more likes, comments, and shares,
-                                thereby strengthening your video&#39;s ranking in the Facebook algorithm.
+                                thereby strengthening your video's ranking in the Facebook algorithm.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 For limited-time discounts, flash sales, or product introductions, waiting for natural views may not be feasible. <b>Buy Facebook
-                                    Video Views</b> from Tubeviews that guarantees that your message reaches the proper individuals fast.
+                                    Video Views</b> from <b>TubeViews</b> that guarantees that your message reaches the proper individuals fast.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Focus on producing more useful content instead of just attempting to get views by leveraging paid views to enhance your movies,
@@ -554,8 +549,8 @@ particular interests. This assists your audience to be in line with your intende
                     <div className=''>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Buying video views from us can help you get traction right away, but it&#39;s important to get views from actual, genuine stories.
-                                Facebook&#39;s algorithm is clever, and over time false views from bots might damage your page. We therefore underline the need of
+                                Buying video views from us can help you get traction right away, but it's important to get views from actual, genuine stories.
+                                Facebook's algorithm is clever, and over time false views from bots might damage your page. We therefore underline the need of
                                 buying real video views from trustworthy sources.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -571,7 +566,7 @@ particular interests. This assists your audience to be in line with your intende
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Open Pricing and Service: You should always be aware of what you are receiving and at what cost. We believe in clearly
-                                priced and never overpromising. Our clients&#39; confidence we have developed reflects the quality of our work.
+                                priced and never overpromising. Our clients confidence we have developed reflects the quality of our work.
                             </p>
                         </div>
                     </div>
@@ -595,7 +590,7 @@ particular interests. This assists your audience to be in line with your intende
                             techniques. Our advice is as follows:
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">
-                            Make sure your materials stay excellent and relevant to your readers. <b>Buy Facebook Video Views</b> from Tubeviews will help your
+                            Make sure your materials stay excellent and relevant to your readers. <b>Buy Facebook Video Views</b> from <b>TubeViews</b> will help your
                             video get seen, but your material will be what draws viewers back again.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">
@@ -611,7 +606,7 @@ particular interests. This assists your audience to be in line with your intende
                             enhances your profile and generates more views.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">
-                            <b>Buying Facebook video views</b> from Tube views will get you the start you need and increase people&#39;s willingness to offer their
+                            <b>Buying Facebook video views</b> from Tube views will get you the start you need and increase people's willingness to offer their
                             likes or comments upon seeing your marketing material. Two kinds of video viewing are possible from our system. The first one
                             are opinions expressed by actual Facebook users. These actual Facebook members can see your film; if they like it, millions of
                             others may view it. The second one relates to the opinions of Facebook users with realistic-looking bot appearance. Though they
@@ -652,7 +647,7 @@ particular interests. This assists your audience to be in line with your intende
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Using the correct method will allow you to increase your internet visibility and create a devoted following by combining paid and
                                 natural techniques. Increase your video views right now to start under control your social media success and see as your business
-                                reaches unprecedented heights. Let&#39;s flourish together!
+                                reaches unprecedented heights. Let's flourish together!
                             </p>
                         </div>
                         <Image
@@ -704,7 +699,7 @@ particular interests. This assists your audience to be in line with your intende
 
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Facebook Video Views. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

@@ -2,14 +2,9 @@
 import dynamic from 'next/dynamic';
 import React from 'react'
 import { FaAsterisk, FaClipboardCheck } from "react-icons/fa";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode } from "react-icons/md";
+import { MdSupportAgent, MdOutlinePayment, MdLightMode } from "react-icons/md";
 import { GiGrowth, GiFlatPlatform } from "react-icons/gi";
 import { GrCompliance } from "react-icons/gr";
-
-
-
 
 // Dynamically import components (Ensure these are default exports in their files)
 const WhyYouChooseSection = dynamic(() => import('../components/WhyYouChooseSection'));
@@ -170,7 +165,7 @@ function YouTubeSubscribers() {
                 title1={"Safe and secure process"}
                 description1={
                     `
-                    Tubeviews gives security of your channel first importance. Their approach according to YouTube&#39;s policies
+                    Tubeviews gives security of your channel first importance. Their approach according to YouTube's policies
 guarantees that your account stays protected all through the procedure.
                     `
                 }

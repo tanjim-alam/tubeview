@@ -158,8 +158,8 @@ export default function Home() {
         </div>
       </div>
       <FaqSection
-        heading={"🥇 Frequently Asked Questions"}
-        subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+        heading={"🥇 Celebrating Success: Stories Straight from Our Clients!"}
+        subHeading={"At TubeViews, your satisfaction comes first. Enjoy exceptional customer Support and watch your social media presence skyrocket!"}
         faqData={faqData}
       />
       <ReviewsSection reviewsData={homePageReviews || []} />

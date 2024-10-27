@@ -32,47 +32,58 @@ function Page() {
     }
 
     async function sendOrderToAdmin() {
-        setIsLoading(true)
-        document.getElementById('spinnerModal').showModal()
-        // if (isLoading) {
-        //     document.getElementById('spinnerModal').showModal()
-        // }
-        let orderId = Math.floor((Math.random() * 10000) + 1111);
-        const now = new Date();
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const longDate = now.toLocaleDateString('en-US', options);
-        const orderDetails = {
-            id: orderId,
-            date: longDate,
-            billingDetails,
-            products: cartItems,
-            totalPrice
-        }
-        const res = await fetch('/api/smtp', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ orderDetails }),
-        });
-        console.log(res);
-        if (res?.ok) {
-            localStorage.setItem("Order", JSON.stringify(orderDetails));
-            clearCart();
-            setIsLoading(false)
-            router.push("/thankyou")
-        }
-        else {
-            alert("Order failed please try again")
+        try {
+            setIsLoading(true);
+            // document.getElementById('spinnerModal').showModal()
+            let orderId = Math.floor((Math.random() * 10000) + 1111);
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const longDate = now.toLocaleDateString('en-US', options);
+            const orderDetails = {
+                id: orderId,
+                date: longDate,
+                billingDetails,
+                products: cartItems,
+                totalPrice
+            }
+            const res = await fetch('/api/smtp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ orderDetails }),
+            });
+            console.log(res);
+            if (res?.ok) {
+                localStorage.setItem("Order", JSON.stringify(orderDetails));
+                clearCart();
+                setIsLoading(false)
+                router.push("/thankyou")
+            }
+            else {
+                setIsLoading(false);
+                alert("Order failed please try again");
+
+            }
+        } catch (error) {
+            setIsLoading(false);
+            alert("Order failed please try again");
         }
     }
+
+    useEffect(() => {
+        if (isLoading) {
+            document.getElementById('spinnerModal').showModal()
+        }
+    }, [isLoading])
 
 
     return (
         <PayPalScriptProvider options={{ "client-id": "AdGX5uNCSCHAnafWXR40TLgMtPceAh2p2yOaqna3nR35DOA-1ogYdDyWkOLlsVIyxS0db8i0JPs7KhuE" }}>
             <div className='bg-[#f4f4fa] h-full'>
                 {/* ======================== */}
-                <Spinner />
+                {isLoading ? <Spinner /> : null}
+
                 {/* ========================= */}
                 <div className='lg:w-[60%] w-[95%] m-auto flex flex-col md:flex-row lg:flex-row gap-10 py-10 lg:py-20'>
                     {/* Billing Details */}

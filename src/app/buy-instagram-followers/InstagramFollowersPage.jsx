@@ -1,21 +1,18 @@
 /* eslint-disable */
 import React from 'react'
 import dynamic from 'next/dynamic';
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdAirplanemodeActive, MdOutlineSupportAgent } from "react-icons/md";
+import { MdAirplanemodeActive, MdOutlineSupportAgent } from "react-icons/md";
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import igFollowrsData from "../constant/instagram/igFollowersData.json"
-import { SiBoost, SiGoogleauthenticator } from 'react-icons/si';
-import { TbPackages, TbSocial, TbTruckDelivery } from 'react-icons/tb';
+import { SiGoogleauthenticator } from 'react-icons/si';
+import { TbPackages, TbTruckDelivery } from 'react-icons/tb';
 import { FaFireAlt } from 'react-icons/fa';
 import { GiGrowth } from "react-icons/gi";
-import { RiLockPasswordFill, RiSecurePaymentFill } from "react-icons/ri";
+import { RiSecurePaymentFill } from "react-icons/ri";
 import FeaturesSection from '../components/FeaturesSection';
-import { FaChalkboardUser, FaRankingStar } from 'react-icons/fa6';
+import { FaRankingStar } from 'react-icons/fa6';
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { PiMaskHappy } from "react-icons/pi";
 import Image from 'next/image';
@@ -130,7 +127,7 @@ Instagram followers are available for most of the services.
 focus at Smmowl is quality. We constantly ensure that your followers are consistent,
 tenacious, and that the packages are quite reasonable in cost. While some of our
 competitors might claim to be the best in the business, such assertions are false and cause
-unhappy consumers. You can be sure Tubeviews would give the best followers we could
+unhappy consumers. You can be sure TubeViews would give the best followers we could
 find, coupled with fast shipping and exceptional customer service. 
                 `
         },
@@ -224,7 +221,7 @@ periodically removes bogus profiles.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews provides a secure and private service free from
+                                    <b>TubeViews</b> provides a secure and private service free from
                                     compromise of the security of your account.
                                 </p>
                             </div>
@@ -251,7 +248,7 @@ periodically removes bogus profiles.
             {/* FeaturesSection start */}
             <FeaturesSection
                 featuresData={featuresData}
-                heading={"🚀 Buy Instagram Followers from Tubeviews features"}
+                heading={"🚀 Buy Instagram Followers from TubeViews features"}
             />
             {/* FeaturesSection end */}
 
@@ -406,7 +403,7 @@ periodically removes bogus profiles.
                                 </p>
                             </div>
                             <div>
-                                <h4 className="text-lg font-semibold text-slate-700">3. Improve your brand&#39;s image.</h4>
+                                <h4 className="text-lg font-semibold text-slate-700">3. Improve your brand's image.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     High follower count helps to improve the image of your brand. It says you are reliable and
                                     respectable. Whether you run a company or a personal account, a strong following helps
@@ -584,7 +581,7 @@ periodically removes bogus profiles.
                                 <p className='leading-relaxed text-slate-600 mt-3'>
                                     Anyone trying to flourish on Instagram has to keep ahead of these trends. Discover
                                     packages that will start your path by looking at Tube Views to make sure your account is
-                                    ready for Instagram&#39;s expansion!
+                                    ready for Instagram's expansion!
                                 </p>
                             </div>
 
@@ -609,7 +606,7 @@ periodically removes bogus profiles.
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     For both people and businesses, having 10,000 Instagram followers marks a major turning
-                                    point. This number&#39;s significance stems from:
+                                    point. This number's significance stems from:
                                 </p>
                             </div>
                             <div>
@@ -702,7 +699,7 @@ periodically removes bogus profiles.
                                 and popularity.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                More followers also help you show more on Instagram&#39;s algorithm, thereby raising your
+                                More followers also help you show more on Instagram's algorithm, thereby raising your
                                 chances of your material seeing on the Explore page. Higher engagement rates may ensue
                                 from users interacting with accounts that already have a significant following thanks to this
                                 exposure.
@@ -844,7 +841,7 @@ periodically removes bogus profiles.
 
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Instagram Followers. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

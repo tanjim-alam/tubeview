@@ -1,15 +1,16 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MdNoEncryptionGmailerrorred, MdSupportAgent, MdOutlinePrivacyTip } from "react-icons/md";
 import { FaFireAlt } from "react-icons/fa";
 import { IoMdDoneAll } from "react-icons/io";
-
+import Spinner from './Spinner';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import { useCart } from '../context/CartContext';
 
 function ServiceCard({ packageData }) {
     const router = useRouter();
+    const sectionRef = useRef(null);
     const [filteredPackageData, setFilteredPackageData] = useState(packageData.services[0].packages || []);
     const [keys, setKeys] = useState(packageData.services[0].keys || [])
     const [isActiveBtn, setIsActiveBtn] = useState(packageData.services[0].type);
@@ -141,6 +142,7 @@ function ServiceCard({ packageData }) {
     function handleOnClickCard(item) {
         setIsActiveCard(item.id);
         setSalactedPackage(item);
+        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
         const selectedData = filteredPackageData.find((data) => data.id === item.id);
         if (selectedData) {
             setCurrItemPrice(selectedData.price);
@@ -241,7 +243,7 @@ function ServiceCard({ packageData }) {
                         }
 
                     </div>
-                    <div className='p-2'>
+                    <div className='p-2' ref={sectionRef}>
                         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 '>
                             {filteredPackageData.map((data, i) => (
                                 <div
@@ -250,13 +252,13 @@ function ServiceCard({ packageData }) {
                                     onClick={() => handleOnClickCard(data)}
                                 >
                                     <div>
-                                        <p className={`text-xl font-semibold ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>
+                                        <p className={`text-2xl font-semibold ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>
                                             {data.qnt}
                                         </p>
-                                        <span className={`pb-1 text-lg ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>{data.package}</span>
+                                        <span className={`pb-1 text-md ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>{data.package}</span>
                                     </div>
                                     {data.discount && (
-                                        <p className={`text-xs ${isActiveCard === data.id ? "bg-white text-black" : "bg-secondary text-white"} text-right w-fit py-1 px-2 rounded-md group-hover:text-secondary group-hover:bg-white`}>
+                                        <p className={`text-xs mt-1 ${isActiveCard === data.id ? "bg-white text-black" : "bg-secondary text-white"} text-right w-fit py-1 px-2 rounded-md group-hover:text-secondary group-hover:bg-white`}>
                                             {data.discount} % Off
                                         </p>
                                     )}

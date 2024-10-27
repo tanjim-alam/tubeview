@@ -1,10 +1,18 @@
+"use client"
 import Link from 'next/link'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { FaLinkedinIn, FaTwitter, FaFacebook, FaInstagramSquare, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 function Footer() {
+    const [currentYear, setCurrentYear] = useState(null);
+    useEffect(() => {
+        const now = new Date();
+        if (now) {
+            setCurrentYear(now.getFullYear());
+        }
+    }, [])
     return (
         <div className='bg-secondary'>
             <div className='lg:w-[80%] w-[90%] m-auto py-5'>
@@ -19,12 +27,12 @@ function Footer() {
                             <p className='text-white'>
                                 Tubeviews.co is an Organic and Instantly Social Media Services Provider,
                                 Likes YouTube, Facebook, Instagram, and All Social Media Platform.
-                                Our Services are Very Easy and Affordable.Read More
+                                Our Services are Very Easy and Affordable. <Link href="/about-us">Read More</Link>
                             </p>
                         </div>
                         <div>
                             <p className='text-xl text-white font-semibold'>Support</p>
-                            <div className='flex justify-between text-white mt-3'>
+                            <div className='flex lg:flex-col xl:flex-row justify-between text-white mt-3'>
                                 <Link className='flex items-center font-semibold text-sm gap-1' href={"https://wa.me/919319187564"}><FaWhatsapp /><span>+91-9319187564</span></Link>
                                 <Link className='flex items-center font-semibold gap-1' href={"mailto:support@tubeviews.co"}><IoIosMail /><span>support@tubeviews.co</span></Link>
                             </div>
@@ -39,38 +47,44 @@ function Footer() {
                     </div>
                     <div className='lg:flex flex-col sm:grid sm:grid-cols-2 lg:flex-row justify-between gap-3 lg:w-[72%] w-full'>
                         <div className='w-full'>
-                            <h5 className='text-white text-xl font-semibold'>YouTube</h5>
+                            <h5 className='text-white text-xl font-semibold'>TikTok</h5>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
+                                <Link className='text-white hover:border-l-4' href={"buy-tiktok-followers"}>Buy TikTok Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-tiktok-likes"}>Buy TikTok Likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-tiktok-views"}>Buy Twitch Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-tiktok-comments"}>Buy Twitch Comments</Link>
+                            </div>
+
+                            <h5 className='text-white text-xl font-semibold mt-3'>LinkedIn</h5>
                             <div className='flex flex-col gap-1 mt-2'>
+                                <Link className='text-white hover:border-l-4' href={"buy-linkedin-followers"}>Buy LinkedIn Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-linkedin-likes"}>Buy LinkedIn likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-linkedin-connections"}>Buy Threads Connections</Link>
+                            </div>
+                        </div>
+                        <div className='w-full mt-3 lg:mt-0'>
+                            <h5 className='text-white text-xl font-semibold'>Twitch</h5>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
+                                <Link className='text-white hover:border-l-4' href={"buy-twitch-followers"}>Buy Twitch Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-twitch-views"}>Buy Twitch Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-twitch-live-viewers"}>Buy Twitch Live Viewers</Link>
+                            </div>
+                            <h5 className='text-white text-xl font-semibold mt-3'>Threads</h5>
+                            <div className='flex flex-col gap-1 mt-2'>
+                                <Link className='text-white hover:border-l-4' href={"buy-threads-followers"}>Buy Threads Followers</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-threads-likes"}>Buy Threads likes</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-threads-comments"}>Buy Threads Comments</Link>
+                            </div>
+                        </div>
+                        <div className='w-full mt-3 lg:mt-0'>
+                            <h5 className='text-white text-xl font-semibold'>YouTube</h5>
+                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
                                 <Link className='text-white hover:border-l-4' href={"buy-youtube-views"}>Buy YouTube Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-youtube-subscribers"}>Buy YouTube Subscriber</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-subscribers"}>Buy YouTube Subscribers</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-youtube-likes"}>Buy YouTube Likes</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-youtube-comments"}>Buy YouTube Comments</Link>
                                 <Link className='text-white hover:border-l-4' href={"buy-youtube-short-views"}>Buy YouTube Short Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-youtube-comments"}>Buy YouTube Live Views</Link>
-                            </div>
-                        </div>
-                        <div className='w-full mt-3 lg:mt-0'>
-                            <h5 className='text-white text-xl font-semibold'>Facebook</h5>
-                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-followers"}>Buy Facebook Followers</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-likes"}>Buy Facebook Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-comments"}>Buy Facebook Comments</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-video-views"}>Buy Facebook Video Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-page-likes"}>Buy Facebook Page Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-page-followers"}>Buy Facebook Page Followers</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-facebook-live-stream-views-viewers"}>Buy Facebook Live Views</Link>
-                            </div>
-                        </div>
-                        <div className='w-full mt-3 lg:mt-0'>
-                            <h5 className='text-white text-xl font-semibold'>Instagram</h5>
-                            <div className='flex flex-col gap-1 mt-1 lg:mt-2'>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-followers"}>Buy Instagram Followers</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-likes"}>Buy Instagram Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-comments"}>Buy Instagram Comments</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-reels-views"}>Buy Instagram Reels Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-reels-likes"}>Buy Instagram Reels Likes</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-live-stream-views"}>Buy Instagram Live Views</Link>
-                                <Link className='text-white hover:border-l-4' href={"buy-instagram-story-views"}>Buy Instagram Story Views</Link>
+                                <Link className='text-white hover:border-l-4' href={"buy-youtube-live-stream-views-viewers"}>Buy YouTube Live views</Link>
                             </div>
                         </div>
                         <div className='w-full mt-3 lg:mt-0'>
@@ -92,7 +106,7 @@ function Footer() {
                 </div>
             </div>
             <div className='bg-primary text-center p-2 text-white'>
-                <p>Copyright © TubeViews. All Rights Reserved 2024</p>
+                <p>Copyright © TubeViews. All Rights Reserved 2016 - {currentYear}</p>
             </div>
         </div>
     )

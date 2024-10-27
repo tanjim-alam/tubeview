@@ -1,19 +1,16 @@
+/* eslint-disable */
 "use client"
 import React from 'react';
 import dynamic from 'next/dynamic';
-import { IoSearch } from "react-icons/io5";
-import { IoMdWatch } from "react-icons/io";
-import { BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdOutlineSecurity } from "react-icons/md";
+import { MdSupportAgent, MdOutlinePayment, MdLightMode, MdOutlineSecurity } from "react-icons/md";
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 
 import youtubeViewsData from "../constant/youtube/youtubeViewsData.json";
 import HeroSection from '../components/HeroSection';
-import { AiFillInteraction, AiOutlineSafety } from 'react-icons/ai';
+import { AiOutlineSafety } from 'react-icons/ai';
 import { FaCloudscale, FaWatchmanMonitoring } from 'react-icons/fa';
 import { FaDiagramSuccessor } from "react-icons/fa6";
 import FeaturesSection from '../components/FeaturesSection';
-import { FcPodiumWithAudience } from 'react-icons/fc';
 import { LuPackageSearch } from 'react-icons/lu';
 import { TbTruckDelivery } from 'react-icons/tb';
 import { GiEngagementRing, GiGrowth } from 'react-icons/gi';
@@ -87,7 +84,7 @@ monitoring your purchase or choosing a shipment.
             id: 8,
             title: "All-Inclusive Analytics Tracking",
             description:
-                `Get access to comprehensive metrics that let you monitor Shorts&#39; performance. Knowing audience
+                `Get access to comprehensive metrics that let you monitor Shorts performance. Knowing audience
 interaction will enable you to improve your content plan for next videos.
             `,
             icon: <FaWatchmanMonitoring />
@@ -116,7 +113,7 @@ refills.
             id: 2,
             question: "Will my account be banned if I buy YouTube short views?",
             answer:
-                `Calm yourself not too worried. You won&#39;t be banned from YouTube as brief views there are not illegal.
+                `Calm yourself not too worried. You won't be banned from YouTube as brief views there are not illegal.
                 `
         },
         {
@@ -154,7 +151,7 @@ Your views will also be shown on your videos.
             question: "What are the advantages of short YouTube videos?",
             answer:
                 `The first thing it will influence is rapidly raise the popularity of your short films and strengthen your account
-reputation. Social media&#39;s consistent rule is that people are always interested and perused popular information. Buying
+reputation. Social media's consistent rule is that people are always interested and perused popular information. Buying
 brief views will cause readers to wonder about your profile and check the view count of your stuff. Your account and
 following count will naturally expand as the views rise.
                 `
@@ -218,7 +215,7 @@ also said that there will be monetisation in the next days.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    Our platform&#39;s design is simple in intention. Choosing your package, navigating our offerings, and finishing
+                                    Our platform's design is simple in intention. Choosing your package, navigating our offerings, and finishing
                                     your transaction will save you time and enable you to concentrate more on producing material than on
                                     handling difficult procedures.
                                 </p>
@@ -280,10 +277,10 @@ also said that there will be monetisation in the next days.
                                 content makers really decided to utilize YouTube short videos alone and tailored their contents appropriately.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Speaking of it, one of YouTube&#39;s most modern creations and a major component of our life are the little films.
+                                Speaking of it, one of YouTube's most modern creations and a major component of our life are the little films.
                                 One may only see it on the phone and view it for no more than sixty seconds maximum. From the &quot;Short&quot; panel
-                                at the bottom of your phone&#39;s screen, the little video snippets from the home screen are accessible. With
-                                millions of YouTube users, it&#39;s fair to say these days YouTube shorts are the new approach of finding videos and
+                                at the bottom of your phone's screen, the little video snippets from the home screen are accessible. With
+                                millions of YouTube users, it's fair to say these days YouTube shorts are the new approach of finding videos and
                                 connecting us. Thus, it is not difficult to grasp why it is so popular. Simple to develop, quick to see, entertaining,
                                 and easily reachable audiences, YouTube short contents are
                             </p>
@@ -318,7 +315,7 @@ also said that there will be monetisation in the next days.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Although producing interesting content is important, the reality is that the great volume of videos submitted daily
                                 makes many YouTube producers difficult to get traction. Videos having more views, likes, and shares that is, better
-                                engagement metrics have YouTube&#39;s algorithm mostly favoring them. This implies that, independent of their quality,
+                                engagement metrics have YouTube's algorithm mostly favoring them. This implies that, independent of their quality,
                                 your shorts can be buried behind millions of other movies if they are not generating views.
                             </p>
                         </div>
@@ -356,8 +353,8 @@ also said that there will be monetisation in the next days.
                                 viewers to check them out.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Boost Algorithmic Ranking: YouTube&#39;s system favors videos with more interaction including view counts. Buying
-                                views is simply providing your video with the boost it need to get the algorithm&#39;s attention, thereby increasing
+                                Boost Algorithmic Ranking: YouTube's system favors videos with more interaction including view counts. Buying
+                                views is simply providing your video with the boost it need to get the algorithm's attention, thereby increasing
                                 platform exposure.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -366,7 +363,7 @@ also said that there will be monetisation in the next days.
                                 your content.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Compete in a Crowded Space: Especially for Shorts, YouTube&#39;s competitiveness is intense. Buying views might help
+                                Compete in a Crowded Space: Especially for Shorts, YouTube's competitiveness is intense. Buying views might help
                                 you stand out from other producers battling obscurity.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -390,7 +387,7 @@ also said that there will be monetisation in the next days.
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Buying YouTube Shorts views is easy and might help your videos greatly. At <b>TubeViews</b>, we ensure that you get
-                                actual, high-quality views compliant with YouTube&#39;s policies by simplifying and openness of the procedure.
+                                actual, high-quality views compliant with YouTube's policies by simplifying and openness of the procedure.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Here is how it works:
@@ -445,7 +442,7 @@ also said that there will be monetisation in the next days.
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 One of the usual worries of artists is if Buy YouTube Short Views is safe. Buying YouTube Shorts views from a
-                                reputable provider like <b>TubeViews</b> is 100% secure and not against YouTube&#39;s terms of service. Here&#39;s the rationale:
+                                reputable provider like <b>TubeViews</b> is 100% secure and not against YouTube's terms of service. Here's the rationale:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Real Views from Real individuals:</b> <b>TubeViews</b> just provides views from actual individuals, not bots or bogus
@@ -457,8 +454,8 @@ also said that there will be monetisation in the next days.
                                 targeted by YouTube.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>Compliant with YouTube’s Guidelines:</b> Operating under YouTube&#39;s policies, <b>TubeViews</b> makes sure that every
-                                view is presented in a manner that conforms to the platform&#39;s regulations. This implies that, knowing your account is
+                                <b>Compliant with YouTube’s Guidelines:</b> Operating under YouTube's policies, <b>TubeViews</b> makes sure that every
+                                view is presented in a manner that conforms to the platform's regulations. This implies that, knowing your account is
                                 protected, you may Buy YouTube Short Views with confidence.
                             </p>
                         </div>
@@ -491,7 +488,7 @@ also said that there will be monetisation in the next days.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Affordable Packages:</b> We have packages to fit all budgets, from young creators with little means to seasoned
-                                influencers wishing to expand even further. Giving your YouTube Shorts the boost they deserve doesn&#39;t have you
+                                influencers wishing to expand even further. Giving your YouTube Shorts the boost they deserve doesn't have you
                                 breaking the budget.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -519,20 +516,20 @@ also said that there will be monetisation in the next days.
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 The possibility for natural development is among the most important benefits of <b>buying YouTube Shorts
-                                    views</b>. Here&#39;s how it goes:
+                                    views</b>. Here's how it goes:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>Improve Your Search Results Ranking:</b> YouTube&#39;s algorithm gives videos with high interaction levels
-                                preference. Buying views increases your odds of your video showing up higher in YouTube&#39;s search results,
+                                <b>Improve Your Search Results Ranking:</b> YouTube's algorithm gives videos with high interaction levels
+                                preference. Buying views increases your odds of your video showing up higher in YouTube's search results,
                                 therefore boosting its visibility to those looking for content much like yours.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Get More Organic Views:</b>  See an avalanche of natural views as your video rises in the ranks and shows up in
-                                more viewers&#39; feeds. This starts a snowball effect wherein first bought views result in even more real
+                                more viewers feeds. This starts a snowball effect wherein first bought views result in even more real
                                 involvement.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>Attract More Subscribers:</b> Increase your Shorts&#39; visibility and attract more views would probably help you to
+                                <b>Attract More Subscribers:</b> Increase your Shorts; visibility and attract more views would probably help you to
                                 see more subscribers. Those who value your content will sign up for your channel, therefore fostering long-
                                 term development and loyalty.
                             </p>
@@ -561,12 +558,12 @@ also said that there will be monetisation in the next days.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                User activity and involvement define YouTubes recommendation algorithm mostly. YouTube&#39;s system notes a lot of
+                                User activity and involvement define YouTubes recommendation algorithm mostly. YouTube's system notes a lot of
                                 views in a short period of time for a video. <b>Buy YouTube Short Views</b> can help to improve the promotion of your
                                 videos throughout the platform:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>Increased Visibility in Recommendations:</b> Buying views causes your video to appeal more to YouTube&#39;s
+                                <b>Increased Visibility in Recommendations:</b> Buying views causes your video to appeal more to YouTube's
                                 recommendation algorithm. The algorithm is more likely to advertise your film to consumers via the &quot;Suggested&quot; or
                                 &quot;Next Up&quot; tools as it picks traction.
                             </p>
@@ -653,13 +650,13 @@ also said that there will be monetisation in the next days.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Real Views from Real Users:</b> Make sure the service offers actual user perspectives constantly. Fake or bot-generated
-                                views might cause problems with YouTube&#39;s policies, which can cost your channel fines or suspension. For instance,
+                                views might cause problems with YouTube's policies, which can cost your channel fines or suspension. For instance,
                                 <b>TubeViews</b> ensures actual and genuine views compliant with YouTube terms of service.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 <b>Gradual and Natural Delivery:</b> Services that provide all your ideas at once should be avoided. The YouTube
                                 algorithm could see a questionable rise in views. Gradual delivery techniques are used by <b>TubeViews</b> to guarantee that
-                                your views come in over a fair time span, thereby seeming more natural and authentic to viewers and YouTube&#39;s
+                                your views come in over a fair time span, thereby seeming more natural and authentic to viewers and YouTube's
                                 system.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
@@ -740,7 +737,7 @@ also said that there will be monetisation in the next days.
             </div>
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy YouTube Short Views. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>

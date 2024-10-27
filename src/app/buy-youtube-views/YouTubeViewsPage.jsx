@@ -27,7 +27,7 @@ function YouTubeViewsPage() {
         {
             id: 1,
             title: "Guarantee",
-            description: "We promise to give you a refund if we can&#39;t deliver your order within the three-day minimum delivery time frame shown on the service page.",
+            description: "We promise to give you a refund if we can't deliver your order within the three-day minimum delivery time frame shown on the service page.",
             icon: <MdLightMode />
         },
         {
@@ -53,7 +53,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
         {
             id: 5,
             title: "No Decline Risk",
-            description: "Your purchased services will be everlasting, hence there won&#39;t be any drop. Otherwise, we promise to replenish your losses six months after your purchase..",
+            description: "Your purchased services will be everlasting, hence there won't be any drop. Otherwise, we promise to replenish your losses six months after your purchase..",
             icon: <BsGraphDownArrow />
         },
         {
@@ -191,7 +191,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 description4={
                     `
                     Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
-                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
                 }
@@ -260,7 +260,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                     `
                     <div>
                     <p class='leading-relaxed text-slate-600'>
-                    Although organic views are fantastic, if you&#39;re in need for <b>buying youtube views</b> 
+                    Although organic views are fantastic, if you're in need for <b>buying youtube views</b> 
                     and purchase YouTube watch hours that will provide you just as much impact in much less time.
                     </p>
                     <br>
@@ -552,7 +552,10 @@ and adds to watch hours. Having several points of view calms the algorithm.
                     </div>
                 </div>
             </div>
-            <FaqSection faqData={faqData} />
+            <FaqSection faqData={faqData}
+                heading={"🥇 Frequently Asked Questions"}
+                subHeading={"Find answers to any questions you may have in mind about Buy YouTube Views. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
+            />
             <ReviewsSection reviewsData={youtubeViewsReviews || []} />
         </div>
     );

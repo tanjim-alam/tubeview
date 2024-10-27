@@ -177,7 +177,7 @@ options for YouTubers at all levels.
                 description4={
                     `
                     Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
-                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
                 }
@@ -376,7 +376,7 @@ options for YouTubers at all levels.
 
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy YouTube Likes. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
             <ReviewsSection reviewsData={youtubeLikesReviews || []} />

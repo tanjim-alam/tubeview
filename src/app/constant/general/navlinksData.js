@@ -132,7 +132,7 @@ const navlinksData = [
         name: "Threads",
         icon: FaSquareThreads,
         services: [
-            { id: 1, title: "Buy Threads Follower", slug: "buy-threads-followers" },
+            { id: 1, title: "Buy Threads Followers", slug: "buy-threads-followers" },
             { id: 2, title: "Buy Threads likes", slug: "buy-threads-likes" },
             { id: 3, title: "Buy Threads Comments", slug: "buy-threads-comments" },
         ],

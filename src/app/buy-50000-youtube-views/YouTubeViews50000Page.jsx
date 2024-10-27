@@ -198,7 +198,7 @@ function YouTubeViews50000Page() {
             <div className='w-full bg-white py-10'>
                 <div className='w-[70%] m-auto flex flex-col justify-center items-center'>
                     <div>
-                        <Link href={"#"} className='bg-[#edf2f7] px-8 py-1 rounded-full font-semibold text-xl text-black'>Buy YouTube Views</Link>
+                        <Link href={"buy-youtube-views"} className='bg-[#edf2f7] px-8 py-1 rounded-full font-semibold text-xl text-black'>Buy YouTube Views</Link>
                     </div>
                     <div className='mt-6'>
                         <h1 className='text-3xl font-semibold text-black'>Buy 50000/50k YouTube Views with <span className='text-red-500'>Instant Delivery</span></h1>

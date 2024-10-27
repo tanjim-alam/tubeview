@@ -1,21 +1,17 @@
 /* eslint-disable */
 import React from 'react';
 import dynamic from 'next/dynamic';
-import { IoPeopleCircleOutline, IoSearch } from "react-icons/io5";
-import { IoIosWarning, IoMdWatch } from "react-icons/io";
-import { BsGraphDown, BsGraphDownArrow } from "react-icons/bs";
-import { MdSupportAgent, MdOutlinePayment, MdLockOutline, MdOutlineWarning, MdLightMode, MdPrivacyTip, MdOutlineSpeed, MdOutlineAirlineSeatIndividualSuite, MdOutlineLocalLaundryService } from "react-icons/md";
+import { IoIosWarning } from "react-icons/io";
+import { MdSupportAgent, MdPrivacyTip, MdOutlineSpeed, MdOutlineAirlineSeatIndividualSuite, MdOutlineLocalLaundryService } from "react-icons/md";
 // Dynamically import components (Ensure these are default exports in their files)
 const ServiceCard = dynamic(() => import('../components/ServiceCard'));
 const HeroSection = dynamic(() => import('../components/HeroSection'));
 import fbLikesData from "../constant/facebook/fbLikesData.json"
-import { FaCentos, FaServicestack } from 'react-icons/fa';
-import { GiCaptainHatProfile, GiEngagementRing, GiGiftOfKnowledge } from 'react-icons/gi';
+import { FaServicestack } from 'react-icons/fa';
+import { GiGiftOfKnowledge } from 'react-icons/gi';
 import { TiSocialDribbbleCircular } from 'react-icons/ti';
 import { SlSizeActual } from "react-icons/sl";
 import FeaturesSection from '../components/FeaturesSection';
-import { TbTruckDelivery } from 'react-icons/tb';
-import { FaPeopleGroup } from 'react-icons/fa6';
 import { AiOutlineSafety } from 'react-icons/ai';
 import { RiLockPasswordFill } from 'react-icons/ri';
 import Image from 'next/image';
@@ -162,12 +158,12 @@ additionally cover every transaction with a first 60-day retention guarantee.
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Likes <br/> with Instant Delivery"} subTitle={"<h3>Buy More <span class=text-secondary>Likes</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Likes <br/>For Post/Photo"} subTitle={"<h3>Buy Likes From <span class=text-secondary>TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
-                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get Real Facebook Likes from 100% Real and Active Users</h3>
+                        <h3 className='lg:text-3xl text-2xl text-center lg:text-start font-semibold text-black'>Get authentic Facebook likes on your posts and photos from 100% real, active users!</h3>
                         <p className='lg:text-xl text-lg text-center lg:text-start font-medium text-black'>We provide Real and Non-Drop Facebook Likes for life-time</p>
                     </div>
                     <ServiceCard packageData={fbLikesData} />
@@ -398,7 +394,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                                 interaction.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                <b>Increased Visibility:</b> Facebook&#39;s algorithm often gives material with more interactions top priority. Buying likes
+                                <b>Increased Visibility:</b> Facebook's algorithm often gives material with more interactions top priority. Buying likes
                                 increases your chances of a larger audience being reached.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-1">
@@ -425,10 +421,10 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Benefits of buying Facebook likes from Tubeviews
+                            🤚🏿 Benefits of buying Facebook likes from TubeViews
                         </h3>
                         <p className="leading-relaxed text-center text-slate-600 mt-1">
-                            You should know the many benefits of this strategy before choosing to buy Facebook likes.
+                            You should know the many benefits of this strategy before choosing to <b>buy Facebook likes</b>.
                         </p>
                     </div>
                 </div>
@@ -437,18 +433,18 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">1. Instant Social Proof</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Buying Facebook Likes from Tubeviews is one of the advantages as it offers instantaneous social evidence. Users
+                                Buying Facebook Likes from <b>TubeViews</b> is one of the advantages as it offers instantaneous social evidence. Users
                                 of a page or post will see it as reputable and reliable if they find a lot of likes. This raises their possibilities of
                                 interacting with your material or following your page. One of the strongest psychological triggers available to affect
-                                consumers&#39; behaviour and strengthen your reputation is social proof.
+                                consumers; behaviour and strengthen your reputation is social proof.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">2. Enhanced Visibility</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Facebook's system often gives greater engagement items top priority. More likes mean more probable appearance of
-                                posts in users&#39; news feeds, therefore enhancing the general exposure of your work. <b>Buy Facebook Likes</b> from
-                                Tubeviews increases your chances of reaching a bigger audience, thereby fostering more natural interactions, shares,
+                                posts in users; news feeds, therefore enhancing the general exposure of your work. <b>Buy Facebook Likes</b> from
+                                <b>TubeViews</b> increases your chances of reaching a bigger audience, thereby fostering more natural interactions, shares,
                                 and comments.
                             </p>
                         </div>
@@ -492,7 +488,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <h4 className="text-lg font-semibold text-slate-700">7. Improved Page Rank</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Facebook ranks pages in search results using engagement criteria like likes, shares, and comments. More likely to
-                                show at the top of Facebook&#39;s internal search engine results is a page with more likes, which facilitates user
+                                show at the top of Facebook's internal search engine results is a page with more likes, which facilitates user
                                 discovery of your page when looking for similar subjects or keywords. Over time, this may produce more natural
                                 page likes and interaction.
                             </p>
@@ -527,7 +523,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Tubeviews: Your Reliable Social Media Success Partner
+                            TubeViews: Your Reliable Social Media Success Partner
                         </h3>
                     </div>
                 </div>
@@ -535,13 +531,13 @@ additionally cover every transaction with a first 60-day retention guarantee.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Tubeviews is unique in its dedication to provide actual, premium likes from current users. This guarantees not just
-                                sincere but also sustained participation. Using Tubeviews relieves you of concerns over bogus accounts or bots,
+                                <b>TubeViews</b> is unique in its dedication to provide actual, premium likes from current users. This guarantees not just
+                                sincere but also sustained participation. Using <b>TubeViews</b> relieves you of concerns over bogus accounts or bots,
                                 therefore damaging the reputation of your page.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-2">
-                                Having years of expertise in the social media marketing sector, Tubeviews provides services catered to both people
-                                and companies to enable success. Tubeviews provides 24/7 assistance with a significant emphasis on client
+                                Having years of expertise in the social media marketing sector, <b>TubeViews</b> provides services catered to both people
+                                and companies to enable success. <b>TubeViews</b> provides 24/7 assistance with a significant emphasis on client
                                 satisfaction to guarantee a flawless and efficient experience.
                             </p>
                         </div>
@@ -570,13 +566,13 @@ additionally cover every transaction with a first 60-day retention guarantee.
                     <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                While Buying Facebook post Likes might be advantageous, it&#39;s important to do it correctly to prevent any
-                                Facebook fines. Following Facebook rules, Tubeviews makes sure the likes you buy originate from actual, live
+                                While Buying Facebook post Likes might be advantageous, it's important to do it correctly to prevent any
+                                Facebook fines. Following Facebook rules, <b>TubeViews</b> makes sure the likes you buy originate from actual, live
                                 accounts. This method reduces any hazards and guides your safe and efficient page growth.
                             </p>
                             <h4 className="text-lg font-semibold text-slate-700 mt-3">Getting More People to Engage After Buying Likes</h4>
                             <p className="leading-relaxed text-slate-600">
-                                Maximizing engagement comes next if you have bought likes from Tubeviews to guarantee ongoing development:
+                                Maximizing engagement comes next if you have bought likes from <b>TubeViews</b> to guarantee ongoing development:
                             </p>
                             <div className='mt-4'>
                                 <h4 className="text-lg font-semibold text-slate-700">Post often to keep your following interesting.</h4>
@@ -617,7 +613,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Why would one choose Tubeviews for Facebook Likes?
+                            🤚🏿 Why would one choose TubeViews for Facebook Likes?
                         </h3>
                     </div>
                 </div>
@@ -625,35 +621,35 @@ additionally cover every transaction with a first 60-day retention guarantee.
                     <div>
                         <p className='leading-relaxed text-slate-600 mt-1'>
                             Buying Facebook Likes requires selecting a trustworthy and trusted supplier to guarantee not just the quality of
-                            likes but also the long-term viability of your account. For a number of reasons, tubeviews distinguishes itself in this
-                            packed environment by providing actual, powerful interaction and giving client success first priority. Here&#39;s the
-                            reason Tubeviews is your first option for Facebook Likes buys:
+                            likes but also the long-term viability of your account. For a number of reasons, <b>TubeViews</b> distinguishes itself in this
+                            packed environment by providing actual, powerful interaction and giving client success first priority. Here's the
+                            reason <b>TubeViews</b> is your first option for Facebook Likes buys:
                         </p>
                     </div>
                     <div className="mt-4 flex flex-col gap-4">
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">1. Real User Authentic Engagement</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews gives actual likes from live accounts first priority. This guarantees that the likes you get are real and will
-                                help to support more natural development. Tubeviews helps you create real interaction, unlike other services that
+                                <b>TubeViews</b> gives actual likes from live accounts first priority. This guarantees that the likes you get are real and will
+                                help to support more natural development. <b>TubeViews</b> helps you create real interaction, unlike other services that
                                 utilize bots or false accounts, therefore enhancing your Facebook reputation.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">2. Reliable and Safe Procedure</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews strictly adhering to Facebook policies guarantees that all likes are sent in a manner not likely to
-                                compromise your account. Facebook&#39;s algorithms avoid suspicion via the slow, natural distribution of likes,
-                                therefore lowering the possibility of fines or bans. Tubeviews promises that your account stays protected all through
+                                <b>TubeViews</b> strictly adhering to Facebook policies guarantees that all likes are sent in a manner not likely to
+                                compromise your account. Facebook's algorithms avoid suspicion via the slow, natural distribution of likes,
+                                therefore lowering the possibility of fines or bans. <b>TubeViews</b> promises that your account stays protected all through
                                 the procedure.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">3. Quick but Natural-looking Distribution</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Although many businesses provide likes fast, Tubeviews guarantees that likes are naturally, gradually added to your
+                                Although many businesses provide likes fast, <b>TubeViews</b> guarantees that likes are naturally, gradually added to your
                                 page. This maintains the impression of natural development and helps prevent any abrupt surges that can draw
-                                attention from Facebook&#39;s algorithm. Tubeviews distinguishes itself from rivals with the mix of speed and genuine
+                                attention from Facebook's algorithm. <b>TubeViews</b> distinguishes itself from rivals with the mix of speed and genuine
                                 delivery.
                             </p>
 
@@ -661,7 +657,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">4. Customized Offers to Fit Every Demand</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews realizes that every customer has distinct objectives. Tubeviews provides tailored solutions to suit your
+                                <b>TubeViews</b> realizes that every customer has distinct objectives. <b>TubeViews</b> provides tailored solutions to suit your
                                 demands and budget whether your company is a tiny business just getting started or an established brand trying to
                                 grow even further. There is a solution for everyone from little boosts to more extensive campaigns.
                             </p>
@@ -669,7 +665,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">5. Professional Client Support</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews offers customer service around-the-clock to help you all through the process. The staff is ready to give
+                                <b>TubeViews</b> offers customer service around-the-clock to help you all through the process. The staff is ready to give
                                 quick, competent advice whether your needs follow from your likes or you have queries before you buy. This
                                 guarantees always a flawless and fulfilling experience.
                             </p>
@@ -677,7 +673,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">6. Enhancement of General Social Media Approach</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Buying Facebook Likes via Tubeviews fits within a larger plan to improve your internet profile. The actual likes you
+                                Buying Facebook Likes via <b>TubeViews</b> fits within a larger plan to improve your internet profile. The actual likes you
                                 get not only enhance the look of your page but also help your whole social media marketing campaigns. This covers
                                 drawing in natural fans, cultivating confidence among your readers, and raising post interaction.
                             </p>
@@ -685,7 +681,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">7. Open Service</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews has a clear buying like strategy. With no hidden costs or deceptive promises, you are precisely receiving.
+                                <b>TubeViews</b> has a clear buying like strategy. With no hidden costs or deceptive promises, you are precisely receiving.
                                 To guarantee there are no surprises, the firm is open about the kind of involvement it offers and the length of the
                                 delivery will take.
                             </p>
@@ -693,15 +689,15 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">8. Verifiable Track Record</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Having years of expertise in the field, Tubeviews has developed a strong name for providing top-notch, efficient
-                                Facebook Likes systems. Their happy clientele reflects the consistent, dependable outcomes Tubeviews offers.
+                                Having years of expertise in the field, <b>TubeViews</b> has developed a strong name for providing top-notch, efficient
+                                Facebook Likes systems. Their happy clientele reflects the consistent, dependable outcomes <b>TubeViews</b> offers.
                                 Thanks to their offerings, several customers have seen notable increase in involvement levels and growth.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">9. Enhanced Facebook Algorithm Performance</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Facebook's algorithm gives high engaged content preference. Buying Facebook Post Likes from Tubeviews raises
+                                Facebook's algorithm gives high engaged content preference. Buying Facebook Post Likes from <b>TubeViews</b> raises
                                 the possibility that your material will be pushed to more newsfeeds of people. The extra involvement increases the
                                 visibility of your content among a larger audience, therefore fostering natural development in a snowball effect.
                             </p>
@@ -710,7 +706,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <h4 className="text-lg font-semibold text-slate-700">10. Improved brand credibility</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 From the perspective of potential consumers or followers, a Facebook page with numerous likes seems more reliable
-                                and reputable. By helping you to get this crucial social evidence, Tubeviews positions your brand as an expert in
+                                and reputable. By helping you to get this crucial social evidence, <b>TubeViews</b> positions your brand as an expert in
                                 your field. Over time, this may result in more contacts, greater trust, and improved corporate results.
                             </p>
                         </div>
@@ -719,11 +715,11 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Additionally improving other engagement indicators such comments, shares, and follows is by increasing your
                                 Facebook Likes. More likes on a post will make it seem more relevant, which invites people to interact with your
-                                material. Tubeviews lets you start this interaction cycle.
+                                material. <b>TubeViews</b> lets you start this interaction cycle.
                             </p>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Tubeviews partners in your social media success, not just offers Facebook Likes. Their dependable, trustworthy, and
-                                secure solution will help you to be sure your page will have actual, long interaction. Tubeviews provides the correct
+                                <b>TubeViews</b> partners in your social media success, not just offers Facebook Likes. Their dependable, trustworthy, and
+                                secure solution will help you to be sure your page will have actual, long interaction. <b>TubeViews</b> provides the correct
                                 solutions to help you flourish in the cutthroat world of social media whether your goals are to increase brand
                                 credibility, get more followers, or start natural development.
                             </p>
@@ -734,9 +730,126 @@ additionally cover every transaction with a first 60-day retention guarantee.
             </div>
             {/* ======== content section 7 end ========= */}
 
+            {/* ======== content section 5 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            🧍 Why Choose Tubeviews to Buy Facebook Page Likes?
+                        </h3>
+                    </div>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto lg:py-8 py-5'>
+                    <div>
+                        <div className="mt-4 flex flex-col gap-4">
+                            <div>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Here at <b>TubeViews</b>, we provide a safe and trustworthy venue to <b>Buy real Facebook page likes</b>. Our solution is
+                                    meant to let companies, influencers, and content producers easily meet their social media objectives.
+                                    The following explains why Tubeviews is your preferred method for <b>Buying Facebook page likes</b>:
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">1. Active and Real Likes</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Buying likes from Tubeviews results in actual, active Facebook users rather than bots or phoney profiles.
+                                    People who really enjoy your page will aid to boost credibility and engagement by means of these likes.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">2. Customized Services</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Every company has various requirements, as we are aware. Whether your company is big or a tiny startup, we provide many options
+                                    fit for all budgets and needs. The date for delivery and your desired number of likes will determine your selection of choices.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">3. Quick Deliverability</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    <b>TubeViews</b> let you see outcomes without waiting endlessly. Our technology is meant to provide likes quick and consistent
+                                    delivery. Your page likes will start to rise within hours depending on the plan you decide upon.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">4. Safe and Safely secure</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Our first concerns are your privacy and security. <b>TubeViews</b> guarantees that your payment information and personal
+                                    data are kept private; we never request your Facebook login. Our approaches follow Facebook policies and are
+                                    absolutely safe.
+                                </p>
+
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">5. 24/7 Client Assistance</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Here we are for you around-the-clock. Our committed customer support staff is here around-the-clock to assist
+                                    with any questions or problems you may run into using our products. We can help you monitor your order or
+                                    aid with selecting the correct package.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">6 High Quality Post Likes</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    We guarantee perfect satisfaction by offering the best quality Facebook post likes. Increase interaction,
+                                    establish credibility, and draw even more attention to the content by boosting your articles with sincere likes.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">7. Organic Development: Gradual Distribution</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    <b>TubeViews</b> offers slow likes to guarantee your page develops gradually and stays hidden from Facebook's algorithms.
+                                    This gradual and consistent technique lets your website acquire traction without drawing any attention, therefore
+                                    simulating natural development.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">8. Reasonably Cost Solutions</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    <b>TubeViews</b> is dedicated to provide reasonably priced top-notch service. Tubeviews provides reasonable pricing
+                                    with various packages to fit all budgets, whether you're a little company on a budget or an influencer
+                                    seeking for a huge boost.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">9. No Chance of Facebook Account Suspension</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Buying likes raises one of the main issues about account suspension. You may be confident with Tubeviews that we
+                                    follow Facebook terms of service. Our techniques are 100% compliant, so there is no chance that your account
+                                    will be banned or fined.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">10. Customizable Approaches</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Every company and brand is different, we are aware of. Tubeviews therefore provides tailored strategies to fit
+                                    your particular requirements. Tubeviews is flexible enough to meet your needs whether your needs are targeted
+                                    depending on age, region, or hobbies or likes distributed over a certain period of time.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">11. Enhancement in Page Analytics & Insights</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Page likes will help you to notice changes in your Facebook Insights. More data results from higher engagement
+                                    levels, which lets you monitor the effectiveness of your articles, analyze audience behavior, and modify your
+                                    content strategy for best outcomes.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-semibold text-slate-700">12. Improve Social Veracity</h4>
+                                <p className='leading-relaxed text-slate-600 mt-1'>
+                                    Many likes serve as social evidence for other users indicating that your page is reliable and popular.
+                                    Tubeviews lets you improve this social evidence, therefore facilitating the attraction of new natural likes
+                                    and followers without further work.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* ======== content section 5 end ========= */}
             <FaqSection
                 heading={"🥇 Frequently Asked Questions"}
-                subHeading={"Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee."}
+                subHeading={"Find answers to any questions you may have in mind about Buy Facebook Likes. If you can't find your answer at FAQ you can reach us via our live support Chat/Mail and WhatsApp!"}
                 faqData={faqData}
             />
         </div>
