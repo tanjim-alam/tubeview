@@ -2,8 +2,8 @@ import React from 'react';
 import TwitchFollowersPage from './TwitchFollowersPage';
 export const generateMetadata = () => {
     return {
-        title: "Buy Real Twitch Followers -  Tubeviews",
-        description: "Buy Real Twitch Followers -  Tubeviews",
+        title: "Buy Twitter (X) followers- 100% Real & Organic User | TubeViews",
+        description: "Buy Twitter (X) followers to boost your profile instantly. Increase credibility, enhance engagement, and grow your audience with real, high-quality followers.",
         keywords: "Buy Real Twitch Followers, Buy Twitch Followers"
     }
 }

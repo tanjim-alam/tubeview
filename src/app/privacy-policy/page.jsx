@@ -3,7 +3,7 @@ import PrivacyPolicyPage from './PrivacyPolicyPage';
 export const generateMetadata = () => {
     return {
         title: "Privacy Policy - TubeViews Media",
-        description: "TubeVIews is Unique Social Media Company. They Providing Real and Active Video Views, Subscribers, Comments  Likes, Followers, and More. You can Buy cheap Social Media Services.We are a dedicated company that strives to make your social media marketing easy and convenient. This we do by selling you followers and likes, which form the standards",
+        description: "Privacy Policy for TubeViews.Co At TubeViews.co, accessible from www.tubeviews.co, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by TubeViews.co and how we use it. If you have additional questions or require more information about our Privacy Policy, do not… Read More »Privacy Policy",
         keywords: "TubeViews AboutUs, Buy YouTube Views"
     }
 }

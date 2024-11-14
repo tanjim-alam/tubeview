@@ -79,7 +79,7 @@ function Page() {
 
 
     return (
-        <PayPalScriptProvider options={{ "client-id": "AdGX5uNCSCHAnafWXR40TLgMtPceAh2p2yOaqna3nR35DOA-1ogYdDyWkOLlsVIyxS0db8i0JPs7KhuE" }}>
+        <PayPalScriptProvider options={{ "client-id": "AWtCcGY2RQwgB8cC773nMjq-Dojft-nr5XPcrqpRC8TxGXqxZnwpF2KkxAekon6eL-k3zbYSByjx5y2g" }}>
             <div className='bg-[#f4f4fa] h-full'>
                 {/* ======================== */}
                 {isLoading ? <Spinner /> : null}
@@ -88,7 +88,7 @@ function Page() {
                 <div className='lg:w-[60%] w-[95%] m-auto flex flex-col md:flex-row lg:flex-row gap-10 py-10 lg:py-20'>
                     {/* Billing Details */}
                     <div className='lg:w-[55%] w-full flex flex-col gap-4 p-6 lg:p-16 bg-white rounded-3xl' style={{ boxShadow: "0 6px 6px rgba(0, 0, 0, .04), 0 0 42px rgba(0, 0, 0, .04)" }}>
-                        <h4 className='lg:text-3xl text-2xl font-bold text-center'>BILLING DETAILS</h4>
+                        <h4 className='lg:text-3xl text-2xl font-bold text-black text-center'>BILLING DETAILS</h4>
                         <div className='flex flex-col'>
                             <label className='text-[15px] text-black'>Name <span className='text-orange-600'>*</span></label>
                             <input

@@ -127,7 +127,7 @@ order is finished and the live broadcast keeps on.
             id: 4,
             question: "When will my order for a YouTube Live Stream Viewer be fulfilled?",
             answer:
-                `Using the &quot;Retention&quot; option when buying lets you choose the time you like the audience to remain
+                `Using the "Retention"; option when buying lets you choose the time you like the audience to remain
 on the air. Should no modifications be done to this option, the typical time will be fifteen minutes.
 Via the retention option, you may extend this time as desired.
             `
@@ -269,8 +269,8 @@ audience. Invite them to your broadcast, track the comments area, and even probe
 possible audience will be much impacted by this.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
-Visit YouTube Studio to watch on your PC or cell phone. Look in the upper right corner for &quot;Create.&quot;
-Click the symbol; then, choose &quot;Go live.&quot; Choose &quot;Webcam&quot; on the left and start your broadcast.
+Visit YouTube Studio to watch on your PC or cell phone. Look in the upper right corner for "Create"
+Click the symbol; then, choose "Go live"; Choose "Webcam"; on the left and start your broadcast.
 Include titles, descriptions, chat settings, and marketing specifics. You then are good to go.
                     </p>
                     </div>
@@ -573,14 +573,14 @@ may appear a little challenging, rest assured; we have made it simple for you.
                                 you want.
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
-                                Should you pick Concurrent views, &quot;Select Watch Time&quot;.
+                                Should you pick Concurrent views, "Select Watch Time".
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
-                                For your livestream, decide on a &quot;Select Quantity&quot; of views ranging from 1000 to 1000000
+                                For your livestream, decide on a "Select Quantity" of views ranging from 1000 to 1000000
                                 YouTube livestream views or 500 to 5000 views for Concurrent views.
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
-                                Enter YouTube Live Stream URL&quot; and verify to make sure it is accurate.
+                                Enter YouTube Live Stream URL and verify to make sure it is accurate.
                             </li>
                             <li className='leading-relaxed text-slate-600 mt-2'>
                                 To keep shopping, use Add to Cart; to access our safe payment page, use Buy Now.

@@ -160,7 +160,7 @@ interaction—all of which help your Facebook presence to be generally successfu
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buying Facebook <span class=text-secondary>Followers From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy Facebook <span class=text-secondary>Followers From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

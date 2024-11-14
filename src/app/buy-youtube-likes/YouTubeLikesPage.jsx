@@ -21,6 +21,7 @@ const ReviewsSection = dynamic(() => import('../components/ReviewsSection'));
 
 import youtubeLikesData from "../constant/youtube/youtubeLikesData.json";
 import youtubeLikesReviews from "../reviewData/youtube/youtubeLikesReviews.json"
+import Image from 'next/image';
 
 
 function YouTubeLikesPage() {
@@ -184,13 +185,39 @@ options for YouTubers at all levels.
             />
             <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With Tubeviews"}
                 subHeading={"Buy YouTube Likes Features with Tubeviews to improve the credibility and performance of your video by means of a simple and quick approach to increase your YouTube likes."} />
-            <ContentSection1
-                heading={"🎉 Buy YouTube Likes from Tubeviews"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
-                contents={
-                    "<div> <p class='leading-relaxed text-slate-600'>YouTube has evolved into a potent stage for creators, companies, and influencers in the always changing realm of digital marketing to present their material to a worldwide audience. Although there are countless chances for development given over 2 billion active users every month, success on YouTube calls for more than just good content. Engagement especially via likes is one of the most important determinant of visibility and credibility on the platform. Here at Tubeviews, we provide a dependable and secure means of purchasing YouTube Likes so that your material gets the credit it deserves. The value of YouTube likes, how they might greatly increase your channel, and why Tubeviews is your best friend in reaching YouTube success will all be covered in this guide. </p></div>"
-                }
-            />
+            {/* ======== content section 2 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            🎉 Buy YouTube Likes from Tubeviews
+                        </h3>
+                    </div>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto py-3'>
+                    <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
+                        <div>
+                            <p className="leading-relaxed text-slate-600 mt-1">
+                                YouTube has evolved into a potent stage for creators, companies, and influencers in the always changing realm of digital marketing
+                                to present their material to a worldwide audience. Although there are countless chances for development given over 2 billion active
+                                users every month, success on YouTube calls for more than just good content. Engagement especially via likes is one of the most
+                                important determinant of visibility and credibility on the platform. Here at Tubeviews, we provide a dependable and secure means
+                                of purchasing YouTube Likes so that your material gets the credit it deserves. The value of YouTube likes, how they might greatly
+                                increase your channel, and why Tubeviews is your best friend in reaching YouTube success will all be covered in this guide.
+                            </p>
+
+                        </div>
+                        <Image
+                            className=''
+                            width={400}
+                            height={200}
+                            src={"/buy-real-and-active-youtube-likes.webp"}
+                            alt="buy youtube likes"
+                        />
+                    </div>
+                </div>
+            </div>
+            {/* ======== content section 2 end ========= */}
             <ContentSection2
                 heading={"🎉 Why Do Likes on YouTube Help Your Channel to Be Successful?"}
                 subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}

@@ -147,7 +147,7 @@ function YouTubeSubscribers() {
         <div>
             <HeroSection title={"Buy YouTube Subscribers<br/>From Real Accounts"}
                 subTitle={"<h3>Buy YouTube <span class=text-secondary>Subscribers</span></h3>"}
-                imgUrl={"/buy-youtube-subscribers.webp"} />
+                imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>

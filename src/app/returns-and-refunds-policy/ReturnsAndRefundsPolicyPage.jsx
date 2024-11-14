@@ -3,47 +3,47 @@ import React from 'react'
 
 function ReturnsAndRefundsPolicyPage() {
     return (
-        <div className='bg-white py-20'>
-            <div className='w-[80%] m-auto'>
+        <div className='bg-white lg:py-20 py-10'>
+            <div className='lg:w-[80%] w-[90%] m-auto'>
                 <div>
-                    <h1 className='text-4xl font-bold'>Returns and Refunds Policy</h1>
+                    <h1 className='lg:text-4xl text-3xl text-center lg:text-start font-bold text-black'>Returns and Refunds Policy</h1>
                     <div className='flex flex-col gap-4'>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-7'>
+                            <p className='leading-relaxed text-slate-600 mt-7'>
                                 Thank you for shopping at TubeViews.co.
                             </p>
                         </div>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-3'>
+                            <p className='leading-relaxed text-slate-600 mt-3'>
                                 Please read this policy carefully. This is the Return and Refund Policy of TubeViews.co .
                             </p>
                         </div>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-3'>
+                            <p className='leading-relaxed text-slate-600 mt-3'>
                                 Digital products
                             </p>
-                            <p className='text-[17px] text-slate-700 mt-1'>
+                            <p className='leading-relaxed text-slate-600 mt-1'>
                                 We do not issue refunds for digital products once the order is confirmed and the product is sent.
                             </p>
                         </div>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-3'>
+                            <p className='leading-relaxed text-slate-600 mt-3'>
                                 We recommend contacting us for assistance if you experience any issues receiving or downloading our products.
                             </p>
                         </div>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-3'>
+                            <p className='leading-relaxed text-slate-600 mt-3'>
                                 Contact us
                             </p>
-                            <p className='text-[17px] text-slate-700 mt-1'>
+                            <p className='leading-relaxed text-slate-600 mt-1'>
                                 If you have any questions about our Returns and Refunds Policy, please contact us:
                             </p>
                         </div>
                         <div>
-                            <p className='text-[17px] text-slate-700 mt-3'>
+                            <p className='leading-relaxed text-slate-600 mt-3'>
                                 By email: <b>support@tubeviews.co</b> or <b>Live Chat</b> with Us
                             </p>
-                            <p className='text-[17px] text-slate-700 mt-1'>
+                            <p className='leading-relaxed text-slate-600 mt-1'>
                                 By visiting this page on our website:https://www.tubeviews.co/contact-us/
                             </p>
                         </div>

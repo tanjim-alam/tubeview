@@ -17,8 +17,7 @@ function ThankYouPage() {
             <div className='max-w-4xl lg:w-[40%] mx-auto bg-white shadow-md'>
                 <h1 className='bg-secondary text-white text-2xl md:text-4xl font-semibold text-center p-4'>Thank You</h1>
                 <p className='text-slate-600 p-4 text-center'>
-                    Thank you for your order. Your order has been placed successfully.
-                    Please check your registered email for confirmation.
+                    Your Order Received. Check registered email for confirmation.
                 </p>
                 <div className='flex flex-col md:flex-row justify-between items-center p-4'>
                     <div className='mb-4 md:mb-0'>

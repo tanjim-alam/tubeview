@@ -21,6 +21,7 @@ import youtubeViewsData from "../constant/youtube/youtubeViewsData.json";
 import HeroSection from '../components/HeroSection';
 import Link from 'next/link';
 import youtubeViewsReviews from "../reviewData/youtube/youtubeViewsReviews.json"
+import Image from 'next/image';
 
 function YouTubeViewsPage() {
     const featuresData = [
@@ -201,105 +202,159 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 heading={"🚀 Buy YouTube Views Features With Tubeviews"}
                 subHeading={"Tubeviews — quick, reliable, and high-quality views for your channel will rapidly increase your YouTube visibility!"}
             />
-            <ContentSection1
-                heading={"🎉 Why Would Someone Buy Views on YouTube?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                imgUrl={"/buy-real-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'><b>Buying youtube views</b> for more public visibility! Which kinds of video content are you ready to click on 
-                    while searching YouTube for anything intriguing to view? We guess you would most likely choose the video
-                    with the most views. View rates often determine whether or not a video is worth seeing. Having stated that,
-                    the number one position is not very simple to get. We can assist you with obtaining sufficient views on your 
-                    videos should you find it difficult. Apart from strategies of YouTube advertising, you might attempt this 
-                    service to boost your YouTube views. One of our most sold things is YouTube views, hence you might 
-                    purchase them from us.
-                    </p>
-                    <br>
-                    <p class='leading-relaxed text-slate-600'>
-                    To <b>buy views on youtube</b> only from tube veiws is just going to cause your natural traffic rates and view 
-                    count to rise sooner than later. People will try your videos as they seem to be worth seeing. Should your 
-                    content be of good quality, they may follow your channel, thus accomplishing many objectives 
-                    simultaneously.
-                    </p>
+            {/* ======== content section 2 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            🎉 Why Would Someone Buy Views on YouTube?
+                        </h3>
                     </div>
-                    `
-                }
-            />
-            <ContentSection2
-                heading={"✔ Is Buying YouTube Views Safe?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                imgUrl={"/buy-active-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'>
-                    Definitely! There is no current safety issue that would prevent you from <b>buying YouTube views</b>. Unless it is 
-                    regarded as spam, YouTube does not stop these kinds of operations. Paying-wise, we provide credit card and
-                    PayPal alternatives. Our 256-bit SSL certificate encrypts credit card information, hence neither third parties
-                    nor we can see it. Not even our personnel could see your payment details. Making any transaction on tube
-                    views is therefore absolutely secure. To improve your channel, you might also get YouTube Comments.
-                    </p>
-                    <br>
-                    <p class='leading-relaxed text-slate-600'>
-                    Apart from its quality, the preferred provider should offer customer service. You should be able to get in touch with them whenever you so want. We provides WhatsApp 24/7 online customer assistance. Your 
-                    received service should be quick. Your order should arrive in the specified timeframe during the transaction.
-                    Usually, we arrive with your good in minutes. We never, under any circumstances ask for your password
-                    either.
-                    </p>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto py-3'>
+                    <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
+                        <div>
+                            <p className="leading-relaxed text-slate-600 mt-1">
+                                <b>Buying youtube views</b> for more public visibility! Which kinds of video content are you ready to click on
+                                while searching YouTube for anything intriguing to view? We guess you would most likely choose the video
+                                with the most views. View rates often determine whether or not a video is worth seeing. Having stated that,
+                                the number one position is not very simple to get. We can assist you with obtaining sufficient views on your
+                                videos should you find it difficult. Apart from strategies of YouTube advertising, you might attempt this
+                                service to boost your YouTube views. One of our most sold things is YouTube views, hence you might
+                                purchase them from us.
+                            </p>
+                            <p className="leading-relaxed text-slate-600 mt-3">
+                                To <b>buy views on youtube</b> only from tube veiws is just going to cause your natural traffic rates and view
+                                count to rise sooner than later. People will try your videos as they seem to be worth seeing. Should your
+                                content be of good quality, they may follow your channel, thus accomplishing many objectives
+                                simultaneously.
+                            </p>
+                        </div>
+                        <Image
+                            className=''
+                            width={400}
+                            height={200}
+                            src={"/buy-real-youtube-views.webp"}
+                            alt="buy youtube views"
+                        />
                     </div>
-                    `
-                }
-            />
-            <ContentSection1
-                heading={"✔ A great plan to improve your YouTube channel"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                imgUrl={"/buy-active-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'>
-                    Although organic views are fantastic, if you're in need for <b>buying youtube views</b> 
-                    and purchase YouTube watch hours that will provide you just as much impact in much less time.
-                    </p>
-                    <br>
-                    <p class='leading-relaxed text-slate-600'>
-                    Most YouTube users never wonder about the source of these data. They are seen as excellent interaction; 
-                    their validity or source is not given much thought. This implies that the views you purchase might be a good 
-                    foundation for your channel as they will help it to acquire the legitimacy required to persuade people to join 
-                    in subscription. <b>Buying youtube views</b> from us might be a great approach whether your goal is to increase
-                    the subscriber base of your channel or make the next video unique among the great competition.
-                    </p>
+                </div>
+            </div>
+            {/* ======== content section 2 end ========= */}
+
+            {/* ======== content section 3 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            ✔ Is Buying YouTube Views Safe?
+                        </h3>
                     </div>
-                    `
-                }
-            />
-            <ContentSection2
-                heading={"✔ Buy YouTube Views To expand Your Channel"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Views."}
-                imgUrl={"/buy-active-youtube-views.webp"}
-                contents={
-                    `
-                    <div>
-                    <p class='leading-relaxed text-slate-600'>
-                    With millions of people producing and viewing videos daily, YouTube is the go-to site for video content. 
-                    Choosing to purchase YouTube views from tube views, a service providing views for your YouTube
-                    content—is one way you may increase your profile on this network. Using the  TubeViews for getting YouTube views can help your channel becoming a lot more visible and credible right away. Your videos are
-                    more likely to show up in search results and suggestions when they have a big view count, attained maybe via
-                    instantaneous YouTube views, therefore drawing natural viewers and perhaps subscribers.
-                    </p>
-                    <br>
-                    <p class='leading-relaxed text-slate-600'>
-                    Using TubeViews Reliable YouTube views service will help you to guarantee your views as well as help
-                    your channel to keep integrity and reputation. Buying YouTube views can enable your channel to develop
-                    more quickly and provide a competitive advantage in the packed online video market. Thus, buying real views
-                    from us for your content using the dependable and excellent service of Tubeviews.
-                    </p>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto py-5'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-10'>
+                        <Image
+                            className=''
+                            width={400}
+                            height={400}
+                            src={"/tubeviews-views.webp"}
+                            alt="Buy YouTube Views"
+                        />
+                        <div>
+                            <p className="leading-relaxed text-slate-600 mt-1">
+                                Definitely! There is no current safety issue that would prevent you from <b>buying YouTube views</b>. Unless it is
+                                regarded as spam, YouTube does not stop these kinds of operations. Paying-wise, we provide credit card and
+                                PayPal alternatives. Our 256-bit SSL certificate encrypts credit card information, hence neither third parties
+                                nor we can see it. Not even our personnel could see your payment details. Making any transaction on tube
+                                views is therefore absolutely secure. To improve your channel, you might also get YouTube Comments.
+                            </p>
+                            <p className="leading-relaxed text-slate-600 mt-3">
+                                Apart from its quality, the preferred provider should offer customer service. You should be able to get in touch with them whenever you so want. We provides WhatsApp 24/7 online customer assistance. Your
+                                received service should be quick. Your order should arrive in the specified timeframe during the transaction.
+                                Usually, we arrive with your good in minutes. We never, under any circumstances ask for your password
+                                either.
+                            </p>
+
+                        </div>
                     </div>
-                    `
-                }
-            />
+                </div>
+            </div>
+            {/* ======== content section 3 end ========= */}
+
+            {/* ======== content section 4 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            ✔ A great plan to improve your YouTube channel
+                        </h3>
+                    </div>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto lg:py-8 py-3'>
+                    <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
+                        <div>
+                            <p className="leading-relaxed text-slate-600 mt-1">
+                                Although organic views are fantastic, if you're in need for <b>buying youtube views</b> and purchase YouTube watch hours that will provide you just as much impact in much less time.
+                            </p>
+                            <p className="leading-relaxed text-slate-600 mt-3">
+                                Most YouTube users never wonder about the source of these data. They are seen as excellent interaction;
+                                their validity or source is not given much thought. This implies that the views you purchase might be a good
+                                foundation for your channel as they will help it to acquire the legitimacy required to persuade people to join
+                                in subscription. <b>Buying youtube views</b> from us might be a great approach whether your goal is to increase
+                                the subscriber base of your channel or make the next video unique among the great competition.
+                            </p>
+                        </div>
+                        <Image
+                            className=''
+                            width={400}
+                            height={200}
+                            src={"/buy-active-youtube-views.webp"}
+                            alt="buy youtube views"
+                        />
+                    </div>
+                </div>
+            </div>
+            {/* ======== content section 4 end ========= */}
+
+            {/* ======== content section 5 start ========= */}
+            <div className='bg-white'>
+                <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
+                    <div className='lg:w-[70%] w-[90%] '>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
+                            ✔ Buy YouTube Views To expand Your Channel
+                        </h3>
+                    </div>
+                </div>
+                <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-10'>
+                        <Image
+                            className=''
+                            width={400}
+                            height={400}
+                            src={"/real-youtube-views.webp"}
+                            alt="Buy YouTube Views"
+                        />
+                        <div>
+                            <p className="leading-relaxed text-slate-600 mt-1">
+                                With millions of people producing and viewing videos daily, YouTube is the go-to site for video content.
+                                Choosing to purchase YouTube views from tube views, a service providing views for your YouTube
+                                content—is one way you may increase your profile on this network. Using the  TubeViews for getting YouTube views can help your channel becoming a lot more visible and credible right away. Your videos are
+                                more likely to show up in search results and suggestions when they have a big view count, attained maybe via
+                                instantaneous YouTube views, therefore drawing natural viewers and perhaps subscribers.
+                            </p>
+                            <p className="leading-relaxed text-slate-600 mt-3">
+                                Using TubeViews Reliable YouTube views service will help you to guarantee your views as well as help
+                                your channel to keep integrity and reputation. Buying YouTube views can enable your channel to develop
+                                more quickly and provide a competitive advantage in the packed online video market. Thus, buying real views
+                                from us for your content using the dependable and excellent service of Tubeviews.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* ======== content section 5 end ========= */}
+
             <div className='bg-white'>
                 <p className='bg-primary p-1'></p>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>

@@ -34,7 +34,7 @@ function AllServicesSection() {
                                             {data.name}
                                         </p>
                                     </div>
-                                    <div className='absolute left-0 top-14 hidden group-hover:block shadow-lg z-50 w-full duration-500 ease-in-out'>
+                                    <div className='absolute left-0 top-14 hidden group-hover:block shadow-lg z-30 w-full duration-500 ease-in-out'>
                                         <div className='flex flex-col gap-3 bg-primary p-4 mt-2'>
                                             {data.services.map((service, i) => (
                                                 <Link key={i} href={`/${service.slug}`} className="text-white hover:border-l-4 border-white font-semibold">

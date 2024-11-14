@@ -144,7 +144,7 @@ const navlinksData = [
         icon: FaTwitch,
         services: [
             { id: 1, title: "Buy Twitch Followers", slug: "buy-twitch-followers" },
-            { id: 2, title: "Buy Twitch Views", slug: "buy-twitch-Views" },
+            { id: 2, title: "Buy Twitch Views", slug: "buy-twitch-views" },
             { id: 2, title: "Buy Twitch Live Viewers", slug: "buy-twitch-live-viewers" },
         ],
         color: "#9146FF"

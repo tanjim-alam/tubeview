@@ -13,10 +13,28 @@ function Navbar() {
         setIsMenuOpen(!isMenuOpen);
     };
     const { cartItems } = useCart();
-    // console.log(cartItems);
+
+    useEffect(() => {
+        const options = {
+            whatsapp: "+919319187564",
+            call_to_action: "Message us",
+            position: "right",
+        };
+
+        const proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        const s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function () {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        const x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+    }, []);
     return (
         <>
-            <div className='bg-white border-b sticky top-0 z-50 hidden lg:block h-[55px]'>
+            <div className='bg-white border-b sticky top-0 hidden lg:block h-[55px] z-50'>
                 <nav className='xl:w-[90%] 2xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>

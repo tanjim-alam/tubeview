@@ -335,7 +335,7 @@ periodically removes bogus profiles.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Buy Instagram Followers India – Simple with Tube views
+                            🤚🏿 Buy Instagram Followers – Simple with TubeViews
                         </h3>
                     </div>
                 </div>

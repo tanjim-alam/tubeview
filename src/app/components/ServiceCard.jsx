@@ -251,7 +251,7 @@ function ServiceCard({ packageData }) {
                                     className={`rounded-md p-2 ${isActiveCard === data.id ? "bg-secondary text-white" : "bg-[#f1f3f5] text-black"} cursor-pointer hover:bg-secondary hover:text-white group flex justify-center flex-col items-center`}
                                     onClick={() => handleOnClickCard(data)}
                                 >
-                                    <div>
+                                    <div className='flex flex-col items-center'>
                                         <p className={`text-2xl font-semibold ${isActiveCard === data.id ? "text-white" : "text-black"} group-hover:text-white text-center`}>
                                             {data.qnt}
                                         </p>
@@ -299,7 +299,12 @@ function ServiceCard({ packageData }) {
             </div>
             <div className='lg:w-[80%] xl:w-[30%] m-auto w-full flex mt-7'>
                 <div className=' border w-full p-10 flex flex-col gap-4 rounded-2xl shadow-[0_2px_2px_rgba(0,0,0,0.10)]'>
-                    <h4 className='text-lg font-semibold bg-primary text-center text-white rounded-md p-1'>{isActiveBtn} {getLastWord(packageData.serviceName)}</h4>
+                    {
+                        packageData?.services?.length > 1 ?
+                            <h4 className='text-lg font-semibold bg-primary text-center text-white rounded-md p-1'>{isActiveBtn} {getLastWord(packageData.serviceName)}</h4>
+                            : <h4 className='text-lg font-semibold bg-primary text-center text-white rounded-md p-1'>{isActiveBtn}</h4>
+                    }
+
                     <div className='flex flex-col gap-2 '>
                         {
                             keys.map((key, i) => (

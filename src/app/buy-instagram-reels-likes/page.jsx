@@ -2,9 +2,9 @@ import React from 'react';
 import InstagramReelsLikesPage from './InstagramReelsLikes';
 export const generateMetadata = () => {
     return {
-        title: "Buy Real Instagram Reels Likes -  Tubeviews",
-        description: "Buy Real Instagram Reels Likes -  Tubeviews",
-        keywords: 'Buy Instagram Reels Likes, Buy Real Instagram Reels Likes, Buy Instagram Reels Likes Female',
+        title: "Buy Instagram Reels Likes - 100% Real & Organic User | TubeViews",
+        description: "Boost your Buy Instagram Reels Likes presence instantly! Buy Instagram Reels Likes to enhance your credibility, attract organic growth, and grow your audience effortlessly.",
+        keywords: 'Buy Instagram Reels Likes, Buy Real Instagram Reels Likes, Buy Instant Instagram Reels Likes',
     }
 }
 

@@ -22,7 +22,7 @@ function WhyYouChooseSection({ heading, subHeading, title1, description1, title2
                             <span className='text-5xl bg-primary p-3 rounded-full text-white group-hover:bg-white group-hover:text-primary'>
                                 <SiGnuprivacyguard />
                             </span>
-                            <h4 className='text-xl font-semibold '>{title1}</h4>
+                            <h4 className='text-xl font-semibold text-center'>{title1}</h4>
                         </div>
                         <div className='group-hover:text-white'>
                             <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
@@ -35,7 +35,7 @@ function WhyYouChooseSection({ heading, subHeading, title1, description1, title2
                             <span className='text-5xl bg-primary p-3 rounded-full text-white group-hover:bg-white group-hover:text-primary'>
                                 <GiGrowth />
                             </span>
-                            <h4 className='text-xl font-semibold'>{title2}</h4>
+                            <h4 className='text-xl font-semibold text-center'>{title2}</h4>
                         </div>
                         <div className='group-hover:text-white'>
                             <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
@@ -48,7 +48,7 @@ function WhyYouChooseSection({ heading, subHeading, title1, description1, title2
                             <span className='text-5xl bg-primary p-3 rounded-full text-white group-hover:bg-white group-hover:text-primary'>
                                 <FaDiceD6 />
                             </span>
-                            <h4 className='text-xl font-semibold'>{title3}</h4>
+                            <h4 className='text-xl font-semibold text-center'>{title3}</h4>
                         </div>
                         <div className='group-hover:text-white'>
                             <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
@@ -61,7 +61,7 @@ function WhyYouChooseSection({ heading, subHeading, title1, description1, title2
                             <span className='text-5xl bg-primary p-3 rounded-full text-white group-hover:bg-white group-hover:text-primary'>
                                 <MdOutlineSupportAgent />
                             </span>
-                            <h4 className='text-xl font-semibold'>{title4}</h4>
+                            <h4 className='text-xl font-semibold text-center'>{title4}</h4>
                         </div>
                         <div className='group-hover:text-white'>
                             <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>

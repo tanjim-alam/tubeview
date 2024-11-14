@@ -78,7 +78,7 @@ export default function Home() {
         description4={
           `
                     Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
-                    required. Whether it&#39;s monitoring your views or answering any questions, we are here to make sure your
+                    required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
         }

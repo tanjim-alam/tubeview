@@ -50,11 +50,11 @@ export async function POST(req) {
         subject: 'New Order Received',
         html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-            <h2 style="background-color: #007BFF; padding: 16px; color: white; text-align: center;">New Order #${orderDetails.id}</h2>
+            <h2 style="background-color: #058e3d; padding: 16px; color: white; text-align: center;">New Order #${orderDetails.id}</h2>
             <div style="border: 1px solid #ddd; padding: 8px;">
             <div>
             <p>You've received the following order from ${orderDetails.billingDetails.name}</p>
-            <div style="display: flex; align-items:center; color: #007BFF;">
+            <div style="display: flex; align-items:center; color: #058e3d;">
             <p style="font-size:16px;">[Order #${orderDetails.id}]</p>
             <p style="font-size:16px; font-weight: bold;">(${orderDetails.date})</p>
             </div>
@@ -78,7 +78,7 @@ export async function POST(req) {
             </div>
 
             <div style="margin-top: 16px;">
-            <h3 style="color: #007BFF;">Billing Details</h3>
+            <h3 style="color: #058e3d;">Billing Details</h3>
                 <div style="border: 1px solid #ddd; padding:3px;">
                 <div style=" padding: 0 6px;">
                     <p>${orderDetails.billingDetails.name}</p>
@@ -89,7 +89,7 @@ export async function POST(req) {
             </div>
 
             <div style="margin-top: 16px;">
-            <h3 style="color: #007BFF;">Addition Info</h3>
+            <h3 style="color: #058e3d;">Addition Info</h3>
                 <div style="border: 1px solid #ddd; padding: 0px 10px;">
                 <p>
                 ${orderDetails.billingDetails.message}
