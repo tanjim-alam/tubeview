@@ -115,9 +115,9 @@ function Page() {
                             <label className='text-[15px] text-black'>Country <span className='text-orange-600'>*</span></label>
                             <select id="country" className="border p-3 outline-none w-full text-black" name='country' onChange={handleInput}>
                                 <option className="text-black" value="">Select a country</option>
-                                {countries.map((country) => (
-                                    <option className="text-black" key={country.code} value={country.name}>
-                                        {country.name}
+                                {countries.map((item) => (
+                                    <option className="text-black" key={item.code} value={item.country}>
+                                        {item.country}
                                     </option>
                                 ))}
                             </select>

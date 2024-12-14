@@ -21,7 +21,7 @@ function Footer() {
                     <div className='lg:w-[28%] w-[100%] flex gap-4 flex-col'>
                         <div>
                             <Link href={"/"}>
-                                <h4 className='text-3xl font-bold text-secondary bg-white w-fit'>Tube<span className='bg-primary text-white ml-0.5'>Views</span></h4>
+                                <h4 className='text-3xl font-bold text-secondary bg-white w-fit'>𝐆𝐨<span className='bg-primary text-white ml-0.5 px-0.5'>𝙁𝙖𝙢𝙮</span></h4>
                             </Link>
                         </div>
                         <div>

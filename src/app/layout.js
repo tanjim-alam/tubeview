@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { CartProvider } from "./context/CartContext";
 import Head from "next/head";
+import { FaTools } from "react-icons/fa";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,16 @@ export default function RootLayout({ children }) {
         <CartProvider>
           <TopBar />
           <Navbar />
+          {/* ================ */}
+          <div className=" fixed right-0 top-1/2">
+            <Link
+              href="/tools"
+              className="bg-primary rounded-tl-md rounded-bl-md p-2 flex flex-col justify-center items-center text-white">
+              <FaTools className="text-xl" />
+              <span className="text-sm font-semibold">Tools</span>
+            </Link>
+          </div>
+          {/* ================ */}
           <main className="">
             {children}
           </main>
