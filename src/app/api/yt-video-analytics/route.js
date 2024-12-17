@@ -4,7 +4,7 @@ import axios from 'axios';
 export async function GET(request) {
     const { searchParams } = new URL(request.url);
     const videoId = searchParams.get('videoId');
-    const apiKey = process.env.YOUTUBE_API_KEY;
+    const apiKey = process.env.YOUTUBE_API_KEY || "AIzaSyC_zT-cq_JPimX6kpEibmrsqlYbGxNJsbU";
 
     // Example CPM rate (in dollars)
     const averageCPM = 2.0; // Adjust this value as needed

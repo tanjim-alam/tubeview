@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET(req) {
     const { searchParams } = new URL(req.url);
     const channelId = searchParams.get('channelId');
-    const apiKey = process.env.YOUTUBE_API_KEY;
+    const apiKey = process.env.YOUTUBE_API_KEY || "AIzaSyC_zT-cq_JPimX6kpEibmrsqlYbGxNJsbU";
 
     const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelId}&key=${apiKey}`);
     const data = await response.json();

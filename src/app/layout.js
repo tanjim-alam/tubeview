@@ -11,14 +11,14 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Buy YouTube Views & Subscribers Instantly | Buy YouTube Views- TubeViews",
+  title: "Buy YouTube Views & Subscribers Instantly | Buy YouTube Views- GoFamy",
   description: "Buy YouTube views and subscribers to grow your channel's visibility and credibility. Boost engagement, attract a wider audience, and elevate your content's success with real, high-quality interactions!",
   keywords: "Buy YouTube Views, Buy YouTube Subscribers",
   other: {
     "google-site-verification": "8L6rNpN5l_HRBkQeyoCjI7a536HrGeOAadihAceTEnA",
   },
   alternates: {
-    canonical: 'https://www.tubeviews.co/',
+    canonical: 'https://www.gofamy.com/',
   }
 
 };
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           <TopBar />
           <Navbar />
           {/* ================ */}
-          <div className=" fixed right-0 top-1/2">
+          <div className=" fixed right-0 top-1/2 z-50">
             <Link
               href="/tools"
               className="bg-primary rounded-tl-md rounded-bl-md p-2 flex flex-col justify-center items-center text-white">

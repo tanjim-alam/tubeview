@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET(req) {
     const { searchParams } = new URL(req.url);
     const url = searchParams.get('url');
-    const apiKey = process.env.YOUTUBE_API_KEY;
+    const apiKey = process.env.YOUTUBE_API_KEY || "AIzaSyC_zT-cq_JPimX6kpEibmrsqlYbGxNJsbU";
 
     let channelId = null;
 
