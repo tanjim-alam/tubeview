@@ -38,8 +38,8 @@ function Navbar() {
                 <nav className='xl:w-[90%] 2xl:w-[80%] lg:w-[99%] m-auto flex justify-between items-center p-2'>
                     <div>
                         <Link href={"/"}>
-                            {/* <span>𝒈𝒐𝒇𝒂𝒎𝒚</span> */}
-                            <h4 className='text-3xl font-bold text-secondary text-ite rounded-full'><span className=''>𝐆𝐨</span><span className='text-primary text- ml-0.5 rounded-br'>𝙁𝙖𝙢𝙮</span></h4>
+                            {/* <span>𝙁𝙖𝙢𝙮</span> */}
+                            <h4 className='text-3xl font-bold text-secondary text-ite rounded-full'><span className=''>𝐆𝐨</span><span className='text-primary text- ml-0.5 rounded-br'>𝐅𝐚𝐦𝐲</span></h4>
                         </Link>
                     </div>
                     <div>
@@ -62,7 +62,7 @@ function Navbar() {
                     <div className='flex justify-between items-center p-2  w-full'>
                         <div>
                             <Link href={"/"}>
-                                <h4 className='text-3xl font-bold text-secondary'>𝐆𝐨<span className='text-primary texst-white ml-0.5'>𝙁𝙖𝙢𝙮</span></h4>
+                                <h4 className='text-3xl font-bold text-secondary'>𝐆𝐨<span className='text-primary texst-white ml-0.5'>𝐅𝐚𝐦𝐲</span></h4>
                             </Link>
                         </div>
                         <div className='flex justify-center gap-5 items-center'>

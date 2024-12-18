@@ -12,7 +12,7 @@ function ReviewsSection({ reviewsData }) {
             <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                 <h4 className='lg:text-[2rem] text-xl text-center font-semibold text-black'>🥇 Celebrating Success: Stories Straight from Our Clients!</h4>
                 <p className='text-center text-black'>
-                    At TubeViews, your satisfaction comes first. Enjoy exceptional customer Support and watch your social media presence skyrocket!
+                    At GoFamy, your satisfaction comes first. Enjoy exceptional customer Support and watch your social media presence skyrocket!
                 </p>
             </div>
             <div className='lg:w-[80%] w-[90%] m-auto lg:py-10 py-5'>

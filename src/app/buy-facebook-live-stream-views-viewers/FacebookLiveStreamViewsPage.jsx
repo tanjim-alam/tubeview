@@ -93,9 +93,9 @@ strengthening a thriving community.
     const faqData = [
         {
             id: 1,
-            question: "1. Is it safe to buy Facebook Live views from TubeViews?",
+            question: "1. Is it safe to buy Facebook Live views from GoFamy?",
             answer:
-                `Of course. At TubeViews, we care about how safe and secure your account is. Our services only use real
+                `Of course. At GoFamy, we care about how safe and secure your account is. Our services only use real
 Facebook users to give views, which keeps your account safe and in line with Facebook's rules.
                 `
         },
@@ -117,7 +117,7 @@ open to the public.
         },
         {
             id: 4,
-            question: "4. Do the views that TubeViews gives you last forever?",
+            question: "4. Do the views that GoFamy gives you last forever?",
             answer:
                 `The views are meant to give your live show an extra boost. They are real and come from busy users,
 which makes your stream more interesting while it's live.
@@ -125,9 +125,9 @@ which makes your stream more interesting while it's live.
         },
         {
             id: 5,
-            question: "5. What ways of payment does TubeViews accept?",
+            question: "5. What ways of payment does GoFamy accept?",
             answer:
-                `TubeViews accepts a number of safe payment methods, such as major credit cards, PayPal, and other
+                `GoFamy accepts a number of safe payment methods, such as major credit cards, PayPal, and other
 well-known online payment methods. This makes sure that the transaction goes smoothly and safely.
                 `
         },
@@ -144,7 +144,7 @@ annoying or fake.
             id: 7,
             question: "7. Can I see when the views I bought are delivered?",
             answer:
-                `Yes, once you've paid for TubeViews, you can check your account to see how your view delivery is going.
+                `Yes, once you've paid for GoFamy, you can check your account to see how your view delivery is going.
 This gives you peace of mind and openness.
                 `
         },
@@ -166,7 +166,7 @@ stream when you check out, and we'll make sure that each one gets the right numb
         },
         {
             id: 10,
-            question: "10. How does TubeViews make sure that the views are good?",
+            question: "10. How does GoFamy make sure that the views are good?",
             answer:
                 `We get our opinions from real, busy Facebook users to make sure they are real and follow Facebook's
 rules. Our planned delivery methods work like natural growth trends, which means that the number of
@@ -192,7 +192,7 @@ views keeps going up in a real way.
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Live Views from TubeViews</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Live Views from GoFamy</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -267,7 +267,7 @@ views keeps going up in a real way.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Buy Facebook Live Views from TubeViews to supercharge your Live Streams.
+                            Buy Facebook Live Views from GoFamy to supercharge your Live Streams.
                         </h3>
                     </div>
                 </div>
@@ -279,7 +279,7 @@ views keeps going up in a real way.
                                 companies, influencers, and people wanting to interact with their audiences in real-time, Facebook Live
                                 has evolved into a necessary tool. But with millions of live broadcasts occurring daily, making sure your
                                 broadcast gets the attention it deserves might be intimidating. Here is where we fit. Our specialty at
-                                <b>TubeViews</b> is assisting you with <b>Buy Facebook Live Views</b> and <b>Buy Facebook Live Stream Views</b>,
+                                <b>GoFamy</b> is assisting you with <b>Buy Facebook Live Views</b> and <b>Buy Facebook Live Stream Views</b>,
                                 thereby improving your live streaming experience and ensuring your material reaches a larger, more
                                 interested audience.
                             </p>
@@ -357,14 +357,14 @@ views keeps going up in a real way.
                                 material, and turn into devoted fans or consumers.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-2">
-                                At <b>TubeViews</b>, we are aware of the difficulties reaching great exposure in the packed field of live
+                                At <b>GoFamy</b>, we are aware of the difficulties reaching great exposure in the packed field of live
                                 streaming. Our goal is to provide <b>Buy Facebook Live Views</b> with premium services so you may
                                 enhance your live streaming capability. We are dedicated to let you easily and effectively reach your live
                                 streaming targets, improve your internet presence, and raise your exposure.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-2">
                                 Designed with your success in mind, our platform provides a flawless and safe experience delivering
-                                actual, high-quality views from actual Facebook users. <b>TubeViews</b> offers the tools you need to succeed
+                                actual, high-quality views from actual Facebook users. <b>GoFamy</b> offers the tools you need to succeed
                                 whether your company wants to increase product launches, you're an influencer trying to expand your
                                 following count, or you're someone trying to distribute important material.
                             </p>
@@ -386,7 +386,7 @@ views keeps going up in a real way.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Why Choose Tubeviews for Buy Facebook Live Views?
+                            🧍 Why Choose GoFamy for Buy Facebook Live Views?
                         </h3>
                     </div>
                 </div>
@@ -396,7 +396,7 @@ views keeps going up in a real way.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Accuracy and Standards</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> gives quality and authenticity top priority. You know you are getting actual views from actual
+                                    <b>GoFamy</b> gives quality and authenticity top priority. You know you are getting actual views from actual
                                     Facebook users when you opt to <b>Buy Facebook Live Views</b> from us. Our dedication to excellence
                                     guarantees significant interaction for your live broadcasts without sacrificing your reputation or breaking
                                     Facebook rules.
@@ -424,7 +424,7 @@ views keeps going up in a real way.
                                 <h4 className="text-lg font-semibold text-slate-700">4. First-rate client support</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Our committed client support staff is always here to help you. From choosing the correct bundle to
-                                    debugging any problems, we are here to guarantee your <b>TubeViews</b> experience is seamless and hassle-
+                                    debugging any problems, we are here to guarantee your <b>GoFamy</b> experience is seamless and hassle-
                                     free. We appreciate your confidence and aim to provide quick and useful assistance whenever you need
                                     it.
                                 </p>
@@ -433,7 +433,7 @@ views keeps going up in a real way.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">5. Safe and secure</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Right first for us are your security and privacy. <b>TubeViews</b> follows highest standards to protect your
+                                    Right first for us are your security and privacy. <b>GoFamy</b> follows highest standards to protect your
                                     account data and uses safe payment methods. Our services are made to follow Facebook policies,
                                     therefore keeping your account secure even while you <b>Buy Facebook Live Stream Views</b>.
                                 </p>
@@ -450,7 +450,7 @@ views keeps going up in a real way.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            👍 How to Buy Facebook Live Views from TubeViews?
+                            👍 How to Buy Facebook Live Views from GoFamy?
                         </h3>
                     </div>
                 </div>
@@ -458,7 +458,7 @@ views keeps going up in a real way.
                     <div>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Buying FB live views from <b>TubeViews</b> is an easy procedure meant to get you going in no time. Here's a
+                                Buying FB live views from <b>GoFamy</b> is an easy procedure meant to get you going in no time. Here's a
                                 basic, exact road map to get you going:
                             </p>
                         </div>
@@ -466,7 +466,7 @@ views keeps going up in a real way.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Choose Your Order.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Look over our selection of packages and choose the one that most suits your requirements. <b>TubeViews</b>
+                                    Look over our selection of packages and choose the one that most suits your requirements. <b>GoFamy</b>
                                     offers a minor boost to start your live broadcast or a significant increase to enhance exposure depending
                                     on your need.
                                 </p>
@@ -489,7 +489,7 @@ views keeps going up in a real way.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">4. See Your Views Change.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> will start immediately providing the views to your live broadcast once your payment is verified.
+                                    <b>GoFamy</b> will start immediately providing the views to your live broadcast once your payment is verified.
                                     Back off and observe as your view count rises, therefore improving the visibility and reach of your live
                                     broadcast.
                                 </p>
@@ -568,14 +568,14 @@ views keeps going up in a real way.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            👍 Optimizing TubeViews; Impact on Your Live Streams
+                            👍 Optimizing GoFamy; Impact on Your Live Streams
                         </h3>
                     </div>
                 </div>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-8 py-5'>
                     <div>
                         <p className='leading-relaxed text-slate-600 mt-1'>
-                            Our first goal at <b>TubeViews</b> is to make sure your Facebook Live broadcasts realize their best possible
+                            Our first goal at <b>GoFamy</b> is to make sure your Facebook Live broadcasts realize their best possible
                             quality. We know that in the cutthroat world of live streaming, just turning on is insufficient; you also need
                             to grab and hold the interest of a sizable audience. We therefore you the chance to Buy Facebook Live
                             Views and <b>Buy Facebook Live Stream Views</b>, thereby giving you the necessary push to improve your
@@ -587,7 +587,7 @@ views keeps going up in a real way.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
                             We think that the secret to a good live broadcast is view quality as much as count. Buying Facebook
-                            Live Stream Views from <b>TubeViews</b> not only raises your view count but also improves the general
+                            Live Stream Views from <b>GoFamy</b> not only raises your view count but also improves the general
                             broadcast engagement. Higher view counts tell Facebook's algorithm that your material is important and
                             interesting that it should rank and reach higher. Additional organic viewers will therefore be exposed to
                             your live stream, resulting in a cascade of additional likes, comments, and shares. Our dedication to fast
@@ -606,7 +606,7 @@ views keeps going up in a real way.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
                             Apart from raising your view counts, we help you to leave a memorable impression on your audience.
-                            Buying Facebook Live Views from <b>TubeViews</b> helps you build the basis for long-term success and
+                            Buying Facebook Live Views from <b>GoFamy</b> helps you build the basis for long-term success and
                             steady expansion in your live streaming efforts. Our committed client support staff is always ready to help
 
                             you choose the ideal bundle and maximize your live streaming for most interaction. We promise to be
@@ -614,7 +614,7 @@ views keeps going up in a real way.
                             grabbing possibilities.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            Maximizing the value of your live broadcasts has never been more simple. Using <b>TubeViews</b>, you will
+                            Maximizing the value of your live broadcasts has never been more simple. Using <b>GoFamy</b>, you will
                             have the tools and assistance required to <b>Buy Facebook Live Stream Views</b>, therefore guaranteeing
                             that your live broadcasts not only reach but also successfully interact with a bigger audience. Let us
                             assist you to drive your success, change your Facebook Live experience, and improve your online profile
@@ -637,13 +637,13 @@ views keeps going up in a real way.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                At <b>TubeViews</b>, we know that adding more services into your live streaming system should be simple and
+                                At <b>GoFamy</b>, we know that adding more services into your live streaming system should be simple and
                                 effective. Our technology lets you <b>Buy Facebook Live Views</b> without any disturbances as it is meant to
                                 match your current setup perfectly. Whether you utilize broadcasting straight via Facebook or specialist
                                 live streaming software, our easy-to-use interface guarantees that buying views is a simple procedure.
                                 Just choose your preferred bundle, let us do the rest, and provide your live stream information. Our
                                 automatic method guarantees fast delivery of the views, therefore freeing you to concentrate on
-                                producing interesting material free from technological concerns. Choosing <b>TubeViews</b> will help you to
+                                producing interesting material free from technological concerns. Choosing <b>GoFamy</b> will help you to
                                 have a hassle-free experience that improves your live streaming capabilities without adding needless
                                 complication to your process. Our first concern is your convenience; hence, we make sure Buy
                                 Facebook Live Views is as quick and easy as it can be so you may focus on what you are most good
@@ -682,7 +682,7 @@ views keeps going up in a real way.
                         />
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                One of the best things about <b>TubeViews</b> is our ability to <b>Buy Facebook Live Stream Views</b> catered to
+                                One of the best things about <b>GoFamy</b> is our ability to <b>Buy Facebook Live Stream Views</b> catered to
                                 your particular audience. We understand that not all points of view are created equally; the success of
                                 your live streaming is much influenced by the nature and relevancy of your visitors. Our sophisticated
                                 targeting choices let you choose geographic areas, hobbies, and demographics, therefore guaranteeing
@@ -691,7 +691,7 @@ views keeps going up in a real way.
                                 strategy not only improves your view count but also engagement rates. Using our advanced targeting
                                 features will enable you to <b>Buy Facebook Live Views</b> exactly complementing the objectives and
                                 audience tastes of your business. This accuracy guarantees that your live feeds have maximum effect,
-                                therefore promoting a committed community around your material and significant interactions. <b>TubeViews</b>
+                                therefore promoting a committed community around your material and significant interactions. <b>GoFamy</b>
                                 let you access the correct individuals at the correct moment, therefore improving your live streaming
                                 approach to unprecedented standards.
                             </p>
@@ -715,14 +715,14 @@ views keeps going up in a real way.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                We at <b>TubeViews</b> take great satisfaction in our constant dedication to ethical development and real
+                                We at <b>GoFamy</b> take great satisfaction in our constant dedication to ethical development and real
                                 involvement. Choosing to <b>Buy Facebook Live Views</b> from us means you may be sure our techniques
                                 follow Facebook rules and standards. Our first focus is authenticity; we get views from actual, active
                                 Facebook users to guarantee real interaction that strengthens your reputation from your live broadcasts.
                                 Our ethical method helps you avoid the dangers connected to false or bot-generated views, including
                                 account fines or audience mistrust. We concentrate on providing excellent perspectives that support your
                                 long-term success as we think that real development is sustainable development. Working with
-                                <b>TubeViews</b> means you are investing in a service that not only improves the exposure of your live
+                                <b>GoFamy</b> means you are investing in a service that not only improves the exposure of your live
                                 broadcast but also maintains the integrity of your online profile. Our commitment to moral standards
                                 guarantees that, when you <b>Buy Facebook Live Stream Views</b>, you do it with assurance knowing that a
                                 reliable and conscientious service supports your attempts at live streaming. Let us assist you to reach

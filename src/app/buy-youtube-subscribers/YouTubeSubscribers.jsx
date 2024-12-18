@@ -24,7 +24,7 @@ function YouTubeSubscribers() {
         {
             id: 1,
             title: "Real Subscribers",
-            description: "Tubeviews offers actual, active members that increase channel interaction.",
+            description: "GoFamy offers actual, active members that increase channel interaction.",
             icon: <MdLightMode />
         },
         {
@@ -48,7 +48,7 @@ function YouTubeSubscribers() {
         {
             id: 6,
             title: "Retention Guarantee",
-            description: "Tubeviews; customers bring with them a retention policy, therefore guaranteeing long-term development for your channel.",
+            description: "GoFamy; customers bring with them a retention policy, therefore guaranteeing long-term development for your channel.",
             icon: <FaClipboardCheck />
         },
         {
@@ -60,13 +60,13 @@ function YouTubeSubscribers() {
         {
             id: 8,
             title: "24/7 Support",
-            description: "Tubeviews provides round-the-clock customer service so you may receive support whenever you need it.",
+            description: "GoFamy provides round-the-clock customer service so you may receive support whenever you need it.",
             icon: <MdSupportAgent />
         },
         {
             id: 9,
             title: "Compliance with YouTube Guidelines",
-            description: "Following YouTube terms of service helps Tubeviews to maintain your account free from fines.",
+            description: "Following YouTube terms of service helps GoFamy to maintain your account free from fines.",
             icon: <GrCompliance />
         }
 
@@ -84,8 +84,8 @@ function YouTubeSubscribers() {
         },
         {
             id: 3,
-            question: "Benefits of Purchases YouTube subscribers from Tubeviews ?",
-            answer: "Buying YouTube subscribers from Tubeviews offers a number of advantages, including more social proof, better channel legitimacy, more exposure, possible for stronger organic reach, and a start to the expansion path of your channel."
+            question: "Benefits of Purchases YouTube subscribers from GoFamy?",
+            answer: "Buying YouTube subscribers from GoFamy offers a number of advantages, including more social proof, better channel legitimacy, more exposure, possible for stronger organic reach, and a start to the expansion path of your channel."
         },
         {
             id: 4,
@@ -140,7 +140,7 @@ function YouTubeSubscribers() {
         {
             id: 14,
             question: "Should I decide on the desired number of subscribers?",
-            answer: "Definitely! With many packages available from TubeViews, you may choose the number most fit for your requirements."
+            answer: "Definitely! With many packages available from GoFamy, you may choose the number most fit for your requirements."
         },
     ]
     return (
@@ -160,19 +160,19 @@ function YouTubeSubscribers() {
             </div>
             {/* package section end */}
             <WhyYouChooseSection
-                heading={"✊ Why Choose Tubeviews to buy YouTube Subscribers?"}
-                subHeading={"Real subscribers, quick delivery, reasonable prices, and a safe approach offered by Tubeviews let you securely grow your channel."}
+                heading={"✊ Why Choose GoFamy to buy YouTube Subscribers?"}
+                subHeading={"Real subscribers, quick delivery, reasonable prices, and a safe approach offered by GoFamy let you securely grow your channel."}
                 title1={"Safe and secure process"}
                 description1={
                     `
-                    Tubeviews gives security of your channel first importance. Their approach according to YouTube's policies
+                    GoFamy gives security of your channel first importance. Their approach according to YouTube's policies
 guarantees that your account stays protected all through the procedure.
                     `
                 }
                 title2={"High-Quality Subscribers"}
                 description2={
                     `
-                    Tubeviews provides real, active subscribers, therefore enabling the expansion of your YouTube channel via
+                    GoFamy provides real, active subscribers, therefore enabling the expansion of your YouTube channel via
 actual audience interaction. This guarantees your channel seems more reliable and natural.
                     `
                 }
@@ -186,26 +186,26 @@ practically instantly see obvious channel development.
                 title4={"Affordable"}
                 description4={
                     `
-                    For YouTubers trying to expand their channel without overpaying, Tubeviews provides reasonable pricing,
+                    For YouTubers trying to expand their channel without overpaying, GoFamy provides reasonable pricing,
 therefore helping them to budget.
                     `
                 }
             />
             <FeaturesSection
                 featuresData={featuresData}
-                heading={"🚀 Buy YouTube Subscribers Features With Tubeviews"}
-                subHeading={"Expanding your YouTube audience may be done with dependable and efficient tubeviews. Their characteristics guarantee results for the success of your channel, safety, and high quality service."} />
+                heading={"🚀 Buy YouTube Subscribers Features With GoFamy"}
+                subHeading={"Expanding your YouTube audience may be done with dependable and efficient GoFamy. Their characteristics guarantee results for the success of your channel, safety, and high quality service."} />
             <ContentSection1
                 heading={"🎉 Many Choices to Buy YouTube Subscribers"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Subscribers."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Subscribers."}
                 imgUrl={"/buy-real-youtube-subscribers.webp"}
                 contents={
-                    "<div><p class='leading-relaxed text-slate-600'>Welcome to Tubeviews extensive array of <b>Buy YouTube Subscribers</b> services, which provide customised solutions to improve the development and interaction on your channel. We have you covered whether your goals are to target a particular geographic demographic with buy USA YouTube subscribers, search for actual and active user involvement  with buy real YouTube subscribers, or purchase inexpensive YouTube subscribers for an initial boost.</p><br><p class='leading-relaxed text-slate-600'>Our range of subscriber acquisition choices guarantees that you may adapt the expansion plan of your channel to fit your particular requirements and audience size. With <a href=https://www.tubeviews.co/>Tubeviews</a>, you have the freedom to choose the kind of members who best fit the goals of your channel, all meant to drive your content to new degrees of popularity and exposure within the YouTube community.</p></div>"
+                    "<div><p class='leading-relaxed text-slate-600'>Welcome to GoFamy extensive array of <b>Buy YouTube Subscribers</b> services, which provide customised solutions to improve the development and interaction on your channel. We have you covered whether your goals are to target a particular geographic demographic with buy USA YouTube subscribers, search for actual and active user involvement  with buy real YouTube subscribers, or purchase inexpensive YouTube subscribers for an initial boost.</p><br><p class='leading-relaxed text-slate-600'>Our range of subscriber acquisition choices guarantees that you may adapt the expansion plan of your channel to fit your particular requirements and audience size. With <a href=https://www.gofamy.com/>GoFamy</a>, you have the freedom to choose the kind of members who best fit the goals of your channel, all meant to drive your content to new degrees of popularity and exposure within the YouTube community.</p></div>"
                 }
             />
             <ContentSection2
                 heading={"🚀 Describe YouTube subscribers."}
-                subHeading={"Buying Youtube subscribers from TubeViews can help you boost your video's visibility and reach."}
+                subHeading={"Buying Youtube subscribers from GoFamy can help you boost your video's visibility and reach."}
                 imgUrl={"/buy-active-youtube-subscribers.png"}
                 contents={
                     "<div><p class='leading-relaxed text-slate-600'>On YouTube, every video is submitted under user profiles others may subscribe to. Upon Subscribers, that person's content appears conspicuously on the subscriber's homepage as well as elsewhere on YouTube's network.</p><br><p class=leading-relaxed text-black text-slate-600>Regarding brand promotion and visibility, few things could be better for you than your current Subscribers count. This makes it prudent to strive to compile as many as feasible.  SocialPlug can simply too assist you with this! </p><div class=mt-4><h3 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Buy Subscribers and Enjoy Ultra-Low Drop Rates.</h3><p class='leading-relaxed text-slate-600 mt-3'>One of the key aspects of our service is that every YouTube subscriber you get from us will be high quality accounts that seldom, if never, get banned. Our own records show that only 1.7% of our accounts disappear annually.</p><p class=leading-relaxed text-slate-600 mt-3>This implies that almost all of the subscribers you buy will be there for a very long time to come. These don't decrease after a few weeks; your YouTube subsriber are here to last the lifetime of your account.</p></div></div>"
@@ -215,7 +215,7 @@ therefore helping them to budget.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-slate-600'>🎉 Advantages of buying real active YouTube subscribers</h2>
                     <p className='text-center text-black'>
-                        Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real subscribers.
+                        GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real subscribers.
                     </p>
                 </div>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
@@ -311,7 +311,7 @@ therefore helping them to budget.
                         <div className="mt-4">
                             <h4 class='text-xl lg:text-[1.5rem] font-semibold text-slate-600'>Buy cheap YouTube subscribers.</h4>
                             <p class='leading-relaxed text-slate-600 mt-3'>
-                                Buy our cheap YouTube subscriber’s service at Tubeviews provides a reasonably priced approach to increase the credibility and exposure of your channel.
+                                Buy our cheap YouTube subscriber’s service at GoFamy provides a reasonably priced approach to increase the credibility and exposure of your channel.
                                 Attract actual users and create a solid basis for the expansion and success of your channel by progressively raising your subscriber base within reasonable means.
                                 Content makers looking to establish their presence on YouTube without sacrificing the authenticity and worth of their viewers would find this alternative perfect.
                             </p>
@@ -323,18 +323,18 @@ therefore helping them to budget.
                 <p className='bg-primary p-1'></p>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buy Real YouTube Subscribers only from Tubeviews</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buy Real YouTube Subscribers only from GoFamy</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Selecting our buy real YouTube subscriber’s service from Tubeviews means you are giving actual interaction and credibility for your channel first priority.
+                            Selecting our buy real YouTube subscriber’s service from GoFamy means you are giving actual interaction and credibility for your channel first priority.
                             Real, engaged individuals that will support significant interactions and a devoted audience base make up our subscribers.
                             Investing in actual members not only boosts your count but also helps to build a community of sincere viewer’s eager in your content.
                             Beyond simple statistics, this alternative focusses on developing a strong and real connection with your audience, hence fostering ongoing involvement and expansion for your YouTube channel.
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buying Active YouTube Subscribers from Tubeviews</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buying Active YouTube Subscribers from GoFamy</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Tubeviews provides more than just statistics with our buy active YouTube subscriber’s service; we give your channel life. These members participate and respond,
+                            GoFamy provides more than just statistics with our buy active YouTube subscriber’s service; we give your channel life. These members participate and respond,
                             therefore enhancing your content and interactions rather than only acting as passive fans.
                             Buying active member’s means investing in a vibrant community that shares your content, loves your videos, and engages in conversation.
                         </p>
@@ -349,7 +349,7 @@ therefore helping them to budget.
                             Do you question, <b>"Where can I buy YouTube subscribers?"</b> and require more members to becoming well-known on a video platform?
                         </p>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
-                            We introduce Tubeviews, a trustworthy business providing promo tools that greatly increase your Subscribers count. Why therefore is Tubeviews a need for any aspiring YouTuber?
+                            We introduce GoFamy, a trustworthy business providing promo tools that greatly increase your Subscribers count. Why therefore is GoFamy a need for any aspiring YouTuber?
                         </p>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             Unlike other platforms that promise false development, our organisation will assist you to establish a regular flow of actual subscribers.
@@ -357,7 +357,7 @@ therefore helping them to budget.
                         </p>
                     </div>
                     <div className='mt-6'>
-                        <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>How to Place the Order From TubeVIews</h4>
+                        <h4 className='text-xl lg:text-[1rem] font-semibold text-slate-600'>How to Place the Order From GoFamy</h4>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
                             <b>Step1:</b> Visit our website first and choose YouTube marketing.                        </p>
                         <p className=' leading-relaxed text-slate-600 mt-3'>

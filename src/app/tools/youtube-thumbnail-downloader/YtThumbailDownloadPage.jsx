@@ -49,7 +49,7 @@ function YtThumbailDownloadPage() {
     const faqData = [
         {
             id: 1,
-            question: "1. What is the TubeViews YouTube Thumbnail Downloader?",
+            question: "1. What is the GoFamy YouTube Thumbnail Downloader?",
             answer:
                 `The YouTube Thumbnail Downloader is a free online tool that allows users to download high-quality YouTube thumbnails 
                 without installing any software. It supports various sizes and qualities, making it versatile for different uses like branding, 
@@ -58,7 +58,7 @@ function YtThumbailDownloadPage() {
         },
         {
             id: 2,
-            question: "2. Can I download YouTube Thumbnail with this tool by Using TubeViews ?",
+            question: "2. Can I download YouTube Thumbnail with this tool by Using GoFamy?",
             answer:
                 `Yes, the tool also includes a YouTube Banner (Thumbnail) Downloader feature. You can easily download banners in the recommended size 
                 (2560x1440 pixels) or customize them to fit your needs. The safe area ensures that your design elements are displayed 
@@ -107,7 +107,7 @@ For banners, ensure all critical elements like text and logos are within the saf
                 <div className='lg:w-[80%] m-auto'>
                     <h1 className='lg:text-3xl text-2xl  font-semibold text-black text-center'>YouTube Thumbnail and Banner Downloader: The Ultimate Tool for Creators</h1>
                     <p className='mt-4 leading-normal text-[18px] text-center text-neutral-800'>
-                        TubeViews <b>YouTube Thumbnail Downloader</b> is a free, user-friendly tool that lets you download YouTube thumbnails
+                        GoFamy <b>YouTube Thumbnail Downloader</b> is a free, user-friendly tool that lets you download YouTube thumbnails
                         and banners quickly and effortlessly no need to install any apps. With just a few clicks, you can access these
                         features directly from your computer or mobile device via our website.
                     </p>
@@ -195,7 +195,7 @@ For banners, ensure all critical elements like text and logos are within the saf
                             offline presentations.
                         </p>
                         <p className="leading-relaxed text-slate-700 mt-3">
-                            <b>TubeViews Thumbnail Downloader</b> also includes a YouTube banner downloader feature, enabling you to access high-quality banners in seconds.
+                            <b>GoFamy Thumbnail Downloader</b> also includes a YouTube banner downloader feature, enabling you to access high-quality banners in seconds.
                         </p>
                     </div>
                     <div className='mt-6'>

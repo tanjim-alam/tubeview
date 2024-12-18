@@ -127,7 +127,7 @@ Instagram followers are available for most of the services.
 focus at Smmowl is quality. We constantly ensure that your followers are consistent,
 tenacious, and that the packages are quite reasonable in cost. While some of our
 competitors might claim to be the best in the business, such assertions are false and cause
-unhappy consumers. You can be sure TubeViews would give the best followers we could
+unhappy consumers. You can be sure GoFamy give the best followers we could
 find, coupled with fast shipping and exceptional customer service. 
                 `
         },
@@ -179,7 +179,7 @@ periodically removes bogus profiles.
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Ready To Buy Instagram Followers from TubeViews</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Ready To Buy Instagram Followers from GoFamy</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -207,7 +207,7 @@ periodically removes bogus profiles.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews guarantees actual and active fans, thereby assuring
+                                    GoFamy guarantees actual and active fans, thereby assuring
                                     involvement on your postings.
                                 </p>
                             </div>
@@ -221,7 +221,7 @@ periodically removes bogus profiles.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    <b>TubeViews</b> provides a secure and private service free from
+                                    <b>GoFamy</b> provides a secure and private service free from
                                     compromise of the security of your account.
                                 </p>
                             </div>
@@ -248,7 +248,7 @@ periodically removes bogus profiles.
             {/* FeaturesSection start */}
             <FeaturesSection
                 featuresData={featuresData}
-                heading={"🚀 Buy Instagram Followers from TubeViews features"}
+                heading={"🚀 Buy Instagram Followers from GoFamy features"}
             />
             {/* FeaturesSection end */}
 
@@ -335,7 +335,7 @@ periodically removes bogus profiles.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Buy Instagram Followers – Simple with TubeViews
+                            🤚🏿 Buy Instagram Followers – Simple with GoFamy
                         </h3>
                     </div>
                 </div>
@@ -350,7 +350,7 @@ periodically removes bogus profiles.
                         />
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Following others is really vital for your Instagram success. Buy <b>TubeViews</b> Instagram
+                                Following others is really vital for your Instagram success. Buy <b>GoFamy</b> Instagram
                                 followers. See how your Instagram account gains increasing popularity, recognition, and
                                 obvious presence. <b>Buying Instagram followers</b> would be your second greatest investment.
                                 Instagram, with over a billion active users, offers plenty of opportunities for anybody want to
@@ -526,7 +526,7 @@ periodically removes bogus profiles.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Future Instagram Growth Trends with TubeViews
+                            🧍 Future Instagram Growth Trends with GoFamy
                         </h3>
                     </div>
                 </div>
@@ -755,7 +755,7 @@ periodically removes bogus profiles.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Where you will see results, spend your marketing money. <b>Buy Instagram followers</b> from
-                                <b>TubeViews</b> to increase the reputation, internet presence, and income of your company.
+                                <b>GoFamy</b> to increase the reputation, internet presence, and income of your company.
                             </p>
                         </div>
                     </div>

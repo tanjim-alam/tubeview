@@ -74,9 +74,9 @@ function IgReelsDownloaderPage() {
     const faqData = [
         {
             id: 1,
-            question: "Is TubeViews Instagram Reels Downloader Free to Use?",
+            question: "Is GoFamy Instagram Reels Downloader Free to Use?",
             answer:
-                `Yes! TubeViews Provide tool is completely free, and there are no restrictions on the number of downloads.
+                `Yes! GoFamy Provide tool is completely free, and there are no restrictions on the number of downloads.
                 `
         },
         {
@@ -90,7 +90,7 @@ function IgReelsDownloaderPage() {
             id: 3,
             question: "Do I Need to Install Any Software?",
             answer:
-                `No installations are required. TubeViews works directly in your browser for maximum convenience.
+                `No installations are required. GoFamy works directly in your browser for maximum convenience.
                 `
         },
         {
@@ -107,9 +107,9 @@ function IgReelsDownloaderPage() {
                 <div className='lg:w-[80%] m-auto'>
                     <h1 className='text-3xl font-semibold text-black text-center'>Instagram Reels Downloader - Fast, Free & Secure</h1>
                     <p className='mt-6 leading-normal text-[18px] text-center text-neutral-800'>
-                        Welcome to TubeViews, your one-stop solution for effortless and seamless Instagram Reels downloads! Our Instagram Reels Downloader
+                        Welcome to GoFamy, your one-stop solution for effortless and seamless Instagram Reels downloads! Our Instagram Reels Downloader
                         is designed to help you save your favorite Reels instantly, without any hassle. Whether it’s for inspiration, offline viewing,
-                        or sharing with friends, TubeViews ensures a fast, secure, and user-friendly experience.
+                        or sharing with friends, GoFamy ensures a fast, secure, and user-friendly experience.
                     </p>
                     <form onSubmit={handleDownload} className='w-full flex border-2 p-1 rounded-full mt-10 border-black'>
                         <input type="text"
@@ -236,7 +236,7 @@ function IgReelsDownloaderPage() {
                         <h2
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
                         >
-                            Why Choose TubeViews for Instagram Reels Download?
+                            Why Choose GoFamy for Instagram Reels Download?
                         </h2>
                         <div className='flex flex-col gap-3 md:pl-10'>
                             <div>
@@ -260,7 +260,7 @@ function IgReelsDownloaderPage() {
                                     3. No Login Required
                                 </p>
                                 <p className="leading-relaxed text-slate-700">
-                                    Unlike other services, TubeViews doesn’t ask for your Instagram login credentials. Your privacy is 100% protected.
+                                    Unlike other services, GoFamy doesn’t ask for your Instagram login credentials. Your privacy is 100% protected.
                                 </p>
                             </div>
                             <div>
@@ -285,7 +285,7 @@ function IgReelsDownloaderPage() {
                         <h2
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
                         >
-                            How to Download Instagram Reels with TubeViews
+                            How to Download Instagram Reels with GoFamy
                         </h2>
                         <p className="leading-relaxed text-slate-700 font-medium mt-2">
                             Follow these easy steps to download Instagram Reels:
@@ -304,7 +304,7 @@ function IgReelsDownloaderPage() {
                                     2. Paste the Link
                                 </p>
                                 <p className="leading-relaxed text-slate-700">
-                                    Visit the TubeViews Instagram Reels Downloader page and paste the copied link into the input field.
+                                    Visit the GoFamy Instagram Reels Downloader page and paste the copied link into the input field.
                                 </p>
                             </div>
                             <div>
@@ -321,7 +321,7 @@ function IgReelsDownloaderPage() {
                         <h2
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
                         >
-                            Features That Make TubeViews Stand Out
+                            Features That Make GoFamy Stand Out
                         </h2>
                         <p className="leading-relaxed text-slate-700 font-medium mt-2">
                             Follow these easy steps to download Instagram Reels:
@@ -365,14 +365,14 @@ function IgReelsDownloaderPage() {
                         <h2
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
                         >
-                            Why TubeViews is Your Best Choice
+                            Why GoFamy is Your Best Choice
                         </h2>
                         <p className="leading-relaxed text-slate-700 font-medium mt-2">
-                            At TubeViews, we understand the importance of preserving great content. Whether it’s a funny Reel, an inspirational video,
+                            At GoFamy, we understand the importance of preserving great content. Whether it’s a funny Reel, an inspirational video,
                             or a creative masterpiece, our tool empowers you to save and cherish your favorite moments.
                         </p>
                         <p className="leading-relaxed text-slate-700 font-medium mt-3">
-                            Experience the TubeViews difference today! Start downloading Instagram Reels effortlessly, securely, and for free.
+                            Experience the GoFamy difference today! Start downloading Instagram Reels effortlessly, securely, and for free.
                         </p>
                     </div>
                 </div>

@@ -33,11 +33,9 @@ function SoundCloudPlaysPage() {
                 </div>
             </div>
             {/* package section end */}
-            {/* <WhyYouChooseSection heading={"✊ Why You Should Choose Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} /> */}
-            {/* <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Views Features With Tubeviews"} subHeading={"Buying Youtube views from Tubeviews can help you boost your video's visibility and reach."} /> */}
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                    <h3 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>🎉 Buy SoundCloud Plays from TubeViews</h3>
+                    <h3 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>🎉 Buy SoundCloud Plays from Gofamy</h3>
                     <p className='text-center text-black'>
                         SoundCloud is indeed an online media production and streaming service that allows people to publish, stream, advertise
                     </p>
@@ -88,7 +86,7 @@ function SoundCloudPlaysPage() {
             </div>
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>Why Should You Buy SoundCloud Plays from TubeViews.co?</h2>
+                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>Why Should You Buy SoundCloud Plays from Gofamy.com?</h2>
                     <p className='text-center text-black'>
                         Purchasing plays or follows is not a rip-off. In the marketplace, there are numerous trustworthy companies with excellent retention
                         policies plus refund assurances.
@@ -118,7 +116,7 @@ function SoundCloudPlaysPage() {
 
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>Is it Secure to Buy SoundCloud plays from Tubeviews?                    </h2>
+                    <h2 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>Is it Secure to Buy SoundCloud plays from Gofamy?</h2>
                     <p className='text-center text-black'>
                         Yes. There is no law prohibiting you from purchasing plays or fans.
                     </p>
@@ -140,7 +138,7 @@ function SoundCloudPlaysPage() {
                             </p>
                             <h4 className='text-lg lg:text-[1.5rem] mt-4 font-semibold text-black'>How do we deliver SoundCloud plays?</h4>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Tubeviews.co can distribute plays and followers in a variety of ways. They could include advertising on your account,
+                                Gofamy.com can distribute plays and followers in a variety of ways. They could include advertising on your account,
                                 promoting your music utilizing their networks, or even using bots to advertise your account. These are some of the
                                 most often utilized approaches today. Firstly follow some people is the most straightforward technique to obtain followers.
                                 Your choice provider may want to request your passwords if you use this strategy. They might then go in and start following
@@ -155,7 +153,7 @@ function SoundCloudPlaysPage() {
 
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
-                    <h3 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>🎉 What is the Benefit of buying SoundCloud plays from TubeViews.co?                    </h3>
+                    <h3 className='text-xl lg:text-[2rem] text-center font-semibold text-black'>🎉 What is the Benefit of buying SoundCloud plays from Gofamy.com?                    </h3>
                     <p className='text-center text-black'>
                         SoundCloud is indeed an online media production and streaming service that allows people to publish, stream, advertise
                     </p>
@@ -164,7 +162,7 @@ function SoundCloudPlaysPage() {
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600">
-                                Buying inexpensive SoundCloud plays from TubeViews.Co has many advantages. The main goal is to attract more individuals to hear
+                                Buying inexpensive SoundCloud plays from Gofamy.com has many advantages. The main goal is to attract more individuals to hear
                                 your music and share it with their contacts. There are many benefits like getting more traffic, getting more plays and thus
                                 increasing your popularity. On the other hand, Purchasing Soundcloud plays, and SoundCloud following is not regarded as good
                                 practice and is explicitly against the site’s rules and regulations. It has a bunch of spam potential since these plays are

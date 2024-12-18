@@ -11,11 +11,11 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Buy YouTube Views & Subscribers Instantly | Buy YouTube Views- GoFamy",
-  description: "Buy YouTube views and subscribers to grow your channel's visibility and credibility. Boost engagement, attract a wider audience, and elevate your content's success with real, high-quality interactions!",
+  title: "Buy YouTube Views & Subscribers Instantly | Buy YouTube Views - GoFamy",
+  description: "Buy YouTube views and subscribers to grow your channels visibility and credibility. Boost engagement, attract a wider audience, and elevate your content success with real, high-quality interactions!",
   keywords: "Buy YouTube Views, Buy YouTube Subscribers",
   other: {
-    "google-site-verification": "8L6rNpN5l_HRBkQeyoCjI7a536HrGeOAadihAceTEnA",
+    "google-site-verification": "f27n0TZdHOL0-KfoRglkrQNYgHNCMXxu8hFF7yYFDQg",
   },
   alternates: {
     canonical: 'https://www.gofamy.com/',

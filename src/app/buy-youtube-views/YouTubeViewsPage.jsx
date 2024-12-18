@@ -122,7 +122,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
         {
             id: 8,
             question: "Is Real the YouTube Views Service?",
-            answer: "The YouTube views on the Tubeviews include entirely actual individuals. This tool allows you to gain new viewers by enhancing the interactivity in your videos, thereby enabling you to purchase totally securely without compromising your channel in any form."
+            answer: "The YouTube views on the GoFamy include entirely actual individuals. This tool allows you to gain new viewers by enhancing the interactivity in your videos, thereby enabling you to purchase totally securely without compromising your channel in any form."
         },
         {
             id: 9,
@@ -145,7 +145,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
         <div>
             <HeroSection
                 title={"Buy YouTube Views From <br> 100% Real and Active Users"}
-                subTitle={"<h3>Buy YouTube Views <span class='text-secondary'>from TubeViews</span></h3>"}
+                subTitle={"<h3>Buy YouTube Views <span class='text-secondary'>from GoFamy</span></h3>"}
                 imgUrl={"/buy-youtube-views.webp"}
             />
             {/* package section start */}
@@ -153,7 +153,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
                     <div className='flex flex-col items-center gap-4'>
                         <h3 className='lg:text-3xl text-2xl text-center text-black lg:text-start font-semibold'>Get  Views on YouTube to Boost Your Channel!</h3>
-                        <p className='lg:text-xl text-lg text-center text-black lg:text-start font-medium'>TubeViews Provide 100% Real and Active Users</p>
+                        <p className='lg:text-xl text-lg text-center text-black lg:text-start font-medium'>GoFamy Provide 100% Real and Active Users</p>
                     </div>
                     <ServiceCard packageData={youtubeViewsData} />
                 </div>
@@ -161,12 +161,12 @@ and adds to watch hours. Having several points of view calms the algorithm.
             {/* package section end */}
             {/* <PackageSection /> */}
             <WhyYouChooseSection
-                heading={"✊ Why Choose Tubeviews for YouTube Views?"}
-                subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+                heading={"✊ Why Choose GoFamy for YouTube Views?"}
+                subHeading={"Buying YouTube views from GoFamy improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
                 title1={"Security and Privacy First"}
                 description1={
                     `
-                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    At GoFamy, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
                     service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
                     producing excellent material. Let us address the opinions while you focus on what is important—your
                     audience.
@@ -175,7 +175,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 title2={"Proven YouTube Growth"}
                 description2={
                     `
-                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+                    Having years of expertise guiding YouTube artists towards growth, GoFamy provides a dependable
                     and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
                     material receives the exposure it deserves.
                     `
@@ -191,7 +191,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 title4={"24/7 Exclusive Support"}
                 description4={
                     `
-                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    Have questions or want help? Our staff at GoFamy is on hand around-the-clock to help you as
                     required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
@@ -199,8 +199,8 @@ and adds to watch hours. Having several points of view calms the algorithm.
             />
             <FeaturesSection
                 featuresData={featuresData}
-                heading={"🚀 Buy YouTube Views Features With Tubeviews"}
-                subHeading={"Tubeviews — quick, reliable, and high-quality views for your channel will rapidly increase your YouTube visibility!"}
+                heading={"🚀 Buy YouTube Views Features With GoFamy"}
+                subHeading={"GoFamy — quick, reliable, and high-quality views for your channel will rapidly increase your YouTube visibility!"}
             />
             {/* ======== content section 2 start ========= */}
             <div className='bg-white'>
@@ -338,15 +338,15 @@ and adds to watch hours. Having several points of view calms the algorithm.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 With millions of people producing and viewing videos daily, YouTube is the go-to site for video content.
                                 Choosing to purchase YouTube views from tube views, a service providing views for your YouTube
-                                content—is one way you may increase your profile on this network. Using the  TubeViews for getting YouTube views can help your channel becoming a lot more visible and credible right away. Your videos are
+                                content—is one way you may increase your profile on this network. Using the  GoFamy for getting YouTube views can help your channel becoming a lot more visible and credible right away. Your videos are
                                 more likely to show up in search results and suggestions when they have a big view count, attained maybe via
                                 instantaneous YouTube views, therefore drawing natural viewers and perhaps subscribers.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Using TubeViews Reliable YouTube views service will help you to guarantee your views as well as help
+                                Using GoFamy Reliable YouTube views service will help you to guarantee your views as well as help
                                 your channel to keep integrity and reputation. Buying YouTube views can enable your channel to develop
                                 more quickly and provide a competitive advantage in the packed online video market. Thus, buying real views
-                                from us for your content using the dependable and excellent service of Tubeviews.
+                                from us for your content using the dependable and excellent service of GoFamy.
                             </p>
 
                         </div>
@@ -407,7 +407,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                     <div>
                         <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Build Credibility in Your Sector</h3>
                         <p className=' leading-relaxed text-slate-600 mt-3'>
-                            Like many things in life - it depends. TubeViews just avoids making any guarantees about natural development as it fluctuates depending on a great number of elements.
+                            Like many things in life - it depends. GoFamy just avoids making any guarantees about natural development as it fluctuates depending on a great number of elements.
                             Your first priorities should be concentrating on producing world-class content people want to interact with. Organic development is more likely to take place the better your content is.
                         </p>
                         <br />
@@ -523,7 +523,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                 <p className='bg-primary p-1'></p>
                 <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5'>
                     <div>
-                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Numbers, Involvement, and Reputation; Tubeviews</h3>
+                        <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Numbers, Involvement, and Reputation; GoFamy</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
                             You have what expectation? Are your only goals numerical excellence? Do you want more people to see your videos? Alternatively, do you want the advertisement from your business to seem great online?
                             And how could one profit from YouTube?
@@ -532,17 +532,17 @@ and adds to watch hours. Having several points of view calms the algorithm.
                             In the digital society of today, numbers rule everything. Buying views instantly and significantly increases your numerical dominance, therefore presenting you as a credible source for viewers to swarm to.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            For what count of views will satisfy you? On a video advertising your business, would 100,000 views seem good? Tubeviews can provide this for you. We may activate the YouTube algorithm and enable
+                            For what count of views will satisfy you? On a video advertising your business, would 100,000 views seem good? GoFamy can provide this for you. We may activate the YouTube algorithm and enable
                             the system to run for you by means of the quality views we provide to your videos.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            You naturally have greater opportunity to reach more people with a little help from our YouTube growth service. Tubeviews offers you an opportunity to make money from YouTube if you so wish.
+                            You naturally have greater opportunity to reach more people with a little help from our YouTube growth service. GoFamy offers you an opportunity to make money from YouTube if you so wish.
                         </p>
                     </div>
                     <div className='mt-5'>
                         <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600'>Buying Views on YouTube</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            Here is a basic manual for buying YouTube views. Learn <a href='https://www.tubeviews.co/buy-youtube-views'>"How to Buy YouTube Views"</a> right now by clicking the button under!
+                            Here is a basic manual for buying YouTube views. Learn <a href='https://www.gofamy.com/buy-youtube-views'>"How to Buy YouTube Views"</a> right now by clicking the button under!
                         </p>
                     </div>
                     <div>
@@ -592,7 +592,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                             <div className='flex items-center gap-2'>
                                 <span className='bg-primary text-white px-2.5 rounded-full text-lg font-semibold'>7</span>
                                 <p className='leading-relaxed text-slate-600 '>
-                                    Contact us for any delays or other kind of problem. You may <Link href={"https://www.tubeviews.co/buy-youtube-subscribers"}>buy YouTube subscribers</Link> as well if you so wish.
+                                    Contact us for any delays or other kind of problem. You may <Link href={"https://www.gofamy.com/buy-youtube-subscribers"}>buy YouTube subscribers</Link> as well if you so wish.
                                 </p>
                             </div>
                             <div className='flex items-center gap-2'>

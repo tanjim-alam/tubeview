@@ -170,7 +170,7 @@ particular interests. This assists your audience to be in line with your intende
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Video<br/>Views with Instant Delivery"} subTitle={"<h3>Buy Facebook Views<span class=text-secondary> From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Video<br/>Views with Instant Delivery"} subTitle={"<h3>Buy Facebook Views<span class=text-secondary> From GoFamy</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -187,7 +187,7 @@ particular interests. This assists your audience to be in line with your intende
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Video
-                            Views from TubeViews</h3>
+                            Views from GoFamy</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -328,7 +328,7 @@ particular interests. This assists your audience to be in line with your intende
                                 sharing source behind YouTube. Now, with Facebook videos and the Facebook Live tool, interaction and engagement rates of
                                 videos on Facebook have climbed even higher. One of the excellent places to gain comments on your work is videos. Getting
                                 comments for your videos is essential as it helps you to know what material appeals to your audience and what not. <b>Buy
-                                    Facebook video views</b> from TubeViews to quickly draw your target market and have more natural interaction.
+                                    Facebook video views</b> from GoFamy to quickly draw your target market and have more natural interaction.
                             </p>
                         </div>
                     </div>
@@ -350,7 +350,7 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 The Facebook algorithm gives material with high degree of interaction first priority. Your video will show more likely in the
-                                newsfeeds of possible followers the more views, likes, and shares it generates. Buying Facebook video views from <b>TubeViews</b> is
+                                newsfeeds of possible followers the more views, likes, and shares it generates. Buying Facebook video views from <b>GoFamy</b> is
                                 a wise approach to quicken this procedure; so, it is important for:
                             </p>
                             <div className='flex flex-col gap-4 mt-4'>
@@ -397,7 +397,7 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Although Buying Facebook video views will start you greatly, combining it with natural techniques will optimize your results.
-                                These are some doable strategies to naturally increase your Facebook video views with the help of <b>TubeViews</b>:
+                                These are some doable strategies to naturally increase your Facebook video views with the help of <b>GoFamy</b>:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Make your thumbnail count as it is the first thing others see. A well-designed, striking thumbnail greatly raises the possibility of
@@ -450,7 +450,7 @@ particular interests. This assists your audience to be in line with your intende
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Though natural development is crucial, it might take time especially if you're just beginning or attempting to break through in a
-                                crowded sector. Here is where <b>Buy Facebook Video Views</b> from <b>TubeViews</b> might be rather beneficial in your plan. It's like
+                                crowded sector. Here is where <b>Buy Facebook Video Views</b> from <b>GoFamy</b> might be rather beneficial in your plan. It's like
                                 providing your film with the starting fire required to appeal to more people.
                             </p>
                         </div>
@@ -476,7 +476,7 @@ particular interests. This assists your audience to be in line with your intende
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 For limited-time discounts, flash sales, or product introductions, waiting for natural views may not be feasible. <b>Buy Facebook
-                                    Video Views</b> from <b>TubeViews</b> that guarantees that your message reaches the proper individuals fast.
+                                    Video Views</b> from <b>GoFamy</b> that guarantees that your message reaches the proper individuals fast.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Focus on producing more useful content instead of just attempting to get views by leveraging paid views to enhance your movies,
@@ -590,7 +590,7 @@ particular interests. This assists your audience to be in line with your intende
                             techniques. Our advice is as follows:
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">
-                            Make sure your materials stay excellent and relevant to your readers. <b>Buy Facebook Video Views</b> from <b>TubeViews</b> will help your
+                            Make sure your materials stay excellent and relevant to your readers. <b>Buy Facebook Video Views</b> from <b>GoFamy</b> will help your
                             video get seen, but your material will be what draws viewers back again.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">

@@ -42,7 +42,7 @@ function InstagramTargetFollowersPage() {
             title: "Safe and Secure Process",
             description:
                 `
-           TubeViews doesn't ask for your Instagram password, so you can buy things without worrying about the safety of your account.
+           GoFamy doesn't ask for your Instagram password, so you can buy things without worrying about the safety of your account.
             `,
             icon: <RiSecurePaymentFill />
         },
@@ -61,7 +61,7 @@ function InstagramTargetFollowersPage() {
             id: 6,
             title: "24/7 Customer Service",
             description: `
-            TubeViews has support available 24 hours a day, 7 days a week to help with any questions or issues. 
+            GoFamy has support available 24 hours a day, 7 days a week to help with any questions or issues. 
             This makes sure that the service runs smoothly and reliably.
             `,
             icon: <MdOutlineSupportAgent />
@@ -185,7 +185,7 @@ followers.
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buying Instagram Male/Female Followers from TubeViews: Main Advantages</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buying Instagram Male/Female Followers from GoFamy: Main Advantages</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -199,7 +199,7 @@ followers.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews provides followers especially suited to Male/Female demographics, excellent for companies or influencers aiming in women-oriented categories like fashion, beauty, and health.
+                                    GoFamy provides followers especially suited to Male/Female demographics, excellent for companies or influencers aiming in women-oriented categories like fashion, beauty, and health.
                                 </p>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ followers.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews offers excellent followers, therefore strengthening the legitimacy of your profile and drawing more natural Male/Female followers that fit your content.
+                                    GoFamy offers excellent followers, therefore strengthening the legitimacy of your profile and drawing more natural Male/Female followers that fit your content.
                                 </p>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ followers.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews puts account security first and guarantees a secure, quick delivery procedure without using your Instagram login, therefore promoting smooth expansion.
+                                    GoFamy puts account security first and guarantees a secure, quick delivery procedure without using your Instagram login, therefore promoting smooth expansion.
                                 </p>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ followers.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    TubeViews replaces any lost followers within a certain time under a retention policy, therefore offering assurance on your investment and long-term value.
+                                    GoFamy replaces any lost followers within a certain time under a retention policy, therefore offering assurance on your investment and long-term value.
                                 </p>
                             </div>
                         </div>
@@ -259,7 +259,7 @@ followers.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold leading-8 text-center text-black'>
-                            Buy Instagram Male/Female Followers to Increase Your Target Audience Using TubeViews
+                            Buy Instagram Male/Female Followers to Increase Your Target Audience Using GoFamy
                         </h3>
                     </div>
                 </div>
@@ -271,7 +271,7 @@ followers.
                                     Developing a committed following on Instagram requires time, work, and sometimes a little additional encouragement.
                                     <b>Buying Instagram Male/Female followers</b> might be a calculated approach to increase your profile if your company or
                                     material targets women or if you are an influencer trying to reach a Male/Female audience. Real, excellent M
-                                    ale/Female followers from <b>TubeViews</b> can help you to establish trust, encourage involvement,
+                                    ale/Female followers from <b>GoFamy</b> can help you to establish trust, encourage involvement,
                                     and raise your profile to the proper audience.
                                 </p>
                                 <p className="leading-relaxed text-slate-600 mt-3">
@@ -352,7 +352,7 @@ followers.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold leading-8 text-center text-black'>
-                            🧍 Benefits of Buying instagram Male/Female Followers from TubeViews
+                            🧍 Benefits of Buying instagram Male/Female Followers from GoFamy
                         </h3>
                     </div>
                 </div>
@@ -417,7 +417,7 @@ followers.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">8. Long-lasting organic development</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Real, active accounts from <b>TubeViews</b> help to ensure consistent, natural development among Male/Female followers.
+                                    Real, active accounts from <b>GoFamy</b> help to ensure consistent, natural development among Male/Female followers.
                                     Their interactions help comparable individuals to see your profile more clearly, thereby promoting a
                                     natural development over time. This strategy supports long-term involvement by helping you draw followers
                                     that really connect with your material.
@@ -434,7 +434,7 @@ followers.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">10. Reasonably priced, significant investment</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying Male/Female followers from <b>TubeViews</b> is a reasonably affordable approach to get desired development.
+                                    Buying Male/Female followers from <b>GoFamy</b> is a reasonably affordable approach to get desired development.
                                     Unlike generic follower buys, Male/Female followers especially target your intended demographic,
                                     so this investment has more influence. Without a significant marketing budget, this is a low-cost approach
                                     to establish reputation, draw natural growth, and create meaningful relationships.
@@ -468,7 +468,7 @@ followers.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Male/Female followers help your profile's interaction quality—which Instagram's algorithm values—not just in terms of numbers.
                                 Especially from a focused audience, the program favours material that gets continuous, significant interaction.
-                                Having more Male/Female followers from <b>TubeViews</b> increases your chances of showing up on Explore pages
+                                Having more Male/Female followers from <b>GoFamy</b> increases your chances of showing up on Explore pages
                                 and finding like-minded people who would most likely interact with your material. This knock-on impact helps organic development,
                                 therefore enabling your profile to stand out and get more followers.
                             </p>

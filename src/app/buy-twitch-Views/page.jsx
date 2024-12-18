@@ -2,9 +2,9 @@ import React from 'react';
 import TwitchViewsPage from './TwitchViewsPage';
 export const generateMetadata = () => {
     return {
-        title: "Buy Real Twitch Views -  Tubeviews",
-        description: "Buy Real Twitch Views -  Tubeviews",
-        keywords: "Buy Real Twitch Views, Buy Twitch Views"
+        title: "Buy Twitch Views - Boost Your Channel with Gofamy",
+        description: "Buy Twitch views and grow your channel with Gofamy. Get real, high-quality views that help increase your visibility on Twitch. Start boosting your stream today!",
+        keywords: "buy Twitch views, buy real Twitch views, Twitch view booster, Gofamy, increase Twitch views, buy Twitch followers, Twitch engagement tool"
     }
 }
 

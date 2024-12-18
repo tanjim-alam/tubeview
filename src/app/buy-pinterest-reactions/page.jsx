@@ -2,9 +2,9 @@ import React from 'react';
 import PinterestReactionsPage from './PinterestReactionsPage';
 export const generateMetadata = () => {
     return {
-        title: "Buy Real Pinterest Reaction -  Tubeviews",
-        description: "Buy Real Pinterest Reaction -  Tubeviews",
-        keywords: "Buy Real Pinterest Reaction, Buy Pinterest Reaction"
+        title: "Buy Pinterest Reaction - Boost Your Pin Engagement with Gofamy",
+        description: "Buy Pinterest reactions from Gofamy to boost engagement on your pins. Get more reactions, increase visibility, and grow your Pinterest reach today!",
+        keywords: "buy Pinterest reaction, buy Pinterest reactions, increase Pinterest engagement, Gofamy, boost Pinterest reactions, Pinterest reaction service"
     }
 }
 

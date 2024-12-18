@@ -25,7 +25,7 @@ function FacebookLikesPage() {
             title: "Knowledge and Ability",
             description:
                 `
-           Having years of social media expertise, Tubeviews has developed its techniques to provide actual, successful
+           Having years of social media expertise, GoFamy has developed its techniques to provide actual, successful
 interaction. We provide a great awareness of platform algorithms to enable your effective development.
             `,
             icon: <GiGiftOfKnowledge />
@@ -44,7 +44,7 @@ individualized approach guarantees you customized services for best effect.
             title: "Specific Services",
             description:
                 `
-            Whether your Facebook page, individual posts, or specialized audience, Tubeviews provides focused solutions to
+            Whether your Facebook page, individual posts, or specialized audience, GoFamy provides focused solutions to
 enable you to concentrate on developing certain areas. We match your marketing objectives with our offerings.
             `,
             icon: <FaServicestack />
@@ -75,7 +75,7 @@ will reimburse your money, therefore guaranteeing a risk-free experience.
             description:
                 `
             Our committed client support staff is here around-the-clock to help with any concerns or problems. Here we are to
-guarantee a flawless and successful Tubeviews experience.
+guarantee a flawless and successful GoFamy experience.
             `,
             icon: <MdOutlineLocalLaundryService />
         },
@@ -158,7 +158,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Likes <br/>For Post/Photo"} subTitle={"<h3>Buy Likes From <span class=text-secondary>TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Likes <br/>For Post/Photo"} subTitle={"<h3>Buy Likes From <span class=text-secondary>GoFamy</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -304,7 +304,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             </p>
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Establishing a legitimate presence on Facebook means acquiring access to the one largest captive audience available
-                                on Earth. Thus Buy Facebook Post Likes from Tubeviews, may be a genuine game-changer whether your goals
+                                on Earth. Thus Buy Facebook Post Likes from GoFamy, may be a genuine game-changer whether your goals
                                 are to raise brand awareness, enhance revenue, or just have more Facebook followers on board.
                             </p>
                         </div>
@@ -313,7 +313,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Ask yourself — when was the last time a Facebook Post devoid of likes motivated you? Actually, when did you
                                 most recently come across a Facebook post devoid of likes that even caught your eye? Without exception, Buy
-                                Facebook Photos Likes from Tubeviews impact all social media users. The interpretation of any Facebook post
+                                Facebook Photos Likes from GoFamy impact all social media users. The interpretation of any Facebook post
                                 directly depends on social proof. Regarding legitimacy, worth, and attractiveness, likes may change how others see
                                 your Facebook postings.
                             </p>
@@ -421,7 +421,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Benefits of buying Facebook likes from TubeViews
+                            🤚🏿 Benefits of buying Facebook likes from GoFamy
                         </h3>
                         <p className="leading-relaxed text-center text-slate-600 mt-1">
                             You should know the many benefits of this strategy before choosing to <b>buy Facebook likes</b>.
@@ -433,7 +433,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">1. Instant Social Proof</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Buying Facebook Likes from <b>TubeViews</b> is one of the advantages as it offers instantaneous social evidence. Users
+                                Buying Facebook Likes from <b>GoFamy</b> is one of the advantages as it offers instantaneous social evidence. Users
                                 of a page or post will see it as reputable and reliable if they find a lot of likes. This raises their possibilities of
                                 interacting with your material or following your page. One of the strongest psychological triggers available to affect
                                 consumers; behaviour and strengthen your reputation is social proof.
@@ -444,7 +444,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Facebook's system often gives greater engagement items top priority. More likes mean more probable appearance of
                                 posts in users; news feeds, therefore enhancing the general exposure of your work. <b>Buy Facebook Likes</b> from
-                                <b>TubeViews</b> increases your chances of reaching a bigger audience, thereby fostering more natural interactions, shares,
+                                <b>GoFamy</b> increases your chances of reaching a bigger audience, thereby fostering more natural interactions, shares,
                                 and comments.
                             </p>
                         </div>
@@ -523,7 +523,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            TubeViews: Your Reliable Social Media Success Partner
+                            GoFamy: Your Reliable Social Media Success Partner
                         </h3>
                     </div>
                 </div>
@@ -531,13 +531,13 @@ additionally cover every transaction with a first 60-day retention guarantee.
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                <b>TubeViews</b> is unique in its dedication to provide actual, premium likes from current users. This guarantees not just
-                                sincere but also sustained participation. Using <b>TubeViews</b> relieves you of concerns over bogus accounts or bots,
+                                <b>GoFamy</b> is unique in its dedication to provide actual, premium likes from current users. This guarantees not just
+                                sincere but also sustained participation. Using <b>GoFamy</b> relieves you of concerns over bogus accounts or bots,
                                 therefore damaging the reputation of your page.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-2">
-                                Having years of expertise in the social media marketing sector, <b>TubeViews</b> provides services catered to both people
-                                and companies to enable success. <b>TubeViews</b> provides 24/7 assistance with a significant emphasis on client
+                                Having years of expertise in the social media marketing sector, <b>GoFamy</b> provides services catered to both people
+                                and companies to enable success. <b>GoFamy</b> provides 24/7 assistance with a significant emphasis on client
                                 satisfaction to guarantee a flawless and efficient experience.
                             </p>
                         </div>
@@ -567,12 +567,12 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 While Buying Facebook post Likes might be advantageous, it's important to do it correctly to prevent any
-                                Facebook fines. Following Facebook rules, <b>TubeViews</b> makes sure the likes you buy originate from actual, live
+                                Facebook fines. Following Facebook rules, <b>GoFamy</b> makes sure the likes you buy originate from actual, live
                                 accounts. This method reduces any hazards and guides your safe and efficient page growth.
                             </p>
                             <h4 className="text-lg font-semibold text-slate-700 mt-3">Getting More People to Engage After Buying Likes</h4>
                             <p className="leading-relaxed text-slate-600">
-                                Maximizing engagement comes next if you have bought likes from <b>TubeViews</b> to guarantee ongoing development:
+                                Maximizing engagement comes next if you have bought likes from <b>GoFamy</b> to guarantee ongoing development:
                             </p>
                             <div className='mt-4'>
                                 <h4 className="text-lg font-semibold text-slate-700">Post often to keep your following interesting.</h4>
@@ -613,7 +613,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Why would one choose TubeViews for Facebook Likes?
+                            🤚🏿 Why would one choose GoFamy for Facebook Likes?
                         </h3>
                     </div>
                 </div>
@@ -621,35 +621,35 @@ additionally cover every transaction with a first 60-day retention guarantee.
                     <div>
                         <p className='leading-relaxed text-slate-600 mt-1'>
                             Buying Facebook Likes requires selecting a trustworthy and trusted supplier to guarantee not just the quality of
-                            likes but also the long-term viability of your account. For a number of reasons, <b>TubeViews</b> distinguishes itself in this
+                            likes but also the long-term viability of your account. For a number of reasons, <b>GoFamy</b> distinguishes itself in this
                             packed environment by providing actual, powerful interaction and giving client success first priority. Here's the
-                            reason <b>TubeViews</b> is your first option for Facebook Likes buys:
+                            reason <b>GoFamy</b> is your first option for Facebook Likes buys:
                         </p>
                     </div>
                     <div className="mt-4 flex flex-col gap-4">
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">1. Real User Authentic Engagement</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> gives actual likes from live accounts first priority. This guarantees that the likes you get are real and will
-                                help to support more natural development. <b>TubeViews</b> helps you create real interaction, unlike other services that
+                                <b>GoFamy</b> gives actual likes from live accounts first priority. This guarantees that the likes you get are real and will
+                                help to support more natural development. <b>GoFamy</b> helps you create real interaction, unlike other services that
                                 utilize bots or false accounts, therefore enhancing your Facebook reputation.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">2. Reliable and Safe Procedure</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> strictly adhering to Facebook policies guarantees that all likes are sent in a manner not likely to
+                                <b>GoFamy</b> strictly adhering to Facebook policies guarantees that all likes are sent in a manner not likely to
                                 compromise your account. Facebook's algorithms avoid suspicion via the slow, natural distribution of likes,
-                                therefore lowering the possibility of fines or bans. <b>TubeViews</b> promises that your account stays protected all through
+                                therefore lowering the possibility of fines or bans. <b>GoFamy</b> promises that your account stays protected all through
                                 the procedure.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">3. Quick but Natural-looking Distribution</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Although many businesses provide likes fast, <b>TubeViews</b> guarantees that likes are naturally, gradually added to your
+                                Although many businesses provide likes fast, <b>GoFamy</b> guarantees that likes are naturally, gradually added to your
                                 page. This maintains the impression of natural development and helps prevent any abrupt surges that can draw
-                                attention from Facebook's algorithm. <b>TubeViews</b> distinguishes itself from rivals with the mix of speed and genuine
+                                attention from Facebook's algorithm. <b>GoFamy</b> distinguishes itself from rivals with the mix of speed and genuine
                                 delivery.
                             </p>
 
@@ -657,7 +657,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">4. Customized Offers to Fit Every Demand</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> realizes that every customer has distinct objectives. <b>TubeViews</b> provides tailored solutions to suit your
+                                <b>GoFamy</b> realizes that every customer has distinct objectives. <b>GoFamy</b> provides tailored solutions to suit your
                                 demands and budget whether your company is a tiny business just getting started or an established brand trying to
                                 grow even further. There is a solution for everyone from little boosts to more extensive campaigns.
                             </p>
@@ -665,7 +665,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">5. Professional Client Support</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> offers customer service around-the-clock to help you all through the process. The staff is ready to give
+                                <b>GoFamy</b> offers customer service around-the-clock to help you all through the process. The staff is ready to give
                                 quick, competent advice whether your needs follow from your likes or you have queries before you buy. This
                                 guarantees always a flawless and fulfilling experience.
                             </p>
@@ -673,7 +673,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">6. Enhancement of General Social Media Approach</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Buying Facebook Likes via <b>TubeViews</b> fits within a larger plan to improve your internet profile. The actual likes you
+                                Buying Facebook Likes via <b>GoFamy</b> fits within a larger plan to improve your internet profile. The actual likes you
                                 get not only enhance the look of your page but also help your whole social media marketing campaigns. This covers
                                 drawing in natural fans, cultivating confidence among your readers, and raising post interaction.
                             </p>
@@ -681,7 +681,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">7. Open Service</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> has a clear buying like strategy. With no hidden costs or deceptive promises, you are precisely receiving.
+                                <b>GoFamy</b> has a clear buying like strategy. With no hidden costs or deceptive promises, you are precisely receiving.
                                 To guarantee there are no surprises, the firm is open about the kind of involvement it offers and the length of the
                                 delivery will take.
                             </p>
@@ -689,15 +689,15 @@ additionally cover every transaction with a first 60-day retention guarantee.
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">8. Verifiable Track Record</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Having years of expertise in the field, <b>TubeViews</b> has developed a strong name for providing top-notch, efficient
-                                Facebook Likes systems. Their happy clientele reflects the consistent, dependable outcomes <b>TubeViews</b> offers.
+                                Having years of expertise in the field, <b>GoFamy</b> has developed a strong name for providing top-notch, efficient
+                                Facebook Likes systems. Their happy clientele reflects the consistent, dependable outcomes <b>GoFamy</b> offers.
                                 Thanks to their offerings, several customers have seen notable increase in involvement levels and growth.
                             </p>
                         </div>
                         <div>
                             <h4 className="text-lg font-semibold text-slate-700">9. Enhanced Facebook Algorithm Performance</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                Facebook's algorithm gives high engaged content preference. Buying Facebook Post Likes from <b>TubeViews</b> raises
+                                Facebook's algorithm gives high engaged content preference. Buying Facebook Post Likes from <b>GoFamy</b> raises
                                 the possibility that your material will be pushed to more newsfeeds of people. The extra involvement increases the
                                 visibility of your content among a larger audience, therefore fostering natural development in a snowball effect.
                             </p>
@@ -706,7 +706,7 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <h4 className="text-lg font-semibold text-slate-700">10. Improved brand credibility</h4>
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 From the perspective of potential consumers or followers, a Facebook page with numerous likes seems more reliable
-                                and reputable. By helping you to get this crucial social evidence, <b>TubeViews</b> positions your brand as an expert in
+                                and reputable. By helping you to get this crucial social evidence, <b>GoFamy</b> positions your brand as an expert in
                                 your field. Over time, this may result in more contacts, greater trust, and improved corporate results.
                             </p>
                         </div>
@@ -715,11 +715,11 @@ additionally cover every transaction with a first 60-day retention guarantee.
                             <p className='leading-relaxed text-slate-600 mt-1'>
                                 Additionally improving other engagement indicators such comments, shares, and follows is by increasing your
                                 Facebook Likes. More likes on a post will make it seem more relevant, which invites people to interact with your
-                                material. <b>TubeViews</b> lets you start this interaction cycle.
+                                material. <b>GoFamy</b> lets you start this interaction cycle.
                             </p>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                <b>TubeViews</b> partners in your social media success, not just offers Facebook Likes. Their dependable, trustworthy, and
-                                secure solution will help you to be sure your page will have actual, long interaction. <b>TubeViews</b> provides the correct
+                                <b>GoFamy</b> partners in your social media success, not just offers Facebook Likes. Their dependable, trustworthy, and
+                                secure solution will help you to be sure your page will have actual, long interaction. <b>GoFamy</b> provides the correct
                                 solutions to help you flourish in the cutthroat world of social media whether your goals are to increase brand
                                 credibility, get more followers, or start natural development.
                             </p>

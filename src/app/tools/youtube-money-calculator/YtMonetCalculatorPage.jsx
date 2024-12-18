@@ -220,7 +220,7 @@ function YtMonetCalculatorPage() {
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
                         >Discover Your YouTube Channel’s Value with the Free YouTube Money Calculator</h2>
                         <p className="leading-relaxed text-slate-700 mt-2">
-                            Curious about how much your YouTube channel or even million dollar channels of top creators can earn? The TubeViews
+                            Curious about how much your YouTube channel or even million dollar channels of top creators can earn? The GoFamy
                             YouTube Money Calculator is your go-to tool for estimating potential revenue, providing an effortless way to assess
                             your channel’s worth and plan your journey toward financial success.
                         </p>
@@ -264,7 +264,7 @@ function YtMonetCalculatorPage() {
                     <div className='mt-6'>
                         <h2
                             className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
-                        >How Does the TubeViews Money Calculator Work?</h2>
+                        >How Does the GoFamy Money Calculator Work?</h2>
                         <p className="leading-relaxed text-slate-700 mt-2">
                             This straightforward tool provides accurate revenue projections based on your channel’s key metrics. Here's how:
                         </p>
@@ -370,7 +370,7 @@ function YtMonetCalculatorPage() {
                         >Start Your Journey Today
                         </h3>
                         <p className="leading-relaxed text-slate-700 mt-2">
-                            With the <b>TubeViews YouTube Money Calculator</b>, you can unlock valuable insights, understand your channel’s performance, and plan your next steps toward content creation success.
+                            With the <b>GoFamy YouTube Money Calculator</b>, you can unlock valuable insights, understand your channel’s performance, and plan your next steps toward content creation success.
                             Whether you’re just starting or aiming to scale your channel, this tool is your first step to turning creativity into a lucrative business.
                         </p>
                     </div>

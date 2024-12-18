@@ -8,8 +8,8 @@ function PrivacyPolicyPage() {
                 <div>
                     <h1 className='text-4xl font-bold text-center text-black'>Privacy Policy</h1>
                     <p className='leading-relaxed text-slate-600 mt-7'>
-                        At TubeViews.co, accessible from www.tubeviews.co, one of our main priorities is the privacy of our visitors.
-                        This Privacy Policy document contains types of information that is collected and recorded by TubeViews.co and
+                        At GoFamy.com, accessible from www.gofamy.co, one of our main priorities is the privacy of our visitors.
+                        This Privacy Policy document contains types of information that is collected and recorded by GoFamy.co and
                         how we use it.
                     </p>
                     <p className='leading-relaxed text-slate-600 mt-3'>
@@ -17,7 +17,7 @@ function PrivacyPolicyPage() {
                     </p>
                     <p className='leading-relaxed text-slate-600 mt-3'>
                         This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the
-                        information that they shared and/or collect in TubeViews.co. This policy is not applicable to any information collected
+                        information that they shared and/or collect in GoFamy.co. This policy is not applicable to any information collected
                         offline or via channels other than this website. Our Privacy Policy was created with the help of the Privacy Policy
                         Generator.
                     </p>
@@ -79,7 +79,7 @@ function PrivacyPolicyPage() {
                     <div>
                         <h3 className='lg:text-3xl text-2xl font-bold text-black'>Log Files</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            TubeViews.co follows a standard procedure of using log files. These files log visitors when they visit websites.
+                            GoFamy.com follows a standard procedure of using log files. These files log visitors when they visit websites.
                             All hosting companies do this and a part of hosting services’ analytics. The information collected by log files include
                             internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages,
                             and possibly the number of clicks. These are not linked to any information that is personally identifiable.
@@ -90,7 +90,7 @@ function PrivacyPolicyPage() {
                     <div>
                         <h3 className='lg:text-3xl text-2xl font-bold text-black'>Cookies and Web Beacons</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            Like any other website, TubeViews.co uses ‘cookies’. These cookies are used to store information including visitors’ preferences,
+                            Like any other website, GoFamy.com uses ‘cookies’. These cookies are used to store information including visitors’ preferences,
                             and the pages on the website that the visitor accessed or visited. The information is used to optimize the users’ experience by
                             customizing our web page content based on visitors’ browser type and/or other information.
                         </p>
@@ -117,23 +117,23 @@ function PrivacyPolicyPage() {
                     <div>
                         <h3 className='lg:text-3xl text-2xl font-bold text-black'>Advertising Partners Privacy Policies</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            You may consult this list to find the Privacy Policy for each of the advertising partners of TubeViews.co.
+                            You may consult this list to find the Privacy Policy for each of the advertising partners of GoFamy.com.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
                             Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in
-                            their respective advertisements and links that appear on TubeViews.co, which are sent directly to users’ browser.
+                            their respective advertisements and links that appear on GoFamy.com, which are sent directly to users’ browser.
                             They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness
                             of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            Note that TubeViews.co has no access to or control over these cookies that are used by third-party advertisers.
+                            Note that GoFamy.com has no access to or control over these cookies that are used by third-party advertisers.
                         </p>
 
                     </div>
                     <div>
                         <h3 className='lg:text-3xl text-2xl font-bold text-black'>Third Party Privacy Policies</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            TubeViews.co Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy
+                            GoFamy.com Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy
                             Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about
                             how to opt-out of certain options.
                         </p>
@@ -197,7 +197,7 @@ function PrivacyPolicyPage() {
                             participate in, and/or monitor and guide their online activity.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            TubeViews.co does not knowingly collect any Personal Identifiable Information from children under the age of 13.
+                            GoFamy.com does not knowingly collect any Personal Identifiable Information from children under the age of 13.
                             If you think that your child provided this kind of information on our website, we strongly encourage you to contact
                             us immediately and we will do our best efforts to promptly remove such information from our records.
                         </p>
@@ -206,7 +206,7 @@ function PrivacyPolicyPage() {
                     <div>
                         <h3 className='lg:text-3xl text-2xl font-bold text-black'>Contact Us</h3>
                         <p className='leading-relaxed text-slate-600 mt-3'>
-                            If you have any questions about this Privacy Policy, You can contact us: By email: <b>support@tubeviews.co</b>
+                            If you have any questions about this Privacy Policy, You can contact us: By email: <b>support@gofamy.com</b>
                         </p>
                     </div>
                 </div>

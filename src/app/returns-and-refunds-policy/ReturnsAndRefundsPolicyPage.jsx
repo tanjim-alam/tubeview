@@ -10,12 +10,12 @@ function ReturnsAndRefundsPolicyPage() {
                     <div className='flex flex-col gap-4'>
                         <div>
                             <p className='leading-relaxed text-slate-600 mt-7'>
-                                Thank you for shopping at TubeViews.co.
+                                Thank you for shopping at GoFamy.com.
                             </p>
                         </div>
                         <div>
                             <p className='leading-relaxed text-slate-600 mt-3'>
-                                Please read this policy carefully. This is the Return and Refund Policy of TubeViews.co .
+                                Please read this policy carefully. This is the Return and Refund Policy of GoFamy.com .
                             </p>
                         </div>
                         <div>
@@ -41,10 +41,10 @@ function ReturnsAndRefundsPolicyPage() {
                         </div>
                         <div>
                             <p className='leading-relaxed text-slate-600 mt-3'>
-                                By email: <b>support@tubeviews.co</b> or <b>Live Chat</b> with Us
+                                By email: <b>support@gofamy.com</b> or <b>Live Chat</b> with Us
                             </p>
                             <p className='leading-relaxed text-slate-600 mt-1'>
-                                By visiting this page on our website:https://www.tubeviews.co/contact-us/
+                                By visiting this page on our website:https://www.gofamy.com/contact-us/
                             </p>
                         </div>
                     </div>

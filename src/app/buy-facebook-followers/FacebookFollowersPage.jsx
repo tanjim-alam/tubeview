@@ -48,7 +48,7 @@ right away.
             description:
                 `
             Our speedy increase in the Facebook follower count may be mostly attributed to the reality of our fans.
-We at Tubeviews promise your actual followers to support brand development.
+We at GoFamy promise your actual followers to support brand development.
             `,
             icon: <FaPeopleGroup />
         },
@@ -78,7 +78,7 @@ should your opinions of our offerings fall short.
             title: "No risk of a decrease",
             description:
                 `
-            Tubeviews lets you relax about your followers going missing. The people you bought are permanent and
+            GoFamy lets you relax about your followers going missing. The people you bought are permanent and
 never run the danger of ever going MIA.
             `,
             icon: <BsGraphDown />
@@ -160,7 +160,7 @@ interaction—all of which help your Facebook presence to be generally successfu
     ]
     return (
         <div>
-            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy Facebook <span class=text-secondary>Followers From TubeViews</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
+            <HeroSection title={"Buy Facebook Followers <br/> with Instant Delivery"} subTitle={"<h3>Buy Facebook <span class=text-secondary>Followers From GoFamy</span></h3>"} imgUrl={"/tubeviews-banner.webp"} />
             {/* package section start */}
             <div className='bg-white pb-16'>
                 <div className='lg:w-[80%] w-[90%] flex flex-col gap-10 m-auto'>
@@ -250,7 +250,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                 <div className="lg:w-[80%] w-[90%] m-auto lg:py-14 py-5">
                     <div>
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 leading-tight">
-                            Buy Facebook Followers and Grow Your Social Presence Instantly with Tubeviews
+                            Buy Facebook Followers and Grow Your Social Presence Instantly with GoFamy
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3 text-inherit">
                             Boost Your Facebook Profile with Real Followers Today!
@@ -266,7 +266,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             Buy Facebook Followers to Improve Your Social Media Profile
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-2">
-                            By providing excellent solutions to <b>Buy Facebook Followers</b>, at <b>Tubeviews</b> we assist you to improve
+                            By providing excellent solutions to <b>Buy Facebook Followers</b>, at <b>GoFamy</b> we assist you to improve
                             your Facebook profile or company page. Whether your company, influencer, or simply someone trying to
                             boost your online profile, a big Facebook follower count can help you establish trust, boost interaction,
                             and draw more attention. Let us demonstrate how our offerings could improve your social media game.
@@ -632,7 +632,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Why Use TubeViews to Buy Facebook Followers?
+                            Why Use GoFamy to Buy Facebook Followers?
                         </h3>
                     </div>
                 </div>
@@ -640,7 +640,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                     <div>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                At <b>TubeViews</b>, we take great satisfaction in providing a service that enhances your Facebook profile in
+                                At <b>GoFamy</b>, we take great satisfaction in providing a service that enhances your Facebook profile in
                                 addition to raising follower count. The main factors guiding your decision to <b>Buy Facebook Followers</b>
                                 from us are:
                             </p>
@@ -649,7 +649,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Active, Real Followers</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    At <b>TubeViews</b>, we only show actual followers; we do not have bots or bogus accounts. Real followers help
+                                    At <b>GoFamy</b>, we only show actual followers; we do not have bots or bogus accounts. Real followers help
                                     your account to be active with likes, comments, and shares. This increases the validity of your profile and
                                     guarantees that your material will be seen by more people. Your profile seems more reliable when you
                                     participate really, therefore strengthening your personal and company reputation and enabling you to
@@ -659,7 +659,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">2. Effective and Quick Delivery</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Growing your social media profile calls for time, and we know how important it is. <b>TubeViews</b> therefore
+                                    Growing your social media profile calls for time, and we know how important it is. <b>GoFamy</b> therefore
                                     ensures quick and effective distribution of your fans. We start adding followers to your account as soon as
                                     you buy, therefore producing instant results. Our fast delivery keeps you ahead of rivals and helps you
                                     immediately acquire social proof, therefore improving the appeal of your profile to possible organic
@@ -669,7 +669,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">3. Safe and Tight Exchange</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> gives security first importance. We guarantee that your account is not compromised by using
+                                    <b>GoFamy</b> gives security first importance. We guarantee that your account is not compromised by using
                                     only the most safe and effective ways to get followers to your Facebook page. You won't have to worry
                                     about infractions or fines as our approach is totally consistent with Facebook's standards. We also make
                                     sure your payment details are kept secret using reliable encrypted payment gates.
@@ -678,7 +678,7 @@ interaction—all of which help your Facebook presence to be generally successfu
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">4. 24/7 Support</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    To guarantee a seamless experience, <b>TubeViews</b> provides round-the-clock customer service. Our
+                                    To guarantee a seamless experience, <b>GoFamy</b> provides round-the-clock customer service. Our
                                     committed support staff is always available to help you whether your questions about our services, need
                                     assistance with your buy, or want guidance on increasing your social media presence. We think in
                                     supporting you constantly to maximise your buy and increase your Facebook following efficiently.
@@ -690,14 +690,14 @@ interaction—all of which help your Facebook presence to be generally successfu
                                     To fit your requirement and budget, we provide a selection of reasonably priced, adaptable solutions.
                                     Whether your firm is tiny, you are an influencer, or you are a person trying to increase your profile, we
                                     have tailored strategies for your objectives. Our prices guarantee that, even with a restricted budget, you
-                                    may benefit from first-rate services and experience notable increase. <b>TubeViews</b> provide various choices
+                                    may benefit from first-rate services and experience notable increase. <b>GoFamy</b> provide various choices
                                     to keep developing at your speed and the most value for your money.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">6. A history of success</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Having thousands of happy customers, <b>TubeViews</b> has developed a name as a reliable supplier of
+                                    Having thousands of happy customers, <b>GoFamy</b> has developed a name as a reliable supplier of
                                     premium social media expansion tools. Our track record demonstrates that we often provide favourable
                                     outcomes for businesses wishing to boost their following base and involvement. Whether you have a
                                     personal profile or a company page, our knowledge helps you reach your objectives while keeping a real

@@ -27,7 +27,7 @@ function FacebookPageLikesPage() {
             title: "Real and Active Users",
             description:
                 `
-          Tubeviews gets you likes from real, active Facebook users, so you know that the people
+          GoFamy gets you likes from real, active Facebook users, so you know that the people
 who are engaging with your page are real people.
             `,
             icon: <FaUsers />
@@ -66,7 +66,7 @@ and effectively.
             id: 6,
             title: "Packages that aren't too expensive",
             description: `
-            Tubeviews has a variety of packages that can fit a variety of budgets,
+            GoFamy has a variety of packages that can fit a variety of budgets,
 giving small companies and big names a choice.
             `,
             icon: <TbPackages />
@@ -76,7 +76,7 @@ giving small companies and big names a choice.
             title: "Protecting your privacy",
             description:
                 `
-          You don't have to give out private information like passwords; Tubeviews only
+          You don't have to give out private information like passwords; GoFamy only
 needs the URL of your Facebook page to send the video.
             `,
             icon: <MdEnhancedEncryption />
@@ -85,7 +85,7 @@ needs the URL of your Facebook page to send the video.
             id: 8,
             title: "Repeat promise",
             description:
-                `If the number of likes drops, Tubeviews will make sure you get your money back with a
+                `If the number of likes drops, GoFamy will make sure you get your money back with a
 repeat promise.
 standing.
             `,
@@ -107,21 +107,21 @@ day, seven days a week.
             id: 1,
             question: "1. When I buy Facebook likes, can I target certain communities?",
             answer:
-                `Yes, TubeViews lets you target specific groups based on things like area, age, and hobbies to get the best growth.
+                `Yes, GoFamy lets you target specific groups based on things like area, age, and hobbies to get the best growth.
                 `
         },
         {
             id: 2,
             question: "2. Are those likes from real people?",
             answer:
-                `Of course. When you buy Facebook likes from TubeViews, they all come from real, busy people. This makes sure that your page is getting real activity.
+                `Of course. When you buy Facebook likes from GoFamy, they all come from real, busy people. This makes sure that your page is getting real activity.
                 `
         },
         {
             id: 3,
             question: "3. Can I buy a certain number of likes?",
             answer:
-                `No, TubeViews has options that are open. No matter what your goals are, you can buy as many likes as you want.
+                `No, GoFamy has options that are open. No matter what your goals are, you can buy as many likes as you want.
                 `
         },
         {
@@ -135,14 +135,14 @@ day, seven days a week.
             id: 5,
             question: "5. If I buy likes, can I lose them?",
             answer:
-                `It's not common for likes to go away over time. TubeViews offers a refill promise to make sure that the likes you buy last.
+                `It's not common for likes to go away over time. GoFamy offers a refill promise to make sure that the likes you buy last.
                 `
         },
         {
             id: 6,
             question: "6. Will buying Facebook likes change the way my account works?",
             answer:
-                `Because TubeViews follows Facebook's rules, your account will stay safe and unchanged even if you buy likes.
+                `Because GoFamy follows Facebook's rules, your account will stay safe and unchanged even if you buy likes.
                 `
         }
     ]
@@ -165,7 +165,7 @@ day, seven days a week.
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Pages Likes from TubeViews</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Pages Likes from GoFamy</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -207,7 +207,7 @@ day, seven days a week.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    <b>TubeViews</b> offers tailored likes from real users, which ensures
+                                    <b>GoFamy</b> offers tailored likes from real users, which ensures
                                     safe, slow growth without the risk of fines or account closure.
                                 </p>
                             </div>
@@ -221,7 +221,7 @@ day, seven days a week.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    <b>TubeViews</b> has price options that can fit any budget and growth plan, no
+                                    <b>GoFamy</b> has price options that can fit any budget and growth plan, no
                                     matter how big or small your business is.
                                 </p>
                             </div>
@@ -243,7 +243,7 @@ day, seven days a week.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Buy Facebook Page Likes - Improve Your Social Profile with TubeViews
+                            Buy Facebook Page Likes - Improve Your Social Profile with GoFamy
                         </h3>
                     </div>
                 </div>
@@ -256,7 +256,7 @@ day, seven days a week.
                                 and content producers looking to reach and interact with their audience. On Facebook, however,
                                 developing a strong and active following may be difficult especially for new pages or companies
                                 attempting to stand out among the noise. Here is when Buying Facebook page likes becomes relevant.
-                                Using a reliable social media marketing tool, <b>TubeViews</b>, you can quickly raise your Facebook page likes,
+                                Using a reliable social media marketing tool, <b>GoFamy</b>, you can quickly raise your Facebook page likes,
                                 improve brand awareness, and naturally expand in no time.
                             </p>
                         </div>
@@ -316,7 +316,7 @@ day, seven days a week.
                                 conversion rates.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Knowing the advantages of <b>Buying Facebook page likes</b>, let's now explore how <b>TubeViews</b> will enable you to rapidly
+                                Knowing the advantages of <b>Buying Facebook page likes</b>, let's now explore how <b>GoFamy</b> will enable you to rapidly
                                 expand your Facebook page.
                             </p>
                         </div>
@@ -330,7 +330,7 @@ day, seven days a week.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Why Choose Tubeviews to Buy Facebook Page Likes?
+                            🧍 Why Choose GoFamy to Buy Facebook Page Likes?
                         </h3>
                     </div>
                 </div>
@@ -339,15 +339,15 @@ day, seven days a week.
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Here at <b>TubeViews</b>, we provide a safe and trustworthy venue to <b>Buy real Facebook page likes</b>. Our solution is
+                                    Here at <b>GoFamy</b>, we provide a safe and trustworthy venue to <b>Buy real Facebook page likes</b>. Our solution is
                                     meant to let companies, influencers, and content producers easily meet their social media objectives.
-                                    The following explains why <b>TubeViews</b> is your preferred method for <b>Buying Facebook page likes</b>:
+                                    The following explains why <b>GoFamy</b> is your preferred method for <b>Buying Facebook page likes</b>:
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Active and Real Likes</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying likes from <b>TubeViews</b> results in actual, active Facebook users rather than bots or phoney profiles.
+                                    Buying likes from <b>GoFamy</b> results in actual, active Facebook users rather than bots or phoney profiles.
                                     People who really enjoy your page will aid to boost credibility and engagement by means of these likes.
                                 </p>
                             </div>
@@ -361,14 +361,14 @@ day, seven days a week.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">3. Quick Deliverability</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> let you see outcomes without waiting endlessly. Our technology is meant to provide likes quick and consistent
+                                    <b>GoFamy</b> let you see outcomes without waiting endlessly. Our technology is meant to provide likes quick and consistent
                                     delivery. Your page likes will start to rise within hours depending on the plan you decide upon.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">4. Safe and Safely secure</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Our first concerns are your privacy and security. <b>TubeViews</b> guarantees that your payment information and personal
+                                    Our first concerns are your privacy and security. <b>GoFamy</b> guarantees that your payment information and personal
                                     data are kept private; we never request your Facebook login. Our approaches follow Facebook policies and are
                                     absolutely safe.
                                 </p>
@@ -392,7 +392,7 @@ day, seven days a week.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">7. Organic Development: Gradual Distribution</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> offers slow likes to guarantee your page develops gradually and stays hidden from Facebook's algorithms.
+                                    <b>GoFamy</b> offers slow likes to guarantee your page develops gradually and stays hidden from Facebook's algorithms.
                                     This gradual and consistent technique lets your website acquire traction without drawing any attention, therefore
                                     simulating natural development.
                                 </p>
@@ -400,7 +400,7 @@ day, seven days a week.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">8. Reasonably Cost Solutions</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> is dedicated to provide reasonably priced top-notch service. <b>TubeViews</b> provides reasonable pricing
+                                    <b>GoFamy</b> is dedicated to provide reasonably priced top-notch service. <b>GoFamy</b> provides reasonable pricing
                                     with various packages to fit all budgets, whether you're a little company on a budget or an influencer
                                     seeking for a huge boost.
                                 </p>
@@ -408,7 +408,7 @@ day, seven days a week.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">9. No Chance of Facebook Account Suspension</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying likes raises one of the main issues about account suspension. You may be confident with <b>TubeViews</b> that we
+                                    Buying likes raises one of the main issues about account suspension. You may be confident with <b>GoFamy</b> that we
                                     follow Facebook terms of service. Our techniques are 100% compliant, so there is no chance that your account
                                     will be banned or fined.
                                 </p>
@@ -416,8 +416,8 @@ day, seven days a week.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">10. Customizable Approaches</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Every company and brand is different, we are aware of. <b>TubeViews</b> therefore provides tailored strategies to fit
-                                    your particular requirements. <b>TubeViews</b> is flexible enough to meet your needs whether your needs are targeted
+                                    Every company and brand is different, we are aware of. <b>GoFamy</b> therefore provides tailored strategies to fit
+                                    your particular requirements. <b>GoFamy</b> is flexible enough to meet your needs whether your needs are targeted
                                     depending on age, region, or hobbies or likes distributed over a certain period of time.
                                 </p>
                             </div>
@@ -433,7 +433,7 @@ day, seven days a week.
                                 <h4 className="text-lg font-semibold text-slate-700">12. Improve Social Veracity</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Many likes serve as social evidence for other users indicating that your page is reliable and popular.
-                                    <b>TubeViews</b> lets you improve this social evidence, therefore facilitating the attraction of new natural likes
+                                    <b>GoFamy</b> lets you improve this social evidence, therefore facilitating the attraction of new natural likes
                                     and followers without further work.
                                 </p>
                             </div>
@@ -448,7 +448,7 @@ day, seven days a week.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 How to Buy Facebook page likes on TubeViews?
+                            🧍 How to Buy Facebook page likes on GoFamy?
                         </h3>
                     </div>
                 </div>
@@ -457,7 +457,7 @@ day, seven days a week.
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    On <b>TubeViews</b>, <b>buying Facebook page likes</b> is as simple 1-2-3. Here is a detailed instructions on Buying Facebook page likes:
+                                    On <b>GoFamy</b>, <b>buying Facebook page likes</b> is as simple 1-2-3. Here is a detailed instructions on Buying Facebook page likes:
                                 </p>
                             </div>
                             <div>
@@ -541,14 +541,14 @@ day, seven days a week.
                             </div>
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
-                                    Any company or influencer trying to thrive in the digital environment of today must first establish a strong social media presence. <b>TubeViews</b> let
-                                    you easily <b>Buy Facebook page likes</b> and expand your audience on other platforms. <b>TubeViews</b> offers the tools and techniques you
+                                    Any company or influencer trying to thrive in the digital environment of today must first establish a strong social media presence. <b>GoFamy</b> let
+                                    you easily <b>Buy Facebook page likes</b> and expand your audience on other platforms. <b>GoFamy</b> offers the tools and techniques you
                                     need to succeed whether your page needs improvement or you're just starting out.
                                 </p>
                             </div>
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
-                                    Avoid waiting! <b>TubeViews</b> now can help you to really improve your social media profile.
+                                    Avoid waiting! <b>GoFamy</b> now can help you to really improve your social media profile.
                                 </p>
                             </div>
                         </div>

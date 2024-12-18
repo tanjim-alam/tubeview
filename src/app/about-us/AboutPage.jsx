@@ -8,7 +8,7 @@ function AboutPage() {
                 <div>
                     <h1 className='text-4xl font-bold text-black text-center'>About Us</h1>
                     <p className='leading-relaxed text-slate-600 mt-7'>
-                        TubeVIews.co is Unique Social Media Company. They Providing Real and Active Video Views, Subscribers, Comments
+                        GoFamy.com is Unique Social Media Company. They Providing Real and Active Video Views, Subscribers, Comments
                         Likes, Followers, and More. You can Buy cheap Social Media Services.We are a dedicated company that strives to
                         make your social media marketing easy and convenient. This we do by selling you followers and likes, which form
                         the standards as far as social media marketing is concerned.
@@ -18,7 +18,7 @@ function AboutPage() {
                     <Image src={"/tubeviews-aobutus.webp"}
                         width={1200}
                         height={600}
-                        alt='TubeViews-aboutus'
+                        alt='GoFamy-aboutus'
                     />
                 </div>
                 <div className='mt-12'>

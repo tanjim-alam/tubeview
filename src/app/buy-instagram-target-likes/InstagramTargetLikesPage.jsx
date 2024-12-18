@@ -61,7 +61,7 @@ function InstagramTargetLikesPage() {
             id: 6,
             title: "Extended Effectiveness",
             description: `
-            The Female/Male likes you earn via TubeViews help to maintain development by drawing real followers who interact over time.
+            The Female/Male likes you earn via GoFamy help to maintain development by drawing real followers who interact over time.
             `,
             icon: <LuPackageOpen />
         },
@@ -100,7 +100,7 @@ function InstagramTargetLikesPage() {
             id: 1,
             question: "1.Is Buying Instagram Female/Male likes safe for my account?",
             answer:
-                `Indeed, Buying Female/Male likes from TubeViews is very safe. We only utilise actual, active accounts to make sure your 
+                `Indeed, Buying Female/Male likes from GoFamy is very safe. We only utilise actual, active accounts to make sure your 
                 Instagram profile is compatible with Instagram rules and remains safe. We never need critical data like your password, 
                 hence your account remains locked.
                 `
@@ -117,7 +117,7 @@ function InstagramTargetLikesPage() {
             id: 3,
             question: "3. Will my following be aware of my buys of Female/Male likes?",
             answer:
-                `No, our Female/Male fits really well with your natural involvement. TubeViews only shows likes from actual accounts, 
+                `No, our Female/Male fits really well with your natural involvement. GoFamy only shows likes from actual accounts, 
                 hence the interactions seem absolutely natural and your followers won't detect any difference. 
                 `
         },
@@ -142,7 +142,7 @@ function InstagramTargetLikesPage() {
             id: 6,
             question: "6. Should I buy likes and run the danger of having my account banned?",
             answer:
-                `TubeViews employs only authorised, safe techniques compliant with Instagram terms of service. 
+                `GoFamy employs only authorised, safe techniques compliant with Instagram terms of service. 
                 We do not use bots or false accounts, hence there is no chance that your account will be blocked or blacklisted.
                 `
         },
@@ -150,7 +150,7 @@ function InstagramTargetLikesPage() {
             id: 7,
             question: "7. Can I buy Female/Male likes with other participation like comments or views?",
             answer:
-                `Absolutely! To provide a complete development plan, TubeViews offers many interaction packages including comments and views. 
+                `Absolutely! To provide a complete development plan, GoFamy offers many interaction packages including comments and views. 
                 Combining likes with other forms of participation can increase your profile's appeal and raise your general exposure.
                 `
         },
@@ -159,7 +159,7 @@ function InstagramTargetLikesPage() {
             question: "8. Should I have problems with my buy or require for help?",
             answer:
                 `Our customer service staff is here around-the-clock to help with any queries or issues. Whether it's with regard to buy 
-                tracking, package selection, or problems, our staff is ready to guarantee your seamless TubeViews experience.
+                tracking, package selection, or problems, our staff is ready to guarantee your seamless GoFamy experience.
                 `
         }
     ]
@@ -182,7 +182,7 @@ function InstagramTargetLikesPage() {
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buying Instagram Female/Male Likes from TubeViews: Main Advantages</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buying Instagram Female/Male Likes from GoFamy: Main Advantages</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-10'>
@@ -238,7 +238,7 @@ function InstagramTargetLikesPage() {
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    <b>TubeViews</b> gives account security top priority by using secure techniques free of password requirements. Gradual distribution of your likes guarantees a natural-looking interaction that keeps your account secure.
+                                    <b>GoFamy</b> gives account security top priority by using secure techniques free of password requirements. Gradual distribution of your likes guarantees a natural-looking interaction that keeps your account secure.
                                 </p>
                             </div>
                         </div>
@@ -259,7 +259,7 @@ function InstagramTargetLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold leading-8 text-center text-black'>
-                            Buy Instagram Female/Male Likes from TubeViews to Boost Your Social Power
+                            Buy Instagram Female/Male Likes from GoFamy to Boost Your Social Power
                         </h3>
                     </div>
                 </div>
@@ -268,12 +268,12 @@ function InstagramTargetLikesPage() {
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Creating a strong presence on Instagram depends mostly on having the correct audience interacting with your postings.
-                                With our <b>Buy Instagram Female/Male Likes</b> tool, TubeViews offers a special answer for those trying to target a particular
+                                With our <b>Buy Instagram Female/Male Likes</b> tool, GoFamy offers a special answer for those trying to target a particular
                                 group. buying Female/Male likes may be a game-changer whether your company appeals to a Female/Male audience,
                                 an influencer looking to increase your follower base, or a marketer focussing on Female/Male customers.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                At TubeViews, we provide premium, real likes from Female/Male accounts to support natural development, increase your
+                                At GoFamy, we provide premium, real likes from Female/Male accounts to support natural development, increase your
                                 trust, and improve your reach. Our products are meant to help your Instagram success by increasing the attractiveness
                                 of your material for the intended audience.
                             </p>
@@ -340,7 +340,7 @@ function InstagramTargetLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            TubeViews: Your trusted Partner for Real Instagram Engagement
+                            GoFamy: Your trusted Partner for Real Instagram Engagement
                         </h3>
                     </div>
                 </div>
@@ -348,13 +348,13 @@ function InstagramTargetLikesPage() {
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Boosting your Instagram profile mostly depends on authenticity and quality. <b>TubeViews</b> is committed to provide actual,
-                                premium involvement that improves the reputation and exposure of your profile. <b>TubeViews</b> provides real interaction
+                                Boosting your Instagram profile mostly depends on authenticity and quality. <b>GoFamy</b> is committed to provide actual,
+                                premium involvement that improves the reputation and exposure of your profile. <b>GoFamy</b> provides real interaction
                                 from actual Instagram users, thereby ensuring that every like, view, and interaction you get is significant and
                                 helpful for your development unlike services depending on bots or false accounts.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>TubeViews</b> gives you access to carefully chosen packages meant to appeal to certain groups, including choices to
+                                <b>GoFamy</b> gives you access to carefully chosen packages meant to appeal to certain groups, including choices to
                                 <b>Buy Instagram Female/Male Likes</b> perfect for companies aiming for a Female/Male audience. Our services let you
                                 improve your profile in line with Instagram's algorithms, therefore increasing the likelihood of your material
                                 hitting Explore pages and trending among the appropriate followers. This strategy not only increases your
@@ -362,9 +362,9 @@ function InstagramTargetLikesPage() {
                                 people that connect with your material.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                <b>TubeViews</b> gives your privacy and account security first priority, even beyond providing actual involvement.
+                                <b>GoFamy</b> gives your privacy and account security first priority, even beyond providing actual involvement.
                                 We use safe, platform-compliant techniques so you may boldly expand your profile without compromising your account.
-                                Choose <b>TubeViews</b> as your reliable friend for real Instagram interaction and see how much impact you can have.
+                                Choose <b>GoFamy</b> as your reliable friend for real Instagram interaction and see how much impact you can have.
                             </p>
 
                         </div>
@@ -385,7 +385,7 @@ function InstagramTargetLikesPage() {
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold leading-8 text-center text-black'>
-                            🧍 Why TubeViews is the Top Choice for Buying Female/Male Likes on Instagram
+                            🧍 Why GoFamy is the Top Choice for Buying Female/Male Likes on Instagram
                         </h3>
                     </div>
                 </div>
@@ -394,8 +394,8 @@ function InstagramTargetLikesPage() {
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Because <b>TubeViews</b> emphasises authenticity, security, and focused interaction, it is the recommended option for
-                                    buying insta Female/Male likes. <b>TubeViews</b> provides genuine Female/Male likes that assist increase the profile
+                                    Because <b>GoFamy</b> emphasises authenticity, security, and focused interaction, it is the recommended option for
+                                    buying insta Female/Male likes. <b>GoFamy</b> provides genuine Female/Male likes that assist increase the profile
                                     credibility, link you with the correct audience for your company, and help magnify the reach of your content
                                     using a trustworthy reputation and customised solutions.
                                 </p>
@@ -403,7 +403,7 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Authentic Engagement</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> ensures actual, premium likes from active Female/Male Instagram profiles, therefore improving the authenticity
+                                    <b>GoFamy</b> ensures actual, premium likes from active Female/Male Instagram profiles, therefore improving the authenticity
                                     and attractiveness of your profile. This sincere involvement helps maintain a respectable online presence that fits Instagram's
                                     criteria, which attracts the algorithm of the platform as well as new users.
                                 </p>
@@ -411,14 +411,14 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Customised Packages</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    With a range of options, <b>TubeViews</b> lets you choose only the degree of involvement required. Whether you are a business or
+                                    With a range of options, <b>GoFamy</b> lets you choose only the degree of involvement required. Whether you are a business or
                                     influencer, these adaptable choices guarantee the correct effect depending on your objectives and financial situation.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Designed for a Female/Male Audience Targeting</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    For material targeted to Female/Male viewers, <b>TubeViews</b> guarantees that your likes are from an appropriate demographic.
+                                    For material targeted to Female/Male viewers, <b>GoFamy</b> guarantees that your likes are from an appropriate demographic.
                                     By means of more significant encounters, this intelligent targeting increases your chances of connecting with a population
                                     in line with your message.
                                 </p>
@@ -426,14 +426,14 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Enhanced Organic Reach</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> provides significant interaction that raises the exposure of your posts, thereby helping you to use Instagram's algorithm.
+                                    <b>GoFamy</b> provides significant interaction that raises the exposure of your posts, thereby helping you to use Instagram's algorithm.
                                     Posts with plenty of likes are more likely to show up on Explore pages, therefore increasing natural reach and drawing fresh followers.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Rapid, Safe Delivery</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    For <b>TubeViews</b>, security and timeliness top concerns. Our service guarantees secure and rapid delivery of your likes,
+                                    For <b>GoFamy</b>, security and timeliness top concerns. Our service guarantees secure and rapid delivery of your likes,
                                     therefore preventing any account danger.
                                     For improved integration, this steady, slow distribution approach replics natural interaction patterns.
                                 </p>
@@ -441,14 +441,14 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Privacy Protection</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> stresses your security and privacy and never calls for sensitive data like passwords. We employ encrypted transactions
+                                    <b>GoFamy</b> stresses your security and privacy and never calls for sensitive data like passwords. We employ encrypted transactions
                                     to guarantee your account information is protected and enable you to concentrate on increasing your Instagram presence worry-free.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Inter Platform Marketing</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Apart from Instagram likes, <b>TubeViews</b> provides choices to increase your visibility on other channels like YouTube.
+                                    Apart from Instagram likes, <b>GoFamy</b> provides choices to increase your visibility on other channels like YouTube.
                                     Cross-platform expansion increases the reach of your brand, therefore strengthening its online presence and providing
                                     greater adaptability.
                                 </p>
@@ -456,14 +456,14 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Specific Customer Support</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Accessible around-the-clock, <b>TubeViews</b>' customer service staff is always willing to help. Our proactive staff guarantees a
+                                    Accessible around-the-clock, <b>GoFamy</b>' customer service staff is always willing to help. Our proactive staff guarantees a
                                     seamless experience whether your concerns concern services or you want direction on package choice.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Verifiable Record Track Performance</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> is a reliable supplier in the sector with a great reputation for excellent involvement.
+                                    <b>GoFamy</b> is a reliable supplier in the sector with a great reputation for excellent involvement.
                                     For anybody trying to increase their Instagram reputation, we are a first option because of our consistent
                                     outcomes and happy clientele.
                                 </p>
@@ -471,14 +471,14 @@ function InstagramTargetLikesPage() {
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Easy, User-friendly Procedure</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying Female/Male likes is simple thanks to <b>TubeViews</b>. Our easy ordering system calls for little effort:
+                                    Buying Female/Male likes is simple thanks to <b>GoFamy</b>. Our easy ordering system calls for little effort:
                                     simply choose your bundle, provide your article URL, and see your interaction increase.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Service with Results-oriented Approach</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> is committed to producing significant outcomes; Female/Male likes on Instagram assist to increase
+                                    <b>GoFamy</b> is committed to producing significant outcomes; Female/Male likes on Instagram assist to increase
                                     exposure, interaction, and credibility building. Our dedication to quantifiable increase guarantees that
                                     every transaction really enhances your profile.
                                 </p>
@@ -510,7 +510,7 @@ function InstagramTargetLikesPage() {
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Long-term success depends on developing authenticity and trust on Instagram, particularly in a cutthroat market where consumers search
-                                for real relationships. Choosing <b>Buy Instagram Female/Male Likes</b> from TubeViews means you are investing in genuine interaction that appeals
+                                for real relationships. Choosing <b>Buy Instagram Female/Male Likes</b> from GoFamy means you are investing in genuine interaction that appeals
                                 to actual people. Our service offers likes from actual, live Female/Male accounts unlike artificial likes from bots, which might damage your
                                 reputation. This strategy not only increases the credibility of your profile but also helps your business to be more relevant to a
                                 Female/Male audience, thus creating a devoted and involved community around your material.
@@ -525,12 +525,12 @@ function InstagramTargetLikesPage() {
                             <p className="leading-relaxed text-slate-600 mt-3">
                                 Furthermore, a lot of real Female/Male likes indicates to prospective guests that your profile is reliable and
                                 powerful in your area. They are inspired to follow, interact, and promote your company by this social evidence.
-                                The dedication of <b>TubeViews</b> to real, focused Female/Male involvement offers a basis of confidence that over
+                                The dedication of <b>GoFamy</b> to real, focused Female/Male involvement offers a basis of confidence that over
                                 time will help your business to grow. Knowing you are getting interaction from a genuine, committed audience,
                                 our safe and discreet distribution method allows you to boldly increase your Instagram profile.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Basically, engaging in real Female/Male involvement with <b>TubeViews</b> not only improves the visibility of your
+                                Basically, engaging in real Female/Male involvement with <b>GoFamy</b> not only improves the visibility of your
                                 profile but also its authenticity, thereby strengthening its online presence and drawing and keeping followers
                                 naturally.
                             </p>
@@ -556,7 +556,7 @@ function InstagramTargetLikesPage() {
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 One effective approach to boost your algorithm reach on your Instagram posts is increasing Female/Male interactions.
                                 Instagram's algorithm gives material that creates great interaction—especially from a focused audience—priority.
-                                Selecting <b>Buy Instagram Female/Male Likes</b> with TubeViews not only increases your like count but also improves
+                                Selecting <b>Buy Instagram Female/Male Likes</b> with GoFamy not only increases your like count but also improves
                                 the quality of your interaction. Instagram perceives your material as more relevant and interesting when it
                                 finds more interactions from actual Female/Male users, which might result in greater visibility.
                             </p>
@@ -568,7 +568,7 @@ function InstagramTargetLikesPage() {
                                 to your work.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Every like from a real Female/Male account added by <b>TubeViews</b> increases the exposure of your post,
+                                Every like from a real Female/Male account added by <b>GoFamy</b> increases the exposure of your post,
                                 therefore enabling you to reach an audience fit for your message. This focused strategy increases your
                                 instant reach as well as the long-term development potential of your profile on Instagram.
                             </p>

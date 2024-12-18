@@ -45,7 +45,7 @@ engagement.
             title: "Customisable Packages",
             description:
                 `
-            From a range of options catered to your budget and need, choose. TubeViews offers choices that fit any
+            From a range of options catered to your budget and need, choose. GoFamy offers choices that fit any
 creator's needs whether your desired view increase is little or huge.
             `,
             icon: <LuPackageSearch />
@@ -66,7 +66,7 @@ whenever you submit your purchase, therefore enabling you to quickly watch views
             title: "Safe and secure exchanges",
             description: `
             We first consider your privacy. Using safe payment options and keeping your information private,
-TubeViews guarantees a safe buying experience for every customer.
+GoFamy guarantees a safe buying experience for every customer.
             `,
             icon: <AiOutlineSafety />
         },
@@ -93,7 +93,7 @@ to assist you with your purchase or with recommendations on optimising your YouT
             id: 9,
             title: "Engagement Opportunities in the Community",
             description:
-                `Become part of a community of artists with same objectives and difficulties. TubeViews is a space where
+                `Become part of a community of artists with same objectives and difficulties. GoFamy is a space where
 you may interact, exchange ideas, and grow personally learning from others on their YouTube paths.
             `,
             icon: <GiEngagementRing />
@@ -191,9 +191,9 @@ you may interact, exchange ideas, and grow personally learning from others on th
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Why Choose Tubeviews for YouTube comments?</h2>
+                        <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Why Choose GoFamy for YouTube comments?</h2>
                         <p className='text-center text-black mt-4'>
-                            Selecting TubeViews is working with a reputable professional to improve your YouTube profile. We differentiate
+                            Selecting GoFamy is working with a reputable professional to improve your YouTube profile. We differentiate
                             ourselves in the market by being dedicated to client happiness, authenticity, and quality.
                         </p>
                     </div>
@@ -237,7 +237,7 @@ you may interact, exchange ideas, and grow personally learning from others on th
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    We appreciate timely findings greatly. <b>TubeViews</b> ensures timely distribution of comments, therefore enabling speedy
+                                    We appreciate timely findings greatly. <b>GoFamy</b> ensures timely distribution of comments, therefore enabling speedy
                                     increase in engagement statistics and hence the enhancement of your films.
                                 </p>
                             </div>
@@ -261,25 +261,25 @@ you may interact, exchange ideas, and grow personally learning from others on th
             </div>
             <FeaturesSection
                 featuresData={featuresData}
-                heading={"🚀 Buy YouTube Views Features with TubeViews"}
-                subHeading={"At TubeViews, we provide a wide spectrum of tools meant to enable you to significantly increase the exposure of your channel and raise your YouTube views. Our dedication to excellence and client happiness guarantees that you will get the greatest service available to help you to reach your objectives."}
+                heading={"🚀 Buy YouTube Views Features with GoFamy"}
+                subHeading={"At GoFamy, we provide a wide spectrum of tools meant to enable you to significantly increase the exposure of your channel and raise your YouTube views. Our dedication to excellence and client happiness guarantees that you will get the greatest service available to help you to reach your objectives."}
             />
             <ContentSection1
                 heading={"🎉 Transform Your Videos with Authentic Comments"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     `
                     <div>
                     <p class='leading-relaxed text-slate-600'>
 For companies, content producers, and marketers all around, YouTube is among the most potent tools available in the
 digital era. Standing out in this huge sea of content might be difficult given millions of films produced daily. Buying
-YouTube comments from <b>TubeViews</b> provides a unique way to improve the legitimacy, exposure, and interaction of
+YouTube comments from <b>GoFamy</b> provides a unique way to improve the legitimacy, exposure, and interaction of
 your video.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
 Whether your skill level is that of a seasoned content producer or a developing YouTuber, our service is meant to
 enable your success. Let's look at how <b>Buying YouTube comments</b> might help your channel and the reasons
-<b>TubeViews</b> is the finest option for this service.
+<b>GoFamy</b> is the finest option for this service.
                     </p>
                     </div>
                     `
@@ -304,7 +304,7 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
                             Therefore, we are going to provide a terrific option if you're seeking for a means to increase your engagement while
                             generating a dynamic environment for your content. Real YouTube comments let you increase interaction and
                             communication for your videos. Besides, when we say &quot;real,&quot; we mean it as we provide authentic comments from
-                            actual accounts that actively engage with your content when you <b>buy YouTube comments</b> from TubeViews. Stated
+                            actual accounts that actively engage with your content when you <b>buy YouTube comments</b> from GoFamy. Stated
                             differently, be assured that bots devoid of profile images will not compromise your films, thus placing one-word
                             useless comments in them. We take our work extremely seriously, hence you may buy comments on YouTube to
                             better promote your channel and content.
@@ -312,13 +312,13 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
                         <p className="leading-relaxed text-slate-600 mt-3">
                             For companies, content producers, and marketers all around, YouTube is among the most potent tools available in the
                             digital era. Standing out in this huge sea of content might be difficult given millions of films produced daily. Buying
-                            YouTube comments from <b>TubeViews</b> provides a unique way to improve the legitimacy, exposure, and interaction of
+                            YouTube comments from <b>GoFamy</b> provides a unique way to improve the legitimacy, exposure, and interaction of
                             your video.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             Whether your skill level is that of a seasoned content producer or a developing YouTuber, our service is meant to
                             enable your success. Let's look at how <b>Buying YouTube comments</b> might help your channel and the reasons
-                            <b>TubeViews</b> is the finest option for this service.
+                            <b>GoFamy</b> is the finest option for this service.
                         </p>
                     </div>
                 </div>
@@ -336,7 +336,7 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
                                 <p className="leading-relaxed text-slate-600 mt-3">
                                     Likes, shares, and comments engagement metrics are valued in YouTube's algorithm. More comments on your videos
                                     suggest to YouTube that your content is interesting and deserving of promotion. Increased platform exposure resulting
-                                    from this makes it more likely that fresh readers will find your content. Buying comments with <b>TubeViews</b> can let you
+                                    from this makes it more likely that fresh readers will find your content. Buying comments with <b>GoFamy</b> can let you
                                     start this involvement and provide your films the necessary push.
                                 </p>
                             </div>
@@ -345,7 +345,7 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
                                 <p className="leading-relaxed text-slate-600 mt-3">
                                     Viewers believe a video to be more trustworthy and popular when they see plenty of comments. Their choice to see
                                     your video, subscribe to your channel, or even forward your content to others might be swayed by this social
-                                    evidence. Through real comments that speak to your audience, <b>TubeViews</b> helps you make a good first impression.
+                                    evidence. Through real comments that speak to your audience, <b>GoFamy</b> helps you make a good first impression.
                                 </p>
                             </div>
                             <div className="w-full">
@@ -362,13 +362,13 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
                         <h3 className="text-xl lg:text-[2rem] text-center font-semibold text-slate-600">How To Get Started?</h3>
                         <div>
                             <p className=" text-slate-600 mt-3">
-                                Starting with TubeViews is rather easy! Simply use these guidelines:
+                                Starting with GoFamy is rather easy! Simply use these guidelines:
                             </p>
                             <div className='mt-4 flex flex-col gap-4'>
                                 <div className='flex items-center gap-2'>
                                     <span className='bg-primary text-white px-2.5 rounded-full text-lg font-semibold'>1</span>
                                     <p className='leading-relaxed text-slate-600 '>
-                                        Go to Our Website: Visit the <b>TubeViews</b> website to go over our selection of packages for <b>Buying YouTube comments</b>.
+                                        Go to Our Website: Visit the <b>GoFamy</b> website to go over our selection of packages for <b>Buying YouTube comments</b>.
                                     </p>
                                 </div>
                                 <div className='flex items-center gap-2'>
@@ -403,7 +403,7 @@ enable your success. Let's look at how <b>Buying YouTube comments</b> might help
             </div>
             <ContentSection2
                 heading={"🎉 How may I buy YouTube comments for my video?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     `
                     <div>
@@ -429,15 +429,15 @@ password, hence your YouTube account is protected.
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             Currently, so excellent. But why should you decide on our offerings to <b>buy YouTube comments</b>? Basically, at
-                            <b>TubeViews</b>, we keep enhancing our offerings to provide you the most secure and efficient experience available.
-                            Stated differently, we could easily expand the minute list we will provide. Starting with the fundamentals, TubeViews is
+                            <b>GoFamy</b>, we keep enhancing our offerings to provide you the most secure and efficient experience available.
+                            Stated differently, we could easily expand the minute list we will provide. Starting with the fundamentals, GoFamy is
                             great as we provide safe transactions, reliable delivery, product variety, quick service, and customisable experience.
                         </p>
                         <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 flex flex-col gap-4 mt-4">
                             <div className="bg-primary text-white p-4 rounded-lg h-fit">
                                 <h4 className="bg-white text-black text-center rounded-full text-lg p-1">Guaranteed quality</h4>
                                 <p className="leading-relaxed lg:h-[200px] overflow-y-scroll removeScrollbar mt-3">
-                                    Quality comes first for <b>TubeViews</b>. We make sure the comments you get are authentic, pertinent, and catered to the
+                                    Quality comes first for <b>GoFamy</b>. We make sure the comments you get are authentic, pertinent, and catered to the
                                     content of your video. Our knowledgeable staff meticulously selects every comment to make it look as natural as it
                                     could be, therefore encouraging real interaction with your audience.
                                 </p>
@@ -447,7 +447,7 @@ password, hence your YouTube account is protected.
                                 <p className="leading-relaxed text-slate-600 mt-3 lg:h-[200px] overflow-y-scroll removeScrollbar">
                                     If you want natural-looking involvement and organic development, quality counts just as much as volume. Stated
                                     differently, you could buy even a million comments, but over time you will only damage your reputation if they are one-
-                                    word and meaningless. Fortunately, <b>TubeViews</b> provides a customizing experience when you buy actual YouTube
+                                    word and meaningless. Fortunately, <b>GoFamy</b> provides a customizing experience when you buy actual YouTube
                                     comments so that the bought comments enhance your content. Your taste, money, and objectives will help you decide
                                     between &quot;real&quot; and &quot;regular&quot; possibilities. You also have &quot;easy content&quot; or &quot;custom&quot; choices. Should your selection not
                                     fall within the &quot;easy content&quot; category, you may provide keywords to help us to generate relevant comments for your
@@ -459,7 +459,7 @@ password, hence your YouTube account is protected.
                                 <p className="leading-relaxed lg:h-[200px] overflow-y-scroll removeScrollbar mt-3">
                                     Though everything else is great, <b>Buying YouTube comments</b> is a paid service and not many users can afford pricey
                                     bundles. You have found the perfect location if you are seeking for a reasonably priced way to buy comments on
-                                    YouTube. At <b>TubeViews</b>, we provide many packages with varying rates so you may evaluate your means and choose
+                                    YouTube. At <b>GoFamy</b>, we provide many packages with varying rates so you may evaluate your means and choose
                                     the one most suited for your tastes. <b>Buying YouTube comments</b> allows you to choose the &quot;real&quot; or &quot;regular&quot; option,
                                     and there are many bundles under both. Apart from the starting package, advantageous discounts are also provided;
                                     the discount rate rises with increasing package volume.
@@ -475,7 +475,7 @@ password, hence your YouTube account is protected.
                             <div className="bg-primary text-white p-4 rounded-lg h-fit">
                                 <h4 className="bg-white text-black text-center rounded-full text-lg p-1">Safe and orderly transactions</h4>
                                 <p className="leading-relaxed lg:h-[200px] overflow-y-scroll removeScrollbar mt-3">
-                                    First and most vital to us are your security and privacy. <b>TubeViews</b> guarantees confidentiality of your information and
+                                    First and most vital to us are your security and privacy. <b>GoFamy</b> guarantees confidentiality of your information and
                                     uses safe payment methods. Knowing that you are in good hands helps you to <b>buy YouTube comments</b> with peace
                                     of mind.
                                 </p>
@@ -547,7 +547,7 @@ password, hence your YouTube account is protected.
                         <div className="mt-5">
                             <h4 className="text-xl lg:text-2xl font-semibold text-slate-600">Custom Comments for Audience Targeting</h4>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                <b>TubeViews</b> is aware that every video has a different intended audience. We therefore provide customisable comment
+                                <b>GoFamy</b> is aware that every video has a different intended audience. We therefore provide customisable comment
                                 choices to fit the topic, tone, and viewer expectations of your video. Our customised comments are meant to appeal to
                                 your visitors and inspire more involvement regardless of your intended encouragement—questions, conversation, or
                                 just pleasant reinforcement. This approach increases involvement as well as builds a more linked community around
@@ -560,14 +560,14 @@ password, hence your YouTube account is protected.
                                 <b>Buying YouTube comments</b> fits quite well with your larger marketing plan. Improving your YouTube presence is very
                                 vital whether your project is brand promotion, new product introduction, or personal brand development. Investing in
                                 comments helps you reach more people and start a chain reaction that could result in higher brand recognition and
-                                conversion rate. <b>TubeViews</b> lets you effortlessly combine this approach, therefore freeing you to concentrate on
+                                conversion rate. <b>GoFamy</b> lets you effortlessly combine this approach, therefore freeing you to concentrate on
                                 producing excellent work while we assist you control your involvement.
                             </p>
                         </div>
                         <div className="mt-5">
                             <h4 className="text-xl lg:text-2xl font-semibold text-slate-600">Real-Time Reporting and Analysis</h4>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                You really should know the influence of your investment. Real-time analytics and reporting available from <b>TubeViews</b>
+                                You really should know the influence of your investment. Real-time analytics and reporting available from <b>GoFamy</b>
                                 helps you monitor the success of your acquired comments. You will be able to see how they affect your channel
                                 growth generally, engagement rates, and video views. This data-driven method maximises your content strategy for
                                 even more success and guides your choices on next investments.
@@ -583,9 +583,9 @@ password, hence your YouTube account is protected.
                             </p>
                         </div>
                         <div className="mt-5">
-                            <h4 className="text-xl lg:text-2xl font-semibold text-slate-600">Sign up for the TubeViews Community Now!</h4>
+                            <h4 className="text-xl lg:text-2xl font-semibold text-slate-600">Sign up for the GoFamy Community Now!</h4>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Participating in the <b>TubeViews</b> community means connecting with a network of like-minded producers aiming for
+                                Participating in the <b>GoFamy</b> community means connecting with a network of like-minded producers aiming for
                                 YouTube success. We are your growth partners, not just suppliers of services. Use forums, social media, and support
                                 systems to interact with our community and tell people about your path as a content producer challenges and
                                 successes included. Together, we can negotiate the ever changing terrain of YouTube and support one another in

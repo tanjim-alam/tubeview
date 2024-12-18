@@ -29,7 +29,7 @@ function YouTubeLikesPage() {
         {
             id: 1,
             title: "Real Likes",
-            description: "Tubeviews offers sincere likes from current users, therefore enhancing the credibility of your involvement.",
+            description: "GoFamy offers sincere likes from current users, therefore enhancing the credibility of your involvement.",
             icon: <MdLightMode />
         },
         {
@@ -47,7 +47,7 @@ function YouTubeLikesPage() {
         {
             id: 5,
             title: "Secure Transactions",
-            description: "Tubeviews guarantees the protection of your personal information and payments by means of strong encryption.",
+            description: "GoFamy guarantees the protection of your personal information and payments by means of strong encryption.",
             icon: <MdOutlinePayment />
         },
         {
@@ -79,7 +79,7 @@ function YouTubeLikesPage() {
     const faqData = [
         {
             id: 1,
-            question: "If you purchase YouTube Likes Anonymous from Tubeviews, are they anonymous?",
+            question: "If you purchase YouTube Likes Anonymous from GoFamy, are they anonymous?",
             answer: "You definitely don’s know who they are, even though they are from actual YouTube users with real names and YouTube channels since they are directed to your account via recommended videos. Soon, though, you might find yourself befriending your actual subscribers. It's entirely your responsibility."
         },
         {
@@ -151,8 +151,8 @@ function YouTubeLikesPage() {
             {/* package section end */}
             {/* <PackageSection /> */}
             <WhyYouChooseSection
-                heading={"✊ Why Choose Tubeviews to Buy YouTube Likes ?"}
-                subHeading={"Buying YouTube Likes from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+                heading={"✊ Why Choose GoFamy to Buy YouTube Likes ?"}
+                subHeading={"Buying YouTube Likes from GoFamy improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
                 title1={"Safe & Secure"}
                 description1={
                     `
@@ -170,27 +170,27 @@ YouTube video ranking.
                 title3={"Affordable Options"}
                 description3={
                     `
-                    Accessible for everyone to expand their channel, Tubeviews provides customisable and reasonably priced
+                    Accessible for everyone to expand their channel, GoFamy provides customisable and reasonably priced
 options for YouTubers at all levels.
                     `
                 }
                 title4={"24/7 Exclusive Support"}
                 description4={
                     `
-                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    Have questions or want help? Our staff at GoFamy is on hand around-the-clock to help you as
                     required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
                 }
             />
-            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With Tubeviews"}
-                subHeading={"Buy YouTube Likes Features with Tubeviews to improve the credibility and performance of your video by means of a simple and quick approach to increase your YouTube likes."} />
+            <FeaturesSection featuresData={featuresData} heading={"🚀 Buy YouTube Likes Features With GoFamy"}
+                subHeading={"Buy YouTube Likes Features with GoFamy to improve the credibility and performance of your video by means of a simple and quick approach to increase your YouTube likes."} />
             {/* ======== content section 2 start ========= */}
             <div className='bg-white'>
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🎉 Buy YouTube Likes from Tubeviews
+                            🎉 Buy YouTube Likes from GoFamy
                         </h3>
                     </div>
                 </div>
@@ -201,9 +201,9 @@ options for YouTubers at all levels.
                                 YouTube has evolved into a potent stage for creators, companies, and influencers in the always changing realm of digital marketing
                                 to present their material to a worldwide audience. Although there are countless chances for development given over 2 billion active
                                 users every month, success on YouTube calls for more than just good content. Engagement especially via likes is one of the most
-                                important determinant of visibility and credibility on the platform. Here at Tubeviews, we provide a dependable and secure means
+                                important determinant of visibility and credibility on the platform. Here at GoFamy, we provide a dependable and secure means
                                 of purchasing YouTube Likes so that your material gets the credit it deserves. The value of YouTube likes, how they might greatly
-                                increase your channel, and why Tubeviews is your best friend in reaching YouTube success will all be covered in this guide.
+                                increase your channel, and why GoFamy is your best friend in reaching YouTube success will all be covered in this guide.
                             </p>
 
                         </div>
@@ -220,24 +220,24 @@ options for YouTubers at all levels.
             {/* ======== content section 2 end ========= */}
             <ContentSection2
                 heading={"🎉 Why Do Likes on YouTube Help Your Channel to Be Successful?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
-                    "<div> <p class='leading-relaxed text-slate-600'>Likes on YouTube provide your material with some validation. Viewers that enjoy a video indicate to YouTube's algorithm that the material is worthwhile and interesting. This raises the likelihood of your video showing up in recommended video sections and search results, where most of the traffic on the platform comes from. <br> Getting those initial likes, meanwhile, can be difficult especially in a saturated market like YouTube. Tubeviews provides a simple answer for this: you can Buy YouTube Likes to increase engagement of your material so it may reach a larger audience more quickly. Our service guarantees that your likes originate from actual, real stories, so enabling your videos to naturally ascend the ranks.</p> </div>"
+                    "<div> <p class='leading-relaxed text-slate-600'>Likes on YouTube provide your material with some validation. Viewers that enjoy a video indicate to YouTube's algorithm that the material is worthwhile and interesting. This raises the likelihood of your video showing up in recommended video sections and search results, where most of the traffic on the platform comes from. <br> Getting those initial likes, meanwhile, can be difficult especially in a saturated market like YouTube. GoFamy provides a simple answer for this: you can Buy YouTube Likes to increase engagement of your material so it may reach a larger audience more quickly. Our service guarantees that your likes originate from actual, real stories, so enabling your videos to naturally ascend the ranks.</p> </div>"
                 }
             />
             <ContentSection1
                 heading={"🎉 How Algorithm of YouTube Uses Likes"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
-                    "<div><p class='leading-relaxed text-slate-600'>The YouTube algorithm is meant to support material that keeps users active on the network. Though opinions are a good indicator, participation like in terms of likes, comments, and shares has great influence on how well your video ranks. <br><br>Buy YouTube Likes is like giving your video a signal boost, alerting the algorithm to value of your material for promotion. Real likes from actual users are what we offer at Tubeviews to help your video show in top searches, recommendations, and trending lists. Early involvement can be the spark that drives your channel toward even greater success. </p></div>"
+                    "<div><p class='leading-relaxed text-slate-600'>The YouTube algorithm is meant to support material that keeps users active on the network. Though opinions are a good indicator, participation like in terms of likes, comments, and shares has great influence on how well your video ranks. <br><br>Buy YouTube Likes is like giving your video a signal boost, alerting the algorithm to value of your material for promotion. Real likes from actual users are what we offer at GoFamy to help your video show in top searches, recommendations, and trending lists. Early involvement can be the spark that drives your channel toward even greater success. </p></div>"
                 }
             />
 
             <ContentSection2
-                heading={"🎉 Why Your Best Choice to Purchase YouTube Likes is Tubeviews"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                heading={"🎉 Why Your Best Choice to Purchase YouTube Likes is GoFamy"}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
-                    "<div><p class='leading-relaxed text-slate-600'> At Tubeviews, we know that creating a great YouTube channel takes work and time. Still, our service provides a shortcut to get the visibility you require without sacrificing the integrity of your channel.  The following explains why Tubeviews is your best option:  </p> <ul class='list-disc list-inside mt-3 flex flex-col gap-3 text-slate-600'> <li><b>Real Engagement:</b> We only show likes from actual users so that your engagement numbers seem natural and reasonable.</li><li><b>Affordable Packages:</b> Our selection of packages is meant to fit every budget, regardless of experience level or just starting point. </li><li><b>Safe and Secure:</b> Although YouTube has strong rules against false participation, Tubeviews lets you know that our approaches follow YouTube's policies, so your account will never be at risk. <br> Choosing to <b>buy YouTube Likes</b> from us guarantees that your material receives the credit it deserves and helps you to ensure the long-term expansion of your channel.</li></ul></div>"
+                    "<div><p class='leading-relaxed text-slate-600'> At GoFamy, we know that creating a great YouTube channel takes work and time. Still, our service provides a shortcut to get the visibility you require without sacrificing the integrity of your channel.  The following explains why GoFamy is your best option:  </p> <ul class='list-disc list-inside mt-3 flex flex-col gap-3 text-slate-600'> <li><b>Real Engagement:</b> We only show likes from actual users so that your engagement numbers seem natural and reasonable.</li><li><b>Affordable Packages:</b> Our selection of packages is meant to fit every budget, regardless of experience level or just starting point. </li><li><b>Safe and Secure:</b> Although YouTube has strong rules against false participation, GoFamy lets you know that our approaches follow YouTube's policies, so your account will never be at risk. <br> Choosing to <b>buy YouTube Likes</b> from us guarantees that your material receives the credit it deserves and helps you to ensure the long-term expansion of your channel.</li></ul></div>"
                 }
             />
 
@@ -246,10 +246,10 @@ options for YouTubers at all levels.
                 <div className="lg:w-[80%] w-[90%] m-auto lg:py-14 py-5">
                     <div>
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
-                            The Method: Buy YouTube Likes using Tubeviews
+                            The Method: Buy YouTube Likes using GoFamy
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            Buying likes from Tubeviews is an easy and quick procedure. Our platform is meant to be simple so that, in a few simple steps,
+                            Buying likes from GoFamy is an easy and quick procedure. Our platform is meant to be simple so that, in a few simple steps,
                             you can increase your engagement:
                         </p>
                         <ol className="list-decimal list-inside text-slate-600 mt-3 flex flex-col gap-3">
@@ -260,7 +260,7 @@ options for YouTubers at all levels.
                                 <b>Enter the Video URL:</b> Once you have chosen your package, just enter the YouTube video URL you wish to highlight.
                             </li>
                             <li>
-                                <b>Choose Payment Method:</b> Tubeviews provides several payment choices to ensure the transaction goes as seamless as it could. Our system guarantees the protection of your financial and personal data.
+                                <b>Choose Payment Method:</b> GoFamy provides several payment choices to ensure the transaction goes as seamless as it could. Our system guarantees the protection of your financial and personal data.
                             </li>
                             <li>
                                 <b>Watch Your Likes Grow:</b> You will see your likes start rising within hours following your purchase. Our system provides likes gradually to guarantee organic growth.
@@ -269,10 +269,10 @@ options for YouTubers at all levels.
                     </div>
                     <div className="mt-7">
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3">
-                            Why Buying YouTube Likes From TubeViews ?
+                            Why Buying YouTube Likes From GoFamy ?
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            Buying YouTube Likes from <b>Tubeviews</b> helps your material to have the competitive edge it requires. Here are only a few of the advantages you will get:
+                            Buying YouTube Likes from <b>GoFamy</b> helps your material to have the competitive edge it requires. Here are only a few of the advantages you will get:
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             <b>Enhanced Video Ranking:</b> More likes will help your video show at the top of YouTube's search results, so facilitating new viewers' access to your material.
@@ -290,10 +290,10 @@ options for YouTubers at all levels.
                             Should One Buy YouTube Likes?
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            Among the most often asked questions we get at <b>Tubeviews</b> is whether buying YouTube Likes is safe. The quick response is: absolutely, provided done correctly.
-                            Choosing a reliable provider like Tubeviews is essential since YouTube's policies are meant to stop spamming or false participation.
+                            Among the most often asked questions we get at <b>GoFamy</b> is whether buying YouTube Likes is safe. The quick response is: absolutely, provided done correctly.
+                            Choosing a reliable provider like GoFamy is essential since YouTube's policies are meant to stop spamming or false participation.
                             We ensure that your engagement measurements remain within YouTube's policies by delivering actual likes from real users using ethical means.
-                            You know your account is in good hands when you buy likes from <b>Tubeviews</b>. We take great care in delivering likes gradually so they show up in your video's natural engagement instead of an instantaneous surge that would cause concern.
+                            You know your account is in good hands when you buy likes from <b>GoFamy</b>. We take great care in delivering likes gradually so they show up in your video's natural engagement instead of an instantaneous surge that would cause concern.
                         </p>
                     </div>
 
@@ -305,7 +305,7 @@ options for YouTubers at all levels.
                             The size of your channel and your particular objectives will determine how many likes to buy.
                             Purchasing a limited number of likes for smaller channels will enable you to acquire the first momentum required to start your expansion.
                             To remain competitive in their niche, bigger channels might need more significant packages.
-                            At <b>Tubeviews</b>, we have a large selection of packages so you may match your purchase to your need.
+                            At <b>GoFamy</b>, we have a large selection of packages so you may match your purchase to your need.
                             We have a solution that will fit your budget whether your goal is to increase the overall engagement of your channel or provide a single video some boost.
                         </p>
                     </div>
@@ -325,7 +325,7 @@ options for YouTubers at all levels.
                             Although these benchmarks can seem overwhelming, purchasing likes will be quite important in enabling you to meet them.
                             Purchasing YouTube Likes raises the visibility of your video, increasing its view count and eventually watch time.
                             Your video is more likely to draw in new viewers the more interaction it gets, enabling you to reach that 1,000 mark more quickly.
-                            Many <b>Tubeviews</b> clients have turned to our service as a stepping stone toward channel revenue.
+                            Many <b>GoFamy</b> clients have turned to our service as a stepping stone toward channel revenue.
                         </p>
                     </div>
 
@@ -334,10 +334,10 @@ options for YouTubers at all levels.
                             The Ethical Viewpoint Regarding Purchasing YouTube Likes
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            At <b>Tubeviews</b>, we believe in open, moral marketing methods.
+                            At <b>GoFamy</b>, we believe in open, moral marketing methods.
                             Buying YouTube likes makes some creators question whether it is moral or cheating.
                             But purchasing likes is only a kind of marketing, much like running an advertisement campaign or social media promotion of your video.
-                            The secret is that the likes originate from actual users, something <b>Tubeviews</b> guarantees.
+                            The secret is that the likes originate from actual users, something <b>GoFamy</b> guarantees.
                             Purchasing YouTube Likes from us does not cause you to falsify your metrics using bots or bogus accounts.
                             Rather, you're getting interaction from actual people helping your material get the exposure it deserves without violating YouTube's policies or tarnishing your reputation.
                         </p>
@@ -345,11 +345,11 @@ options for YouTubers at all levels.
 
                     <div className="mt-7">
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
-                            How Tubeviews Guarantees Success Over the Long Run?
+                            How GoFamy Guarantees Success Over the Long Run?
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             Although buying YouTube likes initially boosts you, steady expansion on the platform calls for a multifaceted strategy.
-                            <b>Tubeviews</b> lets you create a successful, long-term YouTube presence:
+                            <b>GoFamy</b> lets you create a successful, long-term YouTube presence:
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             <b>Regular Engagement:</b> We gradually provide likes to guarantee a consistent and natural appearance of your engagement.
@@ -358,7 +358,7 @@ options for YouTubers at all levels.
                             <b>Expert Support:</b> Whether you're a seasoned producer seeking further development plans or just starting, our team is constantly here to assist.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-3">
-                            <b>Additional Services:</b> Tubeviews provides more than just likes. We can also assist you with other types of participation, including comments and subscribers, enabling you to create a well-rounded channel drawing actual viewers.
+                            <b>Additional Services:</b> GoFamy provides more than just likes. We can also assist you with other types of participation, including comments and subscribers, enabling you to create a well-rounded channel drawing actual viewers.
                         </p>
                     </div>
 

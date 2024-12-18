@@ -8,14 +8,14 @@ function TermsAndConditionsPage() {
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-4xl font-bold text-center text-black'>Terms and Conditions</h1>
                     <p className='leading-relaxed text-slate-600'>
-                        Welcome to Tubeviews!
+                        Welcome to GoFamy!
                     </p>
 
                     <p className='leading-relaxed text-slate-600'>
-                        These terms and conditions outline the rules and regulations for the use of TubeViews Media’s Website, located at www.tubeviews.co.
+                        These terms and conditions outline the rules and regulations for the use of GoFamy Media’s Website, located at www.gofamy.com.
                     </p>
                     <p className='leading-relaxed text-slate-600'>
-                        By accessing this website we assume you accept these terms and conditions. Do not continue to use Tubeviews if you do not agree to take all of the terms and conditions stated on this page.
+                        By accessing this website we assume you accept these terms and conditions. Do not continue to use GoFamy if you do not agree to take all of the terms and conditions stated on this page.
                     </p>
                     <p className='leading-relaxed text-slate-600'>
                         The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements:
@@ -32,7 +32,7 @@ function TermsAndConditionsPage() {
                     <div className='flex flex-col gap-6'>
                         <h2 className='lg:text-3xl text-2xl font-bold text-black'>Cookies</h2>
                         <p className='leading-relaxed text-slate-600'>
-                            We employ the use of cookies. By accessing Tubeviews, you agreed to use cookies in agreement with the TubeViews Media’s Privacy Policy.
+                            We employ the use of cookies. By accessing GoFamy, you agreed to use cookies in agreement with the GoFamy Media’s Privacy Policy.
                         </p>
                         <p className='leading-relaxed text-slate-600'>
                             Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our
@@ -43,8 +43,8 @@ function TermsAndConditionsPage() {
                     <div className='mt-6 flex flex-col gap-6'>
                         <h2 className='lg:text-3xl text-2xl font-bold text-black'>License</h2>
                         <p className='leading-relaxed text-slate-600'>
-                            Unless otherwise stated, TubeViews Media and/or its licensors own the intellectual property rights for all material
-                            on Tubeviews. All intellectual property rights are reserved. You may access this from Tubeviews for your own personal
+                            Unless otherwise stated, GoFamy Media and/or its licensors own the intellectual property rights for all material
+                            on GoFamy. All intellectual property rights are reserved. You may access this from GoFamy for your own personal
                             use subjected to restrictions set in these terms and conditions.
                         </p>
                         <p className='leading-relaxed text-slate-600'>
@@ -52,16 +52,16 @@ function TermsAndConditionsPage() {
                         </p>
                         <ul className='flex flex-col gap-3 list-disc list-inside leading-relaxed text-slate-600'>
                             <li >
-                                Republish material from Tubeviews
+                                Republish material from GoFamy
                             </li>
                             <li>
-                                Sell, rent or sub-license material from Tubeviews
+                                Sell, rent or sub-license material from GoFamy
                             </li>
                             <li>
-                                Reproduce, duplicate or copy material from Tubeviews
+                                Reproduce, duplicate or copy material from GoFamy
                             </li>
                             <li>
-                                Redistribute content from Tubeviews
+                                Redistribute content from GoFamy
                             </li>
                         </ul>
                         <p className='leading-relaxed text-slate-600'>
@@ -69,14 +69,14 @@ function TermsAndConditionsPage() {
                         </p>
                         <p className='leading-relaxed text-slate-600'>
                             Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas
-                            of the website. TubeViews Media does not filter, edit, publish or review Comments prior to their presence on the website.
-                            Comments do not reflect the views and opinions of TubeViews Media,its agents and/or affiliates. Comments reflect the
+                            of the website. GoFamy Media does not filter, edit, publish or review Comments prior to their presence on the website.
+                            Comments do not reflect the views and opinions of GoFamy Media,its agents and/or affiliates. Comments reflect the
                             views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws,
-                            TubeViews Media shall not be liable for the Comments or for any liability, damages or expenses caused and/or
+                            GoFamy Media shall not be liable for the Comments or for any liability, damages or expenses caused and/or
                             suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
                         </p>
                         <p className='leading-relaxed text-slate-600'>
-                            TubeViews Media reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+                            GoFamy Media reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
                         </p>
                         <p className='leading-relaxed text-slate-600'>
                             You warrant and represent that:
@@ -96,7 +96,7 @@ function TermsAndConditionsPage() {
                             </li>
                         </ul>
                         <p className='leading-relaxed text-slate-600'>
-                            You hereby grant TubeViews Media a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
+                            You hereby grant GoFamy Media a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
                         </p>
                     </div>
 
@@ -156,7 +156,7 @@ function TermsAndConditionsPage() {
                         <p className='leading-relaxed text-slate-600'>
                             We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably
                             to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c)
-                            the benefit to us from the visibility of the hyperlink compensates the absence of TubeViews Media; and (d) the link
+                            the benefit to us from the visibility of the hyperlink compensates the absence of GoFamy Media and (d) the link
                             is in the context of general resource information.
                         </p>
                         <p className='leading-relaxed text-slate-600'>
@@ -166,7 +166,7 @@ function TermsAndConditionsPage() {
                         </p>
                         <p className='leading-relaxed text-slate-600'>
                             If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website,
-                            you must inform us by sending an e-mail to TubeViews Media. Please include your name, your organization name,
+                            you must inform us by sending an e-mail to GoFamy Media. Please include your name, your organization name,
                             contact information as well as the URL of your site, a list of any URLs from which you intend to link to our
                             Website, and a list of the URLs on our site to which you would like to link. Wait 12-24 hours for a response.
                         </p>
@@ -185,7 +185,7 @@ function TermsAndConditionsPage() {
                             </li>
                         </ul>
                         <p className='leading-relaxed text-slate-600'>
-                            No use of TubeViews Media’s logo or other artwork will be allowed for linking absent a trademark license agreement.
+                            No use of GoFamy Media logo or other artwork will be allowed for linking absent a trademark license agreement.
                         </p>
                     </div>
                     <div className='mt-6 flex flex-col gap-6'>

@@ -75,7 +75,7 @@ should we fail to provide your YouTube Live views for any reason.
             title: "Your Data Not Shared",
             description:
                 `
-           Our first concern is your privacy; at TubeViews, we give data security great thought. We never will
+           Our first concern is your privacy; at GoFamy, we give data security great thought. We never will
 distribute your personal information or channel data to other parties. You may rely on stringent
 confidentially handling of all your information. Our safe platform guarantees that every transaction
 and conversation is private, therefore freeing you to concentrate on expanding your YouTube
@@ -89,7 +89,7 @@ channel free from concerns about data access.
             description:
                 `Our field-based strong reputation is a result of our knowledge and dedication to great service. We
 keep innovating because we know the changing demands of content producers and provide
-consistent, result-oriented services. Choosing TubeViews means working with a firm that
+consistent, result-oriented services. Choosing GoFamy means working with a firm that
 understands how to thrive on YouTube.
             `,
             icon: <MdLightMode />
@@ -169,9 +169,9 @@ presented utilising compliant and safe techniques free of violating YouTube's te
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Why Choose Tubeviews for YouTube Live Stream Views?</h2>
+                        <h2 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Why Choose GoFamy for YouTube Live Stream Views?</h2>
                         <p className='text-center text-black mt-4'>
-                            With <b>TubeViews</b>, increase social media traffic. Buy genuine and natural views as well as YouTube
+                            With <b>GoFamy</b>, increase social media traffic. Buy genuine and natural views as well as YouTube
                             live stream views for your own feed. We are providing to our customers fast delivery and excellent
                             live views. Select a bargain that would fit you the best.
                         </p>
@@ -218,7 +218,7 @@ presented utilising compliant and safe techniques free of violating YouTube's te
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    <b>TubeViews</b> offers a simple approach free of bother. Nothing sensitive or passwords are needed
+                                    <b>GoFamy</b> offers a simple approach free of bother. Nothing sensitive or passwords are needed
                                     shared here. Just choose a plan, add an email address, provide a login, and finish the payment. Your
                                     task is done; now it is time for us to carry out the request. We'll start delivering in a few minutes.
                                 </p>
@@ -250,13 +250,13 @@ presented utilising compliant and safe techniques free of violating YouTube's te
             />
             <ContentSection1
                 heading={"🎉 How to live stream on YouTube?"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     `
                     <div>
                     <p class='leading-relaxed text-slate-600'>
 One should not be terrified of YouTube live broadcasting. Your just require help throughout the
-procedure. <b>TubeViews</b> will take care of the rest; let's examine what you should do for your live
+procedure. <b>GoFamy</b> will take care of the rest; let's examine what you should do for your live
 streaming first.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
@@ -279,7 +279,7 @@ Include titles, descriptions, chat settings, and marketing specifics. You then a
             />
             <ContentSection2
                 heading={"🎉 See More on YouTube Live Views"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     `
                     <div>
@@ -288,7 +288,7 @@ One extremely common approach to attract more audience and establish credibility
 a YouTube live broadcast. There are various actions you have to take if you want more viewers. For
 instance, you should know how to become verified on YouTube. <b>Buy YouTube Live Stream Views</b>
 or even just YouTube views is the most crucial of them all. As such, YouTube live views will attract
-more audience and interaction. Using its YouTube live views offering, <b>TubeViews</b> offers its clients
+more audience and interaction. Using its YouTube live views offering, <b>GoFamy</b> offers its clients
 exceptional services. Having a big audience when YouTube live streaming will increase your
 subscriptions.
                     </p>
@@ -299,8 +299,8 @@ beginning point for Buying YouTube live views. It will affect your accounts on s
 On Instagram, Twitter, TikHub, etc., you will get more likes, comments, followers.
                     </p>
                     <p class='leading-relaxed text-slate-600 mt-2'>
-For its clients, <b>TubeViews</b> offers the buy YouTube live views;. <b>Buy YouTube Live Views</b> only
-requires few simple procedures. <b>TubeViews</b> provides YouTube live views quickly thanks to its 24/7
+For its clients, <b>GoFamy</b> offers the buy YouTube live views;. <b>Buy YouTube Live Views</b> only
+requires few simple procedures. <b>GoFamy</b> provides YouTube live views quickly thanks to its 24/7
 customer care. Buying it is very simple, affordable, and safe. You are not required to provide any
 additional information, including your account login or password.
                     </p>
@@ -436,35 +436,35 @@ may appear a little challenging, rest assured; we have made it simple for you.
                             live streaming. Still, the prominence of any livestream depends on the views it can draw. Boosting
                             interaction and guaranteeing the success of your YouTube channel depend much on YouTube
                             livestream views. First and most importantly is improving your YouTube live stream views; this is
-                            exactly where <b>TubeViews</b> helps.
+                            exactly where <b>GoFamy</b> helps.
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-2'>
-                            <b>TubeViews</b> provides quality, authentic YouTube livestream views from real followers with active
+                            <b>GoFamy</b> provides quality, authentic YouTube livestream views from real followers with active
                             YouTube profiles. This calculated action improves your participation and naturally increases your
-                            platform reach. Invest in your YouTube livestream success right now with <b>TubeViews</b> and see the
+                            platform reach. Invest in your YouTube livestream success right now with <b>GoFamy</b> and see the
                             transforming potential of real views!
                         </p>
                     </div>
                     <div className="mt-5">
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
-                            Why should I use TubeViews?
+                            Why should I use GoFamy?
                         </h3>
                         <p className='leading-relaxed text-slate-600 mt-2'>
-                            Our first focus at <b>TubeViews</b> is providing excellent services to fit your particular social media
+                            Our first focus at <b>GoFamy</b> is providing excellent services to fit your particular social media
                             requirements. With our assistance, your YouTube channel will be more visible and you will have an
                             engagement spike, which will eventually result in greater growth. Our differences are as follows:
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-2'>
-                            <b>TubeViews</b> provides quality, authentic YouTube livestream views from real followers with active
+                            <b>GoFamy</b> provides quality, authentic YouTube livestream views from real followers with active
                             YouTube profiles. This calculated action improves your participation and naturally increases your
-                            platform reach. Invest in your YouTube livestream success right now with <b>TubeViews</b> and see the
+                            platform reach. Invest in your YouTube livestream success right now with <b>GoFamy</b> and see the
                             transforming potential of real views!
                         </p>
                         <div className="mt-4 flex flex-col gap-5">
                             <div>
                                 <h4 className="text-xl font-semibold text-slate-600">Decades of Experience with Social Media</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> is a staff of seasoned live-streaming promotion gurus with more than ten years of field
+                                    <b>GoFamy</b> is a staff of seasoned live-streaming promotion gurus with more than ten years of field
                                     experience. Our great knowledge qualifies us as the best option for anybody trying to increase their
                                     YouTube live video views.
                                 </p>
@@ -487,7 +487,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                             <div>
                                 <h4 className="text-xl font-semibold text-slate-600">Various YouTube High Retention Viewpoints</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Every artist has distinct demands and aspirations, hence at <b>TubeViews</b> we provide many livestream
+                                    Every artist has distinct demands and aspirations, hence at <b>GoFamy</b> we provide many livestream
                                     view choices from which to pick. You may choose between concurrent views or video views;
                                     concurrent viewers will see your live broadcast from the start to the finish of it. We also provide a watch time's; (15, 30 minutes, and 1, 3, 6, 12, and 24 hours) option. The live viewers for video views
                                     will join your livestream for a designated duration and depart for the next group of viewers to join
@@ -517,7 +517,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                             <div>
                                 <h4 className="text-xl font-semibold text-slate-600">Our Guarantees</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    We at <b>TubeViews</b> respect your confidence and provide two dependable assurances to enable you to
+                                    We at <b>GoFamy</b> respect your confidence and provide two dependable assurances to enable you to
                                     <b>Buy YouTube Live Stream Views</b> free from concern. Our 30-day money-back guarantee
                                     guarantees that should we be unable to provide the live stream views for circumstances outside of
                                     our control, you will get a refund. Furthermore, should your video views diminish within 60 days,
@@ -527,9 +527,9 @@ may appear a little challenging, rest assured; we have made it simple for you.
                             <div>
                                 <h4 className="text-xl font-semibold text-slate-600">No passwords required</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Buying live-stream viewers on YouTube with <b>TubeViews</b> allows you to keep your password
+                                    Buying live-stream viewers on YouTube with <b>GoFamy</b> allows you to keep your password
                                     private. We provide our service flawlessly without your sharing of personal information; hence,
-                                    your account is kept secure against any potential breach. <b>TubeViews</b> can therefore help you not to
+                                    your account is kept secure against any potential breach. <b>GoFamy</b> can therefore help you not to
                                     worry if you have privacy issues about revealing your personal data.
                                 </p>
                             </div>
@@ -545,7 +545,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
                             <div>
                                 <h4 className="text-xl font-semibold text-slate-600">Customer Service in Response</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Excellent and consistent customer service staff of <b>TubeViews</b> is well known. Our support staff is
+                                    Excellent and consistent customer service staff of <b>GoFamy</b> is well known. Our support staff is
                                     well-trained to assist with any problems, questions, or concerns that might develop at any stage of
                                     the Buy process. Our Live chat tool or email allows clients to get in touch with us via their chosen
                                     channel.
@@ -555,16 +555,16 @@ may appear a little challenging, rest assured; we have made it simple for you.
                     </div>
                     <div className="mt-5">
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
-                            Buy YouTube Livestream Views from TubeViews
+                            Buy YouTube Livestream Views from GoFamy
                         </h3>
                         <p className='leading-relaxed text-slate-600 mt-2'>
-                            <b>TubeViews</b> makes Buying viewers for live streamig simple on YouTube. In a few steps you may
+                            <b>GoFamy</b> makes Buying viewers for live streamig simple on YouTube. In a few steps you may
                             change your livestream participation and increase your profile. Buy like this:
                         </p>
                         <p className='leading-relaxed text-slate-600 mt-2'>
-                            <b>TubeViews</b> provides quality, authentic YouTube livestream views from real followers with active
+                            <b>GoFamy</b> provides quality, authentic YouTube livestream views from real followers with active
                             YouTube profiles. This calculated action improves your participation and naturally increases your
-                            platform reach. Invest in your YouTube livestream success right now with <b>TubeViews</b> and see the
+                            platform reach. Invest in your YouTube livestream success right now with <b>GoFamy</b> and see the
                             transforming potential of real views!
                         </p>
                         <ul className="list-disc list-inside">
@@ -604,7 +604,7 @@ may appear a little challenging, rest assured; we have made it simple for you.
             </div>
             <ContentSection1
                 heading={"🎉 Advantages of Buying YouTube Livestream Views"}
-                subHeading={"Tubeviews helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
+                subHeading={"GoFamy helps you grow your Youtube Channel with fully Ad-Based and Real Likes."}
                 contents={
                     `
                     <div>

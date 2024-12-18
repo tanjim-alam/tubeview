@@ -3,8 +3,8 @@ import CartPage from "./CartPage"
 
 export const generateMetadata = () => {
     return {
-        title: "Cart -  Tubeviews",
-        description: "Cart -  Tubeviews"
+        title: "Cart -  GoFamy",
+        description: "Cart -  GoFamy"
     }
 }
 

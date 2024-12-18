@@ -202,7 +202,7 @@ function YouTubeViews50000Page() {
                     </div>
                     <div className='mt-6'>
                         <h1 className='text-3xl font-semibold text-black'>Buy 50000/50k YouTube Views with <span className='text-red-500'>Instant Delivery</span></h1>
-                        <p className='text-xl text-gray-600 mt-4'>Tubeviews offers only the highest quality services. Buy safely and securely below:</p>
+                        <p className='text-xl text-gray-600 mt-4'>GoFamy offers only the highest quality services. Buy safely and securely below:</p>
                     </div>
                     <div className='mt-7'>
                         <div className='p-2 flex gap-4 shadow-[1px_1px_4px_rgba(0,0,0,0.20)] rounded-md'>

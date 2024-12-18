@@ -276,7 +276,7 @@ function IgStoryViewerPage() {
                         <div className='mt-6'>
                             <h2
                                 className='lg:text-[30px] text-xl font-semibold leading-8 text-black'
-                            >How to Use the TubeViews Instagram Story Viewer</h2>
+                            >How to Use the GoFamy Instagram Story Viewer</h2>
                             <p className="leading-relaxed text-slate-700 mt-2">
                                 Using the Instagram Story Viewer is simple and straightforward:
                             </p>

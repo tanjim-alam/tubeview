@@ -47,12 +47,12 @@ export default function Home() {
       <ImportantSection />
       <AllServicesSection />
       <WhyYouChooseSection
-        heading={"✊ Why Choose Tubeviews for YouTube Views?"}
-        subHeading={"Buying YouTube views from Tubeviews improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
+        heading={"✊ Why Choose GoFamy for YouTube Views?"}
+        subHeading={"Buying YouTube views from GoFamy improves the exposure and reach of your video, not just increases quantities. Our approach increases your chances of becoming viral, helps you get momentum, and draws a bigger audience."}
         title1={"Security and Privacy First"}
         description1={
           `
-                    At Tubeviews, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
+                    At GoFamy, we value your privacy rather highly. Our platform guarantees a 100% safe and confidential
                     service, thereby assuring that your channel develops in a secure surroundings while you concentrate on
                     producing excellent material. Let us address the opinions while you focus on what is important—your
                     audience.
@@ -61,7 +61,7 @@ export default function Home() {
         title2={"Proven YouTube Growth"}
         description2={
           `
-                    Having years of expertise guiding YouTube artists towards growth, Tubeviews provides a dependable
+                    Having years of expertise guiding YouTube artists towards growth, GoFamy provides a dependable
                     and quick service. We know the dynamics of YouTube and customise our strategy to guarantee that your
                     material receives the exposure it deserves.
                     `
@@ -77,7 +77,7 @@ export default function Home() {
         title4={"24/7 Exclusive Support"}
         description4={
           `
-                    Have questions or want help? Our staff at Tubeviews is on hand around-the-clock to help you as
+                    Have questions or want help? Our staff at GoFamy is on hand around-the-clock to help you as
                     required. Whether it's monitoring your views or answering any questions, we are here to make sure your
                     experience is seamless and free from concerns.
                     `
@@ -87,7 +87,7 @@ export default function Home() {
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex flex-col lg:flex-row items-center'>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Buy YouTube Views from TubeViews</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Buy YouTube Views from GoFamy</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
               Have you ever thought of having a good amount of youtube views? The main objective is to increase your fan base. Every day,
               its customers watch almost one million hours of footage. There are few factors, which are taken into consideration when you
@@ -106,7 +106,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:w-[40%] w-[100%] flex justify-center items-center">
-            <Image width={400} height={300} alt="Tubeviews" src={"/tubeviews-about.webp"} />
+            <Image width={400} height={300} alt="GoFamy" src={"/tubeviews-about.webp"} />
           </div>
         </div>
       </div>
@@ -115,12 +115,12 @@ export default function Home() {
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex flex-col-reverse lg:flex-row items-center'>
           <div className="lg:w-[40%] w-[100%] flex justify-center items-center">
-            <Image width={400} height={300} alt="Tubeviews" src={"/tubeviews-home.webp"} />
+            <Image width={400} height={300} alt="GoFamy" src={"/tubeviews-home.webp"} />
           </div>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Why Should You Buy YouTube Views from TubeViews.co?</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Why Should You Buy YouTube Views from GoFamy.com?</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
-              Its best to buy YouTube views from TubeViews as the services are very fast and reasonable.
+              Its best to buy YouTube views from GoFamy as the services are very fast and reasonable.
               All of our operations, particularly our YouTube viewing business, are AdSense-safe.
               The delivery of the package is very safe.
             </p>
@@ -140,7 +140,7 @@ export default function Home() {
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex lg:flex-row flex-col items-center'>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>What is the benefit of buying YouTube views from TubeViews.co?</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>What is the benefit of buying YouTube views from GoFamy.com?</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
               Benefits of more buying Youtube views from Tube views are as follows:
             </p>
@@ -153,13 +153,13 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:w-[40%] w-[100%] flex justify-center items-center">
-            <Image width={400} height={300} alt="Tubeviews" src={"/tubeviews-views.webp"} />
+            <Image width={400} height={300} alt="GoFamy" src={"/tubeviews-views.webp"} />
           </div>
         </div>
       </div>
       <FaqSection
         heading={"🥇 Celebrating Success: Stories Straight from Our Clients!"}
-        subHeading={"At TubeViews, your satisfaction comes first. Enjoy exceptional customer Support and watch your social media presence skyrocket!"}
+        subHeading={"At GoFamy, your satisfaction comes first. Enjoy exceptional customer Support and watch your social media presence skyrocket!"}
         faqData={faqData}
       />
       <ReviewsSection reviewsData={homePageReviews || []} />

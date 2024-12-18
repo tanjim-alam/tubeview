@@ -69,7 +69,7 @@ activities.
             id: 6,
             title: "Safe and Private Exchanges",
             description: `
-            Tubeviews gives your security and privacy first priority. Safe payment methods are used in all transactions,
+            GoFamy gives your security and privacy first priority. Safe payment methods are used in all transactions,
 hence your information stays private all through the procedure.
             `,
             icon: <AiFillSafetyCertificate />
@@ -98,7 +98,7 @@ questions or you need guidance on maximising participation.
             id: 9,
             title: "Affordable Solution for Costs",
             description:
-                `Purchasing Facebook comments from Tubeviews is a cheap approach to increase your web profile. Having
+                `Purchasing Facebook comments from GoFamy is a cheap approach to increase your web profile. Having
 many packages lets you select a solution that matches your budget and produces noticeable results.
             `,
             icon: <AiOutlineSolution />
@@ -189,13 +189,13 @@ own safety and well-being first priority.
             <div className='bg-white'>
                 <div className=' bg-[#f5f7fe] py-5 px-4 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[90%] xl:w-[70%] w-[90%] '>
-                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Comments from Tubeviews</h3>
+                        <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>✊ Buy Facebook Comments from GoFamy</h3>
                     </div>
                 </div>
                 <div className='lg:w-[70%] w-[90%] m-auto py-5'>
                     <p className="leading-relaxed text-slate-600 text-center mt-1">
                         It has never been more simple to improve your Facebook interaction! Choosing to purchase Facebook
-                        comments from Tubeviews opens a number of advantages meant to improve your social media profile.
+                        comments from GoFamy opens a number of advantages meant to improve your social media profile.
                     </p>
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5 mt-4'>
                         <div className='group border rounded-tl-3xl rounded-br-3xl shadow-[0_2px_2px_rgba(0,0,0,0.10)] p-8 flex flex-col gap-4 hover:bg-primary'>
@@ -235,7 +235,7 @@ own safety and well-being first priority.
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    Customisable packages from Tubeviews let you match your particular demand. Select the comments; tone
+                                    Customisable packages from GoFamy let you match your particular demand. Select the comments; tone
                                     and approach that fit your brand language to guarantee real conversations that speak to your readers.
                                 </p>
                             </div>
@@ -271,7 +271,7 @@ own safety and well-being first priority.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            Buy Facebook Comments: Increase TubeViews; Social Media Engagement
+                            Buy Facebook Comments: Increase GoFamy; Social Media Engagement
                         </h3>
                     </div>
                 </div>
@@ -281,7 +281,7 @@ own safety and well-being first priority.
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 Getting unique among the always changing social media scene might be difficult. Creating interesting material is just the
                                 start given billions of people and many marketers fighting for attention. On sites like Facebook, you must improve your
-                                online presence, raise your interaction rates, and establish reputation if you want to really shine. That's where Tubeviews
+                                online presence, raise your interaction rates, and establish reputation if you want to really shine. That's where GoFamy
                                 finds application. We provide a special chance to <b>Buy Facebook comments</b> that will improve your social media approach
                                 and enable you to meet corporate objectives.
                             </p>
@@ -349,7 +349,7 @@ own safety and well-being first priority.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 How Tubeviews Might Benefit?
+                            🧍 How GoFamy Might Benefit?
                         </h3>
                     </div>
                 </div>
@@ -358,14 +358,14 @@ own safety and well-being first priority.
                         <div className="mt-4 flex flex-col gap-4">
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
-                                    <b>TubeViews</b> is aware of the social media dynamics and the need of comments in increasing interaction. Our service lets you
+                                    <b>GoFamy</b> is aware of the social media dynamics and the need of comments in increasing interaction. Our service lets you
                                     quickly <b>Buy Facebook Comments</b> fit for your requirements. We follow this method:
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Excellent Reviews</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    You should anticipate excellent, relevant comments when deciding to <b>Buy Facebook Comments</b> from Tubeviews. Our
+                                    You should anticipate excellent, relevant comments when deciding to <b>Buy Facebook Comments</b> from GoFamy. Our
                                     staff makes great effort to guarantee that the comments capture actual engagement and interest. They so seem natural and
                                     help to increase the authenticity of your postings.
                                 </p>
@@ -397,7 +397,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">5. Targeted Engagement Strategies</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> provides tailored interaction tactics that enable you to reach certain demographics relevant to your business.
+                                    <b>GoFamy</b> provides tailored interaction tactics that enable you to reach certain demographics relevant to your business.
                                     You may guarantee that the comments on your postings are from people who are truly interested in your goods or services
                                     by targeting audiences based on their interests, age groupings, or geographical areas. This tailored strategy improves the
                                     chances of turning comments into genuine consumers.
@@ -428,7 +428,7 @@ own safety and well-being first priority.
                                 <h4 className="text-lg font-semibold text-slate-700">8. Create a community around your brand</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Comments encourage connection and discourse, which helps to establish a community around your business. When
-                                    people read comments about your brand, they may feel obliged to respond or ask inquiries. Tubeviews may assist create
+                                    people read comments about your brand, they may feel obliged to respond or ask inquiries. GoFamy may assist create
                                     this community component by prompting debates and instilling a feeling of belonging in your following.
                                 </p>
 
@@ -436,7 +436,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">9. Real-time feedback and interaction.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Using <b>TubeViews</b> services, you may get real-time feedback from your viewers via comments. This rapid engagement
+                                    Using <b>GoFamy</b> services, you may get real-time feedback from your viewers via comments. This rapid engagement
                                     enables you to assess customer responses to your goods, promotions, or content. Based on this input, you can swiftly
                                     change your approach to ensure that your content connects with your target audience and successfully serves their
                                     demands.
@@ -454,7 +454,7 @@ own safety and well-being first priority.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Optimising Your Marketing Efforts Using Tubeviews
+                            🧍 Optimising Your Marketing Efforts Using GoFamy
                         </h3>
                     </div>
                 </div>
@@ -464,14 +464,14 @@ own safety and well-being first priority.
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
                                     Every encounter in the competitive field of digital marketing matters. Using sensible tools and techniques is crucial if one
-                                    wants to stand out and have a long-lasting impression. This is where <b>TubeViews</b> may help you to maximise your marketing
+                                    wants to stand out and have a long-lasting impression. This is where <b>GoFamy</b> may help you to maximise your marketing
                                     activities by means of the deliberate acquisition of Facebook comments.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Increasing Engagement Rates</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Using <b>TubeViews</b> is one of the main benefits in terms of much increased engagement rates. Buying Facebook comments
+                                    Using <b>GoFamy</b> is one of the main benefits in terms of much increased engagement rates. Buying Facebook comments
                                     makes you immediately seem relevant and popular. Naturally, posts with more comments attract more attention and
                                     encourage additional people to join the discussion. This more participation not only raises the exposure of your business
                                     but also promotes natural interactions that result in a larger reach and more community involvement.
@@ -488,7 +488,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Building Your Brand Identity</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    <b>TubeViews</b> let you match the comments to your brand message and voice. Customising comments guarantees that they
+                                    <b>GoFamy</b> let you match the comments to your brand message and voice. Customising comments guarantees that they
                                     appeal to your target market, therefore improving your brand identification and forging closer ties with your fans.
                                     Customers that experience this alignment develop brand loyalty as they relate better to a brand that speaks honestly and
                                     efficiently.
@@ -506,7 +506,7 @@ own safety and well-being first priority.
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">Using analytics for strategic expansion</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Comprehensive data from <b>TubeViews</b> enable you to evaluate how comments you bought affect your general marketing
+                                    Comprehensive data from <b>GoFamy</b> enable you to evaluate how comments you bought affect your general marketing
                                     plan. Tracking engagement statistics can help you to better understand the kinds of materials your audience finds most
                                     interesting. This information helps you to improve your marketing strategy and guarantees even greater success of next
                                     initiatives.
@@ -517,7 +517,7 @@ own safety and well-being first priority.
                                 <p className='leading-relaxed text-slate-600 mt-1'>
                                     Including tube views into your marketing plan will revolutionise it. Maximising your efforts with bought Facebook
                                     comments can help you improve engagement, establish brand identification, increase traffic, and use insightful insights for
-                                    expansion. <b>TubeViews</b> can help you to elevate your marketing and see how well your brand performs online!
+                                    expansion. <b>GoFamy</b> can help you to elevate your marketing and see how well your brand performs online!
                                 </p>
 
                             </div>
@@ -533,7 +533,7 @@ own safety and well-being first priority.
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🧍 Beginning with Tubeviews Today
+                            🧍 Beginning with GoFamy Today
                         </h3>
                     </div>
                 </div>
@@ -543,14 +543,14 @@ own safety and well-being first priority.
                             <div>
                                 <p className='leading-relaxed text-slate-600'>
                                     Are you prepared to improve your Facebook post engagement and raise your social media profile? Starting with
-                                    Tubeviews is fast and simple! Apply these easy guidelines to change your marketing plan and see how well your business
+                                    GoFamy is fast and simple! Apply these easy guidelines to change your marketing plan and see how well your business
                                     grows.
                                 </p>
                             </div>
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-700">1. Go to our website.</h4>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Visit the Tubeviews website to investigate our variety of offerings. For purchase of Facebook comments, you will discover
+                                    Visit the GoFamy website to investigate our variety of offerings. For purchase of Facebook comments, you will discover
                                     comprehensive information on the many packages we provide, catered to fit different budgets and demands.
                                 </p>
                             </div>
@@ -586,7 +586,7 @@ own safety and well-being first priority.
                             </div>
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Wait not! Start using Tubeviews right now and go towards changing your social media interaction.
+                                    Wait not! Start using GoFamy right now and go towards changing your social media interaction.
                                 </p>
 
                             </div>

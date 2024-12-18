@@ -95,8 +95,8 @@ function ThankYouPage() {
                     <h2 className="text-green-600">Need Help?</h2>
                     <p className="text-gray-600">
                         If you have any questions about your order, please contact our customer service team at{' '}
-                        <a href="mailto:support@tubeviews.co" className="text-green-600 no-underline">
-                            support@tubeviews.co
+                        <a href="mailto:support@gofamy.com" className="text-green-600 no-underline">
+                            support@gofamy.com
                         </a>.
                     </p>
                 </div>

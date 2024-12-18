@@ -12,6 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         openSans: ['Open Sans', 'sans-serif'],
@@ -26,6 +27,9 @@ module.exports = {
         accent: '#673ab7',       // Example custom color
         'light-gray': '#f1f1f1', // Example custom color with hyphen
         'dark-gray': '#333333',  // Example custom color with hyphen
+      },
+      screens: {
+        xl: '1280px', // Ensure this is defined correctly
       },
     },
   },
