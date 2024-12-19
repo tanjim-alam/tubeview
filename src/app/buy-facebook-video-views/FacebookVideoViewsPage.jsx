@@ -72,7 +72,7 @@ engaged with your video will see it.
             title: "Safe Payments",
             description:
                 `
-           For a secure transaction procedure, Tube Views provides a number of secure payment options,
+           For a secure transaction procedure, GoFamy provides a number of secure payment options,
 including PayPal and credit cards.
             `,
             icon: <MdOutlinePayment />
@@ -129,17 +129,17 @@ draw more natural involvement.
         },
         {
             id: 5,
-            question: "How does buying FB video views from Tube Views work?",
+            question: "How does buying FB video views from GoFamy work?",
             answer:
-                `Once you have chosen a package on the Tube Views website, you just provide the Facebook video URL you want to advertise.
-After that, Tube Views will naturally transfer the acquired views to your video thereby improving its exposure.
+                `Once you have chosen a package on the GoFamy website, you just provide the Facebook video URL you want to advertise.
+After that, GoFamy will naturally transfer the acquired views to your video thereby improving its exposure.
                 `
         },
         {
             id: 6,
-            question: "Are Tube Views; points of view authentic or fictional?",
+            question: "Are GoFamy; points of view authentic or fictional?",
             answer:
-                `Every point of view expressed by Tube Views comes from actual and active experiences. Tube Views gives top priority on giving
+                `Every point of view expressed by GoFamy comes from actual and active experiences. GoFamy gives top priority on giving
 real views to make sure your material stays in good standing with Facebook's algorithm.
                 `
         },
@@ -147,7 +147,7 @@ real views to make sure your material stays in good standing with Facebook's alg
             id: 7,
             question: "Is buying Facebook video views safe?",
             answer:
-                `Buying Facebook video views using Tube Views is secure, really. Tube Views guarantees that your account won be warned or
+                `Buying Facebook video views using GoFamy is secure, really. GoFamy guarantees that your account won be warned or
 banned by Facebook by using moral approaches to provide views.
                 `
         },
@@ -163,7 +163,7 @@ package it might take up to 24 hours to show notable effects.
             id: 9,
             question: "Can I buy views based on specified demographics?",
             answer:
-                `Indeed, some of the products Tube Views offers let you target specified groups, like viewers from particular areas or those with
+                `Indeed, some of the products GoFamy offers let you target specified groups, like viewers from particular areas or those with
 particular interests. This assists your audience to be in line with your intended market.
                 `
         }
@@ -201,7 +201,7 @@ particular interests. This assists your audience to be in line with your intende
                             </div>
                             <div className='group-hover:text-white'>
                                 <p className='text-[15px] text-slate-600 leading-normal group-hover:text-white'>
-                                    Tube Views guarantees your video reaches a real audience by delivering actual
+                                    GoFamy guarantees your video reaches a real audience by delivering actual
                                     views from active Facebook users.
                                 </p>
                             </div>
@@ -500,7 +500,7 @@ particular interests. This assists your audience to be in line with your intende
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Why Buy Facebook Views from Tube Views?
+                            🤚🏿 Why Buy Facebook Views from GoFamy?
                         </h3>
                     </div>
                 </div>
@@ -515,21 +515,21 @@ particular interests. This assists your audience to be in line with your intende
                         />
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Tube Views is unique among providers of Facebook video views in that it is reliable:
+                                GoFamy is unique among providers of Facebook video views in that it is reliable:
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Tube Views guarantees that every bought view originates from actual, live accounts. This helps to preserve the integrity of your
+                                GoFamy guarantees that every bought view originates from actual, live accounts. This helps to preserve the integrity of your
                                 Facebook page by way of the views you get not from bots.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Affordable Packages: Tube Views provides a selection of packages to fit any budget regardless of your level of experience as a
+                                Affordable Packages: GoFamy provides a selection of packages to fit any budget regardless of your level of experience as a
                                 video producer or merely beginning point.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Tube Views offers many safe payment options so you may be sure your transaction will be secure.
+                                GoFamy offers many safe payment options so you may be sure your transaction will be secure.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                Tube Views provides customer service should you have questions or issues to help you with the process.
+                                GoFamy provides customer service should you have questions or issues to help you with the process.
                             </p>
                         </div>
                     </div>
@@ -606,7 +606,7 @@ particular interests. This assists your audience to be in line with your intende
                             enhances your profile and generates more views.
                         </p>
                         <p className="leading-relaxed text-slate-600 mt-2">
-                            <b>Buying Facebook video views</b> from Tube views will get you the start you need and increase people's willingness to offer their
+                            <b>Buying Facebook video views</b> from GoFamy will get you the start you need and increase people's willingness to offer their
                             likes or comments upon seeing your marketing material. Two kinds of video viewing are possible from our system. The first one
                             are opinions expressed by actual Facebook users. These actual Facebook members can see your film; if they like it, millions of
                             others may view it. The second one relates to the opinions of Facebook users with realistic-looking bot appearance. Though they
@@ -667,7 +667,7 @@ particular interests. This assists your audience to be in line with your intende
                 <div className='bg-[#f5f7fe] py-5 px-4 lg:px-0 flex flex-col gap-3 justify-center items-center'>
                     <div className='lg:w-[70%] w-[90%] '>
                         <h3 className='lg:text-[2rem] text-xl font-semibold text-center text-black'>
-                            🤚🏿 Use Tube Views to Speed Up Your Facebook Growth
+                            🤚🏿 Use GoFamy to Speed Up Your Facebook Growth
                         </h3>
                     </div>
                 </div>
@@ -682,8 +682,8 @@ particular interests. This assists your audience to be in line with your intende
                         />
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
-                                Buying Facebook video views from Tube Views is a great way to help you fast-track your development on the network, boost
-                                credibility, and raise profile. Tube Views guarantees your Facebook videos get the attention they deserve with straightforward
+                                Buying Facebook video views from GoFamy is a great way to help you fast-track your development on the network, boost
+                                credibility, and raise profile. GoFamy guarantees your Facebook videos get the attention they deserve with straightforward
                                 processes, safe payment methods, and real views. Buyd views should, however, be a component of a larger plan including regular
                                 posting, high-quality material, and active audience participation.
                             </p>

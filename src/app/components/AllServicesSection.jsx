@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import React, { useState } from 'react';
-import navLinksData from "../constant/general/navlinksData.js"
+import navLinksData from "../constant/general/allServicesLinks.js"
 
 function AllServicesSection() {
     const [activeId, setActiveId] = useState(null);

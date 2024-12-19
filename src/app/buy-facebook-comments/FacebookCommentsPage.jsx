@@ -515,7 +515,7 @@ own safety and well-being first priority.
                             </div>
                             <div>
                                 <p className='leading-relaxed text-slate-600 mt-1'>
-                                    Including tube views into your marketing plan will revolutionise it. Maximising your efforts with bought Facebook
+                                    Including GoFamy into your marketing plan will revolutionise it. Maximising your efforts with bought Facebook
                                     comments can help you improve engagement, establish brand identification, increase traffic, and use insightful insights for
                                     expansion. <b>GoFamy</b> can help you to elevate your marketing and see how well your brand performs online!
                                 </p>

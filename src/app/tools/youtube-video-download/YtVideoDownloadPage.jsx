@@ -115,12 +115,12 @@ function YtVideoDownloadPage() {
                             <Link href={"/tools/youtube-thumbnail-downloader"} className='bg-primary text-white text-lg font-semibold hover:bg-transparent hover:text-primary border-2  hover:border-primary py-2 px-4 rounded-full transition-transform duration-300'>
                                 Thumbails Download
                             </Link>
-                            <Link href={"/tools/youtube-video-analytics"}
+                            <Link href={"/tools/youtube-money-calculator"}
                                 className='bg-primary text-white text-lg font-semibold hover:bg-transparent hover:text-primary border-2  hover:border-primary py-2 px-4 rounded-full transition-transform duration-300'
                             >
                                 Money Calculator
                             </Link>
-                            <Link href={"/tools/youtube-money-calculator"}
+                            <Link href={"/tools/youtube-video-analytics"}
                                 className='bg-primary text-white text-lg font-semibold hover:bg-transparent hover:text-primary border-2  hover:border-primary py-2 px-4 rounded-full transition-transform duration-300'
                             >
                                 Video Analytics

@@ -425,7 +425,7 @@ password, hence your YouTube account is protected.
                 <div className="lg:w-[80%] w-[90%] m-auto lg:py-14 py-5">
                     <div>
                         <h3 className="text-xl lg:text-[2rem] font-semibold text-slate-600">
-                            Why Should I Buy YouTube Comments Using Tube Views?
+                            Why Should I Buy YouTube Comments Using GoFamy?
                         </h3>
                         <p className="leading-relaxed text-slate-600 mt-3">
                             Currently, so excellent. But why should you decide on our offerings to <b>buy YouTube comments</b>? Basically, at
@@ -529,7 +529,7 @@ password, hence your YouTube account is protected.
                                 anything less.
                             </p>
                             <p className="leading-relaxed text-slate-600 mt-3">
-                                You can be sure Tube views will provide the most competitive pricing. Buying fast comments might significantly speed
+                                You can be sure GoFamy will provide the most competitive pricing. Buying fast comments might significantly speed
                                 up the process of establishing a substantial fan following for your profile, brand, or account. Most of the time, this is
                                 how most channel owners today connect with their fans. You could also belong among their ranks.
                             </p>

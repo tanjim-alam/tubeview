@@ -87,7 +87,7 @@ export default function Home() {
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex flex-col lg:flex-row items-center'>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Buy YouTube Views from GoFamy</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3 leading-tight'>Buy YouTube Views from GoFamy</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
               Have you ever thought of having a good amount of youtube views? The main objective is to increase your fan base. Every day,
               its customers watch almost one million hours of footage. There are few factors, which are taken into consideration when you
@@ -118,14 +118,14 @@ export default function Home() {
             <Image width={400} height={300} alt="GoFamy" src={"/tubeviews-home.webp"} />
           </div>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>Why Should You Buy YouTube Views from GoFamy.com?</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold leading-tight text-slate-600 mt-3 '>Why Should You Buy YouTube Views from GoFamy.com?</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
               Its best to buy YouTube views from GoFamy as the services are very fast and reasonable.
               All of our operations, particularly our YouTube viewing business, are AdSense-safe.
               The delivery of the package is very safe.
             </p>
             <p className=' leading-relaxed text-slate-600 mt-3'>
-              Buying Youtube views from Tube views helps to Boost your chances of going global. Nobody becomes famous suddenly.
+              Buying Youtube views from GoFamy helps to Boost your chances of going global. Nobody becomes famous suddenly.
               Even if you buy engagement, your fame does not magically appear out of nowhere. Buying views, on the other hand, allows you to go popular.
               It is a strategy to improve your chances and get ahead of the competitors. In physics, it is similar to semiconductors,
               although I doubt most people would comprehend that. Regardless, let’s say you require at least a hundred million views to become famous,
@@ -140,9 +140,9 @@ export default function Home() {
         <p className='bg-primary p-1'></p>
         <div className='lg:w-[80%] w-[90%] m-auto lg:py-14 py-5 flex lg:flex-row flex-col items-center'>
           <div className="lg:w-[60%] w-[100%]">
-            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3'>What is the benefit of buying YouTube views from GoFamy.com?</h3>
+            <h3 className='text-xl lg:text-[2rem] font-semibold text-slate-600 mt-3 leading-tight'>What is the benefit of buying YouTube views from GoFamy.com?</h3>
             <p className=' leading-relaxed text-slate-600 mt-3'>
-              Benefits of more buying Youtube views from Tube views are as follows:
+              Benefits of more buying Youtube views from GoFamy are as follows:
             </p>
             <p className=' leading-relaxed text-slate-600 mt-3'>
               It demonstrates the importance of your channel’s ranking: When you want to put yourself as an influencer on YouTube.

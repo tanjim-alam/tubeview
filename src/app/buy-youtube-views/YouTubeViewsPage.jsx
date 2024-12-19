@@ -337,7 +337,7 @@ and adds to watch hours. Having several points of view calms the algorithm.
                         <div>
                             <p className="leading-relaxed text-slate-600 mt-1">
                                 With millions of people producing and viewing videos daily, YouTube is the go-to site for video content.
-                                Choosing to purchase YouTube views from tube views, a service providing views for your YouTube
+                                Choosing to purchase YouTube views from GoFamy, a service providing views for your YouTube
                                 content—is one way you may increase your profile on this network. Using the  GoFamy for getting YouTube views can help your channel becoming a lot more visible and credible right away. Your videos are
                                 more likely to show up in search results and suggestions when they have a big view count, attained maybe via
                                 instantaneous YouTube views, therefore drawing natural viewers and perhaps subscribers.
