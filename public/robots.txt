@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.tubeviews.co/
+Host: https://www.gofamy.com/
 
 # Sitemaps
-Sitemap: https://www.tubeviews.co/sitemap.xml
+Sitemap: https://www.gofamy.com/sitemap.xml
