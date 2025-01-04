@@ -5,6 +5,9 @@ export const generateMetadata = () => {
         title: "Buy Instagram Reels Views- 100% Real & Organic User | GoFamy",
         description: "Boost your Video Views on Instagram Reels instantly! Buy Instagram Reels Views to enhance your credibility, attract organic growth, and grow your audience effortlessly.",
         keywords: 'Buy Instagram Reels Views, Buy Real Instagram Reels Views, Buy Instant Instagram Reels Views',
+        alternates: {
+            canonical: 'https://www.gofamy.com/buy-instagram-reels-views',
+        }
     }
 }
 
