@@ -10,15 +10,15 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: '/',
+                source: '/:path*', // Matches all paths (root and nested paths)
                 has: [
                     {
                         type: 'host',
-                        value: 'gofamy.com', // Check if the request is from gofamy.com
+                        value: 'gofamy.com', // Ensure the request is from gofamy.com
                     },
                 ],
-                destination: 'https://www.gofamy.com', // Redirect to the www version
-                permanent: true, // Use a permanent 301 redirect
+                destination: 'https://www.gofamy.com/:path*', // Redirect to the www version while preserving the path
+                permanent: true, // Permanent 301 redirect
             },
         ];
     },
