@@ -14,7 +14,7 @@ function HeroSection({ title, subTitle, words, imgUrl }) {
             <div className='lg:w-[80%] w-[90%] pt-5 sm:pt-5 lg:h-[40rem] m-auto flex flex-col justify-center gap-16 items-center'>
                 <div className='flex flex-col lg:flex-row w-full justify-between items-center mt-5 gap-10'>
                     <div className="lg:w-[55%]">
-                        <h2 className='text-3xl xl:text-5xl lg:text-3xl font-bold text-center sm:text-start lg:text-start text-black leading-tight hidden lg:block' dangerouslySetInnerHTML={{ __html: title }}></h2>
+                        <h2 className='text-3xl xl:text-4xl lg:text-3xl font-bold text-center sm:text-start lg:text-start text-black leading-tight hidden lg:block' dangerouslySetInnerHTML={{ __html: title }}></h2>
                         <h2 className='text-3xl xl:text-5xl lg:text-3xl font-bold text-center sm:text-center lg:text-start text-black leading-tight block lg:hidden'>Boost Your Social Media Presence In Minutes!</h2>
                         <div className='flex justify-center lg:justify-start items-center gap-2'>
                             <div className='lg:text-3xl text-xl text-center lg:text-start font-semibold mt-2 text-black' dangerouslySetInnerHTML={{ __html: subTitle }}></div>
