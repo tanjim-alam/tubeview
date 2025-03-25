@@ -1,0 +1,132 @@
+{
+    "serviceName": "Real Therads Comments",
+    "services": [
+        {
+            "id": 1,
+            "type": "Random",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Comments",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Comments",
+                    "qnt": 5,
+                    "price": 2,
+                    "discount": "15"
+                },
+                {
+                    "id": 2,
+                    "package": "Comments",
+                    "qnt": 10,
+                    "price": 4.96,
+                    "discount": "23"
+                },
+                {
+                    "id": 3,
+                    "package": "Comments",
+                    "qnt": 20,
+                    "price": 8.5,
+                    "discount": "25"
+                },
+                {
+                    "id": 4,
+                    "package": "Comments",
+                    "qnt": 50,
+                    "price": 18.95,
+                    "discount": "25"
+                },
+                {
+                    "id": 5,
+                    "package": "Comments",
+                    "qnt": 100,
+                    "price": 32,
+                    "discount": "30"
+                },
+                {
+                    "id": 6,
+                    "package": "Comments",
+                    "qnt": 200,
+                    "price": 55,
+                    "discount": "40"
+                },
+                {
+                    "id": 7,
+                    "package": "Comments",
+                    "qnt": 500,
+                    "price": 129,
+                    "discount": "55"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "type": "Custom",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL Comments from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Comments",
+                    "qnt": 5,
+                    "price": 3,
+                    "discount": "15"
+                },
+                {
+                    "id": 2,
+                    "package": "Comments",
+                    "qnt": 10,
+                    "price": 5.96,
+                    "discount": "23"
+                },
+                {
+                    "id": 3,
+                    "package": "Comments",
+                    "qnt": 20,
+                    "price": 9.5,
+                    "discount": "25"
+                },
+                {
+                    "id": 4,
+                    "package": "Comments",
+                    "qnt": 50,
+                    "price": 19.95,
+                    "discount": "25"
+                },
+                {
+                    "id": 5,
+                    "package": "Comments",
+                    "qnt": 100,
+                    "price": 35,
+                    "discount": "30"
+                },
+                {
+                    "id": 6,
+                    "package": "Comments",
+                    "qnt": 200,
+                    "price": 59,
+                    "discount": "40"
+                },
+                {
+                    "id": 7,
+                    "package": "Comments",
+                    "qnt": 500,
+                    "price": 135,
+                    "discount": "55"
+                }
+            ]
+        }
+    ]
+}

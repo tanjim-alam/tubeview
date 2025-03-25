@@ -1,0 +1,137 @@
+{
+    "serviceName": "Real Twitter Likes",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Likes",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Likes",
+                    "qnt": 50,
+                    "price": 1
+                },
+                {
+                    "id": 2,
+                    "package": "Likes",
+                    "qnt": 100,
+                    "price": 1.70,
+                    "discount": "11"
+                },
+                {
+                    "id": 3,
+                    "package": "Likes",
+                    "qnt": 250,
+                    "price": 3.99,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Likes",
+                    "qnt": 500,
+                    "price": 7.45,
+                    "discount": "21"
+                },
+                {
+                    "id": 5,
+                    "package": "Likes",
+                    "qnt": 1000,
+                    "price": 12.99,
+                    "discount": "31"
+                },
+                {
+                    "id": 6,
+                    "package": "Likes",
+                    "qnt": 2500,
+                    "price": 29,
+                    "discount": "39"
+                },
+                {
+                    "id": 7,
+                    "package": "Likes",
+                    "qnt": 5000,
+                    "price": 57.50,
+                    "discount": "40"
+                },
+                {
+                    "id": 8,
+                    "package": "Likes",
+                    "qnt": 10000,
+                    "price": 111,
+                    "discount": "41"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Premium",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL Likes from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Likes",
+                    "qnt": 50,
+                    "price": 4.60
+                },
+                {
+                    "id": 2,
+                    "package": "Likes",
+                    "qnt": 100,
+                    "price": 8.20,
+                    "discount": "11"
+                },
+                {
+                    "id": 3,
+                    "package": "Likes",
+                    "qnt": 250,
+                    "price": 16.50,
+                    "discount": "29"
+                },
+                {
+                    "id": 4,
+                    "package": "Likes",
+                    "qnt": 500,
+                    "price": 32.00,
+                    "discount": "31"
+                },
+                {
+                    "id": 5,
+                    "package": "Likes",
+                    "qnt": 1000,
+                    "price": 64,
+                    "discount": "31"
+                },
+                {
+                    "id": 6,
+                    "package": "Likes",
+                    "qnt": 2500,
+                    "price": 130,
+                    "discount": "40"
+                },
+                {
+                    "id": 7,
+                    "package": "Likes",
+                    "qnt": 5000,
+                    "price": 260,
+                    "discount": "44"
+                }
+            ]
+        }
+    ]
+}

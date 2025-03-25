@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.gofamy.com/
+
+# Sitemaps
+Sitemap: https://www.gofamy.com/sitemap.xml

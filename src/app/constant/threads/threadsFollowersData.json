@@ -1,0 +1,66 @@
+{
+    "serviceName": "Real Therads Followers",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Followers",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Followers",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 50,
+                    "price": 2.50
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 100,
+                    "price": 4,
+                    "discount": "59"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 250,
+                    "price": 7,
+                    "discount": "65"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 13,
+                    "discount": "68"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 25,
+                    "discount": "69"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 2500,
+                    "price": 60,
+                    "discount": "70"
+                },
+                {
+                    "id": 7,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 115,
+                    "discount": "71"
+                }
+            ]
+        }
+    ]
+}

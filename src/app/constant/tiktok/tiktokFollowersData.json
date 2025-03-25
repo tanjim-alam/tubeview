@@ -1,0 +1,116 @@
+{
+    "serviceName": "Real TikTok Followers",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Followers",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 200,
+                    "price": 6.30
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 14,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 25,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 2000,
+                    "price": 49.50,
+                    "discount": "20"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 117,
+                    "discount": "25"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 10000,
+                    "price": 225,
+                    "discount": "30"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "type": "Premium",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL followers from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 200,
+                    "price": 9.30
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 18,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 29,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 2000,
+                    "price": 55.50,
+                    "discount": "20"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 122,
+                    "discount": "25"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 10000,
+                    "price": 229,
+                    "discount": "30"
+                }
+            ]
+        }
+    ]
+}

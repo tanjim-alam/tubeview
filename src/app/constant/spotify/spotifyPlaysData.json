@@ -1,0 +1,74 @@
+{
+    "serviceName": "Real Spotify Plays",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Plays",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Plays",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Plays",
+                    "qnt": 500,
+                    "price": 9,
+                    "discount": "10"
+                },
+                {
+                    "id": 2,
+                    "package": "Plays",
+                    "qnt": 1000,
+                    "price": 14,
+                    "discount": "20"
+                },
+                {
+                    "id": 3,
+                    "package": "Plays",
+                    "qnt": 2000,
+                    "price": 27,
+                    "discount": "25"
+                },
+                {
+                    "id": 4,
+                    "package": "Plays",
+                    "qnt": 5000,
+                    "price": 54,
+                    "discount": "30"
+                },
+                {
+                    "id": 5,
+                    "package": "Plays",
+                    "qnt": 10000,
+                    "price": 99,
+                    "discount": "40"
+                },
+                {
+                    "id": 6,
+                    "package": "Plays",
+                    "qnt": 20000,
+                    "price": 180,
+                    "discount": "40"
+                },
+                {
+                    "id": 7,
+                    "package": "Plays",
+                    "qnt": 50000,
+                    "price": 450,
+                    "discount": "45"
+                },
+                {
+                    "id": 8,
+                    "package": "Plays",
+                    "qnt": 100000,
+                    "price": 90,
+                    "discount": "50"
+                }
+            ]
+        }
+    ]
+}

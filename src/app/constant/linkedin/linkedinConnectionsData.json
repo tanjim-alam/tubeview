@@ -1,0 +1,53 @@
+{
+    "serviceName": "Real LinkedIn Connections",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Connections",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Connections",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Connections",
+                    "qnt": 200,
+                    "price": 45,
+                    "discount": "15"
+                },
+                {
+                    "id": 2,
+                    "package": "Connections",
+                    "qnt": 500,
+                    "price": 108,
+                    "discount": "15"
+                },
+                {
+                    "id": 3,
+                    "package": "Connections",
+                    "qnt": 1000,
+                    "price": 216,
+                    "discount": "20"
+                },
+                {
+                    "id": 4,
+                    "package": "Connections",
+                    "qnt": 2000,
+                    "price": 432,
+                    "discount": "25"
+                },
+                {
+                    "id": 5,
+                    "package": "Connections",
+                    "qnt": 5000,
+                    "price": 1080,
+                    "discount": "49"
+                }
+            ]
+        }
+    ]
+}

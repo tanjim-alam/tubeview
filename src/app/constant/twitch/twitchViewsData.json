@@ -1,0 +1,87 @@
+{
+    "serviceName": "Real Twitch Views",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Views",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Views",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Views",
+                    "qnt": 100,
+                    "price": 0.85
+                },
+                {
+                    "id": 2,
+                    "package": "Views",
+                    "qnt": 250,
+                    "price": 1.65,
+                    "discount": "22"
+                },
+                {
+                    "id": 3,
+                    "package": "Views",
+                    "qnt": 500,
+                    "price": 3.20,
+                    "discount": "24"
+                },
+                {
+                    "id": 4,
+                    "package": "Views",
+                    "qnt": 1000,
+                    "price": 6.20,
+                    "discount": "27"
+                },
+                {
+                    "id": 5,
+                    "package": "Views",
+                    "qnt": 2500,
+                    "price": 10.99,
+                    "discount": "48"
+                },
+                {
+                    "id": 6,
+                    "package": "Views",
+                    "qnt": 5000,
+                    "price": 20,
+                    "discount": "52"
+                },
+                {
+                    "id": 7,
+                    "package": "Views",
+                    "qnt": 10000,
+                    "price": 38,
+                    "discount": "55"
+                },
+                {
+                    "id": 8,
+                    "package": "Views",
+                    "qnt": 25000,
+                    "price": 80,
+                    "discount": "62"
+                },
+                {
+                    "id": 9,
+                    "package": "Views",
+                    "qnt": 50000,
+                    "price": 152,
+                    "discount": "64"
+                },
+                {
+                    "id": 10,
+                    "package": "Views",
+                    "qnt": 100000,
+                    "price": 299,
+                    "discount": "65"
+                }
+            ]
+        }
+    ]
+}

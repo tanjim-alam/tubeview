@@ -1,0 +1,172 @@
+{
+    "serviceName": "Real Twitter Video Views",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Video Views",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Video Views",
+                    "qnt": 500,
+                    "price": 5.40
+                },
+                {
+                    "id": 2,
+                    "package": "Video Views",
+                    "qnt": 1000,
+                    "price": 8.10,
+                    "discount": "12"
+                },
+                {
+                    "id": 3,
+                    "package": "Video Views",
+                    "qnt": 2000,
+                    "price": 13.50,
+                    "discount": "20"
+                },
+                {
+                    "id": 4,
+                    "package": "Video Views",
+                    "qnt": 5000,
+                    "price": 27.00,
+                    "discount": "35"
+                },
+                {
+                    "id": 5,
+                    "package": "Video Views",
+                    "qnt": 7500,
+                    "price": 40.50,
+                    "discount": "40"
+                },
+                {
+                    "id": 6,
+                    "package": "Video Views",
+                    "qnt": 10000,
+                    "price": 48.60,
+                    "discount": "49"
+                },
+                {
+                    "id": 7,
+                    "package": "Video Views",
+                    "qnt": 20000,
+                    "price": 86.40,
+                    "discount": "55"
+                },
+                {
+                    "id": 8,
+                    "package": "Video Views",
+                    "qnt": 25000,
+                    "price": 102.60,
+                    "discount": "59"
+                },
+                {
+                    "id": 9,
+                    "package": "Video Views",
+                    "qnt": 50000,
+                    "price": 189,
+                    "discount": "65"
+                },
+                {
+                    "id": 10,
+                    "package": "Video Views",
+                    "qnt": 100000,
+                    "price": 351,
+                    "discount": "75"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Premium",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL Video Views from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Video Views",
+                    "qnt": 500,
+                    "price": 7.40
+                },
+                {
+                    "id": 2,
+                    "package": "Video Views",
+                    "qnt": 1000,
+                    "price": 10.10,
+                    "discount": "12"
+                },
+                {
+                    "id": 3,
+                    "package": "Video Views",
+                    "qnt": 2000,
+                    "price": 15.50,
+                    "discount": "20"
+                },
+                {
+                    "id": 4,
+                    "package": "Video Views",
+                    "qnt": 5000,
+                    "price": 29.00,
+                    "discount": "35"
+                },
+                {
+                    "id": 5,
+                    "package": "Video Views",
+                    "qnt": 7500,
+                    "price": 43.50,
+                    "discount": "40"
+                },
+                {
+                    "id": 6,
+                    "package": "Video Views",
+                    "qnt": 10000,
+                    "price": 51.60,
+                    "discount": "49"
+                },
+                {
+                    "id": 7,
+                    "package": "Video Views",
+                    "qnt": 20000,
+                    "price": 99.40,
+                    "discount": "55"
+                },
+                {
+                    "id": 8,
+                    "package": "Video Views",
+                    "qnt": 25000,
+                    "price": 106.60,
+                    "discount": "59"
+                },
+                {
+                    "id": 9,
+                    "package": "Video Views",
+                    "qnt": 50000,
+                    "price": 192,
+                    "discount": "65"
+                },
+                {
+                    "id": 10,
+                    "package": "Video Views",
+                    "qnt": 100000,
+                    "price": 361,
+                    "discount": "75"
+                }
+            ]
+        }
+    ]
+}

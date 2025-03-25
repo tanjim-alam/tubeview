@@ -1,0 +1,66 @@
+{
+    "serviceName": "Real Instagram Reels Views",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Views",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Reels Views",
+                    "qnt": 500,
+                    "price": 2.50
+                },
+                {
+                    "id": 2,
+                    "package": "Reels Views",
+                    "qnt": 1000,
+                    "price": 4.50,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Reels Views",
+                    "qnt": 5000,
+                    "price": 20,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Reels Views",
+                    "qnt": 10000,
+                    "price": 39.99,
+                    "discount": "15"
+                },
+                {
+                    "id": 5,
+                    "package": "Reels Views",
+                    "qnt": 25000,
+                    "price": 85,
+                    "discount": "40"
+                },
+                {
+                    "id": 6,
+                    "package": "Reels Views",
+                    "qnt": 50000,
+                    "price": 160,
+                    "discount": "40"
+                },
+                {
+                    "id": 7,
+                    "package": "Reels Views",
+                    "qnt": 1000000,
+                    "price": 225,
+                    "discount": "60"
+                }
+            ]
+        }
+    ]
+}

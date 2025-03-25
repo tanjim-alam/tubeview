@@ -1,0 +1,124 @@
+{
+    "serviceName": "Real Twitter Followers",
+    "services": [
+        {
+            "id": 1,
+            "type": "Regular",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Followers",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 50,
+                    "price": 1.30,
+                    "discount": "25"
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 100,
+                    "price": 1.99,
+                    "discount": "43"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 250,
+                    "price": 3.59,
+                    "discount": "55"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 7.80,
+                    "discount": "55"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 14,
+                    "discount": "60"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 2500,
+                    "price": 34,
+                    "discount": "61"
+                },
+                {
+                    "id": 7,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 65,
+                    "discount": "62"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Premium",
+            "value": "EXCLUSIVE",
+            "keys": [
+                "Everything in Active, plus",
+                "REAL followers from Targeted people",
+                "Reach the explore page and turbocharge engagement",
+                "Guaranteed Instant Delivery",
+                "Priority lifetime VIP support",
+                "Boost opportunities for brand collaborations",
+                "Trusted by leading celebrities"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 100,
+                    "price": 2.50
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 250,
+                    "price": 5.25,
+                    "discount": "16"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 9.99,
+                    "discount": "20"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 18.99,
+                    "discount": "24"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 2500,
+                    "price": 46,
+                    "discount": "26"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 91,
+                    "discount": "29"
+                }
+            ]
+        }
+    ]
+}

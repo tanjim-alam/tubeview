@@ -1,0 +1,59 @@
+{
+    "serviceName": "Real TikTok Views",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Views",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Views",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Views",
+                    "qnt": 200,
+                    "price": 1.39
+                },
+                {
+                    "id": 2,
+                    "package": "Views",
+                    "qnt": 500,
+                    "price": 2.70,
+                    "discount": "15"
+                },
+                {
+                    "id": 3,
+                    "package": "Views",
+                    "qnt": 1000,
+                    "price": 4.50,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Views",
+                    "qnt": 2000,
+                    "price": 8.10,
+                    "discount": "20"
+                },
+                {
+                    "id": 5,
+                    "package": "Views",
+                    "qnt": 5000,
+                    "price": 18,
+                    "discount": "20"
+                },
+                {
+                    "id": 6,
+                    "package": "Views",
+                    "qnt": 10000,
+                    "price": 31,
+                    "discount": "25"
+                }
+            ]
+        }
+    ]
+}

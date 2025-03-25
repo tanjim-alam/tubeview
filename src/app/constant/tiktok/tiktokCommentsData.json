@@ -1,0 +1,94 @@
+{
+    "serviceName": "Real TikTok Comments",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Comments",
+            "value": "STANDARD",
+            "keys": [
+                "High Quality Comments",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Comments",
+                    "qnt": 10,
+                    "price": 3
+                },
+                {
+                    "id": 2,
+                    "package": "Comments",
+                    "qnt": 20,
+                    "price": 5,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Comments",
+                    "qnt": 30,
+                    "price": 7,
+                    "discount": "10"
+                },
+                {
+                    "id": 4,
+                    "package": "Comments",
+                    "qnt": 40,
+                    "price": 9,
+                    "discount": "10"
+                },
+                {
+                    "id": 5,
+                    "package": "Comments",
+                    "qnt": 50,
+                    "price": 11.50,
+                    "discount": "12"
+                },
+                {
+                    "id": 6,
+                    "package": "Comments",
+                    "qnt": 100,
+                    "price": 22,
+                    "discount": "16"
+                },
+                {
+                    "id": 7,
+                    "package": "Comments",
+                    "qnt": 250,
+                    "price": 45,
+                    "discount": "22"
+                },
+                {
+                    "id": 8,
+                    "package": "Comments",
+                    "qnt": 500,
+                    "price": 85,
+                    "discount": "25"
+                },
+                {
+                    "id": 9,
+                    "package": "Comments",
+                    "qnt": 1000,
+                    "price": 165,
+                    "discount": "26"
+                },
+                {
+                    "id": 10,
+                    "package": "Comments",
+                    "qnt": 2500,
+                    "price": 395,
+                    "discount": "26"
+                },
+                {
+                    "id": 11,
+                    "package": "Comments",
+                    "qnt": 5000,
+                    "price": 777,
+                    "discount": "29"
+                }
+            ]
+        }
+    ]
+}

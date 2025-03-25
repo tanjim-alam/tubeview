@@ -1,0 +1,53 @@
+{
+    "serviceName": "Real Twitch Live Viewers",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Live Viewers",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Live Viewers",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Live Viewers",
+                    "qnt": 250,
+                    "price": 1.10,
+                    "discount": "11"
+                },
+                {
+                    "id": 2,
+                    "package": "Live Viewers",
+                    "qnt": 500,
+                    "price": 2.15,
+                    "discount": "14"
+                },
+                {
+                    "id": 3,
+                    "package": "Live Viewers",
+                    "qnt": 1000,
+                    "price": 4.20,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Live Viewers",
+                    "qnt": 2500,
+                    "price": 10.10,
+                    "discount": "19"
+                },
+                {
+                    "id": 5,
+                    "package": "Live Viewers",
+                    "qnt": 5000,
+                    "price": 19.90,
+                    "discount": "20"
+                }
+            ]
+        }
+    ]
+}

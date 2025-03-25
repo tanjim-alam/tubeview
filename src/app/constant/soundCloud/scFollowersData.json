@@ -1,0 +1,81 @@
+{
+    "serviceName": "Real SoundCloud Followers",
+    "services": [
+        {
+            "id": 1,
+            "type": "Real Followers",
+            "value": "POPULAR",
+            "keys": [
+                "High Quality Followers",
+                "Fast delivery",
+                "No password required",
+                "24/7 support"
+            ],
+            "packages": [
+                {
+                    "id": 1,
+                    "package": "Followers",
+                    "qnt": 200,
+                    "price": 5.30,
+                    "discount": "10"
+                },
+                {
+                    "id": 2,
+                    "package": "Followers",
+                    "qnt": 500,
+                    "price": 12.50,
+                    "discount": "10"
+                },
+                {
+                    "id": 3,
+                    "package": "Followers",
+                    "qnt": 1000,
+                    "price": 23,
+                    "discount": "15"
+                },
+                {
+                    "id": 4,
+                    "package": "Followers",
+                    "qnt": 2000,
+                    "price": 44,
+                    "discount": "15"
+                },
+                {
+                    "id": 5,
+                    "package": "Followers",
+                    "qnt": 2500,
+                    "price": 53,
+                    "discount": "15"
+                },
+                {
+                    "id": 6,
+                    "package": "Followers",
+                    "qnt": 5000,
+                    "price": 99,
+                    "discount": "20"
+                },
+                {
+                    "id": 7,
+                    "package": "Followers",
+                    "qnt": 7500,
+                    "price": 140,
+                    "discount": "25"
+                },
+                {
+                    "id": 8,
+                    "package": "Followers",
+                    "qnt": 10000,
+                    "price": 170,
+                    "discount": "30"
+                },
+                {
+                    "id": 9,
+                    "package": "Followers",
+                    "qnt": 20000,
+                    "price": 333,
+                    "discount": "35"
+                }
+            ]
+        }
+    ]
+}
